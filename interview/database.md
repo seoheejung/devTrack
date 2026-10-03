@@ -2,7 +2,7 @@
 
 
 <details>
-<summary><strong>1. [optimistic vs pessimistic locking] Optimistic과 Pessimistic Locking의 차이점을 알고 계신가요? </strong></summary>
+<summary><h3>1. [optimistic vs pessimistic locking] Optimistic과 Pessimistic Locking의 차이점을 알고 계신가요? </h3></summary>
 
 1. [optimistic vs pessimistic locking] Optimistic과 Pessimistic Locking의 차이점을 알고 계신가요? 
     
@@ -24,9 +24,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>2. [대용량 사용자 반환 (pagination)] 당신은 클라이언트에게 사용자를 반환하는 API를 구현하고 있지만, 데이터베이스에는 100만 명의 사용자가 있습니다. 클라이언트에게 데이터를 효율적으로 어떻게 반환할 건가요? </strong></summary>
+<summary><h3>2. [대용량 사용자 반환 (pagination)] 당신은 클라이언트에게 사용자를 반환하는 API를 구현하고 있지만, 데이터베이스에는 100만 명의 사용자가 있습니다. 클라이언트에게 데이터를 효율적으로 어떻게 반환할 건가요? </h3></summary>
 
 2. [대용량 사용자 반환 (pagination)] 당신은 클라이언트에게 사용자를 반환하는 API를 구현하고 있지만, 데이터베이스에는 100만 명의 사용자가 있습니다. 클라이언트에게 데이터를 효율적으로 어떻게 반환할 건가요? 
     
@@ -43,9 +45,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>3. [DB insert 급감 DB 병목 (lock, IO)] 데이터베이스 삽입 속도가 10K/초입니다. 갑자기 100/초로 떨어집니다. CPU, 메모리, 디스크가 최대치에 도달하지 않았습니다. 병목 현상의 다른 원인은 무엇일 수 있나요?</strong></summary>
+<summary><h3>3. [DB insert 급감 DB 병목 (lock, IO)] 데이터베이스 삽입 속도가 10K/초입니다. 갑자기 100/초로 떨어집니다. CPU, 메모리, 디스크가 최대치에 도달하지 않았습니다. 병목 현상의 다른 원인은 무엇일 수 있나요?</h3></summary>
 
 3. [DB insert 급감 DB 병목 (lock, IO)] 데이터베이스 삽입 속도가 10K/초입니다. 갑자기 100/초로 떨어집니다. CPU, 메모리, 디스크가 최대치에 도달하지 않았습니다. 병목 현상의 다른 원인은 무엇일 수 있나요?
     
@@ -62,9 +66,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>4. [row 성능 유지] 당신의 DB 테이블이 이제 2억 행에 도달했네요. 어떻게 쿼리를 여전히 20ms 이내로 유지하나요? </strong></summary>
+<summary><h3>4. [row 성능 유지] 당신의 DB 테이블이 이제 2억 행에 도달했네요. 어떻게 쿼리를 여전히 20ms 이내로 유지하나요? </h3></summary>
 
 4. [row 성능 유지] 당신의 DB 테이블이 이제 2억 행에 도달했네요. 어떻게 쿼리를 여전히 20ms 이내로 유지하나요? 
     
@@ -81,9 +87,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>5. [동시 업데이트 충돌] 두 명의 사용자가 동시에 같은 데이터를 업데이트하려고 하면 어떻게 되나요? </strong></summary>
+<summary><h3>5. [동시 업데이트 충돌] 두 명의 사용자가 동시에 같은 데이터를 업데이트하려고 하면 어떻게 되나요? </h3></summary>
 
 5. [동시 업데이트 충돌] 두 명의 사용자가 동시에 같은 데이터를 업데이트하려고 하면 어떻게 되나요? 
     
@@ -100,9 +108,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>6. [대용량 distinct] 로그에서 고유 사용자를 세야 합니다. 로그의 크기는 테라바이트 단위입니다. 메모리가 제한적입니다. 어떤 기법을 사용할 건가요?</strong></summary>
+<summary><h3>6. [대용량 distinct] 로그에서 고유 사용자를 세야 합니다. 로그의 크기는 테라바이트 단위입니다. 메모리가 제한적입니다. 어떤 기법을 사용할 건가요?</h3></summary>
 
 6. [대용량 distinct] 로그에서 고유 사용자를 세야 합니다. 로그의 크기는 테라바이트 단위입니다. 메모리가 제한적입니다. 어떤 기법을 사용할 건가요?
     
@@ -125,9 +135,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>7. [Postgres VACUUM] 당신의 Postgres 데이터베이스가 디스크 사용량 95%에 도달했습니다. 1백만 행을 삭제했지만 디스크 공간이 줄어들지 않습니다. 왜 그런가요, 그리고 공간을 어떻게 회수하나요? </strong></summary>
+<summary><h3>7. [Postgres VACUUM] 당신의 Postgres 데이터베이스가 디스크 사용량 95%에 도달했습니다. 1백만 행을 삭제했지만 디스크 공간이 줄어들지 않습니다. 왜 그런가요, 그리고 공간을 어떻게 회수하나요? </h3></summary>
 
 7. [Postgres VACUUM] 당신의 Postgres 데이터베이스가 디스크 사용량 95%에 도달했습니다. 1백만 행을 삭제했지만 디스크 공간이 줄어들지 않습니다. 왜 그런가요, 그리고 공간을 어떻게 회수하나요? 
     
@@ -144,9 +156,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>8. [소프트 삭제(Soft Delete) 남용] 테크 리드가 말합니다: &quot;데이터를 절대 삭제하지 마세요. 모든 테이블에 대해 <code>is_deleted = true</code>를 추가하기만 하세요.&quot; 동의하시겠습니까?</strong></summary>
+<summary><h3>8. [소프트 삭제(Soft Delete) 남용] 테크 리드가 말합니다: &quot;데이터를 절대 삭제하지 마세요. 모든 테이블에 대해 <code>is_deleted = true</code>를 추가하기만 하세요.&quot; 동의하시겠습니까?</h3></summary>
 
 8. [소프트 삭제(Soft Delete) 남용] 테크 리드가 말합니다: "데이터를 절대 삭제하지 마세요. 모든 테이블에 대해 `is_deleted = true`를 추가하기만 하세요." 동의하시겠습니까?
     
@@ -171,9 +185,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>9. [운영 환경의 쿼리 성능 저하] 개발 환경에서는 쿼리가 50ms에 실행되지만(1K 행), 프로덕션 환경에서는 30초가 걸립니다(10M 행). 쿼리 플랜은 동일해 보입니다. 프로덕션 환경에서 뭐가 다른가요?</strong></summary>
+<summary><h3>9. [운영 환경의 쿼리 성능 저하] 개발 환경에서는 쿼리가 50ms에 실행되지만(1K 행), 프로덕션 환경에서는 30초가 걸립니다(10M 행). 쿼리 플랜은 동일해 보입니다. 프로덕션 환경에서 뭐가 다른가요?</h3></summary>
 
 9. [운영 환경의 쿼리 성능 저하] 개발 환경에서는 쿼리가 50ms에 실행되지만(1K 행), 프로덕션 환경에서는 30초가 걸립니다(10M 행). 쿼리 플랜은 동일해 보입니다. 프로덕션 환경에서 뭐가 다른가요?
     
@@ -197,9 +213,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>10. [분산 환경의 고유 식별자] 자동 증가(Auto Increment) ID가 존재하는데 왜 UUID가 필요한가요?</strong></summary>
+<summary><h3>10. [분산 환경의 고유 식별자] 자동 증가(Auto Increment) ID가 존재하는데 왜 UUID가 필요한가요?</h3></summary>
 
 10. [분산 환경의 고유 식별자] 자동 증가(Auto Increment) ID가 존재하는데 왜 UUID가 필요한가요?
     
@@ -226,9 +244,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>11. [RDBMS vs NoSQL 한계] PostgreSQL이 JSON을 지원한다면, 왜 누군가는 NoSQL 데이터베이스를 선택하겠습니까?</strong></summary>
+<summary><h3>11. [RDBMS vs NoSQL 한계] PostgreSQL이 JSON을 지원한다면, 왜 누군가는 NoSQL 데이터베이스를 선택하겠습니까?</h3></summary>
 
 11. [RDBMS vs NoSQL 한계] PostgreSQL이 JSON을 지원한다면, 왜 누군가는 NoSQL 데이터베이스를 선택하겠습니까?
     
@@ -256,9 +276,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>12. [대규모 중복 데이터 탐지] 데이터셋에서 중복 이미지를 탐지해야 합니다. 이미지 수가 수백만 개입니다. 이걸 어떻게 확장시키겠습니까?</strong></summary>
+<summary><h3>12. [대규모 중복 데이터 탐지] 데이터셋에서 중복 이미지를 탐지해야 합니다. 이미지 수가 수백만 개입니다. 이걸 어떻게 확장시키겠습니까?</h3></summary>
 
 12. [대규모 중복 데이터 탐지] 데이터셋에서 중복 이미지를 탐지해야 합니다. 이미지 수가 수백만 개입니다. 이걸 어떻게 확장시키겠습니까?
     
@@ -284,9 +306,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>13. [Out-of-Memory 방지 데이터 처리] 당신은 거대한 데이터셋을 가지고 있습니다. 키별로 그룹화하고 값을 집계해야 합니다. 데이터가 메모리보다 큽니다. 어떻게 하시겠습니까?</strong></summary>
+<summary><h3>13. [Out-of-Memory 방지 데이터 처리] 당신은 거대한 데이터셋을 가지고 있습니다. 키별로 그룹화하고 값을 집계해야 합니다. 데이터가 메모리보다 큽니다. 어떻게 하시겠습니까?</h3></summary>
 
 13. [Out-of-Memory 방지 데이터 처리] 당신은 거대한 데이터셋을 가지고 있습니다. 키별로 그룹화하고 값을 집계해야 합니다. 데이터가 메모리보다 큽니다. 어떻게 하시겠습니까?
     
@@ -309,9 +333,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>14. [대용량 데이터 성능 저하 (Index Degradation)] 데이터베이스 쿼리가 10,000행으로 빠르게 실행되었습니다. 이제 1,000만 행이 있고, 동일한 쿼리가 45초를 소요합니다. 인덱스를 추가하는 것이 도움이 되었지만... 일주일 동안만요. 이제 다시 느려졌습니다. 여기서 진짜 문제는 무엇일까요?</strong></summary>
+<summary><h3>14. [대용량 데이터 성능 저하 (Index Degradation)] 데이터베이스 쿼리가 10,000행으로 빠르게 실행되었습니다. 이제 1,000만 행이 있고, 동일한 쿼리가 45초를 소요합니다. 인덱스를 추가하는 것이 도움이 되었지만... 일주일 동안만요. 이제 다시 느려졌습니다. 여기서 진짜 문제는 무엇일까요?</h3></summary>
 
 14. [대용량 데이터 성능 저하 (Index Degradation)] 데이터베이스 쿼리가 10,000행으로 빠르게 실행되었습니다. 이제 1,000만 행이 있고, 동일한 쿼리가 45초를 소요합니다. 인덱스를 추가하는 것이 도움이 되었지만... 일주일 동안만요. 이제 다시 느려졌습니다. 여기서 진짜 문제는 무엇일까요?
     
@@ -338,9 +364,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>15. [디스크 관리 개념] 리눅스에서 디스크 관리는 무엇인가?</strong></summary>
+<summary><h3>15. [디스크 관리 개념] 리눅스에서 디스크 관리는 무엇인가?</h3></summary>
 
 15. [디스크 관리 개념] 리눅스에서 디스크 관리는 무엇인가?
     
@@ -359,9 +387,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>16. [용량 및 메모리 확인] 리눅스에서 디스크 사용량과 메모리 사용량을 확인하는 방법은 무엇인가?</strong></summary>
+<summary><h3>16. [용량 및 메모리 확인] 리눅스에서 디스크 사용량과 메모리 사용량을 확인하는 방법은 무엇인가?</h3></summary>
 
 16. [용량 및 메모리 확인] 리눅스에서 디스크 사용량과 메모리 사용량을 확인하는 방법은 무엇인가?
     
@@ -380,9 +410,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>17. [파일 시스템 비교] ext4, xfs, btrfs 파일 시스템의 차이점은 무엇인가?</strong></summary>
+<summary><h3>17. [파일 시스템 비교] ext4, xfs, btrfs 파일 시스템의 차이점은 무엇인가?</h3></summary>
 
 17. [파일 시스템 비교] ext4, xfs, btrfs 파일 시스템의 차이점은 무엇인가?
     
@@ -400,9 +432,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>18. [SQL 실행 순서와 중복] &quot;이 쿼리는 중복을 반환합니다! <code>SELECT DISTINCT user_id FROM orders ORDER BY created_at;</code> 왜?&quot;</strong></summary>
+<summary><h3>18. [SQL 실행 순서와 중복] &quot;이 쿼리는 중복을 반환합니다! <code>SELECT DISTINCT user_id FROM orders ORDER BY created_at;</code> 왜?&quot;</h3></summary>
 
 18. [SQL 실행 순서와 중복] "이 쿼리는 중복을 반환합니다! `SELECT DISTINCT user_id FROM orders ORDER BY created_at;` 왜?"
     
@@ -427,9 +461,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>19. [외부 정렬 알고리즘] &quot;거대한 CSV 파일(20GB)이 있습니다. 중복 행을 제거해야 합니다. 메모리가 제한적입니다. 어떻게 접근하시겠습니까?”</strong></summary>
+<summary><h3>19. [외부 정렬 알고리즘] &quot;거대한 CSV 파일(20GB)이 있습니다. 중복 행을 제거해야 합니다. 메모리가 제한적입니다. 어떻게 접근하시겠습니까?”</h3></summary>
 
 19. [외부 정렬 알고리즘] "거대한 CSV 파일(20GB)이 있습니다. 중복 행을 제거해야 합니다. 메모리가 제한적입니다. 어떻게 접근하시겠습니까?”
     
@@ -454,9 +490,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>20. [ORM 도입 트레이드오프] 개발자가 말하길: “ORM은 느리다. 우리는 어디서나 raw SQL을 작성해야 한다.” 동의하시겠습니까?</strong></summary>
+<summary><h3>20. [ORM 도입 트레이드오프] 개발자가 말하길: “ORM은 느리다. 우리는 어디서나 raw SQL을 작성해야 한다.” 동의하시겠습니까?</h3></summary>
 
 20. [ORM 도입 트레이드오프] 개발자가 말하길: “ORM은 느리다. 우리는 어디서나 raw SQL을 작성해야 한다.” 동의하시겠습니까?
     
@@ -482,9 +520,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>21. [매 요청 시 커넥션 생성 결함] 주니어 개발자가 Node.js API를 만들었어요. 모든 들어오는 요청마다 코드가 이렇게 동작하죠. 로컬에서는 잘 작동해요. 프로덕션에서 200명 동시 사용자에서 망가져요. 결함은 뭐고 어떻게 고치나요?</strong></summary>
+<summary><h3>21. [매 요청 시 커넥션 생성 결함] 주니어 개발자가 Node.js API를 만들었어요. 모든 들어오는 요청마다 코드가 이렇게 동작하죠. 로컬에서는 잘 작동해요. 프로덕션에서 200명 동시 사용자에서 망가져요. 결함은 뭐고 어떻게 고치나요?</h3></summary>
 
 21. [매 요청 시 커넥션 생성 결함] 주니어 개발자가 Node.js API를 만들었어요. 모든 들어오는 요청마다 코드가 이렇게 동작하죠. 로컬에서는 잘 작동해요. 프로덕션에서 200명 동시 사용자에서 망가져요. 결함은 뭐고 어떻게 고치나요?
     
@@ -527,9 +567,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>22. [스키마와 테이블 차이] 많은 백엔드 개발자들이 여전히 인터뷰에서 이것을 혼동합니다. 스키마(Schema)와 테이블(Table)의 차이점은 무엇인가요?</strong></summary>
+<summary><h3>22. [스키마와 테이블 차이] 많은 백엔드 개발자들이 여전히 인터뷰에서 이것을 혼동합니다. 스키마(Schema)와 테이블(Table)의 차이점은 무엇인가요?</h3></summary>
 
 22. [스키마와 테이블 차이] 많은 백엔드 개발자들이 여전히 인터뷰에서 이것을 혼동합니다. 스키마(Schema)와 테이블(Table)의 차이점은 무엇인가요?
     
@@ -556,9 +598,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>23. [Redis 데이터 영속성 메커니즘] Redis가 데이터를 메모리에 저장한다면, 재시작 후 데이터 손실을 어떻게 방지하나요?</strong></summary>
+<summary><h3>23. [Redis 데이터 영속성 메커니즘] Redis가 데이터를 메모리에 저장한다면, 재시작 후 데이터 손실을 어떻게 방지하나요?</h3></summary>
 
 23. [Redis 데이터 영속성 메커니즘] Redis가 데이터를 메모리에 저장한다면, 재시작 후 데이터 손실을 어떻게 방지하나요?
     
@@ -585,9 +629,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>24. [데이터 분산 저장 전략] 개발자라면 다음의 차이점을 아시나요: 샤딩(Sharding) or 파티셔닝(Partitioning) 그리고 각각 언제 사용하는지 설명하시오.</strong></summary>
+<summary><h3>24. [데이터 분산 저장 전략] 개발자라면 다음의 차이점을 아시나요: 샤딩(Sharding) or 파티셔닝(Partitioning) 그리고 각각 언제 사용하는지 설명하시오.</h3></summary>
 
 24. [데이터 분산 저장 전략] 개발자라면 다음의 차이점을 아시나요: 샤딩(Sharding) or 파티셔닝(Partitioning) 그리고 각각 언제 사용하는지 설명하시오.
     
@@ -618,9 +664,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>25. [도커 데이터 휘발성 결함] 당신은 Docker에서 Redis를 실행합니다. <code>docker compose down</code>, <code>docker compose up</code> 모든 캐시 데이터가 사라지고 세션 저장소가 지워져 사용자들이 로그아웃되었습니다. 뭐를 잊어버렸나요?</strong></summary>
+<summary><h3>25. [도커 데이터 휘발성 결함] 당신은 Docker에서 Redis를 실행합니다. <code>docker compose down</code>, <code>docker compose up</code> 모든 캐시 데이터가 사라지고 세션 저장소가 지워져 사용자들이 로그아웃되었습니다. 뭐를 잊어버렸나요?</h3></summary>
 
 25. [도커 데이터 휘발성 결함] 당신은 Docker에서 Redis를 실행합니다. `docker compose down`, `docker compose up` 모든 캐시 데이터가 사라지고 세션 저장소가 지워져 사용자들이 로그아웃되었습니다. 뭐를 잊어버렸나요?
     
@@ -644,9 +692,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>26. [식별자 설계 전략] 두 명의 백엔드 엔지니어가 사용자 ID를 저장했습니다. 디자인 A — INT AUTO_INCREMENT / 디자인 B — UUID. 앱은 전 세계적으로 확장될 것으로 예상됩니다. 어느 것을 선택하시겠습니까?</strong></summary>
+<summary><h3>26. [식별자 설계 전략] 두 명의 백엔드 엔지니어가 사용자 ID를 저장했습니다. 디자인 A — INT AUTO_INCREMENT / 디자인 B — UUID. 앱은 전 세계적으로 확장될 것으로 예상됩니다. 어느 것을 선택하시겠습니까?</h3></summary>
 
 26. [식별자 설계 전략] 두 명의 백엔드 엔지니어가 사용자 ID를 저장했습니다. 디자인 A — INT AUTO_INCREMENT / 디자인 B — UUID. 앱은 전 세계적으로 확장될 것으로 예상됩니다. 어느 것을 선택하시겠습니까?
     
@@ -674,12 +724,14 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>27. [데이터 삭제 전략] 두 백엔드 엔지니어가 데이터베이스 삭제를 설계했습니다. </strong></summary>
+<summary><h3>27. [데이터 삭제 전략] 두 백엔드 엔지니어가 데이터베이스 삭제를 설계했습니다. </h3></summary>
 
-27. [데이터 삭제 전략] 두 백엔드 엔지니어가 데이터베이스 삭제를 설계했습니다. 
-엔지니어 A : Hard Delete (`DELETE FROM users`) / 엔지니어 B : Soft Delete (`deleted_at`). 
+27. [데이터 삭제 전략] 두 백엔드 엔지니어가 데이터베이스 삭제를 설계했습니다.   
+엔지니어 A : Hard Delete (`DELETE FROM users`) / 엔지니어 B : Soft Delete (`deleted_at`).   
 프로덕션에서 어떤 것을 선택하시겠어요?
     
     ```
@@ -706,9 +758,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>28. [데이터 타입 변경으로 인한 I/O 병목] 기본 키를 VARCHAR에서 UUID로 변경했습니다. 조인이 10ms에서 500ms로 느려졌습니다. 동일한 테이블, 동일한 데이터, 동일한 인덱스입니다. 데이터 타입 변경이 조인을 왜 망가뜨린 걸까요?</strong></summary>
+<summary><h3>28. [데이터 타입 변경으로 인한 I/O 병목] 기본 키를 VARCHAR에서 UUID로 변경했습니다. 조인이 10ms에서 500ms로 느려졌습니다. 동일한 테이블, 동일한 데이터, 동일한 인덱스입니다. 데이터 타입 변경이 조인을 왜 망가뜨린 걸까요?</h3></summary>
 
 28. [데이터 타입 변경으로 인한 I/O 병목] 기본 키를 VARCHAR에서 UUID로 변경했습니다. 조인이 10ms에서 500ms로 느려졌습니다. 동일한 테이블, 동일한 데이터, 동일한 인덱스입니다. 데이터 타입 변경이 조인을 왜 망가뜨린 걸까요?
     
@@ -737,9 +791,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>29. JPA N+1 문제 해결해서 수백번 나가던 쿼리를 단 1번에 처리하시오</strong></summary>
+<summary><h3>29. JPA N+1 문제 해결해서 수백번 나가던 쿼리를 단 1번에 처리하시오</h3></summary>
 
 29. JPA N+1 문제 해결해서 수백번 나가던 쿼리를 단 1번에 처리하시오
     
@@ -771,9 +827,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>30. [복합 인덱스 컬럼 순서] 당신은 두 개의 인덱스를 가지고 있습니다: 인덱스 A: (user_id, created_at) / 인덱스 B: (created_at, user_id). 동일한 컬럼, 순서만 다릅니다. 쿼리: <code>WHERE user_id = 5 ORDER BY created_at DESC</code>. 어느 인덱스를 사용하시겠습니까? 왜입니까?</strong></summary>
+<summary><h3>30. [복합 인덱스 컬럼 순서] 당신은 두 개의 인덱스를 가지고 있습니다: 인덱스 A: (user_id, created_at) / 인덱스 B: (created_at, user_id). 동일한 컬럼, 순서만 다릅니다. 쿼리: <code>WHERE user_id = 5 ORDER BY created_at DESC</code>. 어느 인덱스를 사용하시겠습니까? 왜입니까?</h3></summary>
 
 30. [복합 인덱스 컬럼 순서] 당신은 두 개의 인덱스를 가지고 있습니다: 인덱스 A: (user_id, created_at) / 인덱스 B: (created_at, user_id). 동일한 컬럼, 순서만 다릅니다. 쿼리: `WHERE user_id = 5 ORDER BY created_at DESC`. 어느 인덱스를 사용하시겠습니까? 왜입니까?
     
@@ -798,9 +856,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>31. [글로벌 식별자 선택 전략] 두 명의 백엔드 엔지니어가 사용자 ID를 저장했습니다. 디자인 A : INT AUTO INCREMENT. 디자인 B : UUID. 이 앱은 전 세계적으로 확장될 것으로 예상됩니다. 어느 쪽을 선택하시겠어요?</strong></summary>
+<summary><h3>31. [글로벌 식별자 선택 전략] 두 명의 백엔드 엔지니어가 사용자 ID를 저장했습니다. 디자인 A : INT AUTO INCREMENT. 디자인 B : UUID. 이 앱은 전 세계적으로 확장될 것으로 예상됩니다. 어느 쪽을 선택하시겠어요?</h3></summary>
 
 31. [글로벌 식별자 선택 전략] 두 명의 백엔드 엔지니어가 사용자 ID를 저장했습니다. 디자인 A : INT AUTO INCREMENT. 디자인 B : UUID. 이 앱은 전 세계적으로 확장될 것으로 예상됩니다. 어느 쪽을 선택하시겠어요?
     
@@ -823,9 +883,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>32. [ORM의 N+1 병목] ORM에서 N+1 쿼리 문제를 어떻게 처리하나요?</strong></summary>
+<summary><h3>32. [ORM의 N+1 병목] ORM에서 N+1 쿼리 문제를 어떻게 처리하나요?</h3></summary>
 
 32. [ORM의 N+1 병목] ORM에서 N+1 쿼리 문제를 어떻게 처리하나요?
     
@@ -857,7 +919,9 @@ API/HTTP
 
 </details>
 
+---
 
-<!-- migration-navigation:start -->
-[인터뷰 질문](README.md)
+
+<!-- migration-navigation:start -->  
+[인터뷰 질문](README.md)  
 <!-- migration-navigation:end -->

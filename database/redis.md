@@ -4,7 +4,7 @@
 
 
 <details>
-<summary><strong>현대 데이터베이스가 극한의 처리량을 희생하지 않으면서 내구성을 어떻게 보장하는지에 대한 깊이 있는 탐구</strong></summary>
+<summary><h3>현대 데이터베이스가 극한의 처리량을 희생하지 않으면서 내구성을 어떻게 보장하는지에 대한 깊이 있는 탐구</h3></summary>
 
 
 1. 왜 싱글 스레드 Redis가 빠른가
@@ -27,9 +27,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>바이브코딩하면서 Redis부터 붙이는 사람이 많습니다.</strong></summary>
+<summary><h3>바이브코딩하면서 Redis부터 붙이는 사람이 많습니다.</h3></summary>
 
 
 그런데 놓치는 게 있습니다.
@@ -48,4 +50,6 @@ Redis는 성능을 높이는 만능 도구가 아닙니다.
 
 Redis는 일단 넣는 기술이 아니라, 필요할 때 넣는 기술입니다.
 </details>
+
+---
 

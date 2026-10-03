@@ -2,7 +2,7 @@
 
 
 <details>
-<summary><strong>1. [Kubernetes pod 제한] 기본적으로 쿠버네티스에서 노드당 몇 개의 파드를 실행할 수 있나요?</strong></summary>
+<summary><h3>1. [Kubernetes pod 제한] 기본적으로 쿠버네티스에서 노드당 몇 개의 파드를 실행할 수 있나요?</h3></summary>
 
 1. [Kubernetes pod 제한] 기본적으로 쿠버네티스에서 노드당 몇 개의 파드를 실행할 수 있나요?
     
@@ -20,9 +20,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>2. [로그 구조 개선] 시스템 로그가 너무 시끄러워서 중요한 문제점을 식별하기 어렵습니다. 어떻게 개선하시겠습니까?</strong></summary>
+<summary><h3>2. [로그 구조 개선] 시스템 로그가 너무 시끄러워서 중요한 문제점을 식별하기 어렵습니다. 어떻게 개선하시겠습니까?</h3></summary>
 
 2. [로그 구조 개선] 시스템 로그가 너무 시끄러워서 중요한 문제점을 식별하기 어렵습니다. 어떻게 개선하시겠습니까?
     
@@ -39,9 +41,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>3. [로드밸런싱] 로드 밸런서가 트래픽을 어떤 서버로 보낼지 어떻게 결정하나요?</strong></summary>
+<summary><h3>3. [로드밸런싱] 로드 밸런서가 트래픽을 어떤 서버로 보낼지 어떻게 결정하나요?</h3></summary>
 
 3. [로드밸런싱] 로드 밸런서가 트래픽을 어떤 서버로 보낼지 어떻게 결정하나요?
     
@@ -58,9 +62,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>4. [CORS] 프론트엔드는 <code>localhost:3000</code>에 있고 백엔드는 <code>localhost:8000</code>에 있습니다. 왜 CORS 오류가 발생하나요?</strong></summary>
+<summary><h3>4. [CORS] 프론트엔드는 <code>localhost:3000</code>에 있고 백엔드는 <code>localhost:8000</code>에 있습니다. 왜 CORS 오류가 발생하나요?</h3></summary>
 
 4. [CORS] 프론트엔드는 `localhost:3000`에 있고 백엔드는 `localhost:8000`에 있습니다. 왜 CORS 오류가 발생하나요?
     
@@ -85,9 +91,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>5. [Preflight 문제] CORS는 <code>/api/users</code> 에 대해서는 작동하지만 동일한 서버에서 <code>/api/orders</code> 에 대해서는 실패합니다. 둘 다 동일한 백엔드 코드를 사용합니다. 왜 그런가요?</strong></summary>
+<summary><h3>5. [Preflight 문제] CORS는 <code>/api/users</code> 에 대해서는 작동하지만 동일한 서버에서 <code>/api/orders</code> 에 대해서는 실패합니다. 둘 다 동일한 백엔드 코드를 사용합니다. 왜 그런가요?</h3></summary>
 
 5. [Preflight 문제] CORS는 `/api/users` 에 대해서는 작동하지만 동일한 서버에서 `/api/orders` 에 대해서는 실패합니다. 둘 다 동일한 백엔드 코드를 사용합니다. 왜 그런가요?
     
@@ -112,9 +120,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>6. [글로벌 latency 해결 geo routing] 당신의 API는 호주에서 90ms에 응답하지만 인도에서는 600ms에 응답합니다. 동일한 백엔드. 동일한 코드. 이걸 고치기 위해 무엇을 사용하겠습니까?</strong></summary>
+<summary><h3>6. [글로벌 latency 해결 geo routing] 당신의 API는 호주에서 90ms에 응답하지만 인도에서는 600ms에 응답합니다. 동일한 백엔드. 동일한 코드. 이걸 고치기 위해 무엇을 사용하겠습니까?</h3></summary>
 
 6. [글로벌 latency 해결 geo routing] 당신의 API는 호주에서 90ms에 응답하지만 인도에서는 600ms에 응답합니다. 동일한 백엔드. 동일한 코드. 이걸 고치기 위해 무엇을 사용하겠습니까?
     
@@ -131,9 +141,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>7. [Git 히스토리 전략] 일부 팀은 왜 PR 워크플로우에서 “병합 전에 리베이스(Rebase)”를 강제하나요?</strong></summary>
+<summary><h3>7. [Git 히스토리 전략] 일부 팀은 왜 PR 워크플로우에서 “병합 전에 리베이스(Rebase)”를 강제하나요?</h3></summary>
 
 7. [Git 히스토리 전략] 일부 팀은 왜 PR 워크플로우에서 “병합 전에 리베이스(Rebase)”를 강제하나요?
     
@@ -156,9 +168,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>8. 팀원의 커밋을 공유 브랜치에서 force-push로 지워버렸습니다. 팀원의 작업을 복구하고 브랜치를 안전하게 복원하는 방법은 무엇인가요?</strong></summary>
+<summary><h3>8. 팀원의 커밋을 공유 브랜치에서 force-push로 지워버렸습니다. 팀원의 작업을 복구하고 브랜치를 안전하게 복원하는 방법은 무엇인가요?</h3></summary>
 
 8. 팀원의 커밋을 공유 브랜치에서 force-push로 지워버렸습니다. 팀원의 작업을 복구하고 브랜치를 안전하게 복원하는 방법은 무엇인가요?
     
@@ -176,9 +190,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>9. 중요한 브랜치를 실수로 삭제했는데, 그 브랜치가 병합된 적이 없고 아무도 로컬 복사본을 가지고 있지 않습니다. 어떻게 복구하시겠습니까?</strong></summary>
+<summary><h3>9. 중요한 브랜치를 실수로 삭제했는데, 그 브랜치가 병합된 적이 없고 아무도 로컬 복사본을 가지고 있지 않습니다. 어떻게 복구하시겠습니까?</h3></summary>
 
 9. 중요한 브랜치를 실수로 삭제했는데, 그 브랜치가 병합된 적이 없고 아무도 로컬 복사본을 가지고 있지 않습니다. 어떻게 복구하시겠습니까?
     
@@ -196,11 +212,13 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>10. 6개월 전에 만든 기능 브랜치를 메인 브랜치로 리베이스했는데, 커밋의 절반이 사라졌습니다.</strong></summary>
+<summary><h3>10. 6개월 전에 만든 기능 브랜치를 메인 브랜치로 리베이스했는데, 커밋의 절반이 사라졌습니다.</h3></summary>
 
-10. 6개월 전에 만든 기능 브랜치를 메인 브랜치로 리베이스했는데, 커밋의 절반이 사라졌습니다.
+10. 6개월 전에 만든 기능 브랜치를 메인 브랜치로 리베이스했는데, 커밋의 절반이 사라졌습니다.  
 작업 내용을 잃지 않고 이 문제를 어떻게 해결할 수 있을까요?
     
     ```
@@ -235,9 +253,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>11. [클라우드 리소스 IP 관리] EC2 인스턴스가 중지되고 시작될 때 인스턴스의 IP 주소가 자동으로 변경됩니다. 이 문제의 원인은 무엇일까요?</strong></summary>
+<summary><h3>11. [클라우드 리소스 IP 관리] EC2 인스턴스가 중지되고 시작될 때 인스턴스의 IP 주소가 자동으로 변경됩니다. 이 문제의 원인은 무엇일까요?</h3></summary>
 
 11. [클라우드 리소스 IP 관리] EC2 인스턴스가 중지되고 시작될 때 인스턴스의 IP 주소가 자동으로 변경됩니다. 이 문제의 원인은 무엇일까요?
     
@@ -262,9 +282,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>12. [Kubernetes Pod 네트워크] 같은 Pod 내의 두 컨테이너가 동일한 포트에 바인딩할 수 있나요?</strong></summary>
+<summary><h3>12. [Kubernetes Pod 네트워크] 같은 Pod 내의 두 컨테이너가 동일한 포트에 바인딩할 수 있나요?</h3></summary>
 
 12. [Kubernetes Pod 네트워크] 같은 Pod 내의 두 컨테이너가 동일한 포트에 바인딩할 수 있나요?
     
@@ -290,9 +312,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>13. [Kubernetes 트래픽 트러블슈팅] 파드가 실행 중입니다. 서비스가 존재하며 파드를 올바르게 선택합니다. 하지만 트래픽이 여전히 실패합니다. 어떤 쿠버네티스 구성 요소를 먼저 확인하시겠습니까?</strong></summary>
+<summary><h3>13. [Kubernetes 트래픽 트러블슈팅] 파드가 실행 중입니다. 서비스가 존재하며 파드를 올바르게 선택합니다. 하지만 트래픽이 여전히 실패합니다. 어떤 쿠버네티스 구성 요소를 먼저 확인하시겠습니까?</h3></summary>
 
 13. [Kubernetes 트래픽 트러블슈팅] 파드가 실행 중입니다. 서비스가 존재하며 파드를 올바르게 선택합니다. 하지만 트래픽이 여전히 실패합니다. 어떤 쿠버네티스 구성 요소를 먼저 확인하시겠습니까?
     
@@ -318,9 +342,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>14. [컨테이너 vs 가상머신(VM)] 도커 컨테이너가 가볍다면, 왜 여전히 가상 머신을 사용하는 걸까요?</strong></summary>
+<summary><h3>14. [컨테이너 vs 가상머신(VM)] 도커 컨테이너가 가볍다면, 왜 여전히 가상 머신을 사용하는 걸까요?</h3></summary>
 
 14. [컨테이너 vs 가상머신(VM)] 도커 컨테이너가 가볍다면, 왜 여전히 가상 머신을 사용하는 걸까요?
     
@@ -350,9 +376,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>15. [Dockerfile 명령어] Dockerfile에서 ENTRYPOINT와 CMD의 차이점은 무엇인가요?</strong></summary>
+<summary><h3>15. [Dockerfile 명령어] Dockerfile에서 ENTRYPOINT와 CMD의 차이점은 무엇인가요?</h3></summary>
 
 15. [Dockerfile 명령어] Dockerfile에서 ENTRYPOINT와 CMD의 차이점은 무엇인가요?
     
@@ -379,9 +407,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>16. [모니터링 시스템 파이프라인] Java 백엔드 개발자로서, Splunk, Dynatrace, Grafana, ELK와 같은 경고 및 모니터링 도구를 구성하는 것이 기대됩니다. Spring Boot Actuator를 Grafana와 같은 외부 모니터링 및 경고 시스템과 어떻게 통합할 수 있나요?</strong></summary>
+<summary><h3>16. [모니터링 시스템 파이프라인] Java 백엔드 개발자로서, Splunk, Dynatrace, Grafana, ELK와 같은 경고 및 모니터링 도구를 구성하는 것이 기대됩니다. Spring Boot Actuator를 Grafana와 같은 외부 모니터링 및 경고 시스템과 어떻게 통합할 수 있나요?</h3></summary>
 
 16. [모니터링 시스템 파이프라인] Java 백엔드 개발자로서, Splunk, Dynatrace, Grafana, ELK와 같은 경고 및 모니터링 도구를 구성하는 것이 기대됩니다. Spring Boot Actuator를 Grafana와 같은 외부 모니터링 및 경고 시스템과 어떻게 통합할 수 있나요?
     
@@ -405,9 +435,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>17. [빌드 아티팩트(Build Artifact)] CI/CD에서 빌드 아티팩트란 무엇인가요?</strong></summary>
+<summary><h3>17. [빌드 아티팩트(Build Artifact)] CI/CD에서 빌드 아티팩트란 무엇인가요?</h3></summary>
 
 17. [빌드 아티팩트(Build Artifact)] CI/CD에서 빌드 아티팩트란 무엇인가요?
     
@@ -431,9 +463,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>18. [클라우드 스토리지 분류] 오브젝트 스토리지, 블록 스토리지, 파일 스토리지 간의 차이점은 무엇인가요?</strong></summary>
+<summary><h3>18. [클라우드 스토리지 분류] 오브젝트 스토리지, 블록 스토리지, 파일 스토리지 간의 차이점은 무엇인가요?</h3></summary>
 
 18. [클라우드 스토리지 분류] 오브젝트 스토리지, 블록 스토리지, 파일 스토리지 간의 차이점은 무엇인가요?
     
@@ -459,9 +493,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>19. [Dockerfile COPY vs ADD] Dockerfile에서 COPY와 ADD의 차이점은 무엇인가요?</strong></summary>
+<summary><h3>19. [Dockerfile COPY vs ADD] Dockerfile에서 COPY와 ADD의 차이점은 무엇인가요?</h3></summary>
 
 19. [Dockerfile COPY vs ADD] Dockerfile에서 COPY와 ADD의 차이점은 무엇인가요?
     
@@ -484,9 +520,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>20. [리눅스 배포판 비교] 우분투, CentOS, 데비안과 같은 리눅스 배포판 간의 차이점은 무엇인가?</strong></summary>
+<summary><h3>20. [리눅스 배포판 비교] 우분투, CentOS, 데비안과 같은 리눅스 배포판 간의 차이점은 무엇인가?</h3></summary>
 
 20. [리눅스 배포판 비교] 우분투, CentOS, 데비안과 같은 리눅스 배포판 간의 차이점은 무엇인가?
     
@@ -505,9 +543,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>21. [파일 시스템 계층 구조] 리눅스 파일 시스템 계층 구조를 설명하시오.</strong></summary>
+<summary><h3>21. [파일 시스템 계층 구조] 리눅스 파일 시스템 계층 구조를 설명하시오.</h3></summary>
 
 21. [파일 시스템 계층 구조] 리눅스 파일 시스템 계층 구조를 설명하시오.
     
@@ -526,9 +566,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>22. [cron 작업 자동화] cron 작업을 사용하여 작업을 자동화하는 방법은 무엇인가?</strong></summary>
+<summary><h3>22. [cron 작업 자동화] cron 작업을 사용하여 작업을 자동화하는 방법은 무엇인가?</h3></summary>
 
 22. [cron 작업 자동화] cron 작업을 사용하여 작업을 자동화하는 방법은 무엇인가?
     
@@ -547,9 +589,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>23. [systemd 서비스 관리] systemd란 무엇이며, 서비스를 어떻게 관리하는가?</strong></summary>
+<summary><h3>23. [systemd 서비스 관리] systemd란 무엇이며, 서비스를 어떻게 관리하는가?</h3></summary>
 
 23. [systemd 서비스 관리] systemd란 무엇이며, 서비스를 어떻게 관리하는가?
     
@@ -567,9 +611,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>24. [systemctl vs service] systemctl과 service 명령어의 차이점은 무엇인가?</strong></summary>
+<summary><h3>24. [systemctl vs service] systemctl과 service 명령어의 차이점은 무엇인가?</h3></summary>
 
 24. [systemctl vs service] systemctl과 service 명령어의 차이점은 무엇인가?
     
@@ -587,9 +633,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>25. [리눅스 로그 관리] 리눅스 로그는 무엇이며, 어디에 저장되는가?</strong></summary>
+<summary><h3>25. [리눅스 로그 관리] 리눅스 로그는 무엇이며, 어디에 저장되는가?</h3></summary>
 
 25. [리눅스 로그 관리] 리눅스 로그는 무엇이며, 어디에 저장되는가?
     
@@ -606,9 +654,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>26. [환경 편차(Env Drift)] 로컬에서는 서비스가 작동하는데 프로덕션에서는 왜 실패하는가?</strong></summary>
+<summary><h3>26. [환경 편차(Env Drift)] 로컬에서는 서비스가 작동하는데 프로덕션에서는 왜 실패하는가?</h3></summary>
 
 26. [환경 편차(Env Drift)] 로컬에서는 서비스가 작동하는데 프로덕션에서는 왜 실패하는가?
     
@@ -627,9 +677,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>27. [Kafka 컨슈머 병목] 명확한 오류 없이 Kafka 지연(Lag)이 계속 증가하는 이유는 무엇인가요?</strong></summary>
+<summary><h3>27. [Kafka 컨슈머 병목] 명확한 오류 없이 Kafka 지연(Lag)이 계속 증가하는 이유는 무엇인가요?</h3></summary>
 
 27. [Kafka 컨슈머 병목] 명확한 오류 없이 Kafka 지연(Lag)이 계속 증가하는 이유는 무엇인가요?
     
@@ -648,9 +700,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>28. [심층 헬스 체크 실패] 헬스 체크는 통과되는데 API가 여전히 500 오류를 반환하는 이유는 무엇인가요?</strong></summary>
+<summary><h3>28. [심층 헬스 체크 실패] 헬스 체크는 통과되는데 API가 여전히 500 오류를 반환하는 이유는 무엇인가요?</h3></summary>
 
 28. [심층 헬스 체크 실패] 헬스 체크는 통과되는데 API가 여전히 500 오류를 반환하는 이유는 무엇인가요?
     
@@ -669,9 +723,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>29. [도커 데이터 영속성] 당신은 Docker에서 Redis를 실행하고 있습니다. <code>docker compose down</code>, <code>docker compose up</code> 모든 캐시 데이터가 사라집니다. 세션 저장소가 지워집니다 사용자들이 모든 곳에서 로그아웃됩니다. 뭐를 잊으셨나요 설정하는 걸?</strong></summary>
+<summary><h3>29. [도커 데이터 영속성] 당신은 Docker에서 Redis를 실행하고 있습니다. <code>docker compose down</code>, <code>docker compose up</code> 모든 캐시 데이터가 사라집니다. 세션 저장소가 지워집니다 사용자들이 모든 곳에서 로그아웃됩니다. 뭐를 잊으셨나요 설정하는 걸?</h3></summary>
 
 29. [도커 데이터 영속성] 당신은 Docker에서 Redis를 실행하고 있습니다. `docker compose down`, `docker compose up` 모든 캐시 데이터가 사라집니다. 세션 저장소가 지워집니다 사용자들이 모든 곳에서 로그아웃됩니다. 뭐를 잊으셨나요 설정하는 걸?
     
@@ -702,9 +758,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>30. [K8s 라이프사이클 트러블슈팅] 쿠버네티스 파드가 계속 재시작됩니다. 로그를 보면 성공적으로 시작됩니다. 헬스 체크도 통과합니다. 그런데 30초 후에 죽어버립니다. 오류는 없습니다. 크래시도 없습니다. 그냥 사라집니다. 뭐가 그걸 죽이는 걸까요?</strong></summary>
+<summary><h3>30. [K8s 라이프사이클 트러블슈팅] 쿠버네티스 파드가 계속 재시작됩니다. 로그를 보면 성공적으로 시작됩니다. 헬스 체크도 통과합니다. 그런데 30초 후에 죽어버립니다. 오류는 없습니다. 크래시도 없습니다. 그냥 사라집니다. 뭐가 그걸 죽이는 걸까요?</h3></summary>
 
 30. [K8s 라이프사이클 트러블슈팅] 쿠버네티스 파드가 계속 재시작됩니다. 로그를 보면 성공적으로 시작됩니다. 헬스 체크도 통과합니다. 그런데 30초 후에 죽어버립니다. 오류는 없습니다. 크래시도 없습니다. 그냥 사라집니다. 뭐가 그걸 죽이는 걸까요?
     
@@ -730,9 +788,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>31. [파이프라인 단계 정의] 개발자 대다수가 아직도 다음의 차이를 모를 거야 : CI(Continuous Integration) &amp; CD(Continuous Deployment)의 차이는 무엇인가요?</strong></summary>
+<summary><h3>31. [파이프라인 단계 정의] 개발자 대다수가 아직도 다음의 차이를 모를 거야 : CI(Continuous Integration) &amp; CD(Continuous Deployment)의 차이는 무엇인가요?</h3></summary>
 
 31. [파이프라인 단계 정의] 개발자 대다수가 아직도 다음의 차이를 모를 거야 : CI(Continuous Integration) & CD(Continuous Deployment)의 차이는 무엇인가요?
     
@@ -759,9 +819,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>32. [도커 이미지 용량 최적화 결함] 이 <code>.dockerignore</code> 파일(<code>node_modules</code>, <code>.git</code>, <code>.env</code>)이 있습니다. </strong></summary>
+<summary><h3>32. [도커 이미지 용량 최적화 결함] 이 <code>.dockerignore</code> 파일(<code>node_modules</code>, <code>.git</code>, <code>.env</code>)이 있습니다. </h3></summary>
 
 32. [도커 이미지 용량 최적화 결함] 이 `.dockerignore` 파일(`node_modules`, `.git`, `.env`)이 있습니다. 
     
@@ -805,9 +867,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>33. [포트 기반 동일 출처 정책] 모든 주니어 개발자의 첫 번째 CORS 순간: 프론트엔드는 <code>localhost:3000</code>, 백엔드는 <code>localhost:8000</code>. 둘 다 로컬에서 실행 중인데 여전히 CORS 오류 발생. 왜?</strong></summary>
+<summary><h3>33. [포트 기반 동일 출처 정책] 모든 주니어 개발자의 첫 번째 CORS 순간: 프론트엔드는 <code>localhost:3000</code>, 백엔드는 <code>localhost:8000</code>. 둘 다 로컬에서 실행 중인데 여전히 CORS 오류 발생. 왜?</h3></summary>
 
 33. [포트 기반 동일 출처 정책] 모든 주니어 개발자의 첫 번째 CORS 순간: 프론트엔드는 `localhost:3000`, 백엔드는 `localhost:8000`. 둘 다 로컬에서 실행 중인데 여전히 CORS 오류 발생. 왜?
     
@@ -834,9 +898,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>34. [소프트웨어 기본 포트 컨벤션] 왜 항상? :3000 for Node / :8080 for Java / :5432 for Postgres / :6379 for Redis / :27017 for MongoDB 일까요?</strong></summary>
+<summary><h3>34. [소프트웨어 기본 포트 컨벤션] 왜 항상? :3000 for Node / :8080 for Java / :5432 for Postgres / :6379 for Redis / :27017 for MongoDB 일까요?</h3></summary>
 
 34. [소프트웨어 기본 포트 컨벤션] 왜 항상? :3000 for Node / :8080 for Java / :5432 for Postgres / :6379 for Redis / :27017 for MongoDB 일까요?
     
@@ -863,9 +929,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>35. [IaC 핵심 명령어 이해] 테라폼(Terraform)에서 제일 중요한 명령어 3가지를 설명하시오.</strong></summary>
+<summary><h3>35. [IaC 핵심 명령어 이해] 테라폼(Terraform)에서 제일 중요한 명령어 3가지를 설명하시오.</h3></summary>
 
 35. [IaC 핵심 명령어 이해] 테라폼(Terraform)에서 제일 중요한 명령어 3가지를 설명하시오.
     
@@ -886,9 +954,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>36. [심층 헬스 체크의 필요성] 사용자의 요청이 로드 밸런서를 거쳐 서버 A, B, C로 분배되고 있습니다. 서버 C는 '200 OK'를 반환하면서도 실제로는 잘못된 응답을 주는 고장 난 상태입니다. 로드 밸런서는 3개 서버 모두 건강하다고 판단해 C로도 요청을 보냅니다. 사용자들이 이 문제를 겪기 전에 어떻게 알아챌 수 있을까요?</strong></summary>
+<summary><h3>36. [심층 헬스 체크의 필요성] 사용자의 요청이 로드 밸런서를 거쳐 서버 A, B, C로 분배되고 있습니다. 서버 C는 '200 OK'를 반환하면서도 실제로는 잘못된 응답을 주는 고장 난 상태입니다. 로드 밸런서는 3개 서버 모두 건강하다고 판단해 C로도 요청을 보냅니다. 사용자들이 이 문제를 겪기 전에 어떻게 알아챌 수 있을까요?</h3></summary>
 
 36. [심층 헬스 체크의 필요성] 사용자의 요청이 로드 밸런서를 거쳐 서버 A, B, C로 분배되고 있습니다. 서버 C는 '200 OK'를 반환하면서도 실제로는 잘못된 응답을 주는 고장 난 상태입니다. 로드 밸런서는 3개 서버 모두 건강하다고 판단해 C로도 요청을 보냅니다. 사용자들이 이 문제를 겪기 전에 어떻게 알아챌 수 있을까요?
     
@@ -914,9 +984,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>37. [오픈소스 API 도구 선정] 오픈소스 프로젝트를 위해 어떤 API 도구를 선택하시겠어요? (Postman, Insomnia, Bruno, Hoppscotch, Swagger)</strong></summary>
+<summary><h3>37. [오픈소스 API 도구 선정] 오픈소스 프로젝트를 위해 어떤 API 도구를 선택하시겠어요? (Postman, Insomnia, Bruno, Hoppscotch, Swagger)</h3></summary>
 
 37. [오픈소스 API 도구 선정] 오픈소스 프로젝트를 위해 어떤 API 도구를 선택하시겠어요? (Postman, Insomnia, Bruno, Hoppscotch, Swagger)
     
@@ -942,7 +1014,9 @@
 
 </details>
 
+---
 
-<!-- migration-navigation:start -->
-[인터뷰 질문](README.md)
+
+<!-- migration-navigation:start -->  
+[인터뷰 질문](README.md)  
 <!-- migration-navigation:end -->

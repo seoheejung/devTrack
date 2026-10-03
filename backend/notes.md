@@ -4,19 +4,21 @@
 
 
 <details>
-<summary><strong>지우기 쉬운 코드가 좋은 코드다</strong></summary>
+<summary><h3>지우기 쉬운 코드가 좋은 코드다</h3></summary>
 
 
-갠적인 경험으론 이게 설계의 진리임
-확장성 있는 설계 <- 애매함
+갠적인 경험으론 이게 설계의 진리임  
+확장성 있는 설계 <- 애매함  
 접기 쉬운 설계 <- 뭔가 확신이 듦
 
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>백엔드 뼈 때리는 말 모음</strong></summary>
+<summary><h3>백엔드 뼈 때리는 말 모음</h3></summary>
 
 
 - 결국 백엔드는 API 잘 짜는 걸 넘어서 DB 트랜잭션이나 분산 환경에서의 데이터 정합성 싸움인 듯. 시스템 디자인이랑 비동기 아키텍처까지 훑어야 진짜 서비스 돌아가는 구조가 보임. 리스트 보니까 공부할 건 산더미인데  이거 다 제대로 파면 진짜 몸값은 확실히 뛰겠네.
@@ -25,9 +27,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>Backend Tools</strong></summary>
+<summary><h3>Backend Tools</h3></summary>
 
 
 1. Docker – to separate tasks
@@ -57,9 +61,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>데이터 정리 치트 시트</strong></summary>
+<summary><h3>데이터 정리 치트 시트</h3></summary>
 
 
 ![image.png](../assets/backend/image-000.png)
@@ -67,9 +73,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>이 주제들에 대해 편하지 않다면 스스로를 백엔드 개발자라고 부르지 마세요</strong></summary>
+<summary><h3>이 주제들에 대해 편하지 않다면 스스로를 백엔드 개발자라고 부르지 마세요</h3></summary>
 
 
 - SOLID 설계 원칙
@@ -84,9 +92,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>상위 1% 개발자 스택</strong></summary>
+<summary><h3>상위 1% 개발자 스택</h3></summary>
 
 
 - 데이터 구조 & 알고리즘
@@ -105,95 +115,101 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>백엔드 아키텍트</strong></summary>
+<summary><h3>백엔드 아키텍트</h3></summary>
 
 
-1. 마이크로서비스 설계
+1. 마이크로서비스 설계  
 서비스 분해, 경계 컨텍스트, 복원력 (서킷 브레이커, 벌크헤드)
-2. 분산 시스템 기초
+2. 분산 시스템 기초  
 CAP 정리, 이벤트 소싱, CQRS, 데이터 일관성 모델 (ACID vs. BASE)
-3. 고성능 데이터 관리
+3. 고성능 데이터 관리  
 데이터베이스 파티셔닝, 인덱스 최적화, NoSQL 데이터 모델링
-4. 고급 API 설계
+4. 고급 API 설계  
 gRPC, GraphQL, API 게이트웨이, 비동기 API
-5. 이벤트 주도 아키텍처
+5. 이벤트 주도 아키텍처  
 Kafka, 메시지 큐, Pub/Sub 패턴, 사가 패턴
-6. 클라우드 네이티브 패턴
+6. 클라우드 네이티브 패턴  
 컨테이너 오케스트레이션 (Kubernetes), 서버리스, 멀티 클라우드 전략
-7. 관찰 가능성
+7. 관찰 가능성  
 분산 추적 (OpenTelemetry), 중앙화된 로깅 (ELK), 실시간 모니터링
-8. 인프라 as 코드
+8. 인프라 as 코드  
 Terraform, Helm, 구성 관리 모범 사례
-9. 고급 보안
+9. 고급 보안  
 제로 트러스트, OAuth2, JWT, 전송 중 및 저장 시 데이터 암호화
-10. 스케일링 전략
+10. 스케일링 전략  
 로드 밸런싱, 샤딩, 수평 스케일링 vs. 수직 스케일링
 
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>HTTP 상태 코드</strong></summary>
+<summary><h3>HTTP 상태 코드</h3></summary>
 
 
-2xx: 성공
-요청이 예상대로 작동했습니다.
+2xx: 성공  
+요청이 예상대로 작동했습니다.  
 (시스템이 자신의 일을 잘 수행했습니다.)
 
-3xx: 리다이렉션
-요청은 유효하지만, 다른 곳을 확인하세요.
+3xx: 리다이렉션  
+요청은 유효하지만, 다른 곳을 확인하세요.  
 (URL이 이동되었거나, 캐시가 사용되었거나, 리다이렉트되었습니다.)
 
-4xx: 클라이언트 실수
-요청이 잘못되었거나 불완전합니다.
+4xx: 클라이언트 실수  
+요청이 잘못되었거나 불완전합니다.  
 (인증 누락, 잘못된 입력, 리소스 미발견.)
 
-5xx: 서버 실패
-요청은 괜찮았습니다. 서버가 고장 났습니다.
+5xx: 서버 실패  
+요청은 괜찮았습니다. 서버가 고장 났습니다.  
 (크래시, 타임아웃, 잘못된 종속성.)
 
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>백엔드 스킬 난이도 분석</strong></summary>
+<summary><h3>백엔드 스킬 난이도 분석</h3></summary>
 
 
-🟢 쉬움 (시작하기)
-REST API → 기본 엔드포인트 🔗
-CRUD 작업 → 생성 / 읽기 / 업데이트 / 삭제 📦
-JSON 처리 → 데이터 교환 📄
+🟢 쉬움 (시작하기)  
+REST API → 기본 엔드포인트 🔗  
+CRUD 작업 → 생성 / 읽기 / 업데이트 / 삭제 📦  
+JSON 처리 → 데이터 교환 📄  
 상태 코드 → API 응답 📶
 
-🟡 쉬움 → 중간 (진짜 백엔드가 시작됨)
-인증 → 로그인 / 회원가입 🔐
-미들웨어 → 요청 처리 ⚙️
-검증 → 깨끗한 입력 처리 🧹
+🟡 쉬움 → 중간 (진짜 백엔드가 시작됨)  
+인증 → 로그인 / 회원가입 🔐  
+미들웨어 → 요청 처리 ⚙️  
+검증 → 깨끗한 입력 처리 🧹  
 오류 처리 → 안정적인 API 🚧
 
-🟠 중간 (프로덕션 준비)
-데이터베이스 설계 → 스키마 생각 🗄️
-캐싱 → 성능 향상 ⚡
-비동기 처리 → 백그라운드 작업 🔄
-페이지네이션 → 대용량 데이터 처리 📊
+🟠 중간 (프로덕션 준비)  
+데이터베이스 설계 → 스키마 생각 🗄️  
+캐싱 → 성능 향상 ⚡  
+비동기 처리 → 백그라운드 작업 🔄  
+페이지네이션 → 대용량 데이터 처리 📊  
 연결 풀링 → 효율적인 DB 사용 🔌
 
-🔴 어려움 (스케일링 시스템)
-속도 제한 → 트래픽 제어 🚦
-분산 시스템 → 다중 서비스 🌐
-메시지 큐 → 비동기 통신 📩
+🔴 어려움 (스케일링 시스템)  
+속도 제한 → 트래픽 제어 🚦  
+분산 시스템 → 다중 서비스 🌐  
+메시지 큐 → 비동기 통신 📩  
 로드 밸런싱 → 트래픽 분산 ⚖️
 
-🟣 매우 어려움 (전문가 수준)
-시스템 설계 → 엔드투엔드 아키텍처 🧠
-관찰 가능성 → 로그 / 메트릭 / 추적 📈
+🟣 매우 어려움 (전문가 수준)  
+시스템 설계 → 엔드투엔드 아키텍처 🧠  
+관찰 가능성 → 로그 / 메트릭 / 추적 📈  
 장애 내성 → 실패 처리 💥
 
-⚠️ 대부분의 개발자는 CRUD에서 멈춥니다.
+⚠️ 대부분의 개발자는 CRUD에서 멈춥니다.  
 그건 백엔드가 아니에요… 기본일 뿐입니다.
 
 진짜 백엔드 = 확장 가능 + 신뢰성 + 관찰 가능 🚀
@@ -201,9 +217,11 @@ JSON 처리 → 데이터 교환 📄
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>개발자 설명 필수</strong></summary>
+<summary><h3>개발자 설명 필수</h3></summary>
 
 
 - 로드 밸런서
@@ -235,9 +253,11 @@ JSON 처리 → 데이터 교환 📄
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>배포 전 체크리스트</strong></summary>
+<summary><h3>배포 전 체크리스트</h3></summary>
 
 
 ```
@@ -279,9 +299,11 @@ JSON 처리 → 데이터 교환 📄
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>백엔드 개발자로서 모르면 고통과 눈물을 가져다줄 알고리즘 순위</strong></summary>
+<summary><h3>백엔드 개발자로서 모르면 고통과 눈물을 가져다줄 알고리즘 순위</h3></summary>
 
 
 1. 해싱 – 모든 조회가 악몽이 됨
@@ -298,9 +320,11 @@ JSON 처리 → 데이터 교환 📄
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>백엔드 - UI 뒤의 모든 것 🧩</strong></summary>
+<summary><h3>백엔드 - UI 뒤의 모든 것 🧩</h3></summary>
 
 
 1. API → 요청 처리 🔗
@@ -321,9 +345,11 @@ JSON 처리 → 데이터 교환 📄
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>API 설계 - 핵심 규칙 🔗</strong></summary>
+<summary><h3>API 설계 - 핵심 규칙 🔗</h3></summary>
 
 
 1. 명확한 경로 → /users, /orders 📍
@@ -342,9 +368,11 @@ JSON 처리 → 데이터 교환 📄
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>백엔드 개발은 이러한 기본 사항을 이해하는 한 “간단”합니다:</strong></summary>
+<summary><h3>백엔드 개발은 이러한 기본 사항을 이해하는 한 “간단”합니다:</h3></summary>
 
 
 HTTP 기본
@@ -458,9 +486,11 @@ API 기본
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>백엔드 시스템에 필요한 9가지 관찰 가능성 관행:</strong></summary>
+<summary><h3>백엔드 시스템에 필요한 9가지 관찰 가능성 관행:</h3></summary>
 
 
 1. 구조화된 로깅 (print 문 아님)
@@ -480,9 +510,11 @@ API 기본
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>고급 시나리오 기반 Spring Boot 질문</strong></summary>
+<summary><h3>고급 시나리오 기반 Spring Boot 질문</h3></summary>
 
 
 1) API가 높은 트래픽에서만 느려집니다. CPU는 정상입니다. 병목 현상이 무엇일 수 있나요?
@@ -528,9 +560,11 @@ API 기본
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>Node.js</strong></summary>
+<summary><h3>Node.js</h3></summary>
 
 
 Node.js + TypeScript – Type safety and scalable code
@@ -584,15 +618,17 @@ Node.js + tRPC – End-to-end type safety
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>REST vs GraphQL</strong></summary>
+<summary><h3>REST vs GraphQL</h3></summary>
 
 
 Both REST and GraphQL are used to build APIs but they solve different problems.
 
-🔹 𝐑𝐄𝐒𝐓 (𝐑𝐞𝐩𝐫𝐞𝐬𝐞𝐧𝐭𝐚𝐭𝐢𝐨𝐧𝐚𝐥 𝐒𝐭𝐚𝐭𝐞 𝐓𝐫𝐚𝐧𝐬𝐟𝐞𝐫)
-A resource-based API style using multiple endpoints.
+🔹 𝐑𝐄𝐒𝐓 (𝐑𝐞𝐩𝐫𝐞𝐬𝐞𝐧𝐭𝐚𝐭𝐢𝐨𝐧𝐚𝐥 𝐒𝐭𝐚𝐭𝐞 𝐓𝐫𝐚𝐧𝐬𝐟𝐞𝐫)  
+A resource-based API style using multiple endpoints.  
 Different URLs represent different resources — /users, /orders, /products
 
 Pros:
@@ -609,8 +645,8 @@ Cons:
 
 Best For: Public APIs, CRUD services, simple domain models
 
-🔹 𝐆𝐫𝐚𝐩𝐡𝐐𝐋
-A query language for APIs with a single endpoint: /graphql
+🔹 𝐆𝐫𝐚𝐩𝐡𝐐𝐋  
+A query language for APIs with a single endpoint: /graphql  
 Client asks exactly for the fields it needs in a single query.
 
 Pros:
@@ -637,12 +673,14 @@ Best For: Complex UIs, mobile apps, microservices aggregation, product teams ite
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>Java 팁: 깊은 if-else 피하기 - 가드 절 사용</strong></summary>
+<summary><h3>Java 팁: 깊은 if-else 피하기 - 가드 절 사용</h3></summary>
 
 
-Java 코드에서 가장 흔한 문제 중 하나는 깊게 중첩된 조건문입니다.
+Java 코드에서 가장 흔한 문제 중 하나는 깊게 중첩된 조건문입니다.  
 코드가 형식적으로는 작동하지만, 읽기 어렵고 유지보수하기 어렵습니다.
 
 × 나쁜 예: 중첩된 if-else
@@ -664,7 +702,7 @@ Java 코드에서 가장 흔한 문제 중 하나는 깊게 중첩된 조건문�
 - 리팩토링과 테스트를 단순화한다
 - fail-fast 철학과 완벽하게 맞는다
 
-규칙은 간단하다:
+규칙은 간단하다:  
 조건이 오류이거나 정상 흐름의 예외라면, 즉시 체크하고 메서드를 종료하라.
 
 이렇게 하면 코드가 된다:
@@ -678,9 +716,11 @@ Java 코드에서 가장 흔한 문제 중 하나는 깊게 중첩된 조건문�
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>실제로 채용되는 기술들</strong></summary>
+<summary><h3>실제로 채용되는 기술들</h3></summary>
 
 
 - 인증 흐름 (OAuth, JWT, 세션)
@@ -697,9 +737,11 @@ Java 코드에서 가장 흔한 문제 중 하나는 깊게 중첩된 조건문�
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>2026년 백엔드 개발자 생존 키워드</strong></summary>
+<summary><h3>2026년 백엔드 개발자 생존 키워드</h3></summary>
 
 
 **'시스템'**
@@ -725,9 +767,11 @@ Java 코드에서 가장 흔한 문제 중 하나는 깊게 중첩된 조건문�
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>속도 제한 (Rate Limiting)</strong></summary>
+<summary><h3>속도 제한 (Rate Limiting)</h3></summary>
 
 
 - Rate limiting은 “도구” 문제가 아니라 “정책 설계 문제”
@@ -741,9 +785,11 @@ Java 코드에서 가장 흔한 문제 중 하나는 깊게 중첩된 조건문�
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>너무 자주 보게 되는 API 설계 실수</strong></summary>
+<summary><h3>너무 자주 보게 되는 API 설계 실수</h3></summary>
 
 
 엔드포인트를 통해 데이터베이스 스키마를 직접 노출하는 것.
@@ -755,9 +801,11 @@ Java 코드에서 가장 흔한 문제 중 하나는 깊게 중첩된 조건문�
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>API가 실제로 어떻게 작동하는지</strong></summary>
+<summary><h3>API가 실제로 어떻게 작동하는지</h3></summary>
 
 
 대부분의 개발자들은 “API를 사용합니다.”
@@ -839,9 +887,9 @@ APIs
 
 회사가 구축하는 방식이 바로 이것입니다:
 
-→ SaaS 플랫폼
-→ 마켓플레이스
-→ 핀테크 시스템
+→ SaaS 플랫폼  
+→ 마켓플레이스  
+→ 핀테크 시스템  
 → 확장 가능한 제품
 
 변화는 간단합니다:
@@ -859,9 +907,11 @@ https://x.com/i/status/2048000336049160404
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>최소 API와 API 버전 관리는 엉망입니다.</strong></summary>
+<summary><h3>최소 API와 API 버전 관리는 엉망입니다.</h3></summary>
 
 
 올바른 방법으로 하지 않는 한...
@@ -879,15 +929,17 @@ https://x.com/i/status/2048000336049160404
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>HTTP 상태 코드 치트시트</strong></summary>
+<summary><h3>HTTP 상태 코드 치트시트</h3></summary>
 
 
-1xx :   잠깐만요
-2xx:   여기 있습니다
-3xx :  가세요
-4xx :  당신이 잘못했어요
+1xx :   잠깐만요  
+2xx:   여기 있습니다  
+3xx :  가세요  
+4xx :  당신이 잘못했어요  
 5xx :  우리가 잘못했어요
 
 - 모든 개발자가 알아야 할 HTTP 상태 코드
@@ -927,9 +979,11 @@ https://x.com/i/status/2048000336049160404
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>엔지니어가 &quot;자주 보는 에러의 정체&quot; 5선</strong></summary>
+<summary><h3>엔지니어가 &quot;자주 보는 에러의 정체&quot; 5선</h3></summary>
 
 
 - 「500 에러」 → 서버 측 문제
@@ -941,41 +995,45 @@ https://x.com/i/status/2048000336049160404
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>아무도 백엔드 로드맵을 주지 않았어, 내가 처음 시작했을 때.</strong></summary>
+<summary><h3>아무도 백엔드 로드맵을 주지 않았어, 내가 처음 시작했을 때.</h3></summary>
 
 
-1. 하나의 언어를 제대로 배워
+1. 하나의 언어를 제대로 배워  
 Python이나 JavaScript (Node.js). 둘 다 말고. 하나 골라서 깊이 파고들어.
 
-2. HTTP 이해하기
+2. HTTP 이해하기  
 URL을 입력하면 무슨 일이 일어나? 요청, 응답, 상태 코드 배워. 이게 기초야.
 
-3. 첫 번째 REST API 만들기
+3. 첫 번째 REST API 만들기  
 Express나 FastAPI 써서. 진짜 뭔가 만들어봐. 할 일 앱, 간단한 블로그. 뭐든 상관없어.
 
-4. 데이터베이스 배우기
+4. 데이터베이스 배우기  
 PostgreSQL부터 시작해. 테이블, 쿼리, 관계 이해해. 그다음 MongoDB를 살짝 만져봐서 차이점을 알아.
 
-5. 인증
+5. 인증  
 JWT, 세션, bcrypt로 비밀번호 해싱. 모든 앱에 이게 필요해.
 
-6. 뭔가 배포하기
+6. 뭔가 배포하기  
 Railway, Render, "내 노트북에서는 잘 돼"는 진지하게 받아들여지지 않아.
 
-7. 버전 컨트롤을 종교처럼 배우기
+7. 버전 컨트롤을 종교처럼 배우기  
 Git. 브랜치. PR. 변명 말고 그냥 배워.
 
-8. 다른 사람들 코드 읽기
+8. 다른 사람들 코드 읽기  
 오픈 소스 프로젝트. 실제 시스템이 어떻게 구조화됐는지 봐.
 
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>대부분의 개발자들이 너무 늦을 때까지 건너뛰는 시스템 설계 개념들</strong></summary>
+<summary><h3>대부분의 개발자들이 너무 늦을 때까지 건너뛰는 시스템 설계 개념들</h3></summary>
 
 
 - 로드 밸런싱: 한 서버가 모든 걸 떠맡지 않게 하세요
@@ -987,40 +1045,44 @@ Git. 브랜치. PR. 변명 말고 그냥 배워.
 
 이 모든 걸 한 번에 마스터할 필요는 없어요.
 
-하지만 진짜 사용자들을 위해 빌드한다면, 이런 개념들이 존재한다는 걸 알아야 해요.
+하지만 진짜 사용자들을 위해 빌드한다면, 이런 개념들이 존재한다는 걸 알아야 해요.  
 이걸 저장하세요.
 
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>시니어 Java 인터뷰의 95.7%는 이 7가지 주제입니다.</strong></summary>
+<summary><h3>시니어 Java 인터뷰의 95.7%는 이 7가지 주제입니다.</h3></summary>
 
 
 1. JVM 내부 구조
     
     힙, 스택, 가비지 컬렉션, 클래스 로딩, JIT, 메모리 누수, 그리고 CPU가 정상으로 보이는데도 앱이 느려지는 이유.
     
-2. 동시성
+2. 동시성  
 스레드, 실행자, 동기화, 휘발성, 락, CompletableFuture, 경쟁 상태, 교착 상태, 그리고 부하 하에서 안전한 코드를 작성하는 방법.
-3. 컬렉션
+3. 컬렉션  
 HashMap, ConcurrentHashMap, ArrayList, LinkedList, TreeMap, 큐, 시간 복잡도, 그리고 리사이징 중에 실제로 일어나는 일.
-4. **Spring Boot**
+4. **Spring Boot**  
 의존성 주입, REST API, 필터, 인터셉터, 트랜잭션, 프로파일링, 자동 구성, 그리고 Spring의 내부 작동 원리에 대해 알아봅니다.
-5. 데이터베이스 통합
+5. 데이터베이스 통합  
 JPA, Hibernate, N+1 쿼리, 트랜잭션 경계, 연결 풀, 지연 로딩, 인덱스, 그리고 ORM이 성능을 조용히 망칠 수 있는 이유.
-6. 시스템 설계
+6. 시스템 설계  
 API 설계, 캐싱, 큐, 재시도, 멱등성, 속도 제한, 분산 잠금, 서비스 간 통신 및 오류 처리가 포함됩니다.
-7. 프로덕션 디버깅
+7. 프로덕션 디버깅  
 스레드 덤프, 힙 덤프, 로그, 메트릭, 트레이스, GC 일시 중지, 느린 쿼리, 메모리 압박, 그리고 추측 없이 라이브 이슈를 디버깅하는 방법.
 
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>10가지 중요한 백엔드 도구</strong></summary>
+<summary><h3>10가지 중요한 백엔드 도구</h3></summary>
 
 
 1. Docker – 작업을 분리하기 위해
@@ -1037,9 +1099,11 @@ API 설계, 캐싱, 큐, 재시도, 멱등성, 속도 제한, 분산 잠금, 서
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>IP 필터링, 속도 제한, 침투 탐지를 포함한 FastAPI 미들웨어</strong></summary>
+<summary><h3>IP 필터링, 속도 제한, 침투 탐지를 포함한 FastAPI 미들웨어</h3></summary>
 
 
 https://github.com/rennf93/fastapi-guard
@@ -1047,9 +1111,11 @@ https://github.com/rennf93/fastapi-guard
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>Rate limiting</strong></summary>
+<summary><h3>Rate limiting</h3></summary>
 
 
 다층 방어를 추가하겠습니다:
@@ -1072,12 +1138,12 @@ https://github.com/rennf93/fastapi-guard
 
 • 스파이크에 대한 큐 + 비동기 처리
 
-목표:
+목표:  
 IP로만 차단하는 것이 아니라, 남용을 비용이 많이 들게 만드는 것.
 
 ![image.png](../assets/backend/image-005.png)
 
-시작 신호:
+시작 신호:  
 • 사용자/IP/디바이스당 초당 요청 수
 
 • 버스트 패턴 (급격한 스파이크)
@@ -1090,35 +1156,35 @@ IP로만 차단하는 것이 아니라, 남용을 비용이 많이 들게 만드
 
 • 헤더 / 사용자 에이전트 일관성
 
-그 다음 기능 구축:
+그 다음 기능 구축:  
 • 슬라이딩 윈도우 (지난 10초 / 1분 / 5분)
 
 • 요청 빈도 분포
 
 • 행동 엔트로피 (너무 반복적 = 봇)
 
-탐지 계층:
+탐지 계층:  
 • 규칙 기반 임계값 (빠른 승리)
 
 • 이상 탐지 (기준선 대 편차)
 
 • 간단한 점수 시스템 (요청당 위험 점수)
 
-조치:
+조치:  
 • 낮은 위험 → 허용
 
 • 중간 → 제한 / 도전 (CAPTCHA)
 
 • 높은 위험 → 차단 / 강력 속도 제한
 
-인프라:
+인프라:  
 • 스트림 로그 (Kafka)
 
 • 처리 (Flink / Spark / Redis 카운터)
 
 • 게이트웨이/WAF에서의 실시간 결정
 
-핵심 아이디어:
+핵심 아이디어:  
 하나의 신호에 의존하지 말고 → 약한 신호들을 강력한 결정으로 결합하세요.
 
 ![image.png](../assets/backend/image-006.png)
@@ -1126,9 +1192,11 @@ IP로만 차단하는 것이 아니라, 남용을 비용이 많이 들게 만드
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>모든 백엔드는 결제 처리 방법을 알아야 합니다.</strong></summary>
+<summary><h3>모든 백엔드는 결제 처리 방법을 알아야 합니다.</h3></summary>
 
 
 결제 재시도에 대한 간단한 소개.
@@ -1148,14 +1216,14 @@ IP로만 차단하는 것이 아니라, 남용을 비용이 많이 들게 만드
 
 다음 다이어그램에서:
 
-결제 프로세스에서 실패가 발생합니다.
-시스템은 실패가 재시도 가능한지 확인합니다.
-실패가 재시도 가능하다면, 해당 실패는 재시도 큐로 전송됩니다.
-실패가 재시도 불가능하다면, 실패는 데이터베이스에 로깅되거나 기록됩니다.
-재시도 큐의 메시지는 결제 서비스에 의해 다시 처리됩니다.
-재시도가 실패하면, 프로세스는 다음 재시도 가능성 검사로 이동합니다.
-시스템은 다시 실패가 재시도 가능한지 확인합니다.
-실패가 재시도 불가능하다면, 메시지는 추가 조사를 위해 데드 레터 큐로 전송됩니다.
+결제 프로세스에서 실패가 발생합니다.  
+시스템은 실패가 재시도 가능한지 확인합니다.  
+실패가 재시도 가능하다면, 해당 실패는 재시도 큐로 전송됩니다.  
+실패가 재시도 불가능하다면, 실패는 데이터베이스에 로깅되거나 기록됩니다.  
+재시도 큐의 메시지는 결제 서비스에 의해 다시 처리됩니다.  
+재시도가 실패하면, 프로세스는 다음 재시도 가능성 검사로 이동합니다.  
+시스템은 다시 실패가 재시도 가능한지 확인합니다.  
+실패가 재시도 불가능하다면, 메시지는 추가 조사를 위해 데드 레터 큐로 전송됩니다.  
 여러 번 재시도 후에도 실패하고 재시도 불가능하다고 판단된 메시지는 데드 레터 큐로 전송됩니다.
 
 ![image.png](../assets/backend/image-007.png)
@@ -1163,9 +1231,11 @@ IP로만 차단하는 것이 아니라, 남용을 비용이 많이 들게 만드
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>REST API에서 가장 많이 묻는 4가지 개념</strong></summary>
+<summary><h3>REST API에서 가장 많이 묻는 4가지 개념</h3></summary>
 
 
 - HTTP 메서드의 멱등성(GET, PUT, DELETE).
@@ -1176,9 +1246,11 @@ IP로만 차단하는 것이 아니라, 남용을 비용이 많이 들게 만드
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>주말에 백엔드를 배우기 위한 아이디어</strong></summary>
+<summary><h3>주말에 백엔드를 배우기 위한 아이디어</h3></summary>
 
 
 1. 리버스 프록시
@@ -1214,9 +1286,11 @@ IP로만 차단하는 것이 아니라, 남용을 비용이 많이 들게 만드
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>축하합니다, 이제 Java 백엔드 직업에 준비됐어요.</strong></summary>
+<summary><h3>축하합니다, 이제 Java 백엔드 직업에 준비됐어요.</h3></summary>
 
 
 Step-1: Java 배우기
@@ -1240,9 +1314,11 @@ Step-9: 배포하기
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>백엔드 개발을 위해 배워야 할 10가지 API 설계 개념</strong></summary>
+<summary><h3>백엔드 개발을 위해 배워야 할 10가지 API 설계 개념</h3></summary>
 
 
 1. 멱등성
@@ -1261,24 +1337,26 @@ Step-9: 배포하기
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>백엔드 엔지니어처럼 생각하기</strong></summary>
+<summary><h3>백엔드 엔지니어처럼 생각하기</h3></summary>
 
 
 Node.js API가 프로덕션에서 잘 실행되고 있습니다.
 
 갑자기 피크 트래픽 중에:
 
-→ CPU가 100%에 도달함
-→ API 지연 시간이 80ms에서 5초로 급증함
-→ 일부 요청이 타임아웃 발생
-→ 데이터베이스는 정상으로 보임
+→ CPU가 100%에 도달함  
+→ API 지연 시간이 80ms에서 5초로 급증함  
+→ 일부 요청이 타임아웃 발생  
+→ 데이터베이스는 정상으로 보임  
 → Redis는 정상으로 보임
 
 먼저 무엇을 조사하시겠습니까?
 
-대부분의 초보자는 즉시 데이터베이스를 탓합니다.
+대부분의 초보자는 즉시 데이터베이스를 탓합니다.  
 하지만 Node.js에서 가장 먼저 의심해야 할 것은 이벤트 루프 블로킹입니다.
 
 Node.js는 논블로킹 I/O를 사용하기 때문에 많은 동시 요청을 처리할 수 있습니다.
@@ -1287,12 +1365,12 @@ Node.js는 논블로킹 I/O를 사용하기 때문에 많은 동시 요청을 �
 
 예시:
 
-→ 대규모 JSON 파싱
-→ 무거운 암호화/압축
-→ 이미지 처리
-→ 큰 루프
-→ 동기 파일 작업
-→ 복잡한 정규 표현식
+→ 대규모 JSON 파싱  
+→ 무거운 암호화/압축  
+→ 이미지 처리  
+→ 큰 루프  
+→ 동기 파일 작업  
+→ 복잡한 정규 표현식  
 → PDF/보고서 생성
 
 이벤트 루프가 차단되면 Node는 새로운 요청, 콜백, 타이머, 또는 I/O 완료를 효율적으로 처리할 수 없습니다.
@@ -1301,18 +1379,18 @@ Node.js는 논블로킹 I/O를 사용하기 때문에 많은 동시 요청을 �
 
 선임 백엔드 엔지니어는 다음을 확인할 것입니다:
 
-→ 이벤트 루프 지연
-→ CPU 프로파일링
-→ 느린 동기 함수
-→ 대규모 페이로드 처리
-→ 워커 스레드 필요성
+→ 이벤트 루프 지연  
+→ CPU 프로파일링  
+→ 느린 동기 함수  
+→ 대규모 페이로드 처리  
+→ 워커 스레드 필요성  
 → 큐/오프로드 전략
 
-가능한 해결책:
-→ CPU 집약적 작업을 워커 스레드로 이동
-→ 백그라운드 큐 사용
-→ 버퍼링 대신 대규모 데이터 스트리밍
-→ 요청 경로에서 동기 API 피하기
+가능한 해결책:  
+→ CPU 집약적 작업을 워커 스레드로 이동  
+→ 백그라운드 큐 사용  
+→ 버퍼링 대신 대규모 데이터 스트리밍  
+→ 요청 경로에서 동기 API 피하기  
 → 추측 전에 프로파일링 추가
 
 Node.js API 레이턴시가 80ms에서 5초로 점프하고 CPU 100% 찍을 때 요긴하게 써먹을 디버깅 체크리스트임. DB가 정상인데 서버가 터졌다면 워커 스레드 분리나 스트림 처리가 안 돼서 이벤트 루프가 블로킹된 상황일 확률이 존나 높음. 백엔드 엔지니어라면 성능 장애 터졌을 때 엄한 인프라 탓하기 전에 프로파일링 도구 들고 동기 함수부터 색출하는 습관을 들여야 함.
@@ -1320,9 +1398,11 @@ Node.js API 레이턴시가 80ms에서 5초로 점프하고 CPU 100% 찍을 때 
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>Go로 간단한 웹 서버 만들기</strong></summary>
+<summary><h3>Go로 간단한 웹 서버 만들기</h3></summary>
 
 
 https://dormoshe.io/trending-news/building-a-simple-web-server-in-go-59hl-91000?utm_source=twitter&utm_campaign=twitter
@@ -1336,18 +1416,20 @@ Go가 백엔드에서 깡패 소리 듣는 건 외부 프레임워크 주렁주�
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>주니어 개발자가 할인 쿠폰 시스템을 만들었어요:</strong></summary>
+<summary><h3>주니어 개발자가 할인 쿠폰 시스템을 만들었어요:</h3></summary>
 
 
 테스트에서는 완벽하게 작동해요.
 
-출시 24시간 이내에
-사용자들이 동일한 쿠폰을
+출시 24시간 이내에  
+사용자들이 동일한 쿠폰을  
 동시에 여러 번 사용하고 있어요.
 
-정확한 결함은 뭐예요?
+정확한 결함은 뭐예요?  
 그리고 어떻게 고치나요?
 
 ![image.png](../assets/backend/image-008.png)
@@ -1357,9 +1439,11 @@ Go가 백엔드에서 깡패 소리 듣는 건 외부 프레임워크 주렁주�
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>Node.JS로 백엔드를 개발하는 이유</strong></summary>
+<summary><h3>Node.JS로 백엔드를 개발하는 이유</h3></summary>
 
 
 1. 구조적 타이핑
@@ -1373,10 +1457,10 @@ Node로 백엔드를 왜만드냐니 세상에 백엔드가 게임서버랑 주�
 
 백엔드 언어로 타입스크립트보다 좋은게 며 있나
 
-Golang 쓰면 타입시스템 빵꾸나있고
-Java, c#은 구조적 타이핑 안되서 노가다 코딩 많이 해야되고
-러스트는 빌드시간 저세상이고
-하스켈은 라이브러리 뭐 있나 싶고
+Golang 쓰면 타입시스템 빵꾸나있고  
+Java, c#은 구조적 타이핑 안되서 노가다 코딩 많이 해야되고  
+러스트는 빌드시간 저세상이고  
+하스켈은 라이브러리 뭐 있나 싶고  
 ...
 
 뺑뺑 돌고 node 다시 보면 생각보다 좋아보인다
@@ -1384,9 +1468,11 @@ Java, c#은 구조적 타이핑 안되서 노가다 코딩 많이 해야되고
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>대부분의 백엔드 보안 버그는 올바른 도구를 잘못 사용하는 데서 비롯됩니다.</strong></summary>
+<summary><h3>대부분의 백엔드 보안 버그는 올바른 도구를 잘못 사용하는 데서 비롯됩니다.</h3></summary>
 
 
 1. JWT: 액세스 토큰을 단기간(5-15분)으로 유지하세요. iss/aud/exp/nbf를 검증하세요. kid를 사용해 키를 순환시키세요. 클레임에 비밀 정보 또는 PII를 넣지 마세요.
@@ -1402,9 +1488,11 @@ Java, c#은 구조적 타이핑 안되서 노가다 코딩 많이 해야되고
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>2026년 백엔드 인터뷰의 90%는 여전히 7가지 검토로 무너집니다.</strong></summary>
+<summary><h3>2026년 백엔드 인터뷰의 90%는 여전히 7가지 검토로 무너집니다.</h3></summary>
 
 
 화이트보드나 레포에서 이걸 해낼 수 있다면, 합격입니다.
@@ -1420,9 +1508,11 @@ Java, c#은 구조적 타이핑 안되서 노가다 코딩 많이 해야되고
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>URL보다 리소스가 먼저다: AI 시대의 REST API 설계</strong></summary>
+<summary><h3>URL보다 리소스가 먼저다: AI 시대의 REST API 설계</h3></summary>
 
 
 “회원 가입 API 만들어 줘.”
@@ -1546,9 +1636,11 @@ AI가 코드를 가져갈수록 이 계약은 더 중요해집니다.
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>API 보안 모범 사례</strong></summary>
+<summary><h3>API 보안 모범 사례</h3></summary>
 
 
 대부분의 API 침해는 깨진 권한 부여, 유출된 비밀, 또는 누락된 속도 제한 때문에 발생합니다. 몇 가지 기본 사항을 살펴보겠습니다.
@@ -1571,9 +1663,11 @@ AI가 코드를 가져갈수록 이 계약은 더 중요해집니다.
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>API 디자인 실수 Top 10</strong></summary>
+<summary><h3>API 디자인 실수 Top 10</h3></summary>
 
 
 1. 버저닝 계획 없음 (그리고 v1이 조용히 깨짐)
@@ -1590,9 +1684,11 @@ AI가 코드를 가져갈수록 이 계약은 더 중요해집니다.
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>인터뷰에서 다뤄지는 API 개념들, 백엔드 개발자라면 이걸 건너뛰지 마세요</strong></summary>
+<summary><h3>인터뷰에서 다뤄지는 API 개념들, 백엔드 개발자라면 이걸 건너뛰지 마세요</h3></summary>
 
 
 1. 멱등성(Idempotency): PUT/DELETE가 멱등한 이유를 알되, POST는 그렇지 않은 이유를 알아야 합니다. 우발적인 중복 쓰기를 피하는 데 도움이 됩니다.
@@ -1609,9 +1705,11 @@ AI가 코드를 가져갈수록 이 계약은 더 중요해집니다.
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>2026년 자바의 90%는 이 10가지 개념을 마스터하는 데 달려 있습니다.</strong></summary>
+<summary><h3>2026년 자바의 90%는 이 10가지 개념을 마스터하는 데 달려 있습니다.</h3></summary>
 
 
 나머지는 모두 구문 트리비아일 뿐입니다.
@@ -1630,9 +1728,11 @@ AI가 코드를 가져갈수록 이 계약은 더 중요해집니다.
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>가장 중요한 분산 시스템 개념 중 하나:</strong></summary>
+<summary><h3>가장 중요한 분산 시스템 개념 중 하나:</h3></summary>
 
 
 → 멱등성
@@ -1657,25 +1757,27 @@ API에서 멱등성을 처리하고 계신가요?
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>대부분의 엔지니어들은 락킹을 지나치게 복잡하게 생각합니다.</strong></summary>
+<summary><h3>대부분의 엔지니어들은 락킹을 지나치게 복잡하게 생각합니다.</h3></summary>
 
 
 여기 진실이 있습니다:
 
-낙관적 락 → 애플리케이션 수준 제어
+낙관적 락 → 애플리케이션 수준 제어  
 비관적 락 → 데이터베이스 수준 제어
 
-낙관적 = 모두가 편집하도록 허용하고, 저장 시 충돌을 확인합니다.
+낙관적 = 모두가 편집하도록 허용하고, 저장 시 충돌을 확인합니다.  
 (Google Docs를 생각해보세요.)
 
-비관적 = 당신이 완료할 때까지 다른 모든 사람을 차단합니다.
+비관적 = 당신이 완료할 때까지 다른 모든 사람을 차단합니다.  
 (도서관 책을 생각해보세요.)
 
 대략적인 규칙
 
-재시도가 저렴하다면 → 낙관적 사용
+재시도가 저렴하다면 → 낙관적 사용  
 재시도가 비용이 많이 든다면 → 비관적 사용
 
 ![image.png](../assets/backend/image-011.png)
@@ -1683,9 +1785,11 @@ API에서 멱등성을 처리하고 계신가요?
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>10회 이상의 백엔드 인터뷰를 진행한 후, 정말 마스터해야 할 20가지 주제만 찾았습니다 -</strong></summary>
+<summary><h3>10회 이상의 백엔드 인터뷰를 진행한 후, 정말 마스터해야 할 20가지 주제만 찾았습니다 -</h3></summary>
 
 
 백엔드 기초:
@@ -1725,9 +1829,11 @@ Node.js & 백엔드 런타임:
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>바이브코딩할 때 자주 쓰는 서버 포트, 한 번 정리해 봤습니다.</strong></summary>
+<summary><h3>바이브코딩할 때 자주 쓰는 서버 포트, 한 번 정리해 봤습니다.</h3></summary>
 
 
 그런데 이런 질문을 자주 받습니다.
@@ -1755,59 +1861,65 @@ AI는 코드를 잘 만들어주지만, 문제를 찾는 건 아직 개발자의
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>백엔드 언어 산업 채택 순위 ⚙️</strong></summary>
+<summary><h3>백엔드 언어 산업 채택 순위 ⚙️</h3></summary>
 
 
-🟢 Java — 엔터프라이즈 + 뱅킹
-🟢 C# — 엔터프라이즈 + Microsoft 생태계
-🟢 Python — AI + 데이터 + 백엔드
-🟢 JavaScript — 웹 + 풀스택
+🟢 Java — 엔터프라이즈 + 뱅킹  
+🟢 C# — 엔터프라이즈 + Microsoft 생태계  
+🟢 Python — AI + 데이터 + 백엔드  
+🟢 JavaScript — 웹 + 풀스택  
 🟢 TypeScript — 현대 백엔드 + SaaS
 
-🔵 Go — 클라우드 + 인프라
-🔵 PHP — 웹 + 콘텐츠 플랫폼
-🔵 Kotlin — 백엔드 + 안드로이드
+🔵 Go — 클라우드 + 인프라  
+🔵 PHP — 웹 + 콘텐츠 플랫폼  
+🔵 Kotlin — 백엔드 + 안드로이드  
 🔵 Ruby — SaaS + 웹 제품
 
-🔴 Rust — 시스템 + 성능 중심 소프트웨어
+🔴 Rust — 시스템 + 성능 중심 소프트웨어  
 🔴 Elixir — 분산 + 실시간 시스템
 
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>학습 곡선별 API 기술 순위</strong></summary>
+<summary><h3>학습 곡선별 API 기술 순위</h3></summary>
 
 
-🟢 REST API — 쉬움
-🟢 GraphQL — 쉬움
-🟢 Webhooks — 쉬움
+🟢 REST API — 쉬움  
+🟢 GraphQL — 쉬움  
+🟢 Webhooks — 쉬움  
 🟢 Server Sent Events — 쉬움
 
-🔵 WebSockets — 보통
-🔵 gRPC — 보통
-🔵 tRPC — 보통
+🔵 WebSockets — 보통  
+🔵 gRPC — 보통  
+🔵 tRPC — 보통  
 🔵 API Gateways — 보통
 
-🟠 Message Queues — 어려움
-🟠 Kafka — 어려움
-🟠 Event Driven Architecture — 어려움
+🟠 Message Queues — 어려움  
+🟠 Kafka — 어려움  
+🟠 Event Driven Architecture — 어려움  
 🟠 Microservices — 어려움
 
-🔴 Distributed Systems — 매우 어려움
-🔴 Eventual Consistency — 매우 어려움
-🔴 Consensus Algorithms — 매우 어려움
+🔴 Distributed Systems — 매우 어려움  
+🔴 Eventual Consistency — 매우 어려움  
+🔴 Consensus Algorithms — 매우 어려움  
 🔴 Distributed Transactions — 매우 어려움
 
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>AI 시대에 백엔드를 과도하게 고민하지 마세요.</strong></summary>
+<summary><h3>AI 시대에 백엔드를 과도하게 고민하지 마세요.</h3></summary>
 
 
 기본 사항은 여전히 필요합니다.
@@ -1834,9 +1946,11 @@ AI는 코드를 잘 만들어주지만, 문제를 찾는 건 아직 개발자의
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>모든 개발자가 알아야 할 기본 Localhost 포트</strong></summary>
+<summary><h3>모든 개발자가 알아야 할 기본 Localhost 포트</h3></summary>
 
 
 - ⚛️ React (CRA) → :3000
@@ -1861,9 +1975,11 @@ AI는 코드를 잘 만들어주지만, 문제를 찾는 건 아직 개발자의
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>모든 개발자가 알아야 할 백엔드 개념</strong></summary>
+<summary><h3>모든 개발자가 알아야 할 백엔드 개념</h3></summary>
 
 
 - 🌐 HTTP → 클라이언트와 서버 간 통신
@@ -1890,9 +2006,11 @@ AI는 코드를 잘 만들어주지만, 문제를 찾는 건 아직 개발자의
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>엔지니어가 &quot;어느 정도&quot;로 자주 쓰는 말들</strong></summary>
+<summary><h3>엔지니어가 &quot;어느 정도&quot;로 자주 쓰는 말들</h3></summary>
 
 
 - API → 시스템 간의 창구
@@ -1901,47 +2019,51 @@ AI는 코드를 잘 만들어주지만, 문제를 찾는 건 아직 개발자의
 - 미들웨어 → OS와 앱 사이를 지탱하는 것
 - 컨테이너 → 앱의 실행 환경을 묶는 것
 
-설명하라고 하면 의외로 어렵다.
+설명하라고 하면 의외로 어렵다.  
 "안다"와 "설명할 수 있다" 사이에는 꽤 큰 차이가 있다.
 
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>웹사이트를 여는 &quot;고작 몇 초&quot; 동안 일어나는 일</strong></summary>
+<summary><h3>웹사이트를 여는 &quot;고작 몇 초&quot; 동안 일어나는 일</h3></summary>
 
 
-웹사이트를 여는 것만으로도,
-① DNS로 IP 주소를 조회
-② 서버에 연결
-③ HTTPS로 안전한 통신 확립
-④ HTTP 요청 전송
-⑤ 서버가 처리
-⑥ DB나 API에서 데이터 획득
-⑦ HTML 등을 반환
-⑧ 브라우저가 화면을 렌더링
-몇 초의 이면에서 이 모든 게 움직이고 있어.
+웹사이트를 여는 것만으로도,  
+① DNS로 IP 주소를 조회  
+② 서버에 연결  
+③ HTTPS로 안전한 통신 확립  
+④ HTTP 요청 전송  
+⑤ 서버가 처리  
+⑥ DB나 API에서 데이터 획득  
+⑦ HTML 등을 반환  
+⑧ 브라우저가 화면을 렌더링  
+몇 초의 이면에서 이 모든 게 움직이고 있어.  
 이 메커니즘을 알면 웹이 재미있어져.
 
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>주니어 개발자: “인증은 쉽다.”</strong></summary>
+<summary><h3>주니어 개발자: “인증은 쉽다.”</h3></summary>
 
 
 로그인 → JWT → 완료. 😎
 
 프로덕션:
 
-이제 리프레시 토큰 처리,
-토큰 로테이션,
-만료,
-로그아웃, 세션,
-CSRF,
-비밀번호 재설정,
+이제 리프레시 토큰 처리,  
+토큰 로테이션,  
+만료,  
+로그아웃, 세션,  
+CSRF,  
+비밀번호 재설정,  
 속도 제한…”
 
 주니어:
@@ -1951,47 +2073,51 @@ CSRF,
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>모든 마이크로서비스 개발자가 알아야 할 패턴들:</strong></summary>
+<summary><h3>모든 마이크로서비스 개발자가 알아야 할 패턴들:</h3></summary>
 
 
-Circuit Breaker (Resilience4j)
-→ 실패하는 서비스 호출 중지
-→ 빠르게 실패하고 우아하게 복구
+Circuit Breaker (Resilience4j)  
+→ 실패하는 서비스 호출 중지  
+→ 빠르게 실패하고 우아하게 복구  
 → 상태: CLOSED → OPEN → HALF_OPEN
 
-Retry with Exponential Backoff
-→ 실패했나? 기다린 후 재시도
-→ 매번 더 오래 기다림
+Retry with Exponential Backoff  
+→ 실패했나? 기다린 후 재시도  
+→ 매번 더 오래 기다림  
 → 지터 추가 — 썬더링 허드 방지
 
-Bulkhead
-→ 실패 격리
-→ 서비스별 별도 스레드 풀
+Bulkhead  
+→ 실패 격리  
+→ 서비스별 별도 스레드 풀  
 → 한 서비스 느려도 다른 서비스 영향 없음
 
-Saga Pattern
-→ 락 없이 분산 트랜잭션
-→ 코레오그래피: 이벤트가 다음 단계 주도
+Saga Pattern  
+→ 락 없이 분산 트랜잭션  
+→ 코레오그래피: 이벤트가 다음 단계 주도  
 → 오케스트레이션: 중앙 코디네이터
 
-API Gateway Pattern
-→ 단일 진입점
-→ 인증, 속도 제한, 라우팅
+API Gateway Pattern  
+→ 단일 진입점  
+→ 인증, 속도 제한, 라우팅  
 → 클라이언트가 한 곳과만 소통
 
-Service Discovery
-→ 서비스들이 스스로 등록
-→ 클라이언트가 동적으로 발견
+Service Discovery  
+→ 서비스들이 스스로 등록  
+→ 클라이언트가 동적으로 발견  
 → Eureka, Consul
 
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>프로덕션에서 나타나는 상위 10개 API 설계 실수:</strong></summary>
+<summary><h3>프로덕션에서 나타나는 상위 10개 API 설계 실수:</h3></summary>
 
 
 1. POST/웹훅에 대한 멱등성 없음. 재시도가 하나의 작업을 2번의 청구로 만듦.
@@ -2008,9 +2134,11 @@ Service Discovery
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>IT 엔지니어가 이해하고 싶은 보안 공격 5선</strong></summary>
+<summary><h3>IT 엔지니어가 이해하고 싶은 보안 공격 5선</h3></summary>
 
 
 - SQL 인젝션
@@ -2021,4 +2149,6 @@ Service Discovery
 
 자격증 시험에서도 실무에서도 자주 출제됩니다.
 </details>
+
+---
 

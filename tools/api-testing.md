@@ -4,17 +4,17 @@
 
 
 <details>
-<summary><strong>Postman은 실제로 어떻게 돈을 벌고 있는 걸까?</strong></summary>
+<summary><h3>Postman은 실제로 어떻게 돈을 벌고 있는 걸까?</h3></summary>
 
 ![image.png](../assets/api-testing/image-042.png)
 
 Postman은 실제로 어떻게 돈을 벌고 있는 걸까?
 
-모두가 무료로 사용하고 있는 걸 봐
-요청 보내기만 하고
+모두가 무료로 사용하고 있는 걸 봐  
+요청 보내기만 하고  
 API 테스트만 하고
 
-누가 돈 내는 걸 본 적 없어
+누가 돈 내는 걸 본 적 없어  
 광고 하나도 본 적 없고
 
 그럼 Postman은 어떻게 그 모든 인프라 비용을 충당하는 거지?
@@ -41,9 +41,11 @@ API 테스트만 하고
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>Bruno v3.5.0의 새로운 기능</strong></summary>
+<summary><h3>Bruno v3.5.0의 새로운 기능</h3></summary>
 
 
 - 컬렉션 실행을 위한 공식 GitHub Action
@@ -60,33 +62,37 @@ API 테스트만 하고
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>학습 곡선에 따른 테스트 도구 순위</strong></summary>
+<summary><h3>학습 곡선에 따른 테스트 도구 순위</h3></summary>
 
 
-🟢 Postman — 쉬움
-🟢 Jest — 쉬움
-🟢 Vitest — 쉬움
-🟢 Testing Library — 쉬움
+🟢 Postman — 쉬움  
+🟢 Jest — 쉬움  
+🟢 Vitest — 쉬움  
+🟢 Testing Library — 쉬움  
 🟢 Unit Testing — 쉬움
 
-🔵 Cypress — 보통
-🔵 Playwright — 보통
-🔵 Integration Testing — 보통
-🔵 API Testing — 보통
+🔵 Cypress — 보통  
+🔵 Playwright — 보통  
+🔵 Integration Testing — 보통  
+🔵 API Testing — 보통  
 🔵 Mock Testing — 보통
 
-🟠 Selenium — 어려움
-🟠 Load Testing — 어려움
-🟠 Performance Testing — 어려움
-🟠 End to End Testing — 어려움
+🟠 Selenium — 어려움  
+🟠 Load Testing — 어려움  
+🟠 Performance Testing — 어려움  
+🟠 End to End Testing — 어려움  
 🟠 Contract Testing — 어려움
 
-🔴 Chaos Testing — 매우 어려움
-🔴 Distributed Load Testing — 매우 어려움
-🔴 Large Scale Performance Testing — 매우 어려움
-🔴 Fault Injection Testing — 매우 어려움
+🔴 Chaos Testing — 매우 어려움  
+🔴 Distributed Load Testing — 매우 어려움  
+🔴 Large Scale Performance Testing — 매우 어려움  
+🔴 Fault Injection Testing — 매우 어려움  
 🔴 Production Resilience Testing — 매우 어려움
 </details>
+
+---
 

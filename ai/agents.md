@@ -4,29 +4,29 @@
 
 
 <details>
-<summary><strong>AI 코딩의 진화 3단계</strong></summary>
+<summary><h3>AI 코딩의 진화 3단계</h3></summary>
 
 
-1️⃣ 프롬프트 엔지니어링
+1️⃣ 프롬프트 엔지니어링  
 → 내가 직접 좋은 프롬프트를 쓴다
 
-2️⃣ 하네스 엔지니어링
-→ 에이전트가 실행되는 환경을 설계한다
+2️⃣ 하네스 엔지니어링  
+→ 에이전트가 실행되는 환경을 설계한다  
 ([CLAUDE.md](http://claude.md/), [SKILL.md](http://skill.md/), 툴 세팅, 컨텍스트 주입)
 
-3️⃣ 루프 엔지니어링
-→ 에이전트에게 프롬프트를 보내는 시스템을 내가 만든다
+3️⃣ 루프 엔지니어링  
+→ 에이전트에게 프롬프트를 보내는 시스템을 내가 만든다  
 → 인간은 루프에서 빠짐
 
-하네스: 에이전트의 런타임 환경
+하네스: 에이전트의 런타임 환경  
 루프: 그 하네스를 자동으로 실행하는 조율 시스템
 
-Anthropic Claude Code 총괄 Boris Cherny:
-"나는 이제 Claude에게 직접 프롬프트를 안 써.
-내 루프가 Claude를 호출하고, 뭘 할지 결정해.
+Anthropic Claude Code 총괄 Boris Cherny:  
+"나는 이제 Claude에게 직접 프롬프트를 안 써.  
+내 루프가 Claude를 호출하고, 뭘 할지 결정해.  
 내 일은 루프를 짜는 것."
 
-1인 개발자가 루프 설계를 익히면
+1인 개발자가 루프 설계를 익히면  
 소규모 팀의 속도를 혼자서 낼 수 있게 됌.
 
 ![image.png](../assets/agents/image-084.png)
@@ -42,9 +42,11 @@ Anthropic Claude Code 총괄 Boris Cherny:
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>MCP vs A2A vs ACP</strong></summary>
+<summary><h3>MCP vs A2A vs ACP</h3></summary>
 
 
 𝗠𝗖𝗣는 에이전트를 도구와 데이터에 연결하기 위한 것입니다. 데이터베이스 쿼리, API 호출, 파일 접근, 외부 시스템과의 상호작용과 같은 기능 발견 및 사용 방식을 표준화합니다.
@@ -68,9 +70,11 @@ MCP와 A2A는 경쟁자가 아니라 상호 보완적입니다. 에이전트는 
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>📚 그래프 엔지니어링 따라하기 (AI 협업 조직도를 설계하고 에이전트 경로를 제어하는 실무 가이드)</strong></summary>
+<summary><h3>📚 그래프 엔지니어링 따라하기 (AI 협업 조직도를 설계하고 에이전트 경로를 제어하는 실무 가이드)</h3></summary>
 
 
 거대한 프롬프트 하나에 모든 일을 맡기는 대신, 작업을 노드로 나누고 경로를 코드...
@@ -82,9 +86,11 @@ MCP와 A2A는 경쟁자가 아니라 상호 보완적입니다. 에이전트는 
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>그래프 엔지니어링, 이제 말로만이 아니라 실제 도구로 나왔다</strong></summary>
+<summary><h3>그래프 엔지니어링, 이제 말로만이 아니라 실제 도구로 나왔다</h3></summary>
 
 
 - 그래피파이 : AI 코딩 어시스턴트용 스킬, 코드베이스를 지식그래프로 통째로 매핑
@@ -108,33 +114,35 @@ MCP와 A2A는 경쟁자가 아니라 상호 보완적입니다. 에이전트는 
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>AI 에이전트는 모델보다 설계가 더 중요해지고 있습니다</strong></summary>
+<summary><h3>AI 에이전트는 모델보다 설계가 더 중요해지고 있습니다</h3></summary>
 
 
-AI 에이전트가 기대만큼
-안정적으로 동작하지 않는다면
-모델보다 구조를 먼저 볼 필요가 있습니다.
-요즘 자주 나오는 세 가지 개념이 있습니다.
-Harness Engineering은
-도구, 메모리, 권한, 실행 환경처럼
+AI 에이전트가 기대만큼  
+안정적으로 동작하지 않는다면  
+모델보다 구조를 먼저 볼 필요가 있습니다.  
+요즘 자주 나오는 세 가지 개념이 있습니다.  
+Harness Engineering은  
+도구, 메모리, 권한, 실행 환경처럼  
 모델을 둘러싼 기반을 설계하는 것입니다.
 
-Loop Engineering은
-실행 → 검증 → 수정 과정을 반복하며
-'확신'이 아니라 '증거'를 기준으로
+Loop Engineering은  
+실행 → 검증 → 수정 과정을 반복하며  
+'확신'이 아니라 '증거'를 기준으로  
 작업을 끝내도록 만드는 구조입니다.
 
-Graph Engineering은
-어떤 작업이 어떤 순서로 실행되고,
-분기와 승인을 어떻게 처리할지 설계합니다.
-세 가지는 경쟁 관계가 아닙니다.
-그래프 안에서 루프가 돌고,
+Graph Engineering은  
+어떤 작업이 어떤 순서로 실행되고,  
+분기와 승인을 어떻게 처리할지 설계합니다.  
+세 가지는 경쟁 관계가 아닙니다.  
+그래프 안에서 루프가 돌고,  
 그 모든 것을 하네스가 뒷받침합니다.
 
-AI 에이전트가 불안정하다면
-모델보다 어디에서 구조가 무너졌는지
+AI 에이전트가 불안정하다면  
+모델보다 어디에서 구조가 무너졌는지  
 먼저 진단하는 시대가 되고 있습니다.
 
 ![1785241869033.gif](../assets/agents/1785241869033.gif)
@@ -144,34 +152,36 @@ AI 에이전트가 불안정하다면
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>AI 에이전트가 자꾸 엉뚱하게 움직인다면</strong></summary>
+<summary><h3>AI 에이전트가 자꾸 엉뚱하게 움직인다면</h3></summary>
 
 프롬프트보다 구조를 봐야 합니다.
 
-AI를 제대로 굴리려면
+AI를 제대로 굴리려면  
 3가지 레이어를 구분하는 것이 중요합니다.
 
-Harness Engineering
-AI가 사용할 컨텍스트, 도구, 메모리,
+Harness Engineering  
+AI가 사용할 컨텍스트, 도구, 메모리,  
 실행 제어, 안전장치를 설계합니다.
 
-Loop Engineering
-작업 → 검증 → 피드백을 반복하는
+Loop Engineering  
+작업 → 검증 → 피드백을 반복하는  
 루프와 종료 조건을 설계합니다.
 
-Graph Engineering
-분기, 합류, 반복, 상태 전환까지
+Graph Engineering  
+분기, 합류, 반복, 상태 전환까지  
 워크플로 전체 흐름을 설계합니다.
 
 관계도 명확합니다.
 
-그래프 안에서 루프가 돌고,
+그래프 안에서 루프가 돌고,  
 그 그래프를 하네스가 감싸는 구조입니다.
 
-AI가 원하는 결과를 못 내는 이유는
-모델보다 어느 레이어가 부족한지
+AI가 원하는 결과를 못 내는 이유는  
+모델보다 어느 레이어가 부족한지  
 잘못 진단했기 때문인 경우도 많습니다.
 
 ![image.png](../assets/agents/image-086.png)
@@ -181,9 +191,11 @@ AI가 원하는 결과를 못 내는 이유는
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>요즘 클로드 코드나 코덱스를 사용해서 시스템을 설계할 때</strong></summary>
+<summary><h3>요즘 클로드 코드나 코덱스를 사용해서 시스템을 설계할 때</h3></summary>
 
 
 하네스 엔지니어링/루프 엔지니어링의 개념에서 더 나아가 그래프 엔지니어링이라는 개념이 많이 언급되고 있습니다
@@ -323,20 +335,22 @@ Loop Engineering이 “한 마리의 개체를 잘 훈련시키는 일”이었�
 
 </details>
 
+---
+
 
 <details>
-<summary><strong><strong>그래프 엔지니어링</strong>이 뭔지 아주 쉽게 알아봅시다</strong></summary>
+<summary><h3><strong>그래프 엔지니어링</strong>이 뭔지 아주 쉽게 알아봅시다</h3></summary>
 
 
 **1/ 루프 엔지니어링**
 
-한 달전까지만 해도 
-AI 개발자들이 모두 "루프"에 대해 이야기 하고 있었는데.
+한 달전까지만 해도   
+AI 개발자들이 모두 "루프"에 대해 이야기 하고 있었는데.  
 갑자기 그래프 엔지니어링은 또 뭔가 싶을 수 있을텐데요..
 
 Loop는 말그대로 개선 싸이클을 계속 돌리는걸 말합니다.
 
-에이전트에 특정한 목표를 주고 
+에이전트에 특정한 목표를 주고   
 시도 > 결과 확인 > 수정 > 확인 > 다시 시도 이런식으로요.
 
 에이전트 하나가, 한 가지를, 반복해서 개선하는 것을 말하죠.
@@ -369,23 +383,23 @@ Loop는 말그대로 개선 싸이클을 계속 돌리는걸 말합니다.
 
 작업을 직선적으로 설계하고 지시하는게 아니라, 작업의 구조를 설계하고 이를 에이전트들이 효율적으로 일할 수 있게 만드는 겁니다. 
 
-Claude에서 얼마전에 Dynamic workflows를 출시한게 
+Claude에서 얼마전에 Dynamic workflows를 출시한게   
 이걸 하기 위한 도구죠.
 
 **4/ 그럼 어떻게 그래프 엔지니어링을 할 수 있을까?**
 
-그래프에는 두 가지 중요한 개념이 있습니다.
+그래프에는 두 가지 중요한 개념이 있습니다.  
 노드와 엣지.
 
 노드는 작업의 단위이고,
 
 엣지는 하나의 노드가 처리되고 그 결과가 다음 노드에 처리되야하는 의존성을 갖는걸 말하죠.
 
-즉, 노드와 엣지를 완전히 구분해놓고
-노드가 다른 노드에 의존성이 없는 경우 (엣지가 없는 경우),
+즉, 노드와 엣지를 완전히 구분해놓고  
+노드가 다른 노드에 의존성이 없는 경우 (엣지가 없는 경우),  
 이 작업은 병렬로 돌려야합니다.
 
-엣지가 있으면 순서를 지켜야죠.
+엣지가 있으면 순서를 지켜야죠.  
 이 개념을 충실히 지켜야합니다.
 
 **5/ 그래프 만들기**
@@ -397,10 +411,10 @@ Claude에서 얼마전에 Dynamic workflows를 출시한게
 - 유료 플랜. Max, Team, Enterprise는 워크플로우가 기본 활성화
 - Pro는 /config에서 Dynamic workflows 항목을 ON
 
-1) 잘 아는 레포를 연다. 
+1) 잘 아는 레포를 연다.   
 결과가 의미 있으려면 실제 레포여야 합니다.
 
-2) 이 프롬프트를 붙여넣는다 
+2) 이 프롬프트를 붙여넣는다   
 (이하는 Anthropic이 제시한 예시):
 
 *Create a workflow to audit every route file under src/routes/*
@@ -423,10 +437,10 @@ src/routes/는 본인 파일 경로로 바꾼다. "최대 20개" 문구는 첫 �
 
 **6 / 참고할 사항들**
 
-이게 그래프다.
+이게 그래프다.  
 문장 하나로 십수 개의 에이전트를 동시에 굴린 것.
 
-이렇게 작업 시키면 토큰이 들지 않을까?
+이렇게 작업 시키면 토큰이 들지 않을까?  
 "토큰 사용량이 제로"라는 말이 있는데 곧이곧대로 믿지는 말아야 합니다.
 
 절반은 맞고 절반은 틀린 말입니다.
@@ -435,8 +449,8 @@ src/routes/는 본인 파일 경로로 바꾼다. "최대 20개" 문구는 첫 �
 
 채팅에서 결과를 복붙해가며 넘기는 수작업 지시와 달리, 컨텍스트를 다시 갉아먹지 않는다네요.
 
-하지만 에이전트들이 공짜로 일하는 건 아닙니다.
-에이전트 하나하나는 여전히 사용량을 씁니다.
+하지만 에이전트들이 공짜로 일하는 건 아닙니다.  
+에이전트 하나하나는 여전히 사용량을 씁니다.  
 워크플로우 한 번은 일반 세션보다 눈에 띄게 비쌉니다.
 
 절약되는 건 조율 비용이지, 작업 비용은 아니라는 것.
@@ -449,14 +463,14 @@ src/routes/는 본인 파일 경로로 바꾼다. "최대 20개" 문구는 첫 �
 
 실행 결과가 괜찮다면, s 를 누른다.
 
-~/.claude/workflows에 저장되고,
+~/.claude/workflows에 저장되고,  
 다음부터는 이름만 불러서 재실행할 수 있습니다.
 
 사용했던 형태는 그대로 두고, 작업만 갈아끼워라.
 
 방금 만든 건 "파일마다 에이전트 하나 → 검증자로 확인 → 한 장으로 종합"이라는 형태다. 그 안에 들어가는 작업 문구는 뭐든 가능합니다.
 
-한 번 만든 형태가 계속 재활용되는 것.
+한 번 만든 형태가 계속 재활용되는 것.  
 이게 "그래프를 그린다"는 말의 실제 효용이라는군요.
 
 **8 / 스케일링**
@@ -489,9 +503,11 @@ src/routes/는 본인 파일 경로로 바꾼다. "최대 20개" 문구는 첫 �
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>[처음 배우는 AI] Prompt vs System Prompt. 요청 문장과 상위 규칙은 다르다.</strong></summary>
+<summary><h3>[처음 배우는 AI] Prompt vs System Prompt. 요청 문장과 상위 규칙은 다르다.</h3></summary>
 
 
 Prompt는 지금 시키는 말이다. "이 문장을 번역해줘", "보고서를 써줘"처럼 이번 작업의 목표, 조건, 형식, 범위를 담는다. 한 번 쓰고 끝난다.
@@ -509,52 +525,54 @@ System Prompt는 항상 지켜야 할 규칙이다. 사용자의 요청보다 �
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>Claude Code는 대부분의 엔지니어가 절대 열어보지 않는 5개의 아키텍처 레이어와 함께 배포됩니다.</strong></summary>
+<summary><h3>Claude Code는 대부분의 엔지니어가 절대 열어보지 않는 5개의 아키텍처 레이어와 함께 배포됩니다.</h3></summary>
 
 
-기능이 아닙니다. 설정이 아닙니다. 레이어들 — 각각 LLM만으로는 해결할 수 없는 고유한 문제를 해결하는 레이어들입니다. 그리고 그중 네 개는 프롬프팅과는 전혀 관련이 없습니다.
+기능이 아닙니다. 설정이 아닙니다. 레이어들 — 각각 LLM만으로는 해결할 수 없는 고유한 문제를 해결하는 레이어들입니다. 그리고 그중 네 개는 프롬프팅과는 전혀 관련이 없습니다.  
 여기 전체 에이전트 개발 키트가 있습니다:
 
-Layer 1 — [CLAUDE.md](http://claude.md/) → 메모리 레이어
-아키텍처 규칙, 명명 규칙, 테스트 기대치, 리포지토리 맵. 항상 로드됩니다. 항상 활성화됩니다.
-두 가지 범위:
-• ~/.claude/CLAUDE.md → 전역
-• .claude/CLAUDE.md → 프로젝트
+Layer 1 — [CLAUDE.md](http://claude.md/) → 메모리 레이어  
+아키텍처 규칙, 명명 규칙, 테스트 기대치, 리포지토리 맵. 항상 로드됩니다. 항상 활성화됩니다.  
+두 가지 범위:  
+• ~/.claude/CLAUDE.md → 전역  
+• .claude/CLAUDE.md → 프로젝트  
 이것은 매 세션 전에 붙여넣는 컨텍스트가 아닙니다. 반복할 필요가 없는 컨텍스트입니다. 에이전트의 헌법입니다.
 
-Layer 2 — Skills → 지식 레이어
-각 SKILL.md는 설명을 담고 있습니다. Claude는 런타임에 이를 매칭하고 스킬을 격리된 서브에이전트로 포크합니다. 필요할 때만, 항상 켜져 있는 것이 아닙니다.
+Layer 2 — Skills → 지식 레이어  
+각 SKILL.md는 설명을 담고 있습니다. Claude는 런타임에 이를 매칭하고 스킬을 격리된 서브에이전트로 포크합니다. 필요할 때만, 항상 켜져 있는 것이 아닙니다.  
 주 컨텍스트 윈도우를 부풀리지 않고 작업별 지식을 제공합니다. 설계상 모듈화되어 있습니다.
 
-Layer 3 — Hooks → 가드레일 레이어
+Layer 3 — Hooks → 가드레일 레이어  
 PreToolUse → PostToolUse → SessionStart → Stop → SubagentStop
 
 이것은 대부분의 팀이 건너뛰는 레이어입니다. 그리고 가장 먼저 후회하는 레이어이기도 합니다.
 
-훅은 AI가 아닙니다. 결정론적인 이벤트 기반 쉘 명령어입니다.
-• 모든 Write에서 자동 린트
-• rm -rf에서 강제 차단
-• Stop에서 Slack 알림
-이벤트 발생 → 매처 확인 → 명령 실행
+훅은 AI가 아닙니다. 결정론적인 이벤트 기반 쉘 명령어입니다.  
+• 모든 Write에서 자동 린트  
+• rm -rf에서 강제 차단  
+• Stop에서 Slack 알림  
+이벤트 발생 → 매처 확인 → 명령 실행  
 품질은 인프라 레벨에서 강제됩니다. 프롬프트 레벨이 아닙니다.
 
-Layer 4 — Subagents → 위임 레이어
-각 서브에이전트는 자체 컨텍스트 윈도우, 모델, 도구, 권한을 가집니다.
-메인 에이전트는 아래로 위임합니다. 결과를 위로 받습니다. 그게 전부입니다.
+Layer 4 — Subagents → 위임 레이어  
+각 서브에이전트는 자체 컨텍스트 윈도우, 모델, 도구, 권한을 가집니다.  
+메인 에이전트는 아래로 위임합니다. 결과를 위로 받습니다. 그게 전부입니다.  
 무한 재귀가 없습니다 — 서브에이전트는 서브에이전트를 생성할 수 없습니다. 메인 컨텍스트는 깨끗하게 유지됩니다. 설계상 강제 경계입니다.
 
-Layer 5 — Plugins → 배포 레이어
-스킬 + 에이전트 + 훅 + 명령어를 플러그인으로 번들링하세요. 한 번 설치. 전체 팀이 동작을 상속합니다.
+Layer 5 — Plugins → 배포 레이어  
+스킬 + 에이전트 + 훅 + 명령어를 플러그인으로 번들링하세요. 한 번 설치. 전체 팀이 동작을 상속합니다.  
 npm 패키지를 생각해보세요 — 하지만 에이전트가 할 수 있는 일에 대한 것입니다.
 
-모든 것을 감싸는:
-→ 왼쪽에 MCP 서버 (GitHub, 데이터베이스, API, 커스텀 통합)
+모든 것을 감싸는:  
+→ 왼쪽에 MCP 서버 (GitHub, 데이터베이스, API, 커스텀 통합)  
 → 오른쪽에 에이전트 팀 (병렬 실행, 메시지 전달, 공유 권한)
 
-한 줄로 요약한 5-레이어 스택:
-CLAUDE.md가 규칙을 설정 → Skills가 전문성을 제공 → Hooks가 품질을 강제 → Subagents가 작업을 위임 → Plugins가 팀에 배포
+한 줄로 요약한 5-레이어 스택:  
+CLAUDE.md가 규칙을 설정 → Skills가 전문성을 제공 → Hooks가 품질을 강제 → Subagents가 작업을 위임 → Plugins가 팀에 배포  
 에이전트 시스템의 대부분의 프로덕션 실패는 누락된 한 레이어로 거슬러 올라갑니다.
 
 현재 설정에서 어떤 레이어가 누락되어 있나요?
@@ -566,9 +584,11 @@ CLAUDE.md가 규칙을 설정 → Skills가 전문성을 제공 → Hooks가 품
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>당신의 AI 에이전트가 당신을 속이고 있습니다</strong></summary>
+<summary><h3>당신의 AI 에이전트가 당신을 속이고 있습니다</h3></summary>
 
 
 그 이유는 당신 코드의 2%만 보고 나머지를 추측하기 때문입니다
@@ -577,11 +597,11 @@ CLAUDE.md가 규칙을 설정 → Skills가 전문성을 제공 → Hooks가 품
 
 code-graph-rag는 다르게 작동합니다: 코드를 그냥 넣어주는 대신, 저장소의 실제 맵을 제공합니다:
 
-→ 완전한 그래프를 구축합니다: 어떤 함수가 무엇을 호출하는지, 어떤 클래스가 무엇을 상속받는지, 이것을 건드리면 무엇이 망가지는지
-→ 당신의 테스트를 실행하고 정적 분석이 놓친 실제 호출을 캡처합니다
-→ 5개 언어가 섞인 모노레포: 모든 것에 대한 단일 그래프
-→ Claude Code에 MCP 서버로 연결됩니다
-→ Python, Go, Rust, Java, Node, .NET, PHP, C/C++, Ruby
+→ 완전한 그래프를 구축합니다: 어떤 함수가 무엇을 호출하는지, 어떤 클래스가 무엇을 상속받는지, 이것을 건드리면 무엇이 망가지는지  
+→ 당신의 테스트를 실행하고 정적 분석이 놓친 실제 호출을 캡처합니다  
+→ 5개 언어가 섞인 모노레포: 모든 것에 대한 단일 그래프  
+→ Claude Code에 MCP 서버로 연결됩니다  
+→ Python, Go, Rust, Java, Node, .NET, PHP, C/C++, Ruby  
 → 5분 만에 실행됩니다
 
 추측하는 에이전트와 자신의 위치를 아는 에이전트의 차이입니다.
@@ -593,9 +613,11 @@ code-graph-rag는 다르게 작동합니다: 코드를 그냥 넣어주는 대�
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>리뷰어 관점에서 다시 짠 AI 코드 검증법, 61가지 동작 349쪽을 무료로 풉니다.</strong></summary>
+<summary><h3>리뷰어 관점에서 다시 짠 AI 코드 검증법, 61가지 동작 349쪽을 무료로 풉니다.</h3></summary>
 
 
 AI가 방금 200줄을 건넸습니다. 읽어봤습니다. 다 맞는 것 같습니다.
@@ -623,12 +645,14 @@ AI가 방금 200줄을 건넸습니다. 읽어봤습니다. 다 맞는 것 같�
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>MIT Agentic Coding 강의 이후에 연결해서 보시면 좋은..</strong></summary>
+<summary><h3>MIT Agentic Coding 강의 이후에 연결해서 보시면 좋은..</h3></summary>
 
 
-마이크로소프트의 AI 에이전트 강의...📚
+마이크로소프트의 AI 에이전트 강의...📚  
 [https://microsoft.github.io/ai-agents-for-beginners/translations/ko/](https://microsoft.github.io/ai-agents-for-beginners/translations/ko/)
 
 좋은 이유는 초보자가 AI 에이전트를 제대로 이해하고 직접 만들어 볼 수 있도록 설계되었기 때문!
@@ -648,20 +672,22 @@ AI 에이전트 소개, 프레임워크, 설계 패턴, 컨텍스트 엔지니�
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>2026년에 승진을 이끄는 구분: 루프 vs 그래프</strong></summary>
+<summary><h3>2026년에 승진을 이끄는 구분: 루프 vs 그래프</h3></summary>
 
 
 같은 티켓. 해결하는 두 가지 방법. 잘못 선택하면 주말이 불타오른다
 
-- 루프
-프레임을 설정하는 건 당신. 에이전트가 경로를 소유한다
-초안 답변 -> 정책과 비교 확인 -> 해결됐나? -> 아니, 다시 루프
+- 루프  
+프레임을 설정하는 건 당신. 에이전트가 경로를 소유한다  
+초안 답변 -> 정책과 비교 확인 -> 해결됐나? -> 아니, 다시 루프  
 경로를 아직 모를 때 가장 좋다
-- 그래프
-경로를 그리는 건 당신. 에이전트가 각 노드를 채운다
-티켓 읽기 -> 알려진 문제인가? -> 수정 또는 조사 -> 초안 -> QA 통과? -> 리뷰 통과? -> 보내기 -> 로그
+- 그래프  
+경로를 그리는 건 당신. 에이전트가 각 노드를 채운다  
+티켓 읽기 -> 알려진 문제인가? -> 수정 또는 조사 -> 초안 -> QA 통과? -> 리뷰 통과? -> 보내기 -> 로그  
 매일 같은 파이프라인일 때 가장 좋다
 
 디스크 상에서 어떻게 보이는지:
@@ -688,12 +714,12 @@ AI 에이전트 소개, 프레임워크, 설계 패턴, 컨텍스트 엔지니�
 
 두 형태 모두 같은 회사 브레인에서 읽는다. 이를 건너뛰면 에이전트가 매 실행마다 당신의 비즈니스를 다시 배운다
 
-일이 엉망일 때는 루프로 시작하라
+일이 엉망일 때는 루프로 시작하라  
 안정되면 그래프로 고정하라
 
-> Grok Bot은 기계와 스케줄을 기본으로 제공한다
-Claude는 여전히 루프를 직접 구축하게 만든다
-시작은 느리지만, 그 형태를 소유한다
+> Grok Bot은 기계와 스케줄을 기본으로 제공한다  
+Claude는 여전히 루프를 직접 구축하게 만든다  
+시작은 느리지만, 그 형태를 소유한다  
 > 
 
 당신의 설정은 실제로 어떤 걸 실행 중인가?
@@ -705,9 +731,11 @@ Claude는 여전히 루프를 직접 구축하게 만든다
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>현재 가장 포괄적인 DevOps + 보안 Agent Skill 라이브러리 중 하나입니다.</strong></summary>
+<summary><h3>현재 가장 포괄적인 DevOps + 보안 Agent Skill 라이브러리 중 하나입니다.</h3></summary>
 
 
 바로 사용할 수 있는 Skill 160개 이상. 한 번 설치하면 Claude Code, Codex, Cursor에 인프라 팀의 운영 매뉴얼 한 세트를 추가하는 셈입니다.
@@ -748,9 +776,11 @@ npx skills add bagelhole/DevOps-Security-Agent-Skills \
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>하네스된 LLM 에이전트, 명확히 설명!</strong></summary>
+<summary><h3>하네스된 LLM 에이전트, 명확히 설명!</h3></summary>
 
 
 두 에이전트가 동일한 모델을 동일한 작업에 실행할 수 있고, 예상대로 완료할 수 있습니다. 하지만 그중 하나는 작업을 완료하는 데 거의 3배의 토큰을 소비할 수 있습니다.
@@ -796,9 +826,11 @@ npx skills add bagelhole/DevOps-Security-Agent-Skills \
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>🚨속보: Claude에 Council이라는 새로운 기능이 추가되었습니다.</strong></summary>
+<summary><h3>🚨속보: Claude에 Council이라는 새로운 기능이 추가되었습니다.</h3></summary>
 
 
 Claude를 5명의 AI 고문으로 바꾸어 최종 답변 하나를 내리기 전에 서로 논쟁하게 합니다.
@@ -850,9 +882,11 @@ Claude를 5명의 AI 고문으로 바꾸어 최종 답변 하나를 내리기 �
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>여전히 사람들이 왜 이 에이전트 스킬들을 아직 사용하지 않는지 이해가 안 가 💀</strong></summary>
+<summary><h3>여전히 사람들이 왜 이 에이전트 스킬들을 아직 사용하지 않는지 이해가 안 가 💀</h3></summary>
 
 
 너는 claude code, hermes agent, grok bot을 설치했어. 그럼 이건 AI 에이전트로 원포스 컴퍼니를 만들고 싶다면 반드시 사용해야 할 스킬들이야
@@ -928,9 +962,11 @@ QA 테스터
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>왜 DB 설계가 중요한가. 이유는 간단하다.</strong></summary>
+<summary><h3>왜 DB 설계가 중요한가. 이유는 간단하다.</h3></summary>
 
 
 ①한 번 데이터가 들어가면 설계 변경은 망가뜨리고 다시 만드는 것과 다름없다. 예를 들어 "users 테이블에 전화번호를 하나만 가질 수 있게 했다" → 나중에 여러 개 등록에 대응하려고 하면, 기존 데이터의 이관과 모든 참조 코드의 수정이 발생한다.
@@ -948,9 +984,11 @@ QA 테스터
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>하네스 엔지니어링이란 무엇인가, 시각적으로 설명.</strong></summary>
+<summary><h3>하네스 엔지니어링이란 무엇인가, 시각적으로 설명.</h3></summary>
 
 
 ![image.png](../assets/agents/image-093.png)
@@ -975,29 +1013,31 @@ LLM은 추론하고 텍스트를 생성할 수 있지만, 그것만으로는 신
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>스택에 추가할 만한 5가지 AI 에이전트 스킬:</strong></summary>
+<summary><h3>스택에 추가할 만한 5가지 AI 에이전트 스킬:</h3></summary>
 
 
 AI 에이전트는 당신이 부여한 스킬만큼만 좋습니다.
 
 이 5가지는 에이전트를 더 유용하고, 자기 개선 가능하며, 훨씬 덜 로봇처럼 만들 수 있습니다:
 
-1. ELI5
-복잡한 주제를 간단하고 이해하기 쉬운 설명으로 바꿔줍니다
+1. ELI5  
+복잡한 주제를 간단하고 이해하기 쉬운 설명으로 바꿔줍니다  
 [https://github.com/anthropics/claude-plugins-community/blob/main/eli5/skills/eli5/SKILL.md](https://github.com/anthropics/claude-plugins-community/blob/main/eli5/skills/eli5/SKILL.md)
-2. Show Me
-에이전트가 자신이 하는 일을 시각적으로 설명하도록 도와줍니다
+2. Show Me  
+에이전트가 자신이 하는 일을 시각적으로 설명하도록 도와줍니다  
 [https://github.com/humanlayer/skills/tree/main/plugins/show-me](https://github.com/humanlayer/skills/tree/main/plugins/show-me)
-3. Skill Doctor
-에이전트 스킬을 감사하고 개선 사항을 제안합니다
+3. Skill Doctor  
+에이전트 스킬을 감사하고 개선 사항을 제안합니다  
 [https://github.com/warpdotdev/common-skills/tree/main/.agents/skills/skill-doctor](https://github.com/warpdotdev/common-skills/tree/main/.agents/skills/skill-doctor)
-4. Retro
-에이전트가 과거 작업을 반성하고 실수로부터 배우도록 합니다
+4. Retro  
+에이전트가 과거 작업을 반성하고 실수로부터 배우도록 합니다  
 [https://github.com/mattpocock/skills/blob/main/skills/in-progress/retro/SKILL.md](https://github.com/mattpocock/skills/blob/main/skills/in-progress/retro/SKILL.md)
-5. Unslop
-일반적이고 로봇 같은 AI 스타일 글쓰기를 제거하고 출력을 더 자연스럽게 만듭니다
+5. Unslop  
+일반적이고 로봇 같은 AI 스타일 글쓰기를 제거하고 출력을 더 자연스럽게 만듭니다  
 [https://github.com/cursor/plugins/tree/main/pstack/skills/unslop](https://github.com/cursor/plugins/tree/main/pstack/skills/unslop)
 
 진짜 힘은? 에이전트에게 설명하고, 개선하고, 배우고, 더 잘 소통할 수 있는 스킬을 주는 것입니다.
@@ -1007,9 +1047,11 @@ AI 에이전트는 당신이 부여한 스킬만큼만 좋습니다.
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>AI 에이전트를 구축하려면 이해해야 할 4가지 유형의 메모리가 있습니다:</strong></summary>
+<summary><h3>AI 에이전트를 구축하려면 이해해야 할 4가지 유형의 메모리가 있습니다:</h3></summary>
 
 
 1. 내부 지식: LLM 가중치에 내장된 지식.
@@ -1028,9 +1070,11 @@ LLM에서 멀어질수록 올바른 정보를 검색하고 컨텍스트로 다�
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>Archify라는 멋진 프로젝트를 발견했어요.</strong></summary>
+<summary><h3>Archify라는 멋진 프로젝트를 발견했어요.</h3></summary>
 
 
 큰 프로젝트의 아키텍처를 구축하기 위해 이 스킬 세트를 사용할 수 있습니다.
@@ -1050,9 +1094,11 @@ Archify 스킬 세트를 바로 이 지점에서 사용하게 되는 거예요.
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>만약 하네스 엔지니어링을 배우고 싶다면, 먼저 이런 걸 이해하는 걸로 시작하라고 할게:</strong></summary>
+<summary><h3>만약 하네스 엔지니어링을 배우고 싶다면, 먼저 이런 걸 이해하는 걸로 시작하라고 할게:</h3></summary>
 
 
 모델은 에이전트의 일부일 뿐이야.
@@ -1123,9 +1169,11 @@ Archify 스킬 세트를 바로 이 지점에서 사용하게 되는 거예요.
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>맥이나 로컬 LLM에 관심 있는 사람일수록, Hermes Agent는 공부할 만해.</strong></summary>
+<summary><h3>맥이나 로컬 LLM에 관심 있는 사람일수록, Hermes Agent는 공부할 만해.</h3></summary>
 
 
 ChatGPT나 Claude는, 모델 단독이 아니야.
@@ -1163,9 +1211,11 @@ Hermes Agent는, 무료로 쓸 수 있는 에이전트 하네스로서 꽤 강�
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>내가 본 것 중 가장 깔끔한 그래프 엔지니어링 셋업</strong></summary>
+<summary><h3>내가 본 것 중 가장 깔끔한 그래프 엔지니어링 셋업</h3></summary>
 
 
 하나의 에이전트가 원시 소스에서 클레임을 추출하고, 하나는 그것들이 어떻게 연결되는지 제안하고, 하나는 이미 있는 것과 모든 클레임을 확인해
@@ -1176,28 +1226,28 @@ Hermes Agent는, 무료로 쓸 수 있는 에이전트 하네스로서 꽤 강�
 
 - 스키마
 
-> nodes.yml - 엔티티, 클레임, 소스, 아티팩트, 런
-edges.yml - supersedes
-[ids.md](http://ids.md/) - 엔티티당 하나의 ID, 별칭 나열
+> nodes.yml - 엔티티, 클레임, 소스, 아티팩트, 런  
+edges.yml - supersedes  
+[ids.md](http://ids.md/) - 엔티티당 하나의 ID, 별칭 나열  
 > 
 - 스토어
 
-> log/ - 하루에 하나의 jsonl, 하루가 끝나면 봉인
-blobs/ - sha256 파일명, 무료로 중복 제거
-index.duckdb - 파생된 거, 언제든 삭제해도 안전
+> log/ - 하루에 하나의 jsonl, 하루가 끝나면 봉인  
+blobs/ - sha256 파일명, 무료로 중복 제거  
+index.duckdb - 파생된 거, 언제든 삭제해도 안전  
 > 
 - 라이터들 (.claude/agents/)
 
-> [extractor.md](http://extractor.md/) - 소스 입력, 클레임 출력
-[linker.md](http://linker.md/) - 병합 제안, 절대 병합 안 함
-[checker.md](http://checker.md/) - 지지하거나 반박, 항상 이유와 함께
-[http://write.py](http://write.py/) - 유일한 입력 경로, 검증하고 추가하고 종료
+> [extractor.md](http://extractor.md/) - 소스 입력, 클레임 출력  
+[linker.md](http://linker.md/) - 병합 제안, 절대 병합 안 함  
+[checker.md](http://checker.md/) - 지지하거나 반박, 항상 이유와 함께  
+[http://write.py](http://write.py/) - 유일한 입력 경로, 검증하고 추가하고 종료  
 > 
 - 운영
 
-> queries/ - 질문들, sql로 저장
-merges.pending.jsonl - 인간이 하나하나 승인
-make rebuild - 로그에서 전체 인덱스가 8초 만에 복구
+> queries/ - 질문들, sql로 저장  
+merges.pending.jsonl - 인간이 하나하나 승인  
+make rebuild - 로그에서 전체 인덱스가 8초 만에 복구  
 > 
 
 12,571 클레임 입력. 행 하나도 업데이트된 적 없음
@@ -1211,9 +1261,11 @@ make rebuild - 로그에서 전체 인덱스가 8초 만에 복구
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>진짜 Linux를 써본 사람이라면, 지금 많은 AI Agent 튜토리얼을 보면서 마음이 꽤 복잡할 거예요.</strong></summary>
+<summary><h3>진짜 Linux를 써본 사람이라면, 지금 많은 AI Agent 튜토리얼을 보면서 마음이 꽤 복잡할 거예요.</h3></summary>
 
 
 왜냐하면 알게 되니까, AI는 2026년 거라는 거죠.
@@ -1291,12 +1343,14 @@ Linux 유저들은 반나절 쳐다보고.
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>요즘 하네스에 대한 이야기가 사라진 이유</strong></summary>
+<summary><h3>요즘 하네스에 대한 이야기가 사라진 이유</h3></summary>
 
 
-1. 올해 상반기~한여름까지는
+1. 올해 상반기~한여름까지는  
 하네스 엔지니어링 얘기가 진짜 도배 수준이었음
 2. 프롬프트 다음이 컨텍스트고, 그다음이 하네스다, 모델보다 환경을 짜는 게 핵심이다… 이런 식의 글·강의·영상이 계속 나왔었음
 3. 그런데 지금은 좀 가라앉은 편임. 모델이 좋아지면서 “굳이 복잡한 하네스 계속 만들지 말고 슬슬 걷어내자”, “새 모델 나오면 하네스도 다시 검증해야 한다” 같은 말이 나오기 시작했음
@@ -1305,10 +1359,10 @@ Linux 유저들은 반나절 쳐다보고.
 
 요즘 하네스 만들지 말라는 이야기가 도는데
 
-하네스는 결국
+하네스는 결국  
 그 시점 모델이 부족한 부분을 보완하는 장치라서
 
-새 모델이 나오면
+새 모델이 나오면  
 하네스도 같이 다시 검증하고 업데이트해야 함다
 
 ---
@@ -1316,9 +1370,11 @@ Linux 유저들은 반나절 쳐다보고.
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>GPT-6 Astra를 위한 스킬 및 프롬프트 재고찰</strong></summary>
+<summary><h3>GPT-6 Astra를 위한 스킬 및 프롬프트 재고찰</h3></summary>
 
 
 코딩 에이전트는 많은 발전을 이루었고, 모범 사례도 빠르게 변화하고 있습니다. 예전에는 많은 도움과 지원이 필요했던 작업들이 이제는 더 이상 그렇지 않습니다.
@@ -1359,7 +1415,7 @@ AGENTS.md 파일은 모델이 저장소에서 작동하는 모든 시점에 적�
 
 GPT-6 Astra는 철저하지만, 작업을 어디까지 수행해야 할지 판단하는 데 다소 신중할 수 있습니다. 때로는 작업을 계속 진행하도록 약간의 자극이 필요합니다. AGENTS.md를 사용하여 로컬 테스트 스위트와 같이 안전하다고 판단되는 특정 워크플로에 대한 권한을 부여할 수 있습니다.
 
-> 로컬 테스트는 일회용 픽스처를 사용하며 프로덕션 환경에 접근할 수 없습니다. 테스트를 실행하고, 요청된 변경 사항으로 인해 발생한 오류를 수정한 후, 각 단계에서 승인을 요청할 필요 없이 해당 테스트를 다시 실행할 수 있습니다.
+> 로컬 테스트는 일회용 픽스처를 사용하며 프로덕션 환경에 접근할 수 없습니다. 테스트를 실행하고, 요청된 변경 사항으로 인해 발생한 오류를 수정한 후, 각 단계에서 승인을 요청할 필요 없이 해당 테스트를 다시 실행할 수 있습니다.  
 > 
 
 # **결정 경계**
@@ -1381,9 +1437,11 @@ GPT-5.6 Sol이 요청을 받고 오랫동안 작업을 계속하는 것에 익�
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>🚨하나의 파일만 수정하면 GPT-6 Astra 토큰을 35%+ 직접 절감할 수 있어!</strong></summary>
+<summary><h3>🚨하나의 파일만 수정하면 GPT-6 Astra 토큰을 35%+ 직접 절감할 수 있어!</h3></summary>
 
 
 GPT-6 Astra가 비싼 게 아니라, 네 AGENTS.md가 너무 뚱뚱한 거야
@@ -1392,17 +1450,17 @@ GPT-6 Astra가 비싼 게 아니라, 네 AGENTS.md가 너무 뚱뚱한 거야
 
 수정 후 실제 테스트 데이터가 꽤 세네:
 
-🔹일반 코드 수정 시 5%–15% 절감
-🔹파일 간 긴 작업 시 10%–25% 절감
+🔹일반 코드 수정 시 5%–15% 절감  
+🔹파일 간 긴 작업 시 10%–25% 절감  
 🔹반복 검색, 반복 검증 작업 시 30%–35%+ 절감 가능
 
-GPT-6 Astra 협업 규칙에서 토큰을 진짜 줄이는 건 텍스트가 짧아지는 게 아니라, Agent의 나쁜 습관을 뿌리 뽑는 거야:
-🔸먼저 결론부터, 요구사항 반복 읽지 않기
-🔸이미 확인된 정보는 다시 읽지 않기, 다시 검색하지 않기
-🔸증거가 충분하면 멈추기, 원인 찾으면 바로 수정하기
-🔸이미 승인된 작업은 반복 확인하지 않기
-🔸검증 강도는 이번 위험과 맞추기, “엄격해 보이려고” 테스트 추가하지 않기
-🔸결과물 나오고, 필요 검증 끝나고, 제한사항 명확히 하면 바로 마무리하기
+GPT-6 Astra 협업 규칙에서 토큰을 진짜 줄이는 건 텍스트가 짧아지는 게 아니라, Agent의 나쁜 습관을 뿌리 뽑는 거야:  
+🔸먼저 결론부터, 요구사항 반복 읽지 않기  
+🔸이미 확인된 정보는 다시 읽지 않기, 다시 검색하지 않기  
+🔸증거가 충분하면 멈추기, 원인 찾으면 바로 수정하기  
+🔸이미 승인된 작업은 반복 확인하지 않기  
+🔸검증 강도는 이번 위험과 맞추기, “엄격해 보이려고” 테스트 추가하지 않기  
+🔸결과물 나오고, 필요 검증 끝나고, 제한사항 명확히 하면 바로 마무리하기  
 🔸서브 Agent는 독립적이고 조정 비용보다 이득이 클 때만 분리하기
 
 GPT-6 Astra는 AGENTS.md에 더 민감해. 파일이 완벽할수록, 오래된 규칙에 휘말려 헛돌기 쉬워.
@@ -1416,9 +1474,11 @@ GPT-6 Astra는 AGENTS.md에 더 민감해. 파일이 완벽할수록, 오래된 
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>우리가 기대하는 멀티 Agent 협업은 이런 모습입니다</strong></summary>
+<summary><h3>우리가 기대하는 멀티 Agent 협업은 이런 모습입니다</h3></summary>
 
 
 한 Agent는 기능을 만들고,
@@ -1431,14 +1491,14 @@ GPT-6 Astra는 AGENTS.md에 더 민감해. 파일이 완벽할수록, 오래된 
 
 그런데 Agent가 늘어나면 금방 복잡해집니다.
 
-누가 무엇을 맡았는지,
-이미 처리한 작업은 무엇인지,
-컨텍스트는 어떻게 공유할지,
+누가 무엇을 맡았는지,  
+이미 처리한 작업은 무엇인지,  
+컨텍스트는 어떻게 공유할지,  
 마지막 리뷰는 누가 할지. 🤯
 
 GitHub 7.1만 Star의 Ruflo는 Claude Code와 Codex에 멀티 Agent 오케스트레이션 레이어를 더해주는 프로젝트입니다.
 
-작업을 역할별 Agent에게 나눠 맡기고,
+작업을 역할별 Agent에게 나눠 맡기고,  
 결과·메모리·검증 흐름을 다시 연결합니다.
 
 전체 설치 시 제공하는 구성:
@@ -1457,7 +1517,7 @@ GitHub 7.1만 Star의 Ruflo는 Claude Code와 Codex에 멀티 Agent 오케스트
 
 가볍게 필요한 명령과 역할만 설치하는 플러그인 모드도 있습니다.
 
-다만 전체 CLI 모드는 프로젝트에 `.claude/`, `.claude-flow/`, `CLAUDE.md`, MCP, Hook, 백그라운드 컴포넌트까지 생성합니다.
+다만 전체 CLI 모드는 프로젝트에 `.claude/`, `.claude-flow/`, `CLAUDE.md`, MCP, Hook, 백그라운드 컴포넌트까지 생성합니다.  
 오래 유지할 큰 프로젝트에 더 어울리는 선택입니다. 
 
 [https://github.com/ruvnet/ruflo](https://github.com/ruvnet/ruflo)
@@ -1467,57 +1527,59 @@ GitHub 7.1만 Star의 Ruflo는 Claude Code와 Codex에 멀티 Agent 오케스트
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>AI 엔지니어링에서 무엇을 만들어야 할지 계속 묻는 사람들을 위해.</strong></summary>
+<summary><h3>AI 엔지니어링에서 무엇을 만들어야 할지 계속 묻는 사람들을 위해.</h3></summary>
 
 
-➣  자체 컨텍스트 어셈블러 구축
+➣  자체 컨텍스트 어셈블러 구축  
 (토큰 예산 메모리 + 검색 + 도구)
 
-➣  자체 검색 스택 구축
+➣  자체 검색 스택 구축  
 (청커 + BM25 + 밀도 검색 + 재순위)
 
-➣  자체 모델 라우터 구축
+➣  자체 모델 라우터 구축  
 (비용/지연/품질 라우팅 + 대체)
 
-➣  자체 시맨틱 캐시 구축
+➣  자체 시맨틱 캐시 구축  
 (임베딩 유사도 + 적중률 추적)
 
-➣  자체 에이전트 오케스트레이터 구축
+➣  자체 에이전트 오케스트레이터 구축  
 (결정론적 상태 머신, LangChain 없음)
 
-➣  자체 MCP 서버와 클라이언트 구축
+➣  자체 MCP 서버와 클라이언트 구축  
 (원시 JSON-RPC, SDK 없음)
 
-➣  자체 멀티 에이전트 합의 구축
+➣  자체 멀티 에이전트 합의 구축  
 (가중 투표 + 심판 + 에스컬레이션)
 
-➣  자체 샌드박스 도구 실행기 구축
+➣  자체 샌드박스 도구 실행기 구축  
 (격리 실행 + 자원 제한)
 
-➣  자체 가드레일 미들웨어 구축
+➣  자체 가드레일 미들웨어 구축  
 (주입 탐지 + PII 편집)
 
-➣  자체 지속 워크플로 엔진 구축
+➣  자체 지속 워크플로 엔진 구축  
 (체크포인트/재개, 미니-Temporal)
 
-➣  자체 스트리밍 프록시 구축
+➣  자체 스트리밍 프록시 구축  
 (SSE + TTFT 및 ITL 메트릭)
 
-➣  자체 LLM 트레이서 구축
+➣  자체 LLM 트레이서 구축  
 (매 홉마다 OpenTelemetry 스타일 스팬)
 
-➣  자체 평가 하네스 구축
+➣  자체 평가 하네스 구축  
 (궤적 등급 + CI 회귀 게이트)
 
-➣  자체 프롬프트 레지스트리 구축
+➣  자체 프롬프트 레지스트리 구축  
 (버전 관리 + A/B 라우팅 + 롤백)
 
-➣  자체 데이터 플라이휠 구축
+➣  자체 데이터 플라이휠 구축  
 (피드백 → 합성 데이터 → LoRA 루프)
 
-3개 선택. 처음부터 구축. 모든 결정 문서화.
+3개 선택. 처음부터 구축. 모든 결정 문서화.  
 대부분의 사람들은 라이브러리를 가져옵니다.
 
 빌더들은 그 아래에서 무슨 일이 일어나는지 이해합니다.
@@ -1527,24 +1589,26 @@ GitHub 7.1만 Star의 Ruflo는 Claude Code와 Codex에 멀티 Agent 오케스트
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>AI 엔지니어링 분야에 진입하려 한다면, 제가 우선적으로 학습할 것을 추천하는 주제들은 다음과 같습니다:</strong></summary>
+<summary><h3>AI 엔지니어링 분야에 진입하려 한다면, 제가 우선적으로 학습할 것을 추천하는 주제들은 다음과 같습니다:</h3></summary>
 
 
-- RAG — Retrieval-Augmented Generation
-• Embeddings & Vector Databases
-• Quantization — AWQ, GPTQ, GGUF, FP16, INT8, INT4
-• RAG Evaluation — RAGAS
-• Model Routing & Fallbacks
-• Observability — logs, metrics & traces
-• MCP — Model Context Protocol
-• AI Agents & Agentic Patterns
-• Memory & Context Management
-• Guardrails & deterministic input/output validation
-• Inference Engines — vLLM, TensorRT, SGLang
-• Load Balancing & Queuing
-• Local vs Cloud Inference
+- RAG — Retrieval-Augmented Generation  
+• Embeddings & Vector Databases  
+• Quantization — AWQ, GPTQ, GGUF, FP16, INT8, INT4  
+• RAG Evaluation — RAGAS  
+• Model Routing & Fallbacks  
+• Observability — logs, metrics & traces  
+• MCP — Model Context Protocol  
+• AI Agents & Agentic Patterns  
+• Memory & Context Management  
+• Guardrails & deterministic input/output validation  
+• Inference Engines — vLLM, TensorRT, SGLang  
+• Load Balancing & Queuing  
+• Local vs Cloud Inference  
 • Backend Fundamentals & System Design
 
 제가 보기에 가장 큰 실수는 프롬프팅과 LLM API 호출에만 집중하는 것입니다.
@@ -1556,9 +1620,11 @@ AI 엔지니어링은 모델 주위에 안정적이고 확장 가능한 시스�
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>만약 에이전트에 대해 배우기 시작하고 싶다면, 대략 이런 순서로 진행하는 게 좋을 것 같아요:</strong></summary>
+<summary><h3>만약 에이전트에 대해 배우기 시작하고 싶다면, 대략 이런 순서로 진행하는 게 좋을 것 같아요:</h3></summary>
 
 
 1. 에이전트가 뭔지 이해하기: 도구를 사용할 수 있고, 작업을 완료할 때까지 단계를 반복할 수 있는 모델이에요.
@@ -1576,9 +1642,11 @@ AI 엔지니어링은 모델 주위에 안정적이고 확장 가능한 시스�
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>에이전트로 HTML 설명 자료를 만들 때, CLAUDE.md / AGENTS.md에 이 지침을 추가하면 한 단계 업그레이드할 수 있습니다.</strong></summary>
+<summary><h3>에이전트로 HTML 설명 자료를 만들 때, CLAUDE.md / AGENTS.md에 이 지침을 추가하면 한 단계 업그레이드할 수 있습니다.</h3></summary>
 
 
 기본적으로 AI 모델은 수많은 랜딩 페이지로 훈련됩니다. 즉, 그들 고유의 놀라운 SVG 다이어그램이나 브라우저 내 JavaScript 기능에 대해 알지 못합니다.
@@ -1587,8 +1655,8 @@ AI 엔지니어링은 모델 주위에 안정적이고 확장 가능한 시스�
 
 사람들은 보통 텍스트 덩어리를 읽는 걸 좋아하지 않습니다. 따라서 만드는 모든 HTML 페이지는 CSS와 브라우저 내 JavaScript가 제공하는 전체 창의적 힘을 활용해 시각 요소를 일등 시민으로 통합해야 합니다.
 
-- 아이디어를 설명하기 위해 다이어그램을 도입하세요. 아키텍처 다이어그램, 플로우차트, 애니메이션 가이드 워크쓰루, 시퀀스 다이어그램, 비교 매트릭스가 도움이 될 수 있습니다.
-• 흐름을 애니메이션화하려고 노력하세요. 페이지가 흐름을 설명한다면, 그 흐름을 시각화하기 쉽게 재생 가능하게 만드세요.
+- 아이디어를 설명하기 위해 다이어그램을 도입하세요. 아키텍처 다이어그램, 플로우차트, 애니메이션 가이드 워크쓰루, 시퀀스 다이어그램, 비교 매트릭스가 도움이 될 수 있습니다.  
+• 흐름을 애니메이션화하려고 노력하세요. 페이지가 흐름을 설명한다면, 그 흐름을 시각화하기 쉽게 재생 가능하게 만드세요.  
 • 공유 전에 페이지를 스크린샷으로 찍어 확인하세요. 넘치는 레이블과 교차된 선이 일반적인 결함입니다.
 
 ---
@@ -1596,9 +1664,11 @@ AI 엔지니어링은 모델 주위에 안정적이고 확장 가능한 시스�
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>CloudFlare, AI 에이전트들을 위한 보안 기술을 출시했어. 바로 붙여넣자</strong></summary>
+<summary><h3>CloudFlare, AI 에이전트들을 위한 보안 기술을 출시했어. 바로 붙여넣자</h3></summary>
 
 
 [https://github.com/cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill)
@@ -1608,9 +1678,11 @@ AI 엔지니어링은 모델 주위에 안정적이고 확장 가능한 시스�
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>제 AGENTS.md 상단에:</strong></summary>
+<summary><h3>제 AGENTS.md 상단에:</h3></summary>
 
 
 - 코드를 작성한 후에 절대 단위 테스트를 작성하지 마십시오.
@@ -1626,9 +1698,11 @@ AI 엔지니어링은 모델 주위에 안정적이고 확장 가능한 시스�
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>이제 단위 테스트는 대부분 무의미하다고 생각합니다.</strong></summary>
+<summary><h3>이제 단위 테스트는 대부분 무의미하다고 생각합니다.</h3></summary>
 
 
 AI가 단위 테스트를 미친 듯이 지나치게 복잡하게 만들고, 코드 라인 수(LOC)를 몇 배나 늘려버리며, 바람직하지 않은 방식으로 동작을 고정시킵니다. 100% "커버리지"를 달성한 거대한 쓰레기 PR들이 프로덕션 시스템을 망가뜨리는 일이 실제로 발생하죠.
@@ -1646,9 +1720,11 @@ E2E(End-to-End) 동작이 중요한 거예요. 쓸모없는 단위 테스트를 
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>요즘 클로드에 연결해서 잘 쓰는 것 : playMCP</strong></summary>
+<summary><h3>요즘 클로드에 연결해서 잘 쓰는 것 : playMCP</h3></summary>
 
 
 카카오에서 만든 MCP인데 카카오맵부터 택배 추적, ktx 시간표, 유튜브 분석, 맛집 찾기, 사람인 등등 일상에서 쓰면 편한게 많음 대충 쉽게 말해서 해당 서비스랑 연결해서 정보를 받아올수 있는건데요 예를 들어 그냥 맛집 찾아달라고 하면
@@ -1672,24 +1748,26 @@ E2E(End-to-End) 동작이 중요한 거예요. 쓸모없는 단위 테스트를 
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>개인용 AI에이전트가 퍼지면 퍼질수록</strong></summary>
+<summary><h3>개인용 AI에이전트가 퍼지면 퍼질수록</h3></summary>
 
 
-1. 은행 예적금
+1. 은행 예적금  
 → 사용자가 무조건 이자 많이 주는 곳으로 이동
-2. 카드사
+2. 카드사  
 → 본인 소비패턴 분석해서 가장 혜택 좋은 카드로 이동
-3. 보험사
-→ 본인 나이/가족력/건강상태 체크해서 가장 저렴하고 보장 좋은 보험으로 이동할 가능성
+3. 보험사  
+→ 본인 나이/가족력/건강상태 체크해서 가장 저렴하고 보장 좋은 보험으로 이동할 가능성  
 → 여기에 유전자 검사나 건강검진 결과 같은 구체적인 데이터까지 합쳐지면?
-4. 예매/예약 같은 서비스
-→ 광클 같은 거 필요 없이 누구의 AI에이전트가 더 빠르게 예매할 것이냐로 경쟁 승부가 갈릴 것
+4. 예매/예약 같은 서비스  
+→ 광클 같은 거 필요 없이 누구의 AI에이전트가 더 빠르게 예매할 것이냐로 경쟁 승부가 갈릴 것  
 → 암표상들 망할지도?
-5. AI에이전트 시대에도 진짜 유효할 데이터는?
-→ 사람의 데이터. 숫자로 표현할 수 없는 것들. 정량화하기 어려운 진짜 경험들.
-→ 사람의 경험, 사람의 직관, 사람의 주관적 무언가가 굉장히 소중해질 것.
+5. AI에이전트 시대에도 진짜 유효할 데이터는?  
+→ 사람의 데이터. 숫자로 표현할 수 없는 것들. 정량화하기 어려운 진짜 경험들.  
+→ 사람의 경험, 사람의 직관, 사람의 주관적 무언가가 굉장히 소중해질 것.  
 → 이걸 가진 곳은 어딜까? 가질 곳은 어딜까?
 
 한국에 들어오면 난리나겠다.
@@ -1699,9 +1777,11 @@ E2E(End-to-End) 동작이 중요한 거예요. 쓸모없는 단위 테스트를 
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>𝗠𝗖𝗣 𝘃𝘴 𝗔𝗣𝗜.</strong></summary>
+<summary><h3>𝗠𝗖𝗣 𝘃𝘴 𝗔𝗣𝗜.</h3></summary>
 
 
 𝗔𝗣𝗜는 소프트웨어 시스템이 특정 엔드포인트, 요청, 응답을 통해 어떻게 통신하는지를 정의합니다. 이는 애플리케이션에 다른 시스템의 데이터에 접근하거나 기능을 트리거하는 구조화된 방법을 제공합니다.
@@ -1720,4 +1800,6 @@ Oracle의 가이드는 비동기 작업, 워커, 지속 가능한 상태, 예측
 
 ![image.png](../assets/agents/image-100.png)
 </details>
+
+---
 

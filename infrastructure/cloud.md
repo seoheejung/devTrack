@@ -4,7 +4,7 @@
 
 
 <details>
-<summary><strong>Cloud Concepts</strong></summary>
+<summary><h3>Cloud Concepts</h3></summary>
 
 
 - Compute (VMs) - 🟢 Easy
@@ -31,52 +31,54 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>클라우드 재해 복구 전략</strong></summary>
+<summary><h3>클라우드 재해 복구 전략</h3></summary>
 
 
-모든 DR 전략은 다음을 확정짓는 것으로 시작합니다:
-𝟭. 𝗥𝗧𝗢 (𝗥𝗲𝗰𝗼𝘃𝗲𝗿𝘆 𝗧𝗶𝗺𝗲 𝗢𝗯𝗷𝗲𝗰𝘁𝗶𝘃𝗲):
+모든 DR 전략은 다음을 확정짓는 것으로 시작합니다:  
+𝟭. 𝗥𝗧𝗢 (𝗥𝗲𝗰𝗼𝘃𝗲𝗿𝘆 𝗧𝗶𝗺𝗲 𝗢𝗯𝗷𝗲𝗰𝘁𝗶𝘃𝗲):  
 허용할 수 있는 다운타임은 얼마나 될까?
 
-𝟮. 𝗥𝗣𝗢 (𝗥𝗲𝗰𝗼𝘃𝗲𝗿𝘆 𝗣𝗼𝗶𝗻𝘁 𝗢𝗯𝗷𝗲𝗰𝘁𝗶𝘃𝗲):
+𝟮. 𝗥𝗣𝗢 (𝗥𝗲𝗰𝗼𝘃𝗲𝗿𝘆 𝗣𝗼𝗶𝗻𝘁 𝗢𝗯𝗷𝗲𝗰𝘁𝗶𝘃𝗲):  
 허용할 수 있는 데이터 손실은 얼마나 될까?
 
-재해 복구 전략:
-𝟭. 𝗕𝗮𝗰𝗸𝘂𝗽 𝗮𝗻𝗱 𝗥𝗲𝘀𝘁𝗼𝗿𝗲:
+재해 복구 전략:  
+𝟭. 𝗕𝗮𝗰𝗸𝘂𝗽 𝗮𝗻𝗱 𝗥𝗲𝘀𝘁𝗼𝗿𝗲:  
 재해 발생 시 복구를 위해 주기적으로 데이터와 시스템의 복사본을 생성하는 방식
 
-전형적으로,
-𝘙𝘛𝘖: 몇 시간에서 며칠
+전형적으로,  
+𝘙𝘛𝘖: 몇 시간에서 며칠  
 𝘙𝘗𝘖: 몇 시간에서 마지막 성공적인 백업까지 다양할 수 있음
 
-𝟮. 𝗣𝗶𝗹𝗼𝘁 𝗟𝗶𝗴𝗵𝘁:
+𝟮. 𝗣𝗶𝗹𝗼𝘁 𝗟𝗶𝗴𝗵𝘁:  
 재해 발생 시 인프라를 빠르게 확장하기 위해 필수 구성 요소를 대기 상태로 유지하는 방식
 
-전형적으로,
-𝘙𝘛𝘖: 몇 분에서 몇 시간
+전형적으로,  
+𝘙𝘛𝘖: 몇 분에서 몇 시간  
 𝘙𝘗𝘖: 데이터 동기화 빈도
 
-𝟯. 𝗪𝗮𝗿𝗺 𝗦𝘁𝗮𝗻𝗱𝗯𝘆:
+𝟯. 𝗪𝗮𝗿𝗺 𝗦𝘁𝗮𝗻𝗱𝗯𝘆:  
 복구 중 다운타임을 최소화하기 위해 최신 데이터로 부분적으로 운영 가능한 환경을 준비하는 방식
 
-전형적으로,
-𝘙𝘛𝘖: 몇 분에서 몇 시간
+전형적으로,  
+𝘙𝘛𝘖: 몇 분에서 몇 시간  
 𝘙𝘗𝘖: 지난 몇 분 또는 몇 시간 이내
 
-𝟰. 𝗛𝗼𝘁 𝗦𝗶𝘁𝗲 / 𝗠𝘂𝗹𝘁𝗶 𝗦𝗶𝘁𝗲:
+𝟰. 𝗛𝗼𝘁 𝗦𝗶𝘁𝗲 / 𝗠𝘂𝗹𝘁𝗶 𝗦𝗶𝘁𝗲:  
 기본 시스템과 병렬로 완전히 중복된 활성 프로덕션 환경을 운영하여 지속적인 비즈니스 운영을 보장하는 방식
 
-전형적으로,
-𝘙𝘛𝘖: 거의 0 또는 몇 분
+전형적으로,  
+𝘙𝘛𝘖: 거의 0 또는 몇 분  
 𝘙𝘗𝘖: 매우 최소, 종종 지난 몇 초 이내
 
 55K+가 제 DevOps와 클라우드 뉴스레터를 읽었습니다: [https://techopsexamples.com/subscribe](https://techopsexamples.com/subscribe)
 
 'The Practical Linux Guide for DevOps Engineers'를 받으려면 구독하세요
 
-다루는 내용:
+다루는 내용:  
 DevOps, Cloud, Kubernetes, IaC, GitOps, MLOps
 
 ![image.png](../assets/cloud/image-017.png)
@@ -84,9 +86,11 @@ DevOps, Cloud, Kubernetes, IaC, GitOps, MLOps
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>클라우드 제공업체 학습 난이도</strong></summary>
+<summary><h3>클라우드 제공업체 학습 난이도</h3></summary>
 
 
 🟢 쉬움
@@ -111,9 +115,11 @@ DevOps, Cloud, Kubernetes, IaC, GitOps, MLOps
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>2026년에 쓸모없어지는 5가지 클라우드 인증</strong></summary>
+<summary><h3>2026년에 쓸모없어지는 5가지 클라우드 인증</h3></summary>
 
 
 AI가 대신 통과해줄 수 있는 배지를 쫓는 걸 멈춰.
@@ -145,9 +151,11 @@ AI가 대신 통과해줄 수 있는 배지를 쫓는 걸 멈춰.
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>아직 AWS에서 무엇을 구축할지 과도하게 고민하고 계신가요?</strong></summary>
+<summary><h3>아직 AWS에서 무엇을 구축할지 과도하게 고민하고 계신가요?</h3></summary>
 
 
 - 정적 웹사이트 (S3 + CloudFront)
@@ -164,9 +172,11 @@ AI가 대신 통과해줄 수 있는 배지를 쫓는 걸 멈춰.
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>AWS 실제로 사용하게 되는 것들</strong></summary>
+<summary><h3>AWS 실제로 사용하게 되는 것들</h3></summary>
 
 
 1. EC2 → 서버 실행 🖥️
@@ -186,9 +196,11 @@ AI가 대신 통과해줄 수 있는 배지를 쫓는 걸 멈춰.
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>팀들이 저지르는 25가지 인프라 실수</strong></summary>
+<summary><h3>팀들이 저지르는 25가지 인프라 실수</h3></summary>
 
 
 1. 백업 전략 없음.
@@ -220,9 +232,11 @@ AI가 대신 통과해줄 수 있는 배지를 쫓는 걸 멈춰.
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>포트 포워딩</strong></summary>
+<summary><h3>포트 포워딩</h3></summary>
 
 
 포트 포워딩은 내가 거의 매일 의지하게 되는 그런 트릭 중 하나입니다. 예를 들어, 내 마지막 기능 - 로컬 머신에서 원격 쿠버네티스 클러스터에 접근하기 -에서는 끝까지 포트 포워딩이었습니다. 이 기술을 익히는 것을 강력히 추천합니다. 나중에 나에게 감사하게 될 겁니다.
@@ -237,9 +251,11 @@ AI가 대신 통과해줄 수 있는 배지를 쫓는 걸 멈춰.
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>엔지니어가 알고 싶어 하는 AWS 서비스 5선</strong></summary>
+<summary><h3>엔지니어가 알고 싶어 하는 AWS 서비스 5선</h3></summary>
 
 
 EC2 → 가상 서버 
@@ -257,9 +273,11 @@ AWS의 기본은 먼저 이 5가지.
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>엔지니어가 이해하고 싶은 클라우드 용어 5선</strong></summary>
+<summary><h3>엔지니어가 이해하고 싶은 클라우드 용어 5선</h3></summary>
 
 
 IaaS → 서버를 빌리다
@@ -277,9 +295,11 @@ AZ → 장애 대책용 거점
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>제 전체 2026 스택은 클라우드플레어에서 실행되며, 이를 위해 매달 5달러를 지불합니다</strong></summary>
+<summary><h3>제 전체 2026 스택은 클라우드플레어에서 실행되며, 이를 위해 매달 5달러를 지불합니다</h3></summary>
 
 
 - workers (컴퓨트)
@@ -293,17 +313,19 @@ AZ → 장애 대책용 거점
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>사이드 프로젝트 운영비 때문에 접어본 적 있다면 이 조합을 참고하세요</strong></summary>
+<summary><h3>사이드 프로젝트 운영비 때문에 접어본 적 있다면 이 조합을 참고하세요</h3></summary>
 
 
-혼자 만든 해외 송금 비교 서비스인데
+혼자 만든 해외 송금 비교 서비스인데  
 운영비가 도메인값 빼면 사실상 0원이라는 사람이 쓴 조합 구성
 
-① Next.js + Vercel - 화면·서버를 한 프로젝트에서 → 무료 티어로 배포
-② Supabase 무료 티어 - DB·로그인·실시간 업데이트 → 서버비 0
-③ Puppeteer + Cheerio - 업체 사이트에서 환율·수수료 수집 → 오픈소스
+① Next.js + Vercel - 화면·서버를 한 프로젝트에서 → 무료 티어로 배포  
+② Supabase 무료 티어 - DB·로그인·실시간 업데이트 → 서버비 0  
+③ Puppeteer + Cheerio - 업체 사이트에서 환율·수수료 수집 → 오픈소스  
 ④ GitHub Actions - 그 수집을 매시간 자동 실행 → 추가 비용 0
 
 - 유료로 돌아가는 건 AI 분석뿐이라 회원 전용으로 빼서 비용 새는 걸 막았다고 함
@@ -311,4 +333,6 @@ AZ → 장애 대책용 거점
 
 ![image.png](../assets/cloud/image-019.png)
 </details>
+
+---
 

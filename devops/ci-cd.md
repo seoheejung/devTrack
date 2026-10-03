@@ -4,7 +4,7 @@
 
 
 <details>
-<summary><strong>CI/CD Concepts</strong></summary>
+<summary><h3>CI/CD Concepts</h3></summary>
 
 
 - Build pipelines - 🟢 Easy
@@ -23,32 +23,34 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>훌륭한 데브옵스/SRE 엔지니어가 되고 싶으신가요?</strong></summary>
+<summary><h3>훌륭한 데브옵스/SRE 엔지니어가 되고 싶으신가요?</h3></summary>
 
 
-1. 리눅스 및 시스템 기초
+1. 리눅스 및 시스템 기초  
 프로세스, 메모리, 파일 시스템, 네트워킹, CLI를 이용한 디버깅 등 실제 시스템 작동 방식
-2. 네트워킹
+2. 네트워킹  
 DNS, HTTP/HTTPS, TCP/IP, 포트, 로드 밸런싱, 실제 트래픽 흐름 방식
-3. 클라우드 (하나를 골라서 깊이 파고들어 보세요)
+3. 클라우드 (하나를 골라서 깊이 파고들어 보세요)  
 AWS/GCP/Azure, IAM, VPC, 스케일링, 스토리지 - 서비스가 아니라 기본 원리를 이해해야 합니다.
-4. 컨테이너
+4. 컨테이너  
 Docker, 이미지, 네트워킹, 볼륨, 컨테이너를 실행할 때 실제로 일어나는 일들
-5. 쿠버네티스
+5. 쿠버네티스  
 Pod, 스케줄링, 서비스, 배포, 디버깅 등 단순히 kubectl 명령어만 사용하는 것이 아닙니다.
-6. 코드형 인프라(Infrastructure as Code)
+6. 코드형 인프라(Infrastructure as Code)  
 Terraform이나 유사 도구를 사용하여 상태, 모듈 등을 관리하고, 인프라를 제대로 관리하세요. 수동 클릭은 필요 없습니다.
-7. CI/CD
+7. CI/CD  
 파이프라인, 빌드, 배포, 롤백, 코드가 프로덕션 환경에 도달하는 과정
-8. 관찰 가능성
+8. 관찰 가능성  
 로그, 메트릭, 추적, 알림, 문제 발생 시 디버깅 방법
-9. 신뢰성
+9. 신뢰성  
 타임아웃, 재시도, 속도 제한, 오류 처리, 시스템 안정화
-10. 비용 및 효율성
+10. 비용 및 효율성  
 기본 재무 운영, 청구서 이해, 낭비 제거, 인프라 사용 최적화
-11. 공학적 사고
+11. 공학적 사고  
 도구만 쫓지 말고 시스템을 이해하고, 고장 원인과 해결 방법을 알아라.
 
 ---
@@ -56,16 +58,18 @@ Terraform이나 유사 도구를 사용하여 상태, 모듈 등을 관리하고
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>Git Flow</strong></summary>
+<summary><h3>Git Flow</h3></summary>
 
 
-main → 프로덕션
+main → 프로덕션  
 develop → 작업 브랜치
 
-feature → 빌드
-release → 안정화
+feature → 빌드  
+release → 안정화  
 hotfix → 프로덕션 빠르게 수정
 
 ![image.png](../assets/ci-cd/image-020.png)
@@ -75,37 +79,39 @@ hotfix → 프로덕션 빠르게 수정
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>GitHub -&gt; Jenkins -&gt; Docker -&gt; Kubernetes -&gt; 완전한 DevOps 워크플로우</strong></summary>
+<summary><h3>GitHub -&gt; Jenkins -&gt; Docker -&gt; Kubernetes -&gt; 완전한 DevOps 워크플로우</h3></summary>
 
 
 이어그램에 표시된 𝐞𝐧𝐝-𝐭𝐨-𝐞𝐧𝐝 𝐂𝐈/𝐂𝐃 𝐟𝐥𝐨𝐰의 간단한 분해입니다
 
-𝐂𝐈 𝐏𝐢𝐩𝐞𝐥𝐢𝐧𝐞 (𝐁𝐮𝐢𝐥𝐝 & 𝐒𝐜𝐚𝐧)
-‣ 개발자가 GitHub에 코드를 푸시합니다
-‣ Jenkins CI가 코드를 가져와 파이프라인을 트리거합니다
-‣ OWASP Dependency Check가 취약한 라이브러리를 스캔합니다
-‣ SonarQube가 코드 품질 및 보안 분석을 수행합니다
-‣ Docker가 이미지를 빌드합니다
-‣ Trivy가 이미지의 취약점을 스캔합니다
+𝐂𝐈 𝐏𝐢𝐩𝐞𝐥𝐢𝐧𝐞 (𝐁𝐮𝐢𝐥𝐝 & 𝐒𝐜𝐚𝐧)  
+‣ 개발자가 GitHub에 코드를 푸시합니다  
+‣ Jenkins CI가 코드를 가져와 파이프라인을 트리거합니다  
+‣ OWASP Dependency Check가 취약한 라이브러리를 스캔합니다  
+‣ SonarQube가 코드 품질 및 보안 분석을 수행합니다  
+‣ Docker가 이미지를 빌드합니다  
+‣ Trivy가 이미지의 취약점을 스캔합니다  
 ‣ 이미지가 레지스트리에 푸시됩니다
 
-𝐂𝐃 𝐏𝐢𝐩𝐞𝐥𝐢𝐧𝐞 (𝐃𝐞𝐩𝐥𝐨𝐲)
-‣ Jenkins CD가 이미지 버전을 업데이트합니다
-‣ 변경 사항이 GitHub로 다시 푸시됩니다
-‣ ArgoCD가 최신 변경 사항을 가져옵니다
+𝐂𝐃 𝐏𝐢𝐩𝐞𝐥𝐢𝐧𝐞 (𝐃𝐞𝐩𝐥𝐨𝐲)  
+‣ Jenkins CD가 이미지 버전을 업데이트합니다  
+‣ 변경 사항이 GitHub로 다시 푸시됩니다  
+‣ ArgoCD가 최신 변경 사항을 가져옵니다  
 ‣ 애플리케이션을 Kubernetes에 배포합니다
 
-𝐌𝐨𝐧𝐢𝐭𝐨𝐫𝐢𝐧𝐠 & 𝐀𝐥𝐞𝐫𝐭𝐬
-‣ Prometheus가 메트릭을 수집합니다
-‣ Grafana가 대시보드를 시각화합니다
+𝐌𝐨𝐧𝐢𝐭𝐨𝐫𝐢𝐧𝐠 & 𝐀𝐥𝐞𝐫𝐭𝐬  
+‣ Prometheus가 메트릭을 수집합니다  
+‣ Grafana가 대시보드를 시각화합니다  
 ‣ 파이프라인 상태에 대한 이메일 알림
 
-𝐓𝐡𝐢𝐬 𝐢𝐬 𝐰𝐡𝐚𝐭 𝐜𝐨𝐦𝐩𝐚𝐧𝐢𝐞𝐬 𝐞𝐱𝐩𝐞𝐜𝐭 𝐲𝐨𝐮 𝐭𝐨 𝐮𝐧𝐝𝐞𝐫𝐬𝐭𝐚𝐧𝐝:
-‣ CI (build + scan)
-‣ CD (deploy + automate)
-‣ Security (shift-left approach)
+𝐓𝐡𝐢𝐬 𝐢𝐬 𝐰𝐡𝐚𝐭 𝐜𝐨𝐦𝐩𝐚𝐧𝐢𝐞𝐬 𝐞𝐱𝐩𝐞𝐜𝐭 𝐲𝐨𝐮 𝐭𝐨 𝐮𝐧𝐝𝐞𝐫𝐬𝐭𝐚𝐧𝐝:  
+‣ CI (build + scan)  
+‣ CD (deploy + automate)  
+‣ Security (shift-left approach)  
 ‣ Monitoring (production visibility)
 
 ![image.png](../assets/ci-cd/image-021.png)
@@ -115,9 +121,11 @@ hotfix → 프로덕션 빠르게 수정
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>🧠 Git 기술 - 난이도 분해 🔥</strong></summary>
+<summary><h3>🧠 Git 기술 - 난이도 분해 🔥</h3></summary>
 
 
 ➕ git add -> 🟢 쉬움
@@ -169,16 +177,18 @@ hotfix → 프로덕션 빠르게 수정
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>Github 다이어그램 변환</strong></summary>
+<summary><h3>Github 다이어그램 변환</h3></summary>
 
 
 Github의 URL을 단 1글자만 수정하면, 복잡한 리포지토리 구조가 순식간에 트리 다이어그램으로 바뀌는 「**gitdiagram**」이 너무 대단해
 
-・로그인 불필요, URL만 수정하면 끝
-・파일의 의존 관계가 깔끔한 트리 다이어그램으로 표시
-・순식간에 코드의 전체 구조가 시각화됨
+・로그인 불필요, URL만 수정하면 끝  
+・파일의 의존 관계가 깔끔한 트리 다이어그램으로 표시  
+・순식간에 코드의 전체 구조가 시각화됨  
 ・공부하고 싶은 저기 저 리포지토리 내용도 한눈에 파악
 
 「타인의 코드, 어디부터 읽기 시작해야 할지 모르겠어」라는 고민이 해결됨
@@ -194,9 +204,11 @@ https://x.com/shiba_program/status/2047606145909760385
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>푸시 전에 GitHub Actions 워크플로우를 로컬에서 테스트합니다</strong></summary>
+<summary><h3>푸시 전에 GitHub Actions 워크플로우를 로컬에서 테스트합니다</h3></summary>
 
 
 https://github.com/bahdotsh/wrkflw
@@ -314,9 +326,11 @@ wrkflw run .github/workflows/ci.yml || exit 1
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>터미널 하나로 단일 머신 진단 완료, 더 이상 htop, iostat, nettop 같은 걸 잔뜩 열 필요 없음.</strong></summary>
+<summary><h3>터미널 하나로 단일 머신 진단 완료, 더 이상 htop, iostat, nettop 같은 걸 잔뜩 열 필요 없음.</h3></summary>
 
 
 Rust로 작성된 시스템 진단 TUI, CPU, 메모리, 디스크, GPU, 전원, 서비스, 네트워크 등을 커버하는 12개 탭 페이지, macOS와 Linux 모두 실행 가능. Insights 페이지는 스왑 떨림, 좀비 프로세스, 디스크 꽉 찬 거 같은 이상을 자동으로 감지해서, 아주 쉬운 말로 무슨 문제가 생겼는지 알려줌. Timeline 페이지는 타임라인을 드래그해서 전체 세션의 임의 시점 상태를 되돌아볼 수 있음. 읽기 전용, 프로세스 안 죽이고 설정도 안 바꿈, 새로고침할 때 CPU 점유율 0.5% 이하로 억제.
@@ -498,9 +512,11 @@ syswatch--tab procs# 특정 탭으로 시작
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>Git 팁: 아무도 말해주지 않지만 모두가 필요한 팁</strong></summary>
+<summary><h3>Git 팁: 아무도 말해주지 않지만 모두가 필요한 팁</h3></summary>
 
 
 - git bisect를 사용해 문제 발생 커밋 찾기
@@ -519,17 +535,19 @@ syswatch--tab procs# 특정 탭으로 시작
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>시스템 디자인 시리즈 - CI/CD &amp; 배포</strong></summary>
+<summary><h3>시스템 디자인 시리즈 - CI/CD &amp; 배포</h3></summary>
 
 
 **CI/CD가 실제로 의미하는 것:**
 
-수동 배포는 예측 불가능하게 실패합니다.
+수동 배포는 예측 불가능하게 실패합니다.  
 자동화된 파이프라인은 매번 같은 방식으로 실패합니다. 예측 가능한 실패는 고칠 수 있는 실패입니다.
 
-CI는 프로덕션 전에 깨진 코드를 잡아냅니다.
+CI는 프로덕션 전에 깨진 코드를 잡아냅니다.  
 CD는 테스트가 통과하면 자동으로 배포합니다.
 
 시작하기: GitHub Actions + Docker.
@@ -540,7 +558,7 @@ CD는 테스트가 통과하면 자동으로 배포합니다.
 
 테스트 실행 → Docker 이미지 빌드 → 스테이징에 배포.
 
-GitHub Secrets가 자격 증명을 안전하게 유지합니다.
+GitHub Secrets가 자격 증명을 안전하게 유지합니다.  
 코드에 절대 포함시키지 마세요.
 
 **Docker:** 
@@ -572,9 +590,11 @@ Dockerfile → 이미지 → 컨테이너.
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>Git 기술 - 난이도 분류</strong></summary>
+<summary><h3>Git 기술 - 난이도 분류</h3></summary>
 
 
 - ➕ git add → 🟢 쉬움
@@ -617,9 +637,11 @@ Dockerfile → 이미지 → 컨테이너.
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>당신의 GitHub 프로필은 두 번째 이력서입니다. 가치를 더하세요.</strong></summary>
+<summary><h3>당신의 GitHub 프로필은 두 번째 이력서입니다. 가치를 더하세요.</h3></summary>
 
 
 - README 만들기
@@ -660,9 +682,11 @@ Dockerfile → 이미지 → 컨테이너.
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>깃허브냐, 깃랩이냐.</strong></summary>
+<summary><h3>깃허브냐, 깃랩이냐.</h3></summary>
 
 
 바이브코더라면 은근히 오래 고민하게 되는 문제입니다.
@@ -695,10 +719,10 @@ AI가 참고할 자료가 많은가?
 
 정리하면,
 
-빠르게 만들고 외부 서비스와 붙이기: GitHub
+빠르게 만들고 외부 서비스와 붙이기: GitHub  
 자체 서버와 통제 중심 운영: GitLab
 
-바이브코더에게 진짜 중요한 건 저장소 이름보다
+바이브코더에게 진짜 중요한 건 저장소 이름보다  
 AI가 만든 코드를 자동으로 검사하고, 통과한 코드만 배포하게 만드는 구조입니다.
 
 ![image.png](../assets/ci-cd/image-022.png)
@@ -710,9 +734,11 @@ AI가 만든 코드를 자동으로 검사하고, 통과한 코드만 배포하�
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>Git 로드맵</strong></summary>
+<summary><h3>Git 로드맵</h3></summary>
 
 
 ```markdown
@@ -726,13 +752,17 @@ AI가 만든 코드를 자동으로 검사하고, 통과한 코드만 배포하�
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>오늘 @github 비동기 병합 API를 출시하게 되어 기쁩니다!</strong></summary>
+<summary><h3>오늘 @github 비동기 병합 API를 출시하게 되어 기쁩니다!</h3></summary>
 
 
 PR을 프로그래밍 방식으로 병합하는 당신(또는 당신의 에이전트)에게 이건 딱 맞아요 🧵
 
 [https://github.blog/changelog/2026-10-01-github-async-merge-api-generally-available/](https://github.blog/changelog/2026-10-01-github-async-merge-api-generally-available/)
 </details>
+
+---
 

@@ -4,7 +4,7 @@
 
 
 <details>
-<summary><strong>프로젝트 디렉토리 구성</strong></summary>
+<summary><h3>프로젝트 디렉토리 구성</h3></summary>
 
 
 ```markdown
@@ -50,9 +50,11 @@ README.md
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>AGENTS.md</strong></summary>
+<summary><h3>AGENTS.md</h3></summary>
 
 
 ```json
@@ -337,9 +339,11 @@ Phase 완료 보고에는 아래 정보만 사실 기준으로 기록한다.
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>config.toml</strong></summary>
+<summary><h3>config.toml</h3></summary>
 
 
 ```json
@@ -410,9 +414,11 @@ gpt-6-astra = 4
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>SKILL.md</strong></summary>
+<summary><h3>SKILL.md</h3></summary>
 
 
 ```markdown
@@ -449,9 +455,11 @@ description: Sol의 구현 중 병목 해결을 위해 Astra에게 아키텍처 
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>나는 Anthropic의 새로운 취약점 발견 하네스를 포크해서 Codex 우선으로 만들었다</strong></summary>
+<summary><h3>나는 Anthropic의 새로운 취약점 발견 하네스를 포크해서 Codex 우선으로 만들었다</h3></summary>
 
 
 Recon → Find → Verify → Triage → Report → Patch
@@ -473,9 +481,11 @@ Anthropic 하네스를 포크해서 정찰, 중복 제거, 악용 보고서 작�
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>GPT-5.6 시대에 Skill 수집만 하던 사람들은 이제 정리할 때가 됐음.</strong></summary>
+<summary><h3>GPT-5.6 시대에 Skill 수집만 하던 사람들은 이제 정리할 때가 됐음.</h3></summary>
 
 
 Codex나 Claude Code에 기능 겹치는 Skill 수백 개씩 넣지 마세요.
@@ -511,109 +521,111 @@ Codex나 Claude Code에 기능 겹치는 Skill 수백 개씩 넣지 마세요.
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>ChatGPT Desktop App, 어떻게 나눠 써야 할까?</strong></summary>
+<summary><h3>ChatGPT Desktop App, 어떻게 나눠 써야 할까?</h3></summary>
 
 
-최근 ChatGPT 데스크톱 앱은
-단순히 질문하고 답을 받는 앱에서 벗어나고 있습니다.
-여러 작업을 동시에 시키고,
-문서나 코드를 만들고,
-내 컴퓨터의 파일까지 다룰 수 있는
+최근 ChatGPT 데스크톱 앱은  
+단순히 질문하고 답을 받는 앱에서 벗어나고 있습니다.  
+여러 작업을 동시에 시키고,  
+문서나 코드를 만들고,  
+내 컴퓨터의 파일까지 다룰 수 있는  
 작업 도구에 가까워졌습니다.
 
-다만 기능 이름이 비슷해서
-처음 보면 무엇을 선택해야 할지 헷갈릴 수 있습니다.
-딱 네 가지만 구분하면 됩니다.
-일을 AI가 나눌까, 내가 나눌까?
+다만 기능 이름이 비슷해서  
+처음 보면 무엇을 선택해야 할지 헷갈릴 수 있습니다.  
+딱 네 가지만 구분하면 됩니다.  
+일을 AI가 나눌까, 내가 나눌까?  
 Subagents는 AI가 알아서 일을 나눠 처리하는 방식입니다.
 
-예를 들어,
+예를 들어,  
 “이 회사의 시장 상황, 경쟁사, 위험 요소를 조사해줘”
 
 라고 요청하면 AI가 작업을 여러 개로 나눕니다.
 
-각각의 조사 결과를 다시 모아
+각각의 조사 결과를 다시 모아  
 하나의 최종 답변으로 정리해줍니다.
 
-회사에서 팀장이 직원들에게 일을 나눠준 뒤
+회사에서 팀장이 직원들에게 일을 나눠준 뒤  
 최종 보고서를 받는 방식과 비슷합니다.
 
-반면 Separate Threads는
+반면 Separate Threads는  
 사용자가 대화방을 여러 개 직접 만드는 방식입니다.
 
-한 대화방에서는 시장 조사를 하고,
-다른 대화방에서는 경쟁사를 분석하고,
+한 대화방에서는 시장 조사를 하고,  
+다른 대화방에서는 경쟁사를 분석하고,  
 또 다른 대화방에서는 사업 아이디어를 검토할 수 있습니다.
 
-각 작업을 따로 확인하고
+각 작업을 따로 확인하고  
 중간에 방향을 바꾸기도 편합니다.
 
-정리하면 이렇습니다.
-결과를 마지막에 하나로 합치고 싶다면
+정리하면 이렇습니다.  
+결과를 마지막에 하나로 합치고 싶다면  
 Subagents가 편합니다.
 
-여러 방향을 따로 실험하고 비교하고 싶다면
-Separate Threads가 편합니다.
+여러 방향을 따로 실험하고 비교하고 싶다면  
+Separate Threads가 편합니다.  
 말해서 입력할까, 대화하면서 지시할까?
 
-Dictation은 음성 입력입니다.
-내가 말한 내용을
+Dictation은 음성 입력입니다.  
+내가 말한 내용을  
 ChatGPT가 글자로 바꿔줍니다.
 
-전송하기 전에 내용을 읽어보고
-잘못 인식된 부분을 수정할 수 있습니다.
-긴 요청이나 정확한 지시를 전달할 때 적합합니다.
+전송하기 전에 내용을 읽어보고  
+잘못 인식된 부분을 수정할 수 있습니다.  
+긴 요청이나 정확한 지시를 전달할 때 적합합니다.  
 예를 들어,
 
-“이 문서를 세 문단으로 요약하고
-중요한 숫자는 표로 정리해줘”
-같은 요청을 말로 입력한 뒤
+“이 문서를 세 문단으로 요약하고  
+중요한 숫자는 표로 정리해줘”  
+같은 요청을 말로 입력한 뒤  
 확인해서 보내는 방식입니다.
 
 Voice는 ChatGPT와 실시간으로 대화하는 기능입니다.
 
-사람과 전화하듯 대화하면서
-작업 방향을 바꾸거나 추가 지시를 할 수 있습니다.
+사람과 전화하듯 대화하면서  
+작업 방향을 바꾸거나 추가 지시를 할 수 있습니다.  
 “그 부분은 빼줘.”
 
-“두 번째 방식으로 다시 해줘.”
+“두 번째 방식으로 다시 해줘.”  
 “지금 어디까지 진행됐어?”
 
 처럼 중간에 계속 이야기할 수 있습니다.
 
-정확한 요청을 한 번에 전달할 때는 Dictation,
+정확한 요청을 한 번에 전달할 때는 Dictation,  
 대화하면서 생각을 발전시킬 때는 Voice가 편합니다.
 
-간단히 물을까, 결과물을 맡길까?
+간단히 물을까, 결과물을 맡길까?  
 Chat은 일반적인 질문과 대화에 사용합니다.
 
-검색하거나, 궁금한 내용을 물어보거나,
-아이디어를 간단히 정리할 때 적합합니다.
+검색하거나, 궁금한 내용을 물어보거나,  
+아이디어를 간단히 정리할 때 적합합니다.  
 예를 들면 다음과 같습니다.
 
 “ISA가 무엇인지 쉽게 설명해줘.”
 
 “여행 준비물 목록을 만들어줘.”
 
-“이 문장을 자연스럽게 고쳐줘.”
-Work는 여러 단계를 거쳐
+“이 문장을 자연스럽게 고쳐줘.”  
+Work는 여러 단계를 거쳐  
 실제 결과물을 만들어야 할 때 사용합니다.
 
-문서를 만들거나,
-스프레드시트를 분석하거나,
-발표 자료와 코드를 제작하는 작업에 적합합니다.
-Work에서는 클라우드 컴퓨터를 활용해
-저장소를 내려받고 코드를 수정한 뒤
+문서를 만들거나,  
+스프레드시트를 분석하거나,  
+발표 자료와 코드를 제작하는 작업에 적합합니다.  
+Work에서는 클라우드 컴퓨터를 활용해  
+저장소를 내려받고 코드를 수정한 뒤  
 PR을 만드는 작업도 할 수 있습니다.
 
-웹사이트를 만들고 배포하는 작업까지
+웹사이트를 만들고 배포하는 작업까지  
 맡길 수도 있습니다.
 
-다만 Work는 별도의 사용량이나
-크레딧이 적용될 수 있습니다.
-간단한 질문까지 Work로 처리하기보다는
+다만 Work는 별도의 사용량이나  
+크레딧이 적용될 수 있습니다.  
+간단한 질문까지 Work로 처리하기보다는  
 실제 파일이나 결과물을 맡길 때 선택하는 편이 좋습니다.
 
 ✏️결론은 네 가지만 기억하면 됩니다.
@@ -656,9 +668,11 @@ PR을 만드는 작업도 할 수 있습니다.
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>오픈AI가 무료 ChatGPT에 무제한 텍스트 채팅을 풀어요</strong></summary>
+<summary><h3>오픈AI가 무료 ChatGPT에 무제한 텍스트 채팅을 풀어요</h3></summary>
 
 
 다른 곳들이 가격을 올리거나 무료 한도를 줄이는 사이 오픈AI는 반대로 가고 있습니다
@@ -684,13 +698,15 @@ PR을 만드는 작업도 할 수 있습니다.
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>CLAUDE.md 대신 AGENTS.md로, 옮겨도 될까?</strong></summary>
+<summary><h3>CLAUDE.md 대신 AGENTS.md로, 옮겨도 될까?</h3></summary>
 
 
-한국에선 보통 다들 CLAUDE.md를 쓰죠
-근데 글로벌 표준은 따로 있어요, AGENTS.md예요
+한국에선 보통 다들 CLAUDE.md를 쓰죠  
+근데 글로벌 표준은 따로 있어요, AGENTS.md예요  
 옮기면 뭐가 좋은지, 느려지거나 비싸지진 않는지 짚어볼게요 (AGENTS.md는 벌써 30개 넘는 도구가 지원하고, 6만 개 넘는 저장소가 채택한 표준이에요)
 
 ■ 왜 표준을 쓰냐면
@@ -707,16 +723,16 @@ PR을 만드는 작업도 할 수 있습니다.
 - Claude Code는 아직 AGENTS.md를 못 읽어서 CLAUDE.md로 한 번 거쳐 불러요
 - 그렇게 우회해도 손해가 없었다는 거예요
 
-■ 옮기는 법 (팀 기준 한 시간)
-① git mv CLAUDE.md AGENTS.md: 새로 만들지 말고 이름만 바꿔요 (git 이력 유지)
-② CLAUDE.md엔
-@AGENTS
-.md 한 줄만: 공통 규칙은 AGENTS.md, Claude 전용은 그 아래
-③ 잘 읽히나 확인: 끝에 "PING이라 하면 PONG만 답해"를 넣고 테스트, 확인 후 삭제
+■ 옮기는 법 (팀 기준 한 시간)  
+① git mv CLAUDE.md AGENTS.md: 새로 만들지 말고 이름만 바꿔요 (git 이력 유지)  
+② CLAUDE.md엔  
+@AGENTS  
+.md 한 줄만: 공통 규칙은 AGENTS.md, Claude 전용은 그 아래  
+③ 잘 읽히나 확인: 끝에 "PING이라 하면 PONG만 답해"를 넣고 테스트, 확인 후 삭제  
 ④ 다른 도구는 대부분 할 일 없어요: Codex·Cursor·Antigravity가 알아서 읽어요
 
-옮기는 김에 내용도 다듬으면 좋아요
-코드만 봐선 모르는 것만 남기세요 (빌드 명령·금지 사항·팀 규칙)
+옮기는 김에 내용도 다듬으면 좋아요  
+코드만 봐선 모르는 것만 남기세요 (빌드 명령·금지 사항·팀 규칙)  
 코드 읽으면 아는 설명은 빼고요 (200줄 안쪽 권장!)
 
 ![image.png](../assets/codex/image-137.png)
@@ -732,28 +748,30 @@ PR을 만드는 작업도 할 수 있습니다.
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>챗GPT 비밀코드, 굳이 외우지 마세요.</strong></summary>
+<summary><h3>챗GPT 비밀코드, 굳이 외우지 마세요.</h3></summary>
 
 
 한국어로 그냥 말해도 됩니다.
 
-/decide → 조건을 보고 뭐가 나은지 골라줘
-/risk → 내가 놓친 위험요소를 찾아줘
-/simulate → 이대로 하면 어떤 일이 생길지 예상해줘
-/question → 더 확인해야 할 질문을 뽑아줘
-/reverse → 반대 입장에서는 어떻게 볼지 말해줘
-/improve → 더 좋아지게 고칠 부분을 찾아줘
+/decide → 조건을 보고 뭐가 나은지 골라줘  
+/risk → 내가 놓친 위험요소를 찾아줘  
+/simulate → 이대로 하면 어떤 일이 생길지 예상해줘  
+/question → 더 확인해야 할 질문을 뽑아줘  
+/reverse → 반대 입장에서는 어떻게 볼지 말해줘  
+/improve → 더 좋아지게 고칠 부분을 찾아줘  
 /priority → 뭐부터 해야 할지 순서를 정해줘
 
-중요한 건 코드를 외우는 게 아니라
+중요한 건 코드를 외우는 게 아니라  
 “내가 뭘 원하는지 구체적으로 말하는 것.”
 
-챗GPT는 꼭 어려운 명령어를 써야 잘 쓰는 게 아닙니다.
-그냥 한국말로
-“이거 분석해줘.”
-“문제점 찾아줘.”
+챗GPT는 꼭 어려운 명령어를 써야 잘 쓰는 게 아닙니다.  
+그냥 한국말로  
+“이거 분석해줘.”  
+“문제점 찾아줘.”  
 “뭐부터 해야 해?”
 
 이렇게 말해도 충분합니다.
@@ -763,9 +781,11 @@ PR을 만드는 작업도 할 수 있습니다.
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>GPT 공부법ㅣ260822</strong></summary>
+<summary><h3>GPT 공부법ㅣ260822</h3></summary>
 
 
 1. 제일 먼저 스터디 모드를 켜는 것부터 시작함
@@ -827,18 +847,20 @@ GPT는 나를 굴리는 도구일 뿐 사고는 끝까지 내가 떠안아야 �
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>Codex 5.6이 터무니없어지고 있어요. 🤯</strong></summary>
+<summary><h3>Codex 5.6이 터무니없어지고 있어요. 🤯</h3></summary>
 
 
 잠시 사용해 본 후, 실제로 설치할 가치가 있는 플러그인들은 다음과 같아요:
 
-→ Browser — 웹사이트 자동화 및 테스트
-→ GitHub — 이슈, PR 및 코드 리뷰
-→ Security — 취약점 및 유출된 키 찾기
-→ Build Web Apps — 아이디어 → 작동하는 앱
-→ Figma — 디자인 → 반응형 코드
+→ Browser — 웹사이트 자동화 및 테스트  
+→ GitHub — 이슈, PR 및 코드 리뷰  
+→ Security — 취약점 및 유출된 키 찾기  
+→ Build Web Apps — 아이디어 → 작동하는 앱  
+→ Figma — 디자인 → 반응형 코드  
 → Sentry — 프로덕션 버그 찾기 및 수정
 
 하지만 Sites가 가장 큰 업그레이드일지도 몰라요. 👀
@@ -856,22 +878,24 @@ Codex는 더 이상 단순히 코드를 작성하는 게 아니에요.
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>Codex에 넣어서 효과 본 설정 베스트 5</strong></summary>
+<summary><h3>Codex에 넣어서 효과 본 설정 베스트 5</h3></summary>
 
 
-5위: [SKILL.md](http://skill.md/) 파일을 놓기
+5위: [SKILL.md](http://skill.md/) 파일을 놓기  
 name과 description 두 가지를 맨 앞에 쓴 파일을 놓기만 하면, Codex가 알아서 찾아준다. 호출할 때는 「/skills」나 「$」로, 공식에서 배포하는 카탈로그의 것도 그대로 사용할 수 있음
 
-4위: 접근 범위를 정하기
-config.toml에 sandbox_mode를 작성하기
+4위: 접근 범위를 정하기  
+config.toml에 sandbox_mode를 작성하기  
 읽기만/작업 폴더만 쓸 수 있음/전부 만질 수 있음의 3단계로, 평소에는 중간의 workspace-write
 
-3위: MCP 설정을 ~/.codex/config.toml에 한 곳에 모으기
+3위: MCP 설정을 ~/.codex/config.toml에 한 곳에 모으기  
 같은 컴퓨터라면 앱이든 CLI든 IDE든 같은 걸 쓸 수 있다고 나와 있음
 
-2위: @로 다른 작업 호출하기
+2위: @로 다른 작업 호출하기  
 최근 업데이트로, 실행 중인 다른 태스크를 @로 지정해서 참조할 수 있게 됨
 
 1위: AGENTS.md에 「## Code Review Rules」 추가하기
@@ -885,13 +909,15 @@ GitHub의 풀 리퀘스트 댓글란에  @codex review 라고 쓰면, 차분을 
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>Codex 한번이라도 꼭 써봐야하는 100가지 이유.</strong></summary>
+<summary><h3>Codex 한번이라도 꼭 써봐야하는 100가지 이유.</h3></summary>
 
 (8월 26일 기준)
 
-1. 코덱스는 거의 매주 주간 한도를 통째로 리셋해줍니다.
+1. 코덱스는 거의 매주 주간 한도를 통째로 리셋해줍니다.  
 (티보가 거의 매주 해줌 ㅎㅎ)
 2. 코덱스 사용자 100만 명 늘 때마다 한도를 리셋해줍니다.
 3. ChatGPT 웹에서 채팅이 무제한입니다. (남용만 아니면) 하지만 클로드는 웹에서 채팅해도 클로드코드 한도가 깎입니다.
@@ -1000,9 +1026,11 @@ GitHub의 풀 리퀘스트 댓글란에  @codex review 라고 쓰면, 차분을 
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>왜 내 5.6 Sol은 오버엔지니어링을 안 하는지 Codex한테 물어보니,</strong></summary>
+<summary><h3>왜 내 5.6 Sol은 오버엔지니어링을 안 하는지 Codex한테 물어보니,</h3></summary>
 
 
 평소에 잔소리처럼 말하던 걸 메모리에 기억하고 있었기 때문이었어.
@@ -1025,9 +1053,11 @@ GitHub의 풀 리퀘스트 댓글란에  @codex review 라고 쓰면, 차분을 
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>코드의 구멍을 찾아서 고치는 도구를 OpenAI가 무료 공개</strong></summary>
+<summary><h3>코드의 구멍을 찾아서 고치는 도구를 OpenAI가 무료 공개</h3></summary>
 
 
 openai/codex-security, ★1.0만.
@@ -1047,9 +1077,11 @@ https://github.com/openai/codex-security
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>GPT6 Astra 진짜 좋음 디자이너가 만든 걸 실현하는 게 엄청 힘들었지만, 세계관만 전달하면 쓸 수 있는 파츠가 나와</strong></summary>
+<summary><h3>GPT6 Astra 진짜 좋음 디자이너가 만든 걸 실현하는 게 엄청 힘들었지만, 세계관만 전달하면 쓸 수 있는 파츠가 나와</h3></summary>
 
 
 ![image.png](../assets/codex/image-142.png)
@@ -1061,9 +1093,11 @@ https://x.com/yuuritrade/status/2096200363741421842
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>Astra의 최대변화: Context note 사용법</strong></summary>
+<summary><h3>Astra의 최대변화: Context note 사용법</h3></summary>
 
 
 GPT-6 Astra의 가장 큰 변화는 컨텍스트가 가득 찼을 때 나타납니다. 바로 “Note"를 통한 (과장 좀 보태서) 무한 컨텍스트 확장 기능입니다.
@@ -1099,7 +1133,7 @@ experimental_mode = true
 
 새 컨텍스트 윈도우에는 초기 컨텍스트와 짧은 노트 힌트만 올라갑니다. 힌트는 비어 있거나 4,000바이트를 넘으면 생략됩니다. 그 이상의 디테일은 히스토리 검색으로 꺼냅니다.
 
-GPT-6 Astra를 사용할 거라면, 이건 절대 활성화하는 게 좋습니다
+GPT-6 Astra를 사용할 거라면, 이건 절대 활성화하는 게 좋습니다  
 ~/.codex/config.toml 에 아래를 추가하세요
 
 ```markdown
@@ -1107,13 +1141,13 @@ GPT-6 Astra를 사용할 거라면, 이건 절대 활성화하는 게 좋습니�
 experimental_mode = true
 ```
 
-이걸 활성화하면, 기존의 「컨텍스트 압축」이 아니라, 노트 저장 + 필요한 컨텍스트만 검색해서 가져오는 방식 으로 전환됩니다.
-결과적으로,
-・불필요한 토큰 소비를 줄임
-・장시간 작업에서도 맥락을 유지하기 쉬움
-・Astra의 성능 향상
-을 기대할 수 있습니다.
-게다가 이 설정, 몇 주 후에는 GPT-6 Astra의 공식 기본값이 될 예정입니다.
+이걸 활성화하면, 기존의 「컨텍스트 압축」이 아니라, 노트 저장 + 필요한 컨텍스트만 검색해서 가져오는 방식 으로 전환됩니다.  
+결과적으로,  
+・불필요한 토큰 소비를 줄임  
+・장시간 작업에서도 맥락을 유지하기 쉬움  
+・Astra의 성능 향상  
+을 기대할 수 있습니다.  
+게다가 이 설정, 몇 주 후에는 GPT-6 Astra의 공식 기본값이 될 예정입니다.  
 Astra를 Codex에서 쓰는 사람들은, 미리 ON으로 해두는 걸 추천합니다.
 
 ---
@@ -1121,9 +1155,11 @@ Astra를 Codex에서 쓰는 사람들은, 미리 ON으로 해두는 걸 추천�
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>코덱스 상위 모델 사용량 아끼는 법</strong></summary>
+<summary><h3>코덱스 상위 모델 사용량 아끼는 법</h3></summary>
 
 
 작업 시작할 때
@@ -1132,16 +1168,16 @@ Astra를 Codex에서 쓰는 사람들은, 미리 ON으로 해두는 걸 추천�
 
 이 한 줄 넣어두면 됨.
 
-메인 모델이 계속 바뀌는 게 아니라
-작업을 나눠서 쉬운 건 가벼운 하위 에이전트,
+메인 모델이 계속 바뀌는 게 아니라  
+작업을 나눠서 쉬운 건 가벼운 하위 에이전트,  
 복잡한 건 상위 모델 + 높은 추론에 맡기는 방식임.
 
-그래서 내가 매번
-Luna / Terra / Sol,
-Low / Medium / High
+그래서 내가 매번  
+Luna / Terra / Sol,  
+Low / Medium / High  
 직접 고를 필요가 줄어듦.
 
-총 토큰이 무조건 줄어드는 건 아니고
+총 토큰이 무조건 줄어드는 건 아니고  
 상위 모델 사용량 아끼는 용도에 가까움.
 
 ---
@@ -1149,9 +1185,11 @@ Low / Medium / High
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>GPT6-Astra 토큰 소비가 너무 빠른 이유는 다음 네 가지를 하지 않았기 때문일 수 있습니다:</strong></summary>
+<summary><h3>GPT6-Astra 토큰 소비가 너무 빠른 이유는 다음 네 가지를 하지 않았기 때문일 수 있습니다:</h3></summary>
 
 
 1. 실험적 기능 열기: 동일 작업에서 컨텍스트 창을 넘어 노트, 검색된 과거 메시지 및 도구 결과를 유지.
@@ -1172,9 +1210,11 @@ Low / Medium / High
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>만약 Astra가 ChatGPT Plus에서 거의 사용할 수 없을 정도로 빠르게 할당량을 소모한다면, 이렇게 해보세요:</strong></summary>
+<summary><h3>만약 Astra가 ChatGPT Plus에서 거의 사용할 수 없을 정도로 빠르게 할당량을 소모한다면, 이렇게 해보세요:</h3></summary>
 
 
 Sol에게 작업을 맡기고 어려운 부분에 대해 Astra를 조언자로 불러들이세요.
@@ -1194,9 +1234,11 @@ Skill이 준비되면 Sol로 전환해서 작업에 사용하세요.
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>GPT-6 Astra에게 두 개의 링크를 주고, AGENTS.md와 Skills에 대해 한 번 &quot;대청소&quot;를 하도록 하세요.</strong></summary>
+<summary><h3>GPT-6 Astra에게 두 개의 링크를 주고, AGENTS.md와 Skills에 대해 한 번 &quot;대청소&quot;를 하도록 하세요.</h3></summary>
 
 
 방법은 간단합니다:
@@ -1214,9 +1256,11 @@ OpenAI 공식 Model Guidance + Eric Provencher의 Astra Skills/Prompt 기사를 
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>GPT-6 Astra Plus 사용자 저장 권장 토큰을 낭비하지 않는, 해외 진짜 고수들의 체크리스트 10선.</strong></summary>
+<summary><h3>GPT-6 Astra Plus 사용자 저장 권장 토큰을 낭비하지 않는, 해외 진짜 고수들의 체크리스트 10선.</h3></summary>
 
 
 1. Astra를 기본으로 하지 마라. Chat은 Sol. Work/Codex만 전환
@@ -1235,9 +1279,11 @@ OpenAI 공식 Model Guidance + Eric Provencher의 Astra Skills/Prompt 기사를 
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>극한 AI 가성비충의 Gpt PLUS 구독으로 Gpt 6 아스트라 효율적으로 사용하기.</strong></summary>
+<summary><h3>극한 AI 가성비충의 Gpt PLUS 구독으로 Gpt 6 아스트라 효율적으로 사용하기.</h3></summary>
 
 
 이렇게 해야 5시간 한도내에서 작업이 가능함.
@@ -1282,9 +1328,11 @@ OpenAI 공식 Model Guidance + Eric Provencher의 Astra Skills/Prompt 기사를 
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>GPT-6 Pro는 무섭게 훌륭해요. 코딩을 시작하기 전에, 아직 생각하지 못한 부분을 지적해 보라고 하세요. 이게 정말 잘 작동해요.</strong></summary>
+<summary><h3>GPT-6 Pro는 무섭게 훌륭해요. 코딩을 시작하기 전에, 아직 생각하지 못한 부분을 지적해 보라고 하세요. 이게 정말 잘 작동해요.</h3></summary>
 
 
 Pro에게 “내 프롬프트를 최적화해 줘”라고 요청하지 마세요. 대신 이렇게 물어보세요: “엔지니어에게 직접 넘길 수 있는 작업 브리프를 작성해 줘.”
@@ -1308,13 +1356,15 @@ GPT-6 Pro에게 당신의 아이디어, 스크린샷, 관련 코드, 그리고 �
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>GPT-6 Astra에서 토큰 소비를 억제하면서 서브 에이전트를 효율적으로 사용하고자 할 때의 지시문</strong></summary>
+<summary><h3>GPT-6 Astra에서 토큰 소비를 억제하면서 서브 에이전트를 효율적으로 사용하고자 할 때의 지시문</h3></summary>
 
 
-■프롬프트
-――――
+■프롬프트  
+――――  
 Codex의 서브 에이전트 기능을 재활성화하고, 불필요한 단기 주기 확인을 억제하는 설정으로 변경해. 이 작업 자체에서는 서브 에이전트를 사용하지 마.
 
 목적
@@ -1354,25 +1404,27 @@ Codex의 서브 에이전트 기능을 재활성화하고, 불필요한 단기 �
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>Codex에서 &quot;Astra가 곧 프레임을 다 소모한다&quot;면</strong></summary>
+<summary><h3>Codex에서 &quot;Astra가 곧 프레임을 다 소모한다&quot;면</h3></summary>
 
 
-Sol을 주력으로 삼는다(구현·테스트·진행은 이쪽에 전부 맡긴다)
-↓
-Astra는 자문역으로 격하시킨다(설계의 분기·막힘·제3자 리뷰만 부른다)
-↓
-이 전환을 Skill로 만들어 자동화한다(매번 직접 지시를 다시 내리지 않는다)
-↓
-Codex에서 Astra를 선택하고 "Sol용 Skill을 만들어줘"라고 부탁한다
-↓
-부를 때는 모델을 명시하게 한다(지정할 수 없는 사양이라면 미리 알려주도록 적는다)
-↓
-자문은 매번 완전히 새로운 맥락으로( fork_turns 를 "none" 으로)
-↓
-자문역에게는 파일을 건드리지 않게 한다·다른 에이전트도 부르게 하지 않는다
-↓
+Sol을 주력으로 삼는다(구현·테스트·진행은 이쪽에 전부 맡긴다)  
+↓  
+Astra는 자문역으로 격하시킨다(설계의 분기·막힘·제3자 리뷰만 부른다)  
+↓  
+이 전환을 Skill로 만들어 자동화한다(매번 직접 지시를 다시 내리지 않는다)  
+↓  
+Codex에서 Astra를 선택하고 "Sol용 Skill을 만들어줘"라고 부탁한다  
+↓  
+부를 때는 모델을 명시하게 한다(지정할 수 없는 사양이라면 미리 알려주도록 적는다)  
+↓  
+자문은 매번 완전히 새로운 맥락으로( fork_turns 를 "none" 으로)  
+↓  
+자문역에게는 파일을 건드리지 않게 한다·다른 에이전트도 부르게 하지 않는다  
+↓  
 Skill이 완성되면 Sol로 돌아가 평소에 사용한다
 
 구현은 Sol → 난관만 Astra. 이 형태로 하면 무거운 모델의 프레임을 난관에 집중시킬 수 있습니다. 상시 가장 똑똑한 모델을 돌리는 것보다, 필요할 때만 부르는 게 결국 더 빠릅니다.
@@ -1382,9 +1434,11 @@ Skill이 완성되면 Sol로 돌아가 평소에 사용한다
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>GPT-5.6 / Codex 레인 맵 :</strong></summary>
+<summary><h3>GPT-5.6 / Codex 레인 맵 :</h3></summary>
 
 
 - Sol (중간): 오케스트레이터, 초기화, 온보딩, 상태, 동기화
@@ -1392,7 +1446,7 @@ Skill이 완성되면 Sol로 돌아가 평소에 사용한다
 - Astra (낮음): 제안, 설계, 검증, 심사자, 리뷰
 - Luna (높음): 아카이브
 
-유지 가능한 맵은 Sol 오케스트레이트, Terra 적용, Astra 판단입니다.
+유지 가능한 맵은 Sol 오케스트레이트, Terra 적용, Astra 판단입니다.  
 다음 작업은 전체 yaml을 복사하기 전에 레인 이름을 지정해야 합니다.
 
 ---
@@ -1400,9 +1454,11 @@ Skill이 완성되면 Sol로 돌아가 평소에 사용한다
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>GPT-6 Astra의 잠재력을 더 끌어내기 위해 기술, AGENTS.md, 그리고 작업 프롬프트를 다시 검토하세요.</strong></summary>
+<summary><h3>GPT-6 Astra의 잠재력을 더 끌어내기 위해 기술, AGENTS.md, 그리고 작업 프롬프트를 다시 검토하세요.</h3></summary>
 
 
 스킬 트리거를 구체적으로 만들고, 관련이 있을 때 지침을 로드하며, 완료가 어떤 모습인지 정의하세요.
@@ -1414,9 +1470,11 @@ Skill이 완성되면 Sol로 돌아가 평소에 사용한다
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>Codex 6 Astra，토큰이 아직도 부족한가요?</strong></summary>
+<summary><h3>Codex 6 Astra，토큰이 아직도 부족한가요?</h3></summary>
 
 
 이 두 가지 설정만 바꾸면, 토큰을 80%나 절약할 수 있습니다.
@@ -1425,7 +1483,7 @@ GPT-6 Astra 자체가 이미 충분히 강력해서, 많은 경우 토큰을 진
 
 두 군데만 수정하면 됩니다.
 
-1️⃣ 먼저 Skill을 확인하세요, 특히 Superpowers
+1️⃣ 먼저 Skill을 확인하세요, 특히 Superpowers  
 Superpowers를 설치했다면, 또는 다른 skill이라면, 그것이 암시적으로 자동 트리거되는지 꼭 확인하세요.
 
 이런 무거운 워크플로가 매 작업마다 한 번씩 실행되면, 작은 부분만 고치는 것이라도 간단한 작업을 완전한 프로세스 세트로 바꿔버릴 수 있습니다.
@@ -1448,9 +1506,11 @@ Superpowers를 설치했다면, 또는 다른 skill이라면, 그것이 암시�
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>코덱스 📋 &quot;Sites&quot; 진짜 꼭 써보세요!!</strong></summary>
+<summary><h3>코덱스 📋 &quot;Sites&quot; 진짜 꼭 써보세요!!</h3></summary>
 
 
 (진짜.. 성능에 비해 너무 안 알려져있고 저평가되어있음...)
@@ -1500,9 +1560,11 @@ Codex에서 'Sites'를 태그해서 원하는 사이트를 설명하면 바로 '
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>GPT-6 Astra 쓰기 시작했다면 Codex 설정부터 한번 청소해보세요. (아래 복붙 프롬프트 붙여드림)</strong></summary>
+<summary><h3>GPT-6 Astra 쓰기 시작했다면 Codex 설정부터 한번 청소해보세요. (아래 복붙 프롬프트 붙여드림)</h3></summary>
 
 
 OpenAI가 Astra 출시와 함께 [AGENTS.md](http://agents.md/), Skills, task prompt에 예전 모델용 지시가 너무 많이 쌓여 있으면 오히려 방해가 될 수 있다고 설명했습니다.
@@ -1537,15 +1599,17 @@ AGENTS.md, Skills, task prompts 및 관련 운영 지침을 실제 파일 기준
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>남은 적은 Codex 토큰을 절약하기 위한 필수 작업</strong></summary>
+<summary><h3>남은 적은 Codex 토큰을 절약하기 위한 필수 작업</h3></summary>
 
 
-① AGENT.md를 5〜10줄로 줄이기
+① AGENT.md를 5〜10줄로 줄이기  
 이걸만 해도 토큰을 몇 배나 절약할 수 있었다는 보고가 다수
 
-② Agent Skills의 최적화
+② Agent Skills의 최적화  
 OpenAI 공식에서도 가이드가 나와 있으니, 전체를 복사해서 붙여넣고 지시하면 OK
 
 ---
@@ -1553,9 +1617,11 @@ OpenAI 공식에서도 가이드가 나와 있으니, 전체를 복사해서 붙
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>만약 여전히 Sol과 Astra가 디자인에 형편없다고 생각한다면, 이걸 시도해 봐:</strong></summary>
+<summary><h3>만약 여전히 Sol과 Astra가 디자인에 형편없다고 생각한다면, 이걸 시도해 봐:</h3></summary>
 
 
 “이미지 생성기를 사용해 이 페이지를 재구상한 다음, 구현해.”
@@ -1571,9 +1637,11 @@ Codex는 이제 오늘날 사용 가능한 가장 강력한 이미지 모델인 
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>코덱스 진짜 🍯 꿀팁 하나 더 공유드립니다.</strong></summary>
+<summary><h3>코덱스 진짜 🍯 꿀팁 하나 더 공유드립니다.</h3></summary>
 
 
 토큰 절약 방법 중에 가장 좋다고 생각하는 방법인데요!
@@ -1617,9 +1685,11 @@ Codex는 이제 오늘날 사용 가능한 가장 강력한 이미지 모델인 
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>방금 ~/.codex 폴더를 감사(audit)해봤어요. 여기서 발견한 내용입니다.</strong></summary>
+<summary><h3>방금 ~/.codex 폴더를 감사(audit)해봤어요. 여기서 발견한 내용입니다.</h3></summary>
 
 
 총 166 GB. 그중 100 GB 이상이 캐시입니다.
@@ -1649,16 +1719,18 @@ du -sh ~/.codex를 실행한 후, du -sh ~/.codex/* | sort -rh | head -20을 실
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>Codex 한도는 부족하고 Webchat한도는 남아돈다.</strong></summary>
+<summary><h3>Codex 한도는 부족하고 Webchat한도는 남아돈다.</h3></summary>
 
 
 그래서 Codex의 요청을 webchat으로 연결 시켜 로컬 작업을 진행할 수 있는 프로젝트를 사용하기 시작했다.
 
 주간 초기화를 제때제때 잘 해주면 이런 것 까지 설치할 필요가 없는데.. 번거롭다.
 
-Codex 앱 → CodexWebGPT 로컬 브리지
+Codex 앱 → CodexWebGPT 로컬 브리지  
 → ChatGPT 웹 세션 → GPT 응답 → Codex
 
 겉으로는 평소 Codex처럼 파일 수정·터미널 실행 등을 하면서 추론 응답 부분은 ChatGPT Web 모델을 이용하는 구조다.
@@ -1667,12 +1739,12 @@ Codex 앱 → CodexWebGPT 로컬 브리지
 
 좀 사용해보고 후기를 남기겠다. 왠지 컨텍스트 윈도우가 코덱스보다는 작을 듯 하다.
 
-사용량을 많이 아껴줄 수 있을 것 같다. 생각보다 좋았다.
+사용량을 많이 아껴줄 수 있을 것 같다. 생각보다 좋았다.  
 코덱스 무제한이라고 홍보하는 사람들도 있는 듯 한데, 웹챗 호출도 주간 제한이 존재한다.
 
 Codex → local bridge → browser → ChatGPT → connector/tunnel → Codex tools
 
-중간 단계가 많이 때문에 놓치는 분도 생기는 듯 하다.
+중간 단계가 많이 때문에 놓치는 분도 생기는 듯 하다.  
 읽어야 하는 지침문서를 확인을 안하는 경우도 있었다.
 
 그리고 뭔가 스스로 권한이 없다고 생각하는 듯 해서 자신감 없는 모습을 종종 보여준다.
@@ -1688,9 +1760,11 @@ Codex → local bridge → browser → ChatGPT → connector/tunnel → Codex to
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>방금 gpt 6 luna를 한 번 써봤는데, 그리고… 이 모델은 정말 이상해요</strong></summary>
+<summary><h3>방금 gpt 6 luna를 한 번 써봤는데, 그리고… 이 모델은 정말 이상해요</h3></summary>
 
 
 1. 아래 포인트를 고려해도 터무니없이 저렴해요
@@ -1712,14 +1786,16 @@ firstmate로 고급 추론을 시도해봤는데, 솔직히 작동하지 않아�
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>𝗖𝗼𝗱𝗲𝘅 팁: ~/.codex를 정리하기 전에, Codex에게 안전하게 삭제할 수 있는 것과 채팅 기록을 함께 지워버릴 수 있는 것을 분류해 보라고 하세요.</strong></summary>
+<summary><h3>𝗖𝗼𝗱𝗲𝘅 팁: ~/.codex를 정리하기 전에, Codex에게 안전하게 삭제할 수 있는 것과 채팅 기록을 함께 지워버릴 수 있는 것을 분류해 보라고 하세요.</h3></summary>
 
 
-내 디스크가 96% 꽉 차 있어서 확인해 봤더니: ~/.codex 하나만 해도 82 GB였어요.
-→ 54 GB의 아카이브된 채팅, 3,900개, 작년 11월까지 거슬러 올라감
-→ 가장 큰 단일 채팅은 2 GB, 21개가 500 MB를 초과함
+내 디스크가 96% 꽉 차 있어서 확인해 봤더니: ~/.codex 하나만 해도 82 GB였어요.  
+→ 54 GB의 아카이브된 채팅, 3,900개, 작년 11월까지 거슬러 올라감  
+→ 가장 큰 단일 채팅은 2 GB, 21개가 500 MB를 초과함  
 → 안전하게 삭제할 수 있는 캐시는 𝟬.𝟮 𝗚𝗕 미만이에요
 
 공간을 확보하려면, 그 오래된 채팅들을 외장 드라이브로 옮기고 필요할 때 다시 가져오세요. 전체 프롬프트는 아래
@@ -1750,13 +1826,15 @@ firstmate로 고급 추론을 시도해봤는데, 솔직히 작동하지 않아�
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>최근의 codex 개발은</strong></summary>
+<summary><h3>최근의 codex 개발은</h3></summary>
 
 
 1. chatgpt의 chat을 github와 연결해서 코드를 읽히면서 앞으로의 방침을 상담
-2. 정리되면 github에 issue를 생성
+2. 정리되면 github에 issue를 생성  
 （＝여기까지 codex의 프레임을 소모하지 않음）
 3. codex에 issue를 소화시킴
 
@@ -1767,18 +1845,20 @@ firstmate로 고급 추론을 시도해봤는데, 솔직히 작동하지 않아�
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>Codex 팁: GPT-6.1 Sol이 주요 모델이 되면, 매 턴마다 Astra를 실행하는 것을 중단하세요.</strong></summary>
+<summary><h3>Codex 팁: GPT-6.1 Sol이 주요 모델이 되면, 매 턴마다 Astra를 실행하는 것을 중단하세요.</h3></summary>
 
 
 Astra를 아키텍트 에이전트로 호출하세요.
 
-GPT-6.1 Sol은 코드를 계속 작성합니다.
+GPT-6.1 Sol은 코드를 계속 작성합니다.  
 Astra는 세 지점에서만 생성됩니다:
 
-→ 계획 전에: 이 접근 방식이 올바른가?
-→ 동일한 오류가 다시 발생할 때: 잘못된 곳을 파고 있는 건가?
+→ 계획 전에: 이 접근 방식이 올바른가?  
+→ 동일한 오류가 다시 발생할 때: 잘못된 곳을 파고 있는 건가?  
 → "완료" 전에: 무엇을 놓쳤는가?
 
 Astra는 검토합니다. Sol은 배포합니다.
@@ -1787,13 +1867,13 @@ Jev 엔지니어링은 한 층 아래로 같은 움직임입니다: 생각할 �
 
 - 전체 트리
 
-> GPT-6.1 Sol은 high에서 주요 세션을 실행합니다.
-explorer는 Luna에서 코드를 읽습니다.
-worker는 Sol에서 편집하고 테스트를 실행합니다.
-researcher는 Luna에서 문서를 가져옵니다.
-medium에서 세 개 모두
-Astra는 아키텍트로 호출됩니다.
-auto_review는 모든 승인을 확인합니다.
+> GPT-6.1 Sol은 high에서 주요 세션을 실행합니다.  
+explorer는 Luna에서 코드를 읽습니다.  
+worker는 Sol에서 편집하고 테스트를 실행합니다.  
+researcher는 Luna에서 문서를 가져옵니다.  
+medium에서 세 개 모두  
+Astra는 아키텍트로 호출됩니다.  
+auto_review는 모든 승인을 확인합니다.  
 > 
 
 트리와 이 프롬프트를 Codex에 붙여넣으세요 ↓
@@ -1802,10 +1882,10 @@ auto_review는 모든 승인을 확인합니다.
 
 1. ~/.codex/agents와 .codex/agents를 확인하여 explorer, worker, researcher에 이미 맞는 에이전트를 찾으세요.
 
-> 누락된 역할에 대해서만 새로운 TOML 파일을 초안하세요.
-explorer와 researcher는 gpt-6-luna에서, worker는 gpt-6.1-sol에서, 모두 model_reasoning_effort medium으로
-gpt-6-astra에서 model_reasoning_effort high인 아키텍트 에이전트를 추가하세요. 이 에이전트의 유일한 일은 계획, 반복 오류, 완료된 작업을 검토하는 것입니다.
-다른 모델을 고정하는 것은 건너뛰고 목록으로 나열하세요.
+> 누락된 역할에 대해서만 새로운 TOML 파일을 초안하세요.  
+explorer와 researcher는 gpt-6-luna에서, worker는 gpt-6.1-sol에서, 모두 model_reasoning_effort medium으로  
+gpt-6-astra에서 model_reasoning_effort high인 아키텍트 에이전트를 추가하세요. 이 에이전트의 유일한 일은 계획, 반복 오류, 완료된 작업을 검토하는 것입니다.  
+다른 모델을 고정하는 것은 건너뛰고 목록으로 나열하세요.  
 > 
 1. ~/.codex/config.toml에서 model을 gpt-6.1-sol로 설정하고, model_reasoning_effort를 high로, approvals_reviewer를 auto_review로 설정하세요.
 2. 이를 무효화할 수 있는 것(활성 프로필, 셸 별칭의 플래그, agents.default_subagent_model)을 찾으세요. 보고만 하고 아무것도 변경하지 마세요.
@@ -1820,9 +1900,11 @@ gpt-6-astra에서 model_reasoning_effort high인 아키텍트 에이전트를 �
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>지난 한 달 정도, codex로 죽을 정도로 개발하고 있지만, 아래와 같이 AGENT를 작성해두니 체험이 꽤 개선되었습니다.</strong></summary>
+<summary><h3>지난 한 달 정도, codex로 죽을 정도로 개발하고 있지만, 아래와 같이 AGENT를 작성해두니 체험이 꽤 개선되었습니다.</h3></summary>
 
 
 이것은 사내용 서비스이며, 개발 중인 PJ이므로 후방 호환성이나 데이터 마이그레이션은 하지 않고, 항상 이상적이고 KISS한 코드로 다시 작성해주세요. 개발은 아래 사이클로 진행해주세요
@@ -1842,4 +1924,6 @@ gpt-6-astra에서 model_reasoning_effort high인 아키텍트 에이전트를 �
 
 여기만 막아도 꽤 나아질 거예요
 </details>
+
+---
 

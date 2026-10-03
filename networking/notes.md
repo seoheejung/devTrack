@@ -4,7 +4,7 @@
 
 
 <details>
-<summary><strong>Networking Concepts</strong></summary>
+<summary><h3>Networking Concepts</h3></summary>
 
 
 - DNS - 🟢 Easy
@@ -32,9 +32,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>아무도 컴퓨터 네트워킹을 이렇게 설명하지 않아</strong></summary>
+<summary><h3>아무도 컴퓨터 네트워킹을 이렇게 설명하지 않아</h3></summary>
 
 
 - 인터넷 = 네트워크들이 서로 대화하는 것
@@ -50,9 +52,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>Targeted Ports by Hackers</strong></summary>
+<summary><h3>Targeted Ports by Hackers</h3></summary>
 
 
 🔒 Port 21 (FTP)
@@ -136,9 +140,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>Network Protocols</strong></summary>
+<summary><h3>Network Protocols</h3></summary>
 
 
 https://x.com/i/status/2047835811958382792
@@ -148,9 +154,11 @@ https://x.com/i/status/2047835811958382792
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>대부분의 사람들은 자신의 앱이 사용자를 처리한다고 생각합니다.</strong></summary>
+<summary><h3>대부분의 사람들은 자신의 앱이 사용자를 처리한다고 생각합니다.</h3></summary>
 
 
 그렇지 않습니다. Nginx가 처리합니다.
@@ -173,9 +181,11 @@ https://x.com/i/status/2047835811958382792
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>카페 wi-fi 는 방화벽을 카페에 설치 안해두면 위험하겠다 생각이 든게</strong></summary>
+<summary><h3>카페 wi-fi 는 방화벽을 카페에 설치 안해두면 위험하겠다 생각이 든게</h3></summary>
 
 
 지금은 없어진 집근처 카x베네 wi-fi 라우터가 악성코드 감염되어 있어서 비보안(http) 통신은 중간에서 가로채 도박 사이트 배너 띄우고 그랬음.
@@ -189,9 +199,11 @@ https는 양 끝 단에서만 해석이 가능한 보안 통신입니다. 그래
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>SSH 터널 심층 탐구 - 원격 포트 포워딩</strong></summary>
+<summary><h3>SSH 터널 심층 탐구 - 원격 포트 포워딩</h3></summary>
 
 
 ![image.png](../assets/networking/image-016.png)
@@ -255,9 +267,11 @@ $ ssh -R [remote_addr:]remote_port:local_addr:local_port [user@]sshsrv_addr
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>HTTPS .local 도메인</strong></summary>
+<summary><h3>HTTPS .local 도메인</h3></summary>
 
 
 localhost에서 "연결이 비공개가 아닙니다" 오류에 지쳤나요? 몇 초 만에 로컬 프로젝트를 위한 신뢰할 수 있는 HTTPS .local 도메인을 설정하세요.
@@ -269,9 +283,11 @@ https://www.tecmint.com/setup-https-local-domain-linux/
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>초보자가 알아야 할 10가지 네트워킹 도구</strong></summary>
+<summary><h3>초보자가 알아야 할 10가지 네트워킹 도구</h3></summary>
 
 
 - Ping – 연결성 테스트
@@ -285,4 +301,6 @@ https://www.tecmint.com/setup-https-local-domain-linux/
 - Speedtest – 대역폭 측정
 - Nmap – 네트워크 및 포트 스캔
 </details>
+
+---
 

@@ -4,17 +4,17 @@
 
 
 <details>
-<summary><strong>orphaned file space</strong></summary>
+<summary><h3>orphaned file space</h3></summary>
 
 
-리눅스 서버에서 df -h를 실행하면 디스크 사용량이 100%로 표시됩니다.
+리눅스 서버에서 df -h를 실행하면 디스크 사용량이 100%로 표시됩니다.  
 하지만 du -sh /*를 실행하면 아무것도 100%에 도달하지 않습니다.
 
 가장 가능성 있는 원인은 무엇일까요?
 
-A. 루트 디렉토리의 숨겨진 파일
-B. 실행 중인 프로세스에 의해 여전히 열려 있는 삭제된 파일
-C. 디스크가 고장 났습니다
+A. 루트 디렉토리의 숨겨진 파일  
+B. 실행 중인 프로세스에 의해 여전히 열려 있는 삭제된 파일  
+C. 디스크가 고장 났습니다  
 D. 스왑이 가득 찼습니다
 
 프로세스가 삭제 후에도 파일 디스크립터를 열린 상태로 유지하므로 공간이 해제되지 않습니다.
@@ -26,9 +26,11 @@ du는 파일 시스템 트리에 더 이상 없기 때문에 이를 볼 수 없�
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>디스크가 가득 찼습니다. 실행할 상위 3개 명령어</strong></summary>
+<summary><h3>디스크가 가득 찼습니다. 실행할 상위 3개 명령어</h3></summary>
 
 
 - df -h → 디스크 잔여 공간 확인 (파일시스템 수준)
@@ -38,9 +40,11 @@ du는 파일 시스템 트리에 더 이상 없기 때문에 이를 볼 수 없�
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>리눅스를 10단계로 마스터하기</strong></summary>
+<summary><h3>리눅스를 10단계로 마스터하기</h3></summary>
 
 
 1. 리눅스란 무엇인가 → 커널, 배포판, 쉘
@@ -57,9 +61,11 @@ du는 파일 시스템 트리에 더 이상 없기 때문에 이를 볼 수 없�
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>빠른 리눅스 팁</strong></summary>
+<summary><h3>빠른 리눅스 팁</h3></summary>
 
 
 - 터미널을 실수로 닫았나요? 이전 세션 출력을 복구하세요. 세션이 /home/ravi/session.log에 저장되었습니다
@@ -110,9 +116,11 @@ du는 파일 시스템 트리에 더 이상 없기 때문에 이를 볼 수 없�
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>리눅스 배포판이 당신에 대해 말해주는 것</strong></summary>
+<summary><h3>리눅스 배포판이 당신에 대해 말해주는 것</h3></summary>
 
 
 - 우분투: (당신 아빠가 PC에 다운로드했음)
@@ -126,9 +134,11 @@ du는 파일 시스템 트리에 더 이상 없기 때문에 이를 볼 수 없�
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>명령어 팁</strong></summary>
+<summary><h3>명령어 팁</h3></summary>
 
 
 디스크 사용량 확인 - df -h
@@ -144,9 +154,11 @@ du는 파일 시스템 트리에 더 이상 없기 때문에 이를 볼 수 없�
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>만약 &quot;free -h&quot;를 실행해본 적이 있다면,</strong></summary>
+<summary><h3>만약 &quot;free -h&quot;를 실행해본 적이 있다면,</h3></summary>
 
 
 그 출력 결과가 많은 사람들을 혼란스럽게 한다는 걸 알 거예요
@@ -159,116 +171,120 @@ Swap:          2Gi    100Mi   1.9Gi
 
 각 열이 의미하는 것 👇
 
-total     → 설치된 물리적 RAM
-used      → 프로세스에 의해 실제로 사용 중인 메모리
-free      → 완전히 사용되지 않음 (보통 작음, Linux가 전부 사용함)
-buff/cache → 커널이 디스크 캐싱에 사용 (재사용 가능!)
+total     → 설치된 물리적 RAM  
+used      → 프로세스에 의해 실제로 사용 중인 메모리  
+free      → 완전히 사용되지 않음 (보통 작음, Linux가 전부 사용함)  
+buff/cache → 커널이 디스크 캐싱에 사용 (재사용 가능!)  
 available  → 새로운 프로세스에 실제로 사용 가능한 메모리
 
 중요한 숫자 🟩
 
 available 지표, free가 아님.
 
-Linux는 여유 RAM을 디스크 캐시로 사용합니다 (모든 걸 더 빠르게 만듦).
-그 메모리는 필요 시 즉시 앱에 반환됩니다.
+Linux는 여유 RAM을 디스크 캐시로 사용합니다 (모든 걸 더 빠르게 만듦).  
+그 메모리는 필요 시 즉시 앱에 반환됩니다.  
 건강한 Linux 시스템에서 'free'는 의도적으로 낮게 유지됩니다.
 
 언제 걱정할지🫤
 
-available < 500MB  → 실제로 메모리가 부족함
+available < 500MB  → 실제로 메모리가 부족함  
 OOM killer 이벤트  → dmesg | grep -i 'oom' 확인
 
-free가 낮다고 당황하지 마세요.
+free가 낮다고 당황하지 마세요.  
 available을 주시하세요. 그게 진짜 숫자입니다. 🔖
 
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>DevOps에서 5년 이상 일한 후, 가장 유용하다고 생각하는 명령어들:</strong></summary>
+<summary><h3>DevOps에서 5년 이상 일한 후, 가장 유용하다고 생각하는 명령어들:</h3></summary>
 
 
-grep -r 'text' ./     → 파일에서 무언가를 찾기
-curl -I <url>         → 서비스가 실행 중인지 확인
-kubectl describe      → 이게 왜 고장 났는지
-terraform plan        → 이게 무엇을 변경할지
-git log --oneline     → 최근에 무슨 일이 있었는지
+grep -r 'text' ./     → 파일에서 무언가를 찾기  
+curl -I <url>         → 서비스가 실행 중인지 확인  
+kubectl describe      → 이게 왜 고장 났는지  
+terraform plan        → 이게 무엇을 변경할지  
+git log --oneline     → 최근에 무슨 일이 있었는지  
 tail -f <logfile>     → 지금 무슨 일이 일어나고 있는지
 
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>실제 프로덕션 작업에서 실제로 등장하는 명령어들</strong></summary>
+<summary><h3>실제 프로덕션 작업에서 실제로 등장하는 명령어들</h3></summary>
 
 
 🔎찾아내기:
 
-find / -name 'config.yml' 2>/dev/null
+find / -name 'config.yml' 2>/dev/null  
 → 시스템 어디서든 이름으로 파일 찾기
 
-grep -r 'ERROR' /var/log/ --include='*.log'
+grep -r 'ERROR' /var/log/ --include='*.log'  
 → 모든 로그 파일에서 텍스트 재귀적으로 검색
 
-lsof -i :8080
+lsof -i :8080  
 → 8080 포트를 사용 중인 프로세스는?
 
 🤔리소스를 사용하는 걸 이해하기:
 
-htop
+htop  
 → top의 더 나은 버전. CPU, 메모리, 프로세스별.
 
-iotop
+iotop  
 → 지금 디스크를 두들기는 프로세스는?
 
-nethogs
+nethogs  
 → 가장 많은 네트워크 대역폭을 사용하는 프로세스는?
 
-du -sh /* 2>/dev/null | sort -rh | head -15
+du -sh /* 2>/dev/null | sort -rh | head -15  
 → 루트에서 상위 15개 디스크 사용자
 
 🛜네트워크 디버깅:
 
-ss -tlnp
+ss -tlnp  
 → 모든 리스닝 포트 + 소유 프로세스
 
-curl -v [https://myservice.internal/health](https://myservice.internal/health)
+curl -v [https://myservice.internal/health](https://myservice.internal/health)  
 → 헤더와 타이밍 포함 전체 HTTP 요청
 
-dig +trace .
+dig +trace .  
 → 루트에서 권한 있는 서버까지 전체 DNS 해석 경로
 
-tcpdump -i eth0 port 443 -w /tmp/cap.pcap
+tcpdump -i eth0 port 443 -w /tmp/cap.pcap  
 → Wireshark용 HTTPS 트래픽 파일로 캡처
 
 💟한눈에 보는 시스템 상태:
 
-uptime
+uptime  
 → 1, 5, 15분 동안의 로드 평균
 
-vmstat 1 5
+vmstat 1 5  
 → 1초마다 5회 CPU, 메모리, I/O 통계
 
-dmesg -T | grep -i error
+dmesg -T | grep -i error  
 → 타임스탬프 포함 커널 오류
 
-journalctl -p err -b
+journalctl -p err -b  
 → 마지막 부팅 이후 모든 오류
 
 🦺긴급 상황에서 구해주는 것들:
 
-kill -9 $(lsof -t -i:8080)
+kill -9 $(lsof -t -i:8080)  
 → 8080 포트를 사용 중인 모든 것 종료
 
-nohup ./script.sh &
+nohup ./script.sh &  
 → 백그라운드에서 스크립트 실행, SSH 연결 끊김에도 생존
 
-watch -n 5 'df -h | grep -v tmpfs'
+watch -n 5 'df -h | grep -v tmpfs'  
 → 5초마다 디스크 사용량 새로고침
 
-tail -f /var/log/app.log | grep --line-buffered ERROR
+tail -f /var/log/app.log | grep --line-buffered ERROR  
 → 라이브 로그에서 오류 라인만 스트리밍
 
 🪄마법처럼 보이지만 그렇지 않은 원라이너들:
@@ -285,35 +301,39 @@ tail -f /var/log/app.log | grep --line-buffered ERROR
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>CLI 도구 개발자들이 사랑하는 도구들</strong></summary>
+<summary><h3>CLI 도구 개발자들이 사랑하는 도구들</h3></summary>
 
 
-⚡ htop – 시스템 모니터링
-⚡ bat – 더 나은 cat 명령어
-⚡ fzf – 퍼지 검색 도구
-⚡ ripgrep – 초고속 검색
-⚡ tldr – 간소화된 매뉴얼 페이지
-⚡ lazygit – 터미널용 Git UI
-⚡ zoxide – 더 똑똑한 cd 명령어
+⚡ htop – 시스템 모니터링  
+⚡ bat – 더 나은 cat 명령어  
+⚡ fzf – 퍼지 검색 도구  
+⚡ ripgrep – 초고속 검색  
+⚡ tldr – 간소화된 매뉴얼 페이지  
+⚡ lazygit – 터미널용 Git UI  
+⚡ zoxide – 더 똑똑한 cd 명령어  
 ⚡ exa – ls의 현대적 대체 도구
 
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>빠른 Linux 팁 🐧</strong></summary>
+<summary><h3>빠른 Linux 팁 🐧</h3></summary>
 
 
-1. Linux에 처음이고 포트 80을 점유하고 있는 게 뭔지 모르겠나요? 이 한 가지 명령어만으로 모든 걸 알려줍니다. 어떤 프로세스인지, 어떤 PID인지, 전부요: ss는 netstat보다 빠르고 모든 현대적인 배포판에 미리 설치되어 있습니다.
+1. Linux에 처음이고 포트 80을 점유하고 있는 게 뭔지 모르겠나요? 이 한 가지 명령어만으로 모든 걸 알려줍니다. 어떤 프로세스인지, 어떤 PID인지, 전부요: ss는 netstat보다 빠르고 모든 현대적인 배포판에 미리 설치되어 있습니다.  
 `$ sudo ss -tulnp | grep :80`
     
     ![image.png](../assets/linux/image-071.png)
     
-2. 명령어의 출력을 실시간으로 모니터링하고 싶었지만 루프를 작성하지 않고 싶으신 적 있나요?watch는 2초마다 자동으로 해줍니다:
-`watch df -h`
+2. 명령어의 출력을 실시간으로 모니터링하고 싶었지만 루프를 작성하지 않고 싶으신 적 있나요?watch는 2초마다 자동으로 해줍니다:  
+`watch df -h`  
 `Every 2.0s: df -h`
     
     ```
@@ -344,9 +364,11 @@ tail -f /var/log/app.log | grep --line-buffered ERROR
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>리눅스에서 파일 디스크립터</strong></summary>
+<summary><h3>리눅스에서 파일 디스크립터</h3></summary>
 
 
 1. 모든 것이 파일이다 - 소켓, 파이프, 장치, 실제 파일. 하나의 추상화, 동일한 커널 인터페이스.
@@ -361,23 +383,25 @@ tail -f /var/log/app.log | grep --line-buffered ERROR
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>느린 데이터베이스 디버깅</strong></summary>
+<summary><h3>느린 데이터베이스 디버깅</h3></summary>
 
 
-그가 서버에 로그인했습니다.
-그가 df -h를 실행했습니다.
-그건 30% 여유 공간을 보여줬습니다.
+그가 서버에 로그인했습니다.  
+그가 df -h를 실행했습니다.  
+그건 30% 여유 공간을 보여줬습니다.  
 그는 어깨를 으쓱하며 저장 공간이 문제가 아니라고 말했습니다.
 
 나는 그에게 inode를 무시하는 게 즐거운지, 아니면 작은 파일을 싫어하는지 물었습니다.
 
-그는 당황한 표정으로 df -h가 표준이라고 말했습니다.
+그는 당황한 표정으로 df -h가 표준이라고 말했습니다.  
 나는 그에게 df -h는 공간을 보여줄 뿐 inode는 아니라고 말했습니다. 수백만 개의 빈 임시 파일이 inode를 소진시킬 수 있는데 공간은 괜찮아 보일 수 있죠. 그는 그 차이를 알지 못할 겁니다.
 
-나는 그에게 df -i를 보여줬습니다.
-그건 100% inode 사용량을 보여줬습니다.
+나는 그에게 df -i를 보여줬습니다.  
+그건 100% inode 사용량을 보여줬습니다.  
 나는 그에게 df -h 때문에 우리가 유령 같은 공간 문제를 찾느라 45분을 낭비했다고 말했습니다.
 
 나는 공간과 inode 둘 다에 알림을 보내는 cron 스크립트를 작성하고 그에게 팀에게 그걸 설명하게 했습니다.
@@ -385,9 +409,11 @@ tail -f /var/log/app.log | grep --line-buffered ERROR
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>명령어 모음</strong></summary>
+<summary><h3>명령어 모음</h3></summary>
 
 
 - unshare
@@ -415,9 +441,11 @@ tail -f /var/log/app.log | grep --line-buffered ERROR
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>Bash 스크립팅 기초</strong></summary>
+<summary><h3>Bash 스크립팅 기초</h3></summary>
 
 
 ![image.png](../assets/linux/image-074.png)
@@ -607,28 +635,30 @@ comment'
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>인프라 엔지니어가 알아야 할 Linux 파일 시스템 계층</strong></summary>
+<summary><h3>인프라 엔지니어가 알아야 할 Linux 파일 시스템 계층</h3></summary>
 
 
-/ → 루트 디렉토리. 모든 것이 여기서 시작됩니다
-/bin → 필수 사용자 명령어 (ls, cp, mv)
-/sbin → 시스템 관리자 명령어 (fdisk, ifconfig)
-/etc → 설정 파일 (nginx.conf, sshd_config)
-/var → 가변 데이터 (로그, 메일, 스풀, 데이터베이스)
-/var/log → 시스템 및 애플리케이션 로그
-/home → 사용자 홈 디렉토리
-/root → 루트 사용자의 홈 (/)과 다릅니다
-/tmp → 임시 파일 (재부팅 시 삭제됨)
-/usr → 사용자 프로그램 및 라이브러리
-/opt → 선택적 타사 소프트웨어
-/dev → 장치 파일 (디스크, 터미널)
-/proc → 실행 중인 프로세스에 대한 가상 파일 시스템
-/sys → 커널 및 하드웨어 정보
-/boot → 부트로더 및 커널 파일
-/mnt → 임시 마운트 지점
-/media → 이동식 미디어 (USB, CD)
+/ → 루트 디렉토리. 모든 것이 여기서 시작됩니다  
+/bin → 필수 사용자 명령어 (ls, cp, mv)  
+/sbin → 시스템 관리자 명령어 (fdisk, ifconfig)  
+/etc → 설정 파일 (nginx.conf, sshd_config)  
+/var → 가변 데이터 (로그, 메일, 스풀, 데이터베이스)  
+/var/log → 시스템 및 애플리케이션 로그  
+/home → 사용자 홈 디렉토리  
+/root → 루트 사용자의 홈 (/)과 다릅니다  
+/tmp → 임시 파일 (재부팅 시 삭제됨)  
+/usr → 사용자 프로그램 및 라이브러리  
+/opt → 선택적 타사 소프트웨어  
+/dev → 장치 파일 (디스크, 터미널)  
+/proc → 실행 중인 프로세스에 대한 가상 파일 시스템  
+/sys → 커널 및 하드웨어 정보  
+/boot → 부트로더 및 커널 파일  
+/mnt → 임시 마운트 지점  
+/media → 이동식 미디어 (USB, CD)  
 /lib → /bin 및 /sbin용 공유 라이브러리
 
 ![image.png](../assets/linux/image-075.png)
@@ -636,9 +666,11 @@ comment'
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>리눅스 로그 파싱 명령어</strong></summary>
+<summary><h3>리눅스 로그 파싱 명령어</h3></summary>
 
 
 ### 1. 검색 및 패턴 매칭 (Search & Pattern Matching)
@@ -718,40 +750,44 @@ JSON이나 CSV와 같은 구조화된 데이터를 처리하는 도구들입니�
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>인프라 엔지니어가 매일 실행하는 리눅스 명령어들</strong></summary>
+<summary><h3>인프라 엔지니어가 매일 실행하는 리눅스 명령어들</h3></summary>
 
 
 서버 터졌을 때 원인도 모르고 우왕좌왕하는 초보 엔지니어라면 당장 터미널 켜고 쳐봐야 할 12가지 필수 리눅스 명령어 세트임. uptime부터 dmesg까지 서버 내부의 디스크, 메모리, 포트 상태를 웹 UI 없이 날것 그대로 빠르게 진단할 때 유용함. 복잡한 모니터링 툴이 안 먹히는 최악의 장애 순간을 대비해 무조건 저장해두고 손에 익혀야 할 기본 스펙임
 
-uptime → 서버가 얼마나 오래 실행되었는지
-df -h → 디스크 공간 사용량
-free -h → 메모리 사용량
-top / htop → 실시간 프로세스 및 리소스 보기
-ss -tlnp → 리스닝 포트 및 프로세스
-journalctl -u <service> -f → 실시간 서비스 로그
-systemctl status <service> → 서비스 상태
-systemctl --failed → 한 번에 모든 실패한 서비스
-ip a → 네트워크 인터페이스 및 IP
-ip r → 라우팅 테이블
-dmesg | tail → 최근 커널 메시지
+uptime → 서버가 얼마나 오래 실행되었는지  
+df -h → 디스크 공간 사용량  
+free -h → 메모리 사용량  
+top / htop → 실시간 프로세스 및 리소스 보기  
+ss -tlnp → 리스닝 포트 및 프로세스  
+journalctl -u <service> -f → 실시간 서비스 로그  
+systemctl status <service> → 서비스 상태  
+systemctl --failed → 한 번에 모든 실패한 서비스  
+ip a → 네트워크 인터페이스 및 IP  
+ip r → 라우팅 테이블  
+dmesg | tail → 최근 커널 메시지  
 last → 최근 로그인 기록
 
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>인프라 개념: systemd</strong></summary>
+<summary><h3>인프라 개념: systemd</h3></summary>
 
 
 리눅스 서버가 부팅될 때, 커널을 시작하고, 파일 시스템을 마운트하고, 네트워킹을 활성화하고, 서비스를 실행하며, 종료를 처리해야 하는 무언가가 필요합니다. 그 무언가가 바로 systemd, PID 1, 거의 모든 현대 리눅스 배포판의 init 시스템입니다.
 
-systemd가 관리하는 모든 것은 유닛입니다. 가장 일반적인 유형:
-→ .service - 데몬 (nginx, sshd, docker)
-→ .timer - 예약된 작업 (현대적인 cron 대안)
-→ .socket - 네트워크 또는 IPC 소켓
+systemd가 관리하는 모든 것은 유닛입니다. 가장 일반적인 유형:  
+→ .service - 데몬 (nginx, sshd, docker)  
+→ .timer - 예약된 작업 (현대적인 cron 대안)  
+→ .socket - 네트워크 또는 IPC 소켓  
 → .mount - 파일 시스템 마운트
 
 매일 사용할 명령어들:
@@ -770,9 +806,11 @@ systemd를 이해하면 리눅스 서버가 실제로 어떻게 작동하는지 
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>Linux RAM 요구 사항이 정말 터무니없어 🤯</strong></summary>
+<summary><h3>Linux RAM 요구 사항이 정말 터무니없어 🤯</h3></summary>
 
 
 - 🟠 Ubuntu - 6 GB
@@ -798,9 +836,11 @@ Linux는 감자부터 워크스테이션까지 모든 것에서 실행될 수 �
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>🔑 chmod vs chown</strong></summary>
+<summary><h3>🔑 chmod vs chown</h3></summary>
 
 
 1. chmod = 권한 변경 파일을 읽기, 쓰기, 실행할 수 있는 사용자를 제어합니다.
@@ -814,37 +854,39 @@ Linux는 감자부터 워크스테이션까지 모든 것에서 실행될 수 �
     
     - > 소유자 = ubuntu | 그룹 = developers
 
-간단한 비유:
-→ chown = 집을 소유한 사람 🏠
+간단한 비유:  
+→ chown = 집을 소유한 사람 🏠  
 → chmod = 키를 받는 사람 & 집 안에서 할 수 있는 일 🔑
 
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>⚠️ 커리어를 끝장낼 수 있는 7가지 Linux 명령어</strong></summary>
+<summary><h3>⚠️ 커리어를 끝장낼 수 있는 7가지 Linux 명령어</h3></summary>
 
 
-1️⃣ rm -rf / --no-preserve-root
+1️⃣ rm -rf / --no-preserve-root  
 → 시스템의 모든 파일을 삭제합니다. 확인 절차 없음. 되돌리기 불가능.
 
-2️⃣ :(){ :|:& };:
+2️⃣ :(){ :|:& };:  
 → 포크 폭탄. 커널이 다른 것을 스케줄할 수 없을 때까지 프로세스를 생성합니다.
 
-3️⃣ dd if=/dev/zero of=/dev/sda
+3️⃣ dd if=/dev/zero of=/dev/sda  
 → 디스크를 바이트 단위로 0으로 덮어씁니다. Ctrl+C를 누르기 전에 데이터가 사라집니다.
 
-4️⃣ dd if=/dev/urandom of=/dev/mem
+4️⃣ dd if=/dev/urandom of=/dev/mem  
 → RAM에 직접 쓰레기 데이터를 씁니다. 커널은 이로부터 복구되지 않습니다.
 
-5️⃣ wipefs -a /dev/sda
+5️⃣ wipefs -a /dev/sda  
 → 파티션 테이블을 파괴합니다. 데이터는 여전히 남아 있지만 — OS는 그것을 찾을 방법을 모릅니다.
 
-6️⃣ while :; do mkdir ; done
+6️⃣ while :; do mkdir ; done  
 → 디스크 공간이 남아 있어도 inode가 소진될 때까지 파일 시스템을 디렉토리로 가득 채웁니다.
 
-7️⃣ echo c > /proc/sysrq-trigger
+7️⃣ echo c > /proc/sysrq-trigger  
 → 즉시 커널 패닉을 강제합니다. 경고 없음, 로그도 작성되지 않음.
 
 이 모든 명령어가 실제 프로덕션 사고로 이어진 적이 있습니다.
@@ -852,16 +894,18 @@ Linux는 감자부터 워크스테이션까지 모든 것에서 실행될 수 �
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>리눅스 데스크톱만 1주일 동안 써본 후기:</strong></summary>
+<summary><h3>리눅스 데스크톱만 1주일 동안 써본 후기:</h3></summary>
 
 
-카카오톡 불편하지만 잘 돌아감
-한글 입력 문제 전혀 없음
-지문 인식 잘 됨
-윈도우 11 램 사용량 절반
-32기가 기준 20을 넘기지 않는 중
+카카오톡 불편하지만 잘 돌아감  
+한글 입력 문제 전혀 없음  
+지문 인식 잘 됨  
+윈도우 11 램 사용량 절반  
+32기가 기준 20을 넘기지 않는 중  
 PowerShell 말고 zsh, bash 쓸 수 있음
 
 그냥 쓰면 됩니다. 궁금하셨던 분들은 듀얼 부팅해 보세요. 재밌습니다.
@@ -869,9 +913,11 @@ PowerShell 말고 zsh, bash 쓸 수 있음
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>리눅스 커널 정리 /with MINZKN</strong></summary>
+<summary><h3>리눅스 커널 정리 /with MINZKN</h3></summary>
 
 
 [리눅스 커널 정리 /with MINZKN](https://www.minzkn.com/linuxkernel/index.html)
@@ -879,9 +925,11 @@ PowerShell 말고 zsh, bash 쓸 수 있음
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>두 개의 파일을 가지고 있고, 이를 나란히 비교하고 싶다면.</strong></summary>
+<summary><h3>두 개의 파일을 가지고 있고, 이를 나란히 비교하고 싶다면.</h3></summary>
 
 
 ```
@@ -911,9 +959,11 @@ sdiff list1.txt list2.txt
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>터미널에서 파일 찾느라 cd → ls → cd .. → ls 무한 반복하는 사람?</strong></summary>
+<summary><h3>터미널에서 파일 찾느라 cd → ls → cd .. → ls 무한 반복하는 사람?</h3></summary>
 
 
 GitHub 2.2만 Star `Superfile`은
@@ -943,9 +993,11 @@ macOS·Linux는 한 줄 설치, Windows도 winget·Scoop 지원.
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>리눅스에서 차이가 나는 건 아는 명령어의 수가 아니야.</strong></summary>
+<summary><h3>리눅스에서 차이가 나는 건 아는 명령어의 수가 아니야.</h3></summary>
 
 
 장애 발생 시 df -h→free -m→journalctl→ss -tlnp 순으로 확인할 수 있는지 여부야.
@@ -959,9 +1011,11 @@ macOS·Linux는 한 줄 설치, Windows도 winget·Scoop 지원.
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>이 Linux 명령어들이 지난 13년간의 IT 경력에서 가장 큰 도움을 주었습니다</strong></summary>
+<summary><h3>이 Linux 명령어들이 지난 13년간의 IT 경력에서 가장 큰 도움을 주었습니다</h3></summary>
 
 
 일상적인 것들:
@@ -1036,4 +1090,6 @@ Git 필수:
 - alias - 명령어 단축키 제작기
 - watch - 명령어 반복자
 </details>
+
+---
 

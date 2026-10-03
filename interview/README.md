@@ -4,7 +4,7 @@
 
 
 <details>
-<summary><strong>준수할 인터뷰 분류 체계</strong></summary>
+<summary><h3>준수할 인터뷰 분류 체계</h3></summary>
 
 
 1. **아키텍처**: 분산 구조, 확장성, 설계 선택 판단
@@ -19,9 +19,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>답변 고정 프레임워크</strong></summary>
+<summary><h3>답변 고정 프레임워크</h3></summary>
 
 
 - **질문 표기**: `번호. [요약] 질문`
@@ -31,6 +33,8 @@
 
 
 </details>
+
+---
 
 ### 인터뷰 질문 답변 정리
 
@@ -45,5 +49,5 @@
 - [보안 (입력 검증, 인증, 세션)](security.md)
 - [인프라 / 운영 / DevOps (실제 운영 환경 대응)](infrastructure.md)
 - [언어 / 런타임 / 기본 CS (기초 개념 + 런타임 이해)](languages-cs.md)
-- [메타 / 사고력 / 태도 (개발자 역할 이해)](mindset.md)
+- [메타 / 사고력 / 태도 (개발자 역할 이해)](mindset.md)  
 <!-- migration-navigation:end -->

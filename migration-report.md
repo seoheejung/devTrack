@@ -367,3 +367,39 @@ Source SHA-256은 줄바꿈을 포함한 제공된 파일의 바이트 해시이
 No known content loss.
 
 제공된 Export 전체 기준 알려진 콘텐츠 손실 0건. 원본 ZIP 대조 및 GitHub의 실제 렌더링은 위에 기재한 미검증 범위다.
+
+## Readability and Local Drafts — 2026-10-04
+
+위 표는 최초 마이그레이션의 검증 기록이다. 이후 문서 표시를 다음과 같이 개선했다.
+
+- 콘텐츠 문서 35개의 Toggle 제목 816개를 `<summary><h3>…</h3></summary>`로 확대했다.
+- Toggle 바깥 구분선 816개를 추가해 접힌 상태에서도 메모 경계가 보이도록 했다.
+- 일반 문단 1,786곳에 Markdown 강제 줄바꿈을 추가했다. 기존 문장·순서·URL·이미지·코드·표는 유지했다.
+- 루트 README를 영역별 탐색 표로 정리하고 루트의 Notion 원본 링크를 제거했다. Infrastructure 목차에는 영역별 문서 표와 관련 문서 링크를 추가했다.
+- `index.html`은 15개 고정 카테고리, 제목, 내용, 자료 저장 버튼으로 구성된 로컬 입력 도구다. `drafts.json` 배열에 `id`, `category`, `title`, `content`, `createdAt`만 누적하며 AI 기능이나 상태 필드를 포함하지 않는다.
+- `index.html`과 `drafts.json`은 `.gitignore`로 Git에서 제외한다. `AGENTS.md`에 Codex의 `category/note.md` 추가·검증·요청 파일 삭제 순서를 기록했다. 실제 자료의 처리는 사용자가 나중에 요청할 때 수행한다.
+
+### Additional Validation
+
+| Check | Result |
+| --- | ---: |
+| Content documents compared before / after formatting | 35 |
+| Enlarged Toggle titles | 816 |
+| Outside dividers | 816 |
+| Hard line breaks added | 1,786 |
+| Unchanged code blocks | 374 |
+| Unchanged original files (SHA-256) | 195 |
+| Unchanged assets (SHA-256) | 168 |
+| Local Markdown links checked | 635 |
+| Missing content / broken local links | 0 |
+| Local files excluded from Git | 2 |
+
+수행한 검증:
+
+- 일회성 `node local-notes-data/.work/validate-format.cjs`로 실제 수정 파일을 다시 읽고 표시 변경을 되돌려 수정 전 전체 문자열과 비교했다. 35개 모두 일치했다. 코드 블록은 전체 내용·순서를 별도로 비교했다.
+- 같은 검사에서 원본·첨부 SHA-256, 모든 Toggle 제목과 구분선, 로컬 Markdown 링크, HTML JavaScript 구문, Git 제외 설정을 확인했다.
+- 일회성 `node local-notes-data/.work/browser-test.cjs`로 Chrome에서 실제 `file://` HTML 화면을 열었다. 동일 HTML의 파일 핸들 검사는 테스트용 loopback origin에서 브라우저의 네이티브 File System Access API / OPFS 핸들로 수행했다.
+- 고정 카테고리 15개, 5개 필드의 배열 저장, 여러 건 누적, 동일 내용의 별도 항목 유지, 코드·URL·줄바꿈 보존, 재접속 시 파일 핸들 복원, 잘못된 JSON의 덮어쓰기 방지, 실패 시 입력 유지, 처리 후 삭제된 파일 재생성, 모바일 화면을 확인했다. 모두 통과했다.
+- OS 파일 선택창의 직접 선택·승인은 자동화하지 않았다. 실제 사용 시 첫 자료 저장에서 저장소 루트의 `drafts.json`을 선택해야 한다. 검증용 서버·스크립트·브라우저 프로필은 작업 후 제거한다.
+
+알려진 콘텐츠 손실 0건.

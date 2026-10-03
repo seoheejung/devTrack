@@ -4,7 +4,7 @@
 
 
 <details>
-<summary><strong>체크항목</strong></summary>
+<summary><h3>체크항목</h3></summary>
 
 
 - 실행파일 (exe, bat, dll 등)
@@ -16,9 +16,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>주의할 점</strong></summary>
+<summary><h3>주의할 점</h3></summary>
 
 
 - 파일 읽기/분석
@@ -31,9 +33,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>2026년 최고의 사이버 보안 도구</strong></summary>
+<summary><h3>2026년 최고의 사이버 보안 도구</h3></summary>
 
 
 ① 🌐 Nmap → 네트워크 스캐닝
@@ -59,9 +63,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>사이버 보안 — 마스터 트리</strong></summary>
+<summary><h3>사이버 보안 — 마스터 트리</h3></summary>
 
 
 ```
@@ -158,9 +164,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>SSO vs OAuth vs OIDC vs SAML</strong></summary>
+<summary><h3>SSO vs OAuth vs OIDC vs SAML</h3></summary>
 
 
 𝗦𝗦𝗢는 사용자 경험일 뿐, 프로토콜이 아닙니다. 사용자가 한 번 로그인한 후 여러 앱에 재인증 없이 접근할 수 있게 해주며, 도구 간 원활한 접근을 제공합니다. SAML이나 OIDC 같은 프로토콜에 의존합니다.
@@ -183,4 +191,6 @@
 
 ![image.png](../assets/security/image-013.png)
 </details>
+
+---
 

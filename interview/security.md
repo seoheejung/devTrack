@@ -2,7 +2,7 @@
 
 
 <details>
-<summary><strong>1. [멀티 디바이스 세션] 사용자가 한 기기에서 로그아웃하지만, 다른 기기에서는 여전히 로그인 상태로 남아 있습니다.  이게 올바른 설계인가요? 토큰은 기기 범위로 제한되어야 하나요?</strong></summary>
+<summary><h3>1. [멀티 디바이스 세션] 사용자가 한 기기에서 로그아웃하지만, 다른 기기에서는 여전히 로그인 상태로 남아 있습니다.  이게 올바른 설계인가요? 토큰은 기기 범위로 제한되어야 하나요?</h3></summary>
 
 1. [멀티 디바이스 세션] 사용자가 한 기기에서 로그아웃하지만, 다른 기기에서는 여전히 로그인 상태로 남아 있습니다.  이게 올바른 설계인가요? 토큰은 기기 범위로 제한되어야 하나요?
     
@@ -19,9 +19,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>2. [JWT 한계] 사용자 세션을 안전하게 저장해야 합니다. 은행 수준의 애플리케이션에서 JWT만 사용하는 것이 왜 충분하지 않은가요?</strong></summary>
+<summary><h3>2. [JWT 한계] 사용자 세션을 안전하게 저장해야 합니다. 은행 수준의 애플리케이션에서 JWT만 사용하는 것이 왜 충분하지 않은가요?</h3></summary>
 
 2. [JWT 한계] 사용자 세션을 안전하게 저장해야 합니다. 은행 수준의 애플리케이션에서 JWT만 사용하는 것이 왜 충분하지 않은가요?
     
@@ -44,9 +46,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>3. [JWT 로그아웃] JWT가 상태 비저장(stateless)이라면, 어떻게 사용자를 &quot;로그아웃&quot;시키나요?</strong></summary>
+<summary><h3>3. [JWT 로그아웃] JWT가 상태 비저장(stateless)이라면, 어떻게 사용자를 &quot;로그아웃&quot;시키나요?</h3></summary>
 
 3. [JWT 로그아웃] JWT가 상태 비저장(stateless)이라면, 어떻게 사용자를 "로그아웃"시키나요?
     
@@ -66,9 +70,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>4. [SQL Injection] 귀하의 API는 필터링을 허용합니다: /api/users?filter=email='admin@company.com'. 해커가 filter=1=1 OR email='admin@company.com'을 보내 전체 데이터베이스를 덤프합니다. 취약점은 무엇인가요?</strong></summary>
+<summary><h3>4. [SQL Injection] 귀하의 API는 필터링을 허용합니다: /api/users?filter=email='admin@company.com'. 해커가 filter=1=1 OR email='admin@company.com'을 보내 전체 데이터베이스를 덤프합니다. 취약점은 무엇인가요?</h3></summary>
 
 4. [SQL Injection] 귀하의 API는 필터링을 허용합니다: /api/users?filter=email='admin@company.com'. 해커가 filter=1=1 OR email='admin@company.com'을 보내 전체 데이터베이스를 덤프합니다. 취약점은 무엇인가요?
     
@@ -93,9 +99,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>5. [JWT vs Session 선택] JWT 대 세션 — 언제 무엇을 사용할까요?</strong></summary>
+<summary><h3>5. [JWT vs Session 선택] JWT 대 세션 — 언제 무엇을 사용할까요?</h3></summary>
 
 5. [JWT vs Session 선택] JWT 대 세션 — 언제 무엇을 사용할까요?
     
@@ -117,9 +125,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>6. [캐시 관통(Cache Penetration) 방어] 해커가 데이터베이스에 존재하지 않는 ID를 요청하고 있습니다 (예: ID: -999). 이것은 Redis 캐시를 우회하여 DB에 직접 부하를 줍니다. 어떻게 막나요?</strong></summary>
+<summary><h3>6. [캐시 관통(Cache Penetration) 방어] 해커가 데이터베이스에 존재하지 않는 ID를 요청하고 있습니다 (예: ID: -999). 이것은 Redis 캐시를 우회하여 DB에 직접 부하를 줍니다. 어떻게 막나요?</h3></summary>
 
 6. [캐시 관통(Cache Penetration) 방어] 해커가 데이터베이스에 존재하지 않는 ID를 요청하고 있습니다 (예: ID: -999). 이것은 Redis 캐시를 우회하여 DB에 직접 부하를 줍니다. 어떻게 막나요?
     
@@ -145,9 +155,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>7. [JWT와 DB 저장] JWT는 DB에 저장되지 않습니다. 인터뷰에서 토큰이 DB에 저장된다고 말하는 걸 그만두세요!</strong></summary>
+<summary><h3>7. [JWT와 DB 저장] JWT는 DB에 저장되지 않습니다. 인터뷰에서 토큰이 DB에 저장된다고 말하는 걸 그만두세요!</h3></summary>
 
 7. [JWT와 DB 저장] JWT는 DB에 저장되지 않습니다. 인터뷰에서 토큰이 DB에 저장된다고 말하는 걸 그만두세요!
     
@@ -171,9 +183,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>8. [네트워크 메타데이터 노출] HTTPS가 암호화되어 있다면 어떻게 ISP(인터넷 서비스 제공자)가 여전히 당신이 방문한 웹사이트를 알 수 있는 거죠?</strong></summary>
+<summary><h3>8. [네트워크 메타데이터 노출] HTTPS가 암호화되어 있다면 어떻게 ISP(인터넷 서비스 제공자)가 여전히 당신이 방문한 웹사이트를 알 수 있는 거죠?</h3></summary>
 
 8. [네트워크 메타데이터 노출] HTTPS가 암호화되어 있다면 어떻게 ISP(인터넷 서비스 제공자)가 여전히 당신이 방문한 웹사이트를 알 수 있는 거죠?
     
@@ -201,9 +215,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>9. [서버 측 웹 보안 취약점] 침투 테스트 문제. 다음 중 공격자가 서버를 통해 내부 포트를 무작위로 스캔할 수 있는 취약점은 무엇입니까? (A. SSRF / B. CSRF / C. XSS / D. IDOR)</strong></summary>
+<summary><h3>9. [서버 측 웹 보안 취약점] 침투 테스트 문제. 다음 중 공격자가 서버를 통해 내부 포트를 무작위로 스캔할 수 있는 취약점은 무엇입니까? (A. SSRF / B. CSRF / C. XSS / D. IDOR)</h3></summary>
 
 9. [서버 측 웹 보안 취약점] 침투 테스트 문제. 다음 중 공격자가 서버를 통해 내부 포트를 무작위로 스캔할 수 있는 취약점은 무엇입니까? (A. SSRF / B. CSRF / C. XSS / D. IDOR)
     
@@ -227,9 +243,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>10. [401 vs 403 상태 코드] 로그인된 사용자, 관리자 기능 클릭. 관리자 자격 증명 입력 요청, 잘못된 관리자 자격 증명 입력. 무엇을 보내야 할까? 401인가 403인가?</strong></summary>
+<summary><h3>10. [401 vs 403 상태 코드] 로그인된 사용자, 관리자 기능 클릭. 관리자 자격 증명 입력 요청, 잘못된 관리자 자격 증명 입력. 무엇을 보내야 할까? 401인가 403인가?</h3></summary>
 
 10. [401 vs 403 상태 코드] 로그인된 사용자, 관리자 기능 클릭. 관리자 자격 증명 입력 요청, 잘못된 관리자 자격 증명 입력. 무엇을 보내야 할까? 401인가 403인가?
     
@@ -253,9 +271,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>11. [토큰 검증 응답 처리] 토큰이 만료됨 vs 토큰이 유효하지 않음. API는 동일한 응답을 보내야 할까요, 아니면 다른 응답을 보내야 할까요?</strong></summary>
+<summary><h3>11. [토큰 검증 응답 처리] 토큰이 만료됨 vs 토큰이 유효하지 않음. API는 동일한 응답을 보내야 할까요, 아니면 다른 응답을 보내야 할까요?</h3></summary>
 
 11. [토큰 검증 응답 처리] 토큰이 만료됨 vs 토큰이 유효하지 않음. API는 동일한 응답을 보내야 할까요, 아니면 다른 응답을 보내야 할까요?
     
@@ -279,9 +299,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>12. [백엔드 보안 체계] 프로덕션 환경에서 백엔드를 어떻게 보호하고 계신가요? (JWT, OAuth2, HTTPS만 사용, API 게이트웨이)</strong></summary>
+<summary><h3>12. [백엔드 보안 체계] 프로덕션 환경에서 백엔드를 어떻게 보호하고 계신가요? (JWT, OAuth2, HTTPS만 사용, API 게이트웨이)</h3></summary>
 
 12. [백엔드 보안 체계] 프로덕션 환경에서 백엔드를 어떻게 보호하고 계신가요? (JWT, OAuth2, HTTPS만 사용, API 게이트웨이)
     
@@ -300,9 +322,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>13. [SSH 개념 및 활용] SSH란 무엇이며, 리눅스 관리에서 어떻게 사용되는가?</strong></summary>
+<summary><h3>13. [SSH 개념 및 활용] SSH란 무엇이며, 리눅스 관리에서 어떻게 사용되는가?</h3></summary>
 
 13. [SSH 개념 및 활용] SSH란 무엇이며, 리눅스 관리에서 어떻게 사용되는가?
     
@@ -321,9 +345,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>14. [안전한 파일 전송] 리눅스 서버 간에 파일을 안전하게 전송하는 방법은 무엇인가?</strong></summary>
+<summary><h3>14. [안전한 파일 전송] 리눅스 서버 간에 파일을 안전하게 전송하는 방법은 무엇인가?</h3></summary>
 
 14. [안전한 파일 전송] 리눅스 서버 간에 파일을 안전하게 전송하는 방법은 무엇인가?
     
@@ -342,9 +368,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>15. [서버 보안 모범 사례] 리눅스 서버를 보호하는 모범 사례는 무엇인가?</strong></summary>
+<summary><h3>15. [서버 보안 모범 사례] 리눅스 서버를 보호하는 모범 사례는 무엇인가?</h3></summary>
 
 15. [서버 보안 모범 사례] 리눅스 서버를 보호하는 모범 사례는 무엇인가?
     
@@ -363,9 +391,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>16. [파일 업로드 보안] Java 웹 애플리케이션의 파일 업로드 기능이 멀웨어나 서버 공격에 노출되지 않도록 어떻게 보장하시겠습니까?</strong></summary>
+<summary><h3>16. [파일 업로드 보안] Java 웹 애플리케이션의 파일 업로드 기능이 멀웨어나 서버 공격에 노출되지 않도록 어떻게 보장하시겠습니까?</h3></summary>
 
 16. [파일 업로드 보안] Java 웹 애플리케이션의 파일 업로드 기능이 멀웨어나 서버 공격에 노출되지 않도록 어떻게 보장하시겠습니까?
     
@@ -388,9 +418,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>17. [개념적 접근 제어 취약점] 당신의 앱에는 인증이 있습니다. 당신의 앱에는 권한 부여가 있습니다. 당신의 앱에는 암호화가 있습니다. 사용자가 여전히 다른 사용자의 데이터에 접근했습니다. 무엇을 놓쳤나요?</strong></summary>
+<summary><h3>17. [개념적 접근 제어 취약점] 당신의 앱에는 인증이 있습니다. 당신의 앱에는 권한 부여가 있습니다. 당신의 앱에는 암호화가 있습니다. 사용자가 여전히 다른 사용자의 데이터에 접근했습니다. 무엇을 놓쳤나요?</h3></summary>
 
 17. [개념적 접근 제어 취약점] 당신의 앱에는 인증이 있습니다. 당신의 앱에는 권한 부여가 있습니다. 당신의 앱에는 암호화가 있습니다. 사용자가 여전히 다른 사용자의 데이터에 접근했습니다. 무엇을 놓쳤나요?
     
@@ -419,9 +451,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>18. [신뢰 경계 간 토큰 공유 리스크] 테크 리드가 말하길, 공개 API와 내부 API 모두 동일한 사용자 JWT를 받아들여야 한다고 합니다. 테크 리드가 옳은가요?</strong></summary>
+<summary><h3>18. [신뢰 경계 간 토큰 공유 리스크] 테크 리드가 말하길, 공개 API와 내부 API 모두 동일한 사용자 JWT를 받아들여야 한다고 합니다. 테크 리드가 옳은가요?</h3></summary>
 
 18. [신뢰 경계 간 토큰 공유 리스크] 테크 리드가 말하길, 공개 API와 내부 API 모두 동일한 사용자 JWT를 받아들여야 한다고 합니다. 테크 리드가 옳은가요?
     
@@ -449,9 +483,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>19. [우회 공격을 허용한 속도 제한] 당신의 API 제한은 분당 1,000 요청입니다. 한 사용자가 60초 동안 10,000개의 요청을 보냈는데 모든 요청이 성공했습니다. 속도 제한기가 완벽하게 작동하고 있었다면, 그들이 어떻게 이를 우회했을까요?</strong></summary>
+<summary><h3>19. [우회 공격을 허용한 속도 제한] 당신의 API 제한은 분당 1,000 요청입니다. 한 사용자가 60초 동안 10,000개의 요청을 보냈는데 모든 요청이 성공했습니다. 속도 제한기가 완벽하게 작동하고 있었다면, 그들이 어떻게 이를 우회했을까요?</h3></summary>
 
 19. [우회 공격을 허용한 속도 제한] 당신의 API 제한은 분당 1,000 요청입니다. 한 사용자가 60초 동안 10,000개의 요청을 보냈는데 모든 요청이 성공했습니다. 속도 제한기가 완벽하게 작동하고 있었다면, 그들이 어떻게 이를 우회했을까요?
     
@@ -474,9 +510,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>20. [인증 정보 저장과 세션 메커니즘] 이걸 모르면 진짜 개발자가 아니야: 쿠키(Cookie) vs 세션(Session)의 차이는 무엇인가요?</strong></summary>
+<summary><h3>20. [인증 정보 저장과 세션 메커니즘] 이걸 모르면 진짜 개발자가 아니야: 쿠키(Cookie) vs 세션(Session)의 차이는 무엇인가요?</h3></summary>
 
 20. [인증 정보 저장과 세션 메커니즘] 이걸 모르면 진짜 개발자가 아니야: 쿠키(Cookie) vs 세션(Session)의 차이는 무엇인가요?
     
@@ -505,9 +543,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>21. [Bearer 인증 체계의 본질] 왜 우리는 이렇게 작성하나요: <code>Authorization: Bearer eyJhbGci...</code> &quot;Bearer&quot;는 실제로 무슨 뜻이고 어디서 유래한 거죠?</strong></summary>
+<summary><h3>21. [Bearer 인증 체계의 본질] 왜 우리는 이렇게 작성하나요: <code>Authorization: Bearer eyJhbGci...</code> &quot;Bearer&quot;는 실제로 무슨 뜻이고 어디서 유래한 거죠?</h3></summary>
 
 21. [Bearer 인증 체계의 본질] 왜 우리는 이렇게 작성하나요: `Authorization: Bearer eyJhbGci...` "Bearer"는 실제로 무슨 뜻이고 어디서 유래한 거죠?
     
@@ -539,9 +579,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>22. [인증 및 권한 부여 요소의 역할] 인터뷰어: 토큰(Token), 세션(Session), 쿠키(Cookie), JWT, OAuth2 간의 차이점을 명확히 설명해 주세요.</strong></summary>
+<summary><h3>22. [인증 및 권한 부여 요소의 역할] 인터뷰어: 토큰(Token), 세션(Session), 쿠키(Cookie), JWT, OAuth2 간의 차이점을 명확히 설명해 주세요.</h3></summary>
 
 22. [인증 및 권한 부여 요소의 역할] 인터뷰어: 토큰(Token), 세션(Session), 쿠키(Cookie), JWT, OAuth2 간의 차이점을 명확히 설명해 주세요.
     
@@ -572,9 +614,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>23. [CORS 정책의 한계] 만약 CORS가 원치 않는 요청을 차단한다면, 왜 그것이 진정한 백엔드 보안이 아닌가요? API는 여전히 무엇을 검증해야 합니까?</strong></summary>
+<summary><h3>23. [CORS 정책의 한계] 만약 CORS가 원치 않는 요청을 차단한다면, 왜 그것이 진정한 백엔드 보안이 아닌가요? API는 여전히 무엇을 검증해야 합니까?</h3></summary>
 
 23. [CORS 정책의 한계] 만약 CORS가 원치 않는 요청을 차단한다면, 왜 그것이 진정한 백엔드 보안이 아닌가요? API는 여전히 무엇을 검증해야 합니까?
     
@@ -599,11 +643,13 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>24. 오늘 풀 스택 인턴을 인터뷰했습니다. 이력서: <code>React.js, Node.js, JWT 인증, 여러 풀스택 프로젝트 구축</code></strong></summary>
+<summary><h3>24. 오늘 풀 스택 인턴을 인터뷰했습니다. 이력서: <code>React.js, Node.js, JWT 인증, 여러 풀스택 프로젝트 구축</code></h3></summary>
 
-24. 오늘 풀 스택 인턴을 인터뷰했습니다. 이력서: `React.js, Node.js, JWT 인증, 여러 풀스택 프로젝트 구축`
+24. 오늘 풀 스택 인턴을 인터뷰했습니다. 이력서: `React.js, Node.js, JWT 인증, 여러 풀스택 프로젝트 구축`  
 나: 인스타그램에 로그인한 후 페이지를 새로고침해도 로그아웃되지 않는 이유는 뭐예요? 지원자: 묵묵
     
     ```
@@ -631,9 +677,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>25. [암호화 시스템의 키 관리 취약점] 데이터는 암호화되어 있다. 공격자는 절대 복호화 알고리즘을 해독하지 않는다. 그런데도 모든 것을 읽는다. 어떻게?</strong></summary>
+<summary><h3>25. [암호화 시스템의 키 관리 취약점] 데이터는 암호화되어 있다. 공격자는 절대 복호화 알고리즘을 해독하지 않는다. 그런데도 모든 것을 읽는다. 어떻게?</h3></summary>
 
 25. [암호화 시스템의 키 관리 취약점] 데이터는 암호화되어 있다. 공격자는 절대 복호화 알고리즘을 해독하지 않는다. 그런데도 모든 것을 읽는다. 어떻게?
     
@@ -658,9 +706,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>26. [감사 로그의 무결성 설계] 두 명의 백엔드 엔지니어가 감사 로그를 설계했습니다. Design A : 일반 편집 가능한 행으로 로그를 저장, Design B : 추가 전용(Append-only) 감사 이벤트를 사용. 시스템이 관리자 작업을 추적합니다. 프로덕션에서 어떤 설계를 신뢰하시겠습니까?</strong></summary>
+<summary><h3>26. [감사 로그의 무결성 설계] 두 명의 백엔드 엔지니어가 감사 로그를 설계했습니다. Design A : 일반 편집 가능한 행으로 로그를 저장, Design B : 추가 전용(Append-only) 감사 이벤트를 사용. 시스템이 관리자 작업을 추적합니다. 프로덕션에서 어떤 설계를 신뢰하시겠습니까?</h3></summary>
 
 26. [감사 로그의 무결성 설계] 두 명의 백엔드 엔지니어가 감사 로그를 설계했습니다. Design A : 일반 편집 가능한 행으로 로그를 저장, Design B : 추가 전용(Append-only) 감사 이벤트를 사용. 시스템이 관리자 작업을 추적합니다. 프로덕션에서 어떤 설계를 신뢰하시겠습니까?
     
@@ -684,9 +734,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>27. [API 키 스토리지 보안] 두 엔지니어가 API 키를 설계했습니다. Design A : 데이터베이스에 원시 API 키를 저장. Design B : 스코프와 만료일을 포함한 해시된 키를 저장. 둘 다 요청을 인증합니다. 데이터베이스 유출 시 어떤 설계가 살아남을까요?</strong></summary>
+<summary><h3>27. [API 키 스토리지 보안] 두 엔지니어가 API 키를 설계했습니다. Design A : 데이터베이스에 원시 API 키를 저장. Design B : 스코프와 만료일을 포함한 해시된 키를 저장. 둘 다 요청을 인증합니다. 데이터베이스 유출 시 어떤 설계가 살아남을까요?</h3></summary>
 
 27. [API 키 스토리지 보안] 두 엔지니어가 API 키를 설계했습니다. Design A : 데이터베이스에 원시 API 키를 저장. Design B : 스코프와 만료일을 포함한 해시된 키를 저장. 둘 다 요청을 인증합니다. 데이터베이스 유출 시 어떤 설계가 살아남을까요?
     
@@ -712,9 +764,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>28. [JWT 저장소 취약점 방어] 두 명의 백엔드 엔지니어가 인증을 설계했습니다. Design A: JWT in localStorage. Design B: JWT in HttpOnly cookies. 프로덕션에 승인할 것은 어느 쪽인가요?</strong></summary>
+<summary><h3>28. [JWT 저장소 취약점 방어] 두 명의 백엔드 엔지니어가 인증을 설계했습니다. Design A: JWT in localStorage. Design B: JWT in HttpOnly cookies. 프로덕션에 승인할 것은 어느 쪽인가요?</h3></summary>
 
 28. [JWT 저장소 취약점 방어] 두 명의 백엔드 엔지니어가 인증을 설계했습니다. Design A: JWT in localStorage. Design B: JWT in HttpOnly cookies. 프로덕션에 승인할 것은 어느 쪽인가요?
     
@@ -740,9 +794,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>29. [권한 우회 취약점] 당신의 앱에는 인증이 있습니다. 당신의 앱에는 권한 부여가 있습니다. 당신의 앱에는 암호화가 있습니다. 사용자가 여전히 다른 사용자의 데이터에 접근했습니다. 무엇을 놓쳤나요?</strong></summary>
+<summary><h3>29. [권한 우회 취약점] 당신의 앱에는 인증이 있습니다. 당신의 앱에는 권한 부여가 있습니다. 당신의 앱에는 암호화가 있습니다. 사용자가 여전히 다른 사용자의 데이터에 접근했습니다. 무엇을 놓쳤나요?</h3></summary>
 
 29. [권한 우회 취약점] 당신의 앱에는 인증이 있습니다. 당신의 앱에는 권한 부여가 있습니다. 당신의 앱에는 암호화가 있습니다. 사용자가 여전히 다른 사용자의 데이터에 접근했습니다. 무엇을 놓쳤나요?
     
@@ -768,9 +824,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>30. [오래 걸리는 API 요청 처리] &quot;PDF 보고서를 생성하는 엔드포인트가 있어요. 완료하는 데 45초가 걸립니다. 사용자들이 타임아웃 오류를 겪고 있어요. 당신의 상사가 말하죠: 더 빠르게 만들어. PDF 생성 자체는 더 최적화할 수 없어요. 어떻게 하시겠어요?”</strong></summary>
+<summary><h3>30. [오래 걸리는 API 요청 처리] &quot;PDF 보고서를 생성하는 엔드포인트가 있어요. 완료하는 데 45초가 걸립니다. 사용자들이 타임아웃 오류를 겪고 있어요. 당신의 상사가 말하죠: 더 빠르게 만들어. PDF 생성 자체는 더 최적화할 수 없어요. 어떻게 하시겠어요?”</h3></summary>
 
 30. [오래 걸리는 API 요청 처리] "PDF 보고서를 생성하는 엔드포인트가 있어요. 완료하는 데 45초가 걸립니다. 사용자들이 타임아웃 오류를 겪고 있어요. 당신의 상사가 말하죠: 더 빠르게 만들어. PDF 생성 자체는 더 최적화할 수 없어요. 어떻게 하시겠어요?”
     
@@ -799,9 +857,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>31. [JWT 기반 인증의 도입 목적] 백엔드 개발자 여러분: 왜 API들은 세션 대신 JWT를 사용하는 걸까요?</strong></summary>
+<summary><h3>31. [JWT 기반 인증의 도입 목적] 백엔드 개발자 여러분: 왜 API들은 세션 대신 JWT를 사용하는 걸까요?</h3></summary>
 
 31. [JWT 기반 인증의 도입 목적] 백엔드 개발자 여러분: 왜 API들은 세션 대신 JWT를 사용하는 걸까요?
     
@@ -829,9 +889,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>32. [무상태 JWT의 강제 취소 전략] JWT는 상태 비저장(stateless)입니다. 그렇다면 손상된 JWT를 즉시 어떻게 취소하겠습니까?</strong></summary>
+<summary><h3>32. [무상태 JWT의 강제 취소 전략] JWT는 상태 비저장(stateless)입니다. 그렇다면 손상된 JWT를 즉시 어떻게 취소하겠습니까?</h3></summary>
 
 32. [무상태 JWT의 강제 취소 전략] JWT는 상태 비저장(stateless)입니다. 그렇다면 손상된 JWT를 즉시 어떻게 취소하겠습니까?
     
@@ -857,9 +919,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>33. [세션과 JWT의 혼용 아키텍처] 같은 애플리케이션에서 세션과 JWT를 둘 다 사용할 수 있을까?</strong></summary>
+<summary><h3>33. [세션과 JWT의 혼용 아키텍처] 같은 애플리케이션에서 세션과 JWT를 둘 다 사용할 수 있을까?</h3></summary>
 
 33. [세션과 JWT의 혼용 아키텍처] 같은 애플리케이션에서 세션과 JWT를 둘 다 사용할 수 있을까?
     
@@ -886,9 +950,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>34. [API 유연성의 통제 상실 리스크] 공개 API에서 유연성의 실제 비용은 무엇인가요?</strong></summary>
+<summary><h3>34. [API 유연성의 통제 상실 리스크] 공개 API에서 유연성의 실제 비용은 무엇인가요?</h3></summary>
 
 34. [API 유연성의 통제 상실 리스크] 공개 API에서 유연성의 실제 비용은 무엇인가요?
     
@@ -913,7 +979,9 @@
 
 </details>
 
+---
 
-<!-- migration-navigation:start -->
-[인터뷰 질문](README.md)
+
+<!-- migration-navigation:start -->  
+[인터뷰 질문](README.md)  
 <!-- migration-navigation:end -->

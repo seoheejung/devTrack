@@ -4,7 +4,7 @@
 
 
 <details>
-<summary><strong>높은 전환율을 이끄는 랜딩 페이지 구조</strong></summary>
+<summary><h3>높은 전환율을 이끄는 랜딩 페이지 구조</h3></summary>
 
 
 ![image.png](../assets/frontend/image-083.png)
@@ -54,9 +54,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>AI 디자인 튜토리얼: 초보자를 위한 가이드</strong></summary>
+<summary><h3>AI 디자인 튜토리얼: 초보자를 위한 가이드</h3></summary>
 
 
 만약 당신이 나처럼 비기술적이고 비디자이너라면, AI로 *실제로* 멋져 보이는 결과물을 만드는 방법을 간단한 영어로 설명해드릴게요:
@@ -93,12 +95,14 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>AI가 원하는 웹사이트를 바로 <strong>Next.js</strong> 코드로 클론해줌</strong></summary>
+<summary><h3>AI가 원하는 웹사이트를 바로 <strong>Next.js</strong> 코드로 클론해줌</h3></summary>
 
 
-입력은 이것만 하면 됨:
+입력은 이것만 하면 됨:  
 「/clone-website [https://대상웹사이트.com](https://xn--vk1b82x1b666avray45c.com/)」
 
 그러면 AI가 페이지를 자동으로 분석해서
@@ -153,17 +157,19 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>프론트엔드 직업, 진짜로 사라질지도 몰라요</strong></summary>
+<summary><h3>프론트엔드 직업, 진짜로 사라질지도 몰라요</h3></summary>
 
 
 지금 전 세계에서 대혼란이 일어나고 있는 GitHub 리포지토리를 발견했는데, 이게 순식간에 【9.6만 Star】를 돌파한 이례적인 괴물 프로젝트예요.
 
 무엇이 위험한지 아시나요? Apple, Figma, Stripe 등 "세계 최고 수준의 기업이 가진 디자인 시스템"을 AI가 읽을 수 있는 언어(DESIGN.md)로 정리해서 무료로 공개해 주고 있다는 거예요.
 
-사용법은 실망스러울 정도로 간단해요. 
-좋아하는 브랜드의 『DESIGN.md』를 복사해서 자신의 프로젝트 폴더에 툭 던져놓기만 하면 돼요.
+사용법은 실망스러울 정도로 간단해요.   
+좋아하는 브랜드의 『DESIGN.md』를 복사해서 자신의 프로젝트 폴더에 툭 던져놓기만 하면 돼요.  
 딱 이 정도예요.
 
 이후에는 Cursor 같은 AI 에디터가 Markdown에 적힌 "색상·폰트·여백·컴포넌트의 동작" 등의 세밀한 규칙을 자동으로 읽어들이고, 전혀 흔들림 없는 탑 브랜드 수준의 UI를 자율적으로 생성해 줘요.
@@ -174,11 +180,13 @@
 
 사람이 CSS를 클릭클릭 작성하는 시대는 종료
 
-이제 엔지니어는 "디자인을 구현하는" 게 아니라 "AI에게 디자인 규칙북을 넘겨주는 것만" 하는 세계선에 돌입했어요.
+이제 엔지니어는 "디자인을 구현하는" 게 아니라 "AI에게 디자인 규칙북을 넘겨주는 것만" 하는 세계선에 돌입했어요.  
 시대에 뒤처지지 않도록, 지금 바로 북마크하고 시도해 보세요
 
 [https://github.com/VoltAgent/awesome-design-md](https://github.com/VoltAgent/awesome-design-md)
 
 ---
 </details>
+
+---
 

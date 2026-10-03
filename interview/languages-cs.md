@@ -2,7 +2,7 @@
 
 
 <details>
-<summary><strong>1. [배열 vs 연결 리스트] 왜 연결 리스트가 배열보다 일부 연산에 더 나은가요?</strong></summary>
+<summary><h3>1. [배열 vs 연결 리스트] 왜 연결 리스트가 배열보다 일부 연산에 더 나은가요?</h3></summary>
 
 1. [배열 vs 연결 리스트] 왜 연결 리스트가 배열보다 일부 연산에 더 나은가요?
     
@@ -19,9 +19,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>2. [Redis single-thread 성능] Redis는 단일 스레드인데, 그렇다면 어떻게 초당 수백만 개의 요청을 처리할 수 있나요?</strong></summary>
+<summary><h3>2. [Redis single-thread 성능] Redis는 단일 스레드인데, 그렇다면 어떻게 초당 수백만 개의 요청을 처리할 수 있나요?</h3></summary>
 
 2. [Redis single-thread 성능] Redis는 단일 스레드인데, 그렇다면 어떻게 초당 수백만 개의 요청을 처리할 수 있나요?
     
@@ -38,9 +40,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>3. [== vs ===] null == undefined → true / null === undefined → false 이유는?</strong></summary>
+<summary><h3>3. [== vs ===] null == undefined → true / null === undefined → false 이유는?</h3></summary>
 
 3. [== vs ===] null == undefined → true / null === undefined → false 이유는?
     
@@ -60,9 +64,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>4. [npm run dev vs start] npm run dev vs npm start 차이점은?</strong></summary>
+<summary><h3>4. [npm run dev vs start] npm run dev vs npm start 차이점은?</h3></summary>
 
 4. [npm run dev vs start] npm run dev vs npm start 차이점은?
     
@@ -86,9 +92,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>5. [npm] npm install과 npm ci 는 같은 일을 합니다. (true or false)</strong></summary>
+<summary><h3>5. [npm] npm install과 npm ci 는 같은 일을 합니다. (true or false)</h3></summary>
 
 5. [npm] npm install과 npm ci 는 같은 일을 합니다. (true or false)
     
@@ -110,9 +118,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>6. [스레드와 프로세스] 멀티스레딩과 멀티프로세싱 / 프로세스와 스레드의 차이점은 무엇인가요?</strong></summary>
+<summary><h3>6. [스레드와 프로세스] 멀티스레딩과 멀티프로세싱 / 프로세스와 스레드의 차이점은 무엇인가요?</h3></summary>
 
 6. [스레드와 프로세스] 멀티스레딩과 멀티프로세싱 / 프로세스와 스레드의 차이점은 무엇인가요?
     
@@ -135,9 +145,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>7. [OS 메트릭 계산 방식] 당신의 시스템은 CPU 사용량을 72%로 표시합니다. 하지만 CPU는 하드웨어입니다. 소프트웨어는 어떻게 그 숫자를 측정하고 계산하나요?</strong></summary>
+<summary><h3>7. [OS 메트릭 계산 방식] 당신의 시스템은 CPU 사용량을 72%로 표시합니다. 하지만 CPU는 하드웨어입니다. 소프트웨어는 어떻게 그 숫자를 측정하고 계산하나요?</h3></summary>
 
 7. [OS 메트릭 계산 방식] 당신의 시스템은 CPU 사용량을 72%로 표시합니다. 하지만 CPU는 하드웨어입니다. 소프트웨어는 어떻게 그 숫자를 측정하고 계산하나요?
     
@@ -161,9 +173,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>8. [OSI 3계층 장비] 어떤 장치가 IP 주소를 사용하여 서로 다른 네트워크 간에 패킷을 전달하는 주요 책임을 지는가? (A. 스위치 B. 라우터 C. 허브 D. 브리지)</strong></summary>
+<summary><h3>8. [OSI 3계층 장비] 어떤 장치가 IP 주소를 사용하여 서로 다른 네트워크 간에 패킷을 전달하는 주요 책임을 지는가? (A. 스위치 B. 라우터 C. 허브 D. 브리지)</h3></summary>
 
 8. [OSI 3계층 장비] 어떤 장치가 IP 주소를 사용하여 서로 다른 네트워크 간에 패킷을 전달하는 주요 책임을 지는가? (A. 스위치 B. 라우터 C. 허브 D. 브리지)
     
@@ -189,9 +203,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>9. [정적 블록 예외 처리] 정적 블록(Static Block)에서 예외를 던질 수 있나요?</strong></summary>
+<summary><h3>9. [정적 블록 예외 처리] 정적 블록(Static Block)에서 예외를 던질 수 있나요?</h3></summary>
 
 9. [정적 블록 예외 처리] 정적 블록(Static Block)에서 예외를 던질 수 있나요?
     
@@ -213,9 +229,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>10. [String 불변성] 자바에서 String이 불변(immutable)인 이유는 무엇인가요?</strong></summary>
+<summary><h3>10. [String 불변성] 자바에서 String이 불변(immutable)인 이유는 무엇인가요?</h3></summary>
 
 10. [String 불변성] 자바에서 String이 불변(immutable)인 이유는 무엇인가요?
     
@@ -237,9 +255,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>11. [LinkedList 내부 구조] 자바의 LinkedList는 이중 연결 리스트인지 단일 연결 리스트인가요?</strong></summary>
+<summary><h3>11. [LinkedList 내부 구조] 자바의 LinkedList는 이중 연결 리스트인지 단일 연결 리스트인가요?</h3></summary>
 
 11. [LinkedList 내부 구조] 자바의 LinkedList는 이중 연결 리스트인지 단일 연결 리스트인가요?
     
@@ -261,9 +281,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>12. [Null 참조와 정적 메서드] null 객체 참조에서 정적 메서드를 호출하려고 하면 어떤 일이 발생할까요?</strong></summary>
+<summary><h3>12. [Null 참조와 정적 메서드] null 객체 참조에서 정적 메서드를 호출하려고 하면 어떤 일이 발생할까요?</h3></summary>
 
 12. [Null 참조와 정적 메서드] null 객체 참조에서 정적 메서드를 호출하려고 하면 어떤 일이 발생할까요?
     
@@ -283,9 +305,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>13. [인터페이스 내부 클래스] 인터페이스 내에서 클래스를 정의할 수 있을까요?</strong></summary>
+<summary><h3>13. [인터페이스 내부 클래스] 인터페이스 내에서 클래스를 정의할 수 있을까요?</h3></summary>
 
 13. [인터페이스 내부 클래스] 인터페이스 내에서 클래스를 정의할 수 있을까요?
     
@@ -304,9 +328,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>14. [가비지 컬렉션(GC) 도달성 판단] 객체가 도달할 수 없게 되지만 여전히 다른 객체와 참조를 가지고 있을 때(순환 참조 등) Java의 가비지 컬렉터는 어떻게 작동하나요?</strong></summary>
+<summary><h3>14. [가비지 컬렉션(GC) 도달성 판단] 객체가 도달할 수 없게 되지만 여전히 다른 객체와 참조를 가지고 있을 때(순환 참조 등) Java의 가비지 컬렉터는 어떻게 작동하나요?</h3></summary>
 
 14. [가비지 컬렉션(GC) 도달성 판단] 객체가 도달할 수 없게 되지만 여전히 다른 객체와 참조를 가지고 있을 때(순환 참조 등) Java의 가비지 컬렉터는 어떻게 작동하나요?
     
@@ -328,9 +354,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>15. [Static 메서드 오버라이딩] Java에서 static 메서드를 오버라이드할 수 있나요? 만약 서브클래스에서 동일한 static 메서드를 생성한다면, 컴파일 타임 에러가 발생할까요?</strong></summary>
+<summary><h3>15. [Static 메서드 오버라이딩] Java에서 static 메서드를 오버라이드할 수 있나요? 만약 서브클래스에서 동일한 static 메서드를 생성한다면, 컴파일 타임 에러가 발생할까요?</h3></summary>
 
 15. [Static 메서드 오버라이딩] Java에서 static 메서드를 오버라이드할 수 있나요? 만약 서브클래스에서 동일한 static 메서드를 생성한다면, 컴파일 타임 에러가 발생할까요?
     
@@ -353,9 +381,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>16. [Spring Bean Scope] Spring Boot 앱에서 <code>@Repository</code> 빈에 <code>@Scope(&quot;prototype&quot;)</code>을 표시하면 어떤 일이 발생하나요?</strong></summary>
+<summary><h3>16. [Spring Bean Scope] Spring Boot 앱에서 <code>@Repository</code> 빈에 <code>@Scope(&quot;prototype&quot;)</code>을 표시하면 어떤 일이 발생하나요?</h3></summary>
 
 16. [Spring Bean Scope] Spring Boot 앱에서 `@Repository` 빈에 `@Scope("prototype")`을 표시하면 어떤 일이 발생하나요?
     
@@ -378,9 +408,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>17. [동적 네트워크 구성] 새로운 노트북이 처음으로 사무실 네트워크에 연결되었습니다. 몇 초 안에 IP 주소, 게이트웨이, 그리고 DNS가 수동 설정 없이 구성됩니다. 이것을 자동으로 가능하게 한 프로토콜은 무엇인가요? (A. HTTP / B. DHCP / C. SSH / D. SNMP)</strong></summary>
+<summary><h3>17. [동적 네트워크 구성] 새로운 노트북이 처음으로 사무실 네트워크에 연결되었습니다. 몇 초 안에 IP 주소, 게이트웨이, 그리고 DNS가 수동 설정 없이 구성됩니다. 이것을 자동으로 가능하게 한 프로토콜은 무엇인가요? (A. HTTP / B. DHCP / C. SSH / D. SNMP)</h3></summary>
 
 17. [동적 네트워크 구성] 새로운 노트북이 처음으로 사무실 네트워크에 연결되었습니다. 몇 초 안에 IP 주소, 게이트웨이, 그리고 DNS가 수동 설정 없이 구성됩니다. 이것을 자동으로 가능하게 한 프로토콜은 무엇인가요? (A. HTTP / B. DHCP / C. SSH / D. SNMP)
     
@@ -400,9 +432,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>18. [네트워크 소켓의 이해] 서버에 포트 80 하나만 있다면, 어떻게 수백만 명의 사용자가 동시에 연결할 수 있을까요? 포트 번호 vs 소켓</strong></summary>
+<summary><h3>18. [네트워크 소켓의 이해] 서버에 포트 80 하나만 있다면, 어떻게 수백만 명의 사용자가 동시에 연결할 수 있을까요? 포트 번호 vs 소켓</h3></summary>
 
 18. [네트워크 소켓의 이해] 서버에 포트 80 하나만 있다면, 어떻게 수백만 명의 사용자가 동시에 연결할 수 있을까요? 포트 번호 vs 소켓
     
@@ -431,9 +465,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>19. [Garbage Collection 실행 시점] <code>emp</code> 객체가 즉시 가비지 컬렉션 대상이 되는가? (<code>직원 emp = new 직원(); emp = null;</code>)</strong></summary>
+<summary><h3>19. [Garbage Collection 실행 시점] <code>emp</code> 객체가 즉시 가비지 컬렉션 대상이 되는가? (<code>직원 emp = new 직원(); emp = null;</code>)</h3></summary>
 
 19. [Garbage Collection 실행 시점] `emp` 객체가 즉시 가비지 컬렉션 대상이 되는가? (`직원 emp = new 직원(); emp = null;`)
     
@@ -462,9 +498,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>20. [제네릭 메서드 오버로딩] 제네릭 타입 매개변수만 다른 메서드를 오버로드할 수 있나요? (예: <code>void print(List&lt;String&gt; list)</code> / <code>void print(List&lt;Integer&gt; list)</code>)</strong></summary>
+<summary><h3>20. [제네릭 메서드 오버로딩] 제네릭 타입 매개변수만 다른 메서드를 오버로드할 수 있나요? (예: <code>void print(List&lt;String&gt; list)</code> / <code>void print(List&lt;Integer&gt; list)</code>)</h3></summary>
 
 20. [제네릭 메서드 오버로딩] 제네릭 타입 매개변수만 다른 메서드를 오버로드할 수 있나요? (예: `void print(List<String> list)` / `void print(List<Integer> list)`)
     
@@ -484,9 +522,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>21. [제네릭 와일드카드 상한(extends) 제약] 왜 <code>List&lt;? extends T&gt;</code>에 요소를 추가할 수 없는 걸까요?</strong></summary>
+<summary><h3>21. [제네릭 와일드카드 상한(extends) 제약] 왜 <code>List&lt;? extends T&gt;</code>에 요소를 추가할 수 없는 걸까요?</h3></summary>
 
 21. [제네릭 와일드카드 상한(extends) 제약] 왜 `List<? extends T>`에 요소를 추가할 수 없는 걸까요?
     
@@ -511,9 +551,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>22. [List 제네릭 타입 비교] <code>List&lt;?&gt;</code>, <code>List&lt;Object&gt;</code>, <code>List&lt;? extends Object&gt;</code>의 차이점은 무엇인가요?</strong></summary>
+<summary><h3>22. [List 제네릭 타입 비교] <code>List&lt;?&gt;</code>, <code>List&lt;Object&gt;</code>, <code>List&lt;? extends Object&gt;</code>의 차이점은 무엇인가요?</h3></summary>
 
 22. [List 제네릭 타입 비교] `List<?>`, `List<Object>`, `List<? extends Object>`의 차이점은 무엇인가요?
     
@@ -538,9 +580,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>23. [필수 리눅스 명령어] 모든 엔지니어가 알아야 할 기본 리눅스 명령어는 무엇인가?</strong></summary>
+<summary><h3>23. [필수 리눅스 명령어] 모든 엔지니어가 알아야 할 기본 리눅스 명령어는 무엇인가?</h3></summary>
 
 23. [필수 리눅스 명령어] 모든 엔지니어가 알아야 할 기본 리눅스 명령어는 무엇인가?
     
@@ -557,9 +601,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>24. [절대 경로 vs 상대 경로] 리눅스에서 절대 경로와 상대 경로의 차이점은 무엇인가?</strong></summary>
+<summary><h3>24. [절대 경로 vs 상대 경로] 리눅스에서 절대 경로와 상대 경로의 차이점은 무엇인가?</h3></summary>
 
 24. [절대 경로 vs 상대 경로] 리눅스에서 절대 경로와 상대 경로의 차이점은 무엇인가?
     
@@ -576,9 +622,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>25. [리눅스 파일 권한] 리눅스의 파일 권한은 무엇이며, 어떻게 작동하는가?</strong></summary>
+<summary><h3>25. [리눅스 파일 권한] 리눅스의 파일 권한은 무엇이며, 어떻게 작동하는가?</h3></summary>
 
 25. [리눅스 파일 권한] 리눅스의 파일 권한은 무엇이며, 어떻게 작동하는가?
     
@@ -595,9 +643,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>26. [권한 관리 명령어 차이] chmod, chown, chgrp의 차이점은 무엇인가?</strong></summary>
+<summary><h3>26. [권한 관리 명령어 차이] chmod, chown, chgrp의 차이점은 무엇인가?</h3></summary>
 
 26. [권한 관리 명령어 차이] chmod, chown, chgrp의 차이점은 무엇인가?
     
@@ -614,9 +664,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>27. [하드 링크 vs 심볼릭 링크] 하드 링크와 심볼릭 링크는 무엇인가?</strong></summary>
+<summary><h3>27. [하드 링크 vs 심볼릭 링크] 하드 링크와 심볼릭 링크는 무엇인가?</h3></summary>
 
 27. [하드 링크 vs 심볼릭 링크] 하드 링크와 심볼릭 링크는 무엇인가?
     
@@ -633,9 +685,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>28. [grep vs awk vs sed] grep, awk, sed의 차이점은 무엇인가?</strong></summary>
+<summary><h3>28. [grep vs awk vs sed] grep, awk, sed의 차이점은 무엇인가?</h3></summary>
 
 28. [grep vs awk vs sed] grep, awk, sed의 차이점은 무엇인가?
     
@@ -652,9 +706,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>29. [파일 및 디렉토리 검색] 리눅스에서 파일과 디렉토리를 어떻게 검색하는가?</strong></summary>
+<summary><h3>29. [파일 및 디렉토리 검색] 리눅스에서 파일과 디렉토리를 어떻게 검색하는가?</h3></summary>
 
 29. [파일 및 디렉토리 검색] 리눅스에서 파일과 디렉토리를 어떻게 검색하는가?
     
@@ -671,9 +727,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>30. [프로세스 개념] 리눅스에서 프로세스는 무엇인가?</strong></summary>
+<summary><h3>30. [프로세스 개념] 리눅스에서 프로세스는 무엇인가?</h3></summary>
 
 30. [프로세스 개념] 리눅스에서 프로세스는 무엇인가?
     
@@ -690,9 +748,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>31. [전경 vs 후경 프로세스] 전경 프로세스와 후경 프로세스의 차이점은 무엇인가?</strong></summary>
+<summary><h3>31. [전경 vs 후경 프로세스] 전경 프로세스와 후경 프로세스의 차이점은 무엇인가?</h3></summary>
 
 31. [전경 vs 후경 프로세스] 전경 프로세스와 후경 프로세스의 차이점은 무엇인가?
     
@@ -709,9 +769,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>32. [쉘 스크립팅 개념] 리눅스에서 쉘 스크립팅은 무엇인가?</strong></summary>
+<summary><h3>32. [쉘 스크립팅 개념] 리눅스에서 쉘 스크립팅은 무엇인가?</h3></summary>
 
 32. [쉘 스크립팅 개념] 리눅스에서 쉘 스크립팅은 무엇인가?
     
@@ -728,9 +790,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>33. [Bash vs Shell] Bash와 Shell의 차이점은 무엇인가?</strong></summary>
+<summary><h3>33. [Bash vs Shell] Bash와 Shell의 차이점은 무엇인가?</h3></summary>
 
 33. [Bash vs Shell] Bash와 Shell의 차이점은 무엇인가?
     
@@ -747,9 +811,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>34. [환경 변수 개념] 리눅스의 환경 변수는 무엇인가?</strong></summary>
+<summary><h3>34. [환경 변수 개념] 리눅스의 환경 변수는 무엇인가?</h3></summary>
 
 34. [환경 변수 개념] 리눅스의 환경 변수는 무엇인가?
     
@@ -766,9 +832,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>35. [PATH 변수 목적] PATH 변수의 목적은 무엇인가?</strong></summary>
+<summary><h3>35. [PATH 변수 목적] PATH 변수의 목적은 무엇인가?</h3></summary>
 
 35. [PATH 변수 목적] PATH 변수의 목적은 무엇인가?
     
@@ -785,9 +853,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>36. [동시성과 병렬성의 핵심 원리] 심지어 선임 소프트웨어 엔지니어들도 이걸 잘못 이해하곤 해요 : 동시성(Concurrency) vs 병렬성(Parallelism)의 차이는 무엇인가요?</strong></summary>
+<summary><h3>36. [동시성과 병렬성의 핵심 원리] 심지어 선임 소프트웨어 엔지니어들도 이걸 잘못 이해하곤 해요 : 동시성(Concurrency) vs 병렬성(Parallelism)의 차이는 무엇인가요?</h3></summary>
 
 36. [동시성과 병렬성의 핵심 원리] 심지어 선임 소프트웨어 엔지니어들도 이걸 잘못 이해하곤 해요 : 동시성(Concurrency) vs 병렬성(Parallelism)의 차이는 무엇인가요?
     
@@ -813,9 +883,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>37. [네트워크 루프백 메커니즘] 99% 개발자들이 아직 이것을 모른다 : Localhost vs 127.0.0.1의 차이점은 무엇인가요?</strong></summary>
+<summary><h3>37. [네트워크 루프백 메커니즘] 99% 개발자들이 아직 이것을 모른다 : Localhost vs 127.0.0.1의 차이점은 무엇인가요?</h3></summary>
 
 37. [네트워크 루프백 메커니즘] 99% 개발자들이 아직 이것을 모른다 : Localhost vs 127.0.0.1의 차이점은 무엇인가요?
     
@@ -844,9 +916,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>38. [복합 정규식(Regex)의 실효성 평가] 재밌네, 테크 업계 사람들 90%가 이걸 배운 적이 없다는 게: <code>^(?:(?:https?|ftp):\/\/)?(?:www\.)?(?:[a-zA-Z0-9-]+\.)+[a-zA-Z]{2,}(?:\/[^\s]*)?(?:\?[a-zA-Z0-9=&amp;_%+-]*)?(?:#[a-zA-Z0-9_-]*)?$|^(?:[a-fA-F0-9]{32}|[a-fA-F0-9]{40}|[a-fA-F0-9]{64})$|^(?:\+?[0-9]{1,3})?[-.\s()]*(?:[0-9]{3})[-.\s()]*(?:[0-9]{3})[-.\s()]*(?:[0-9]{4})$|^(?:(?:0?[1-9]|1[0-2])\/(?:0?[1-9]|[12][0-9]|3[01])\/(?:19|20)\d{2})$|^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d@$!%*#?&amp;]{8,}$</code>어떤 사람들에겐 전문 용어처럼 들리겠지만, 너한테는 뭐야?</strong></summary>
+<summary><h3>38. [복합 정규식(Regex)의 실효성 평가] 재밌네, 테크 업계 사람들 90%가 이걸 배운 적이 없다는 게: <code>^(?:(?:https?|ftp):\/\/)?(?:www\.)?(?:[a-zA-Z0-9-]+\.)+[a-zA-Z]{2,}(?:\/[^\s]*)?(?:\?[a-zA-Z0-9=&amp;_%+-]*)?(?:#[a-zA-Z0-9_-]*)?$|^(?:[a-fA-F0-9]{32}|[a-fA-F0-9]{40}|[a-fA-F0-9]{64})$|^(?:\+?[0-9]{1,3})?[-.\s()]*(?:[0-9]{3})[-.\s()]*(?:[0-9]{3})[-.\s()]*(?:[0-9]{4})$|^(?:(?:0?[1-9]|1[0-2])\/(?:0?[1-9]|[12][0-9]|3[01])\/(?:19|20)\d{2})$|^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d@$!%*#?&amp;]{8,}$</code>어떤 사람들에겐 전문 용어처럼 들리겠지만, 너한테는 뭐야?</h3></summary>
 
 38. [복합 정규식(Regex)의 실효성 평가] 재밌네, 테크 업계 사람들 90%가 이걸 배운 적이 없다는 게: `^(?:(?:https?|ftp):\/\/)?(?:www\.)?(?:[a-zA-Z0-9-]+\.)+[a-zA-Z]{2,}(?:\/[^\s]*)?(?:\?[a-zA-Z0-9=&_%+-]*)?(?:#[a-zA-Z0-9_-]*)?$|^(?:[a-fA-F0-9]{32}|[a-fA-F0-9]{40}|[a-fA-F0-9]{64})$|^(?:\+?[0-9]{1,3})?[-.\s()]*(?:[0-9]{3})[-.\s()]*(?:[0-9]{3})[-.\s()]*(?:[0-9]{4})$|^(?:(?:0?[1-9]|1[0-2])\/(?:0?[1-9]|[12][0-9]|3[01])\/(?:19|20)\d{2})$|^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d@$!%*#?&]{8,}$`어떤 사람들에겐 전문 용어처럼 들리겠지만, 너한테는 뭐야?
     
@@ -875,9 +949,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>39. [JVM 모니터링 기반 트러블슈팅] JVM을 사용하여 트러블 슈팅을 하는 방법을 설명하시오.</strong></summary>
+<summary><h3>39. [JVM 모니터링 기반 트러블슈팅] JVM을 사용하여 트러블 슈팅을 하는 방법을 설명하시오.</h3></summary>
 
 39. [JVM 모니터링 기반 트러블슈팅] JVM을 사용하여 트러블 슈팅을 하는 방법을 설명하시오.
     
@@ -899,9 +975,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>40. [비동기 처리 문법의 본질] 백엔드 개발자 여러분 차이점을 아시나요? Promise vs async/await의 차이를 설명하시오.</strong></summary>
+<summary><h3>40. [비동기 처리 문법의 본질] 백엔드 개발자 여러분 차이점을 아시나요? Promise vs async/await의 차이를 설명하시오.</h3></summary>
 
 40. [비동기 처리 문법의 본질] 백엔드 개발자 여러분 차이점을 아시나요? Promise vs async/await의 차이를 설명하시오.
     
@@ -924,9 +1002,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>41. [URL 스키마의 더블 슬래시 유래] 소프트웨어 엔지니어 여러분: 왜 모든 URL이 https 다음에 <code>//</code> 로 시작하는 거죠??</strong></summary>
+<summary><h3>41. [URL 스키마의 더블 슬래시 유래] 소프트웨어 엔지니어 여러분: 왜 모든 URL이 https 다음에 <code>//</code> 로 시작하는 거죠??</h3></summary>
 
 41. [URL 스키마의 더블 슬래시 유래] 소프트웨어 엔지니어 여러분: 왜 모든 URL이 https 다음에 `//` 로 시작하는 거죠??
     
@@ -955,7 +1035,9 @@
 
 </details>
 
+---
 
-<!-- migration-navigation:start -->
-[인터뷰 질문](README.md)
+
+<!-- migration-navigation:start -->  
+[인터뷰 질문](README.md)  
 <!-- migration-navigation:end -->

@@ -4,7 +4,7 @@
 
 
 <details>
-<summary><strong>꼭 알아야 할 시스템 디자인 개념</strong></summary>
+<summary><h3>꼭 알아야 할 시스템 디자인 개념</h3></summary>
 
 
 1. 로드 밸런싱(Load Balancing)이란 들어오는 네트워크 트래픽을 여러 서버에 골고루 분산시키는 기술임. 특정 서버 한 대에 요청이 몰리면 과부하가 걸리고 서비스가 느려지거나 다운될 수 있는데, 로드 밸런서가 중간에서 이를 분산해줌으로써 서비스의 안정성과 가용성을 높여줌. 쉽게 말해 음식점 입구에서 손님을 빈 테이블로 안내하는 직원과 같은 역할임.
@@ -25,9 +25,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>생산 시스템을 망가뜨리는 25가지</strong></summary>
+<summary><h3>생산 시스템을 망가뜨리는 25가지</h3></summary>
 
 
 1. 누락된 환경 변수.
@@ -61,9 +63,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>초보자들은 배운 것을 지나치게 과도하게 적용한 예시</strong></summary>
+<summary><h3>초보자들은 배운 것을 지나치게 과도하게 적용한 예시</h3></summary>
 
 
 인터뷰어: 시스템 디자인 아세요?
@@ -81,9 +85,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>API 게이트웨이 vs 로드 밸런서 vs 리버스 프록시</strong></summary>
+<summary><h3>API 게이트웨이 vs 로드 밸런서 vs 리버스 프록시</h3></summary>
 
 
 🟩리버스 프록시 :
@@ -91,10 +97,10 @@
 - 가장자리에 위치하여 백엔드 서비스로 요청을 전달하면서 인프라를 숨깁니다.
 - TLS 종료, 캐싱, 라우팅을 처리하며 클라이언트와 서버 사이의 보호 층 역할을 합니다.
 
-DevOps 관점: 다음이 필요할 때 사용하세요
-• SSL 종료
-• URL 기반 라우팅
-• 캐싱
+DevOps 관점: 다음이 필요할 때 사용하세요  
+• SSL 종료  
+• URL 기반 라우팅  
+• 캐싱  
 • 백엔드 서비스 숨기기
 
 예시: Nginx, HAProxy, Traefik
@@ -104,10 +110,10 @@ DevOps 관점: 다음이 필요할 때 사용하세요
 - 들어오는 트래픽을 여러 인스턴스에 분산시켜 가용성과 확장성을 향상시킵니다.
 - 단일 인스턴스가 과부하되지 않도록 하고, 건강한 서버로만 트래픽을 라우팅합니다.
 
-DevOps 관점: 다음이 필요할 때 사용하세요
-• 높은 가용성
-• 수평 확장
-• 헬스 체크
+DevOps 관점: 다음이 필요할 때 사용하세요  
+• 높은 가용성  
+• 수평 확장  
+• 헬스 체크  
 • 장애 내성
 
 예시: AWS ALB/NLB, Azure Load Balancer, Kubernetes Service
@@ -117,11 +123,11 @@ DevOps 관점: 다음이 필요할 때 사용하세요
 - 요청을 중앙화하고 보호하며, 서비스에 대한 단일 진입점을 제공합니다.
 - 인증, 속도 제한, 요청 변환, API 라우팅을 처리합니다.
 
-DevOps 관점: 다음이 필요할 때 사용하세요
-• 마이크로서비스 아키텍처
-• 인증 & 권한 부여
-• 속도 제한
-• API 버전 관리
+DevOps 관점: 다음이 필요할 때 사용하세요  
+• 마이크로서비스 아키텍처  
+• 인증 & 권한 부여  
+• 속도 제한  
+• API 버전 관리  
 • 관찰 가능성 & 모니터링
 
 예시: Kong, AWS API Gateway, Apigee, Nginx API Gateway
@@ -139,9 +145,11 @@ DevOps 관점: 다음이 필요할 때 사용하세요
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>시스템 디자인 로드맵</strong></summary>
+<summary><h3>시스템 디자인 로드맵</h3></summary>
 
 
 1. 시작 → 기초 → 네트워킹 → 운영체제 → 데이터베이스 → 캐싱 → 메시징 → 스케일링 → 안정성 → 보안 → 관찰 가능성 → 실습
@@ -166,24 +174,26 @@ DevOps 관점: 다음이 필요할 때 사용하세요
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>많은 엔지니어들이 시스템 설계를 이렇게 답합니다:</strong></summary>
+<summary><h3>많은 엔지니어들이 시스템 설계를 이렇게 답합니다:</h3></summary>
 
 
-로드 밸런서.
-캐시.
-카프카.
-레디스.
-큐.
-샤드.
+로드 밸런서.  
+캐시.  
+카프카.  
+레디스.  
+큐.  
+샤드.  
 CDN.
 
 그저 도구들의 쇼핑 리스트일 뿐입니다.
 
 훌륭한 엔지니어들은 먼저 다른 것을 합니다:
 
-그들은 묻습니다:
+그들은 묻습니다:  
 여기서 진짜 고통은 무엇인가요?
 
 - 읽기가 너무 느린가요?
@@ -202,42 +212,44 @@ CDN.
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>시스템 디자인을 처음부터 공부한다면:</strong></summary>
+<summary><h3>시스템 디자인을 처음부터 공부한다면:</h3></summary>
 
 
-먼저 기초 (쉬움):
-→ 클라이언트-서버 (애플리케이션이 백엔드와 대화)
-→ API들 (데이터 교환)
-→ 요청-응답 (요청 → 응답 사이클)
-→ 데이터베이스 (데이터 저장)
-그리고 가장 핵심 포인트:
+먼저 기초 (쉬움):  
+→ 클라이언트-서버 (애플리케이션이 백엔드와 대화)  
+→ API들 (데이터 교환)  
+→ 요청-응답 (요청 → 응답 사이클)  
+→ 데이터베이스 (데이터 저장)  
+그리고 가장 핵심 포인트:  
 → 데이터 모델링 (무엇을 저장하고 어떻게 쿼리할지 결정)
 
-그 다음 첫 번째 고민들이 시작됨 (중간):
-→ 트래픽 증가 → 로드 밸런싱 (요청 분산)
-→ 지연 발생 → 캐싱 / CDN (더 빠른 응답 제공)
-→ 사용자 유입 → 인증 (신원 확인 및 권한 부여)
+그 다음 첫 번째 고민들이 시작됨 (중간):  
+→ 트래픽 증가 → 로드 밸런싱 (요청 분산)  
+→ 지연 발생 → 캐싱 / CDN (더 빠른 응답 제공)  
+→ 사용자 유입 → 인증 (신원 확인 및 권한 부여)  
 → 남용 시작 → 속도 제한 (스팸 방지)
 
-시스템이 어떻게 사용되는지가 여기서 중요해짐:
+시스템이 어떻게 사용되는지가 여기서 중요해짐:  
 → 읽기 중심 vs 쓰기 중심 (읽기 또는 쓰기 중심 최적화)
 
-시스템이 성장함에 따라 (중간 - 어려움):
-→ 애플리케이션 비대해짐 → 모놀리스 vs 마이크로서비스 (책임 분리)
-→ 장기 작업 발생 → 큐/대기열 (작업을 백그라운드에서 처리)
-→ 의존성 증가 → 이벤트 기반 (단일 흐름에 의존하지 않음)
-→ 데이터 폭증 → 샤딩 (데이터를 조각으로 나누기)
+시스템이 성장함에 따라 (중간 - 어려움):  
+→ 애플리케이션 비대해짐 → 모놀리스 vs 마이크로서비스 (책임 분리)  
+→ 장기 작업 발생 → 큐/대기열 (작업을 백그라운드에서 처리)  
+→ 의존성 증가 → 이벤트 기반 (단일 흐름에 의존하지 않음)  
+→ 데이터 폭증 → 샤딩 (데이터를 조각으로 나누기)  
 → 수요 폭발 → 스케일링 (수직 vs 수평)
 
-라이브 환경 (어려움):
-→ 시스템 상태를 알 수 없음 → 관찰 가능성 (로그, 메트릭, 트레이싱)
-→ 장애 발생 → 내결함성 (오류에도 불구하고 유지)
-→ 데이터 불일치 → CAP 정리 (일관성 vs 가용성 논쟁)
+라이브 환경 (어려움):  
+→ 시스템 상태를 알 수 없음 → 관찰 가능성 (로그, 메트릭, 트레이싱)  
+→ 장애 발생 → 내결함성 (오류에도 불구하고 유지)  
+→ 데이터 불일치 → CAP 정리 (일관성 vs 가용성 논쟁)  
 → 끊김 없는 서비스 필요 → 복제 (단일 머신에 의존하지 않음)
 
-시스템 디자인은 용어를 외우는 게 아님.
+시스템 디자인은 용어를 외우는 게 아님.  
 문제를 보고, 해결책을 결정하고, "트레이드오프"들(무엇을 포기할지)을 받아들이는 거임.
 
 ---
@@ -245,9 +257,11 @@ CDN.
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>폴링 vs 롱 폴링 vs 웹훅 vs SSE</strong></summary>
+<summary><h3>폴링 vs 롱 폴링 vs 웹훅 vs SSE</h3></summary>
 
 
 서버로부터 업데이트를 받는 네 가지 방법. 각각은 단순성, 효율성, 실시간 전달 사이에서 다른 트레이드오프를 제공합니다.
@@ -266,9 +280,11 @@ CDN.
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>올바른 아키텍처 선택</strong></summary>
+<summary><h3>올바른 아키텍처 선택</h3></summary>
 
 
 EDA vs. REST 간단한 치트시트.
@@ -300,9 +316,11 @@ EDA는 비동기 통신을 사용하며, 구성 요소들이 이벤트를 방출
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>시스템 설계 원칙</strong></summary>
+<summary><h3>시스템 설계 원칙</h3></summary>
 
 
 1. 확장성
@@ -434,9 +452,11 @@ EDA는 비동기 통신을 사용하며, 구성 요소들이 이벤트를 방출
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>웹사이트와 웹 애플리케이션의 차이점</strong></summary>
+<summary><h3>웹사이트와 웹 애플리케이션의 차이점</h3></summary>
 
 
 ![image.png](../assets/system-design/image-054.png)
@@ -446,9 +466,11 @@ EDA는 비동기 통신을 사용하며, 구성 요소들이 이벤트를 방출
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>시스템 디자인 로드맵 2026 → 제로에서 프로까지</strong></summary>
+<summary><h3>시스템 디자인 로드맵 2026 → 제로에서 프로까지</h3></summary>
 
 
 Phase 1: 기초
@@ -491,9 +513,11 @@ URL 단축기 → 속도 제한기 → 채팅 앱 → 알림 시스템 → 피�
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>주니어 소프트웨어 엔지니어를 위한 좋은 시스템 설계 인터뷰 질문:</strong></summary>
+<summary><h3>주니어 소프트웨어 엔지니어를 위한 좋은 시스템 설계 인터뷰 질문:</h3></summary>
 
 
 사용자들이 작업을 생성, 업데이트, 삭제하고 볼 수 있는 간단한 Todo 앱 백엔드를 설계하세요.
@@ -531,9 +555,11 @@ API의 경우, POST /signup, POST /login, POST /todos, GET /todos, GET /todos/:i
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>마이크로서비스 9가지 모범 사례</strong></summary>
+<summary><h3>마이크로서비스 9가지 모범 사례</h3></summary>
 
 
 1. 별도의 데이터베이스 사용
@@ -562,9 +588,11 @@ API의 경우, POST /signup, POST /login, POST /todos, GET /todos, GET /todos/:i
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>시스템 디자인 인터뷰에서 계속 보이는 상위 10가지 실수</strong></summary>
+<summary><h3>시스템 디자인 인터뷰에서 계속 보이는 상위 10가지 실수</h3></summary>
 
 
 1. 요구사항과 규모(RPS, p95, 데이터 크기)를 명시하기 전에 마이크로서비스로 바로 뛰어드는 것
@@ -583,30 +611,32 @@ API의 경우, POST /signup, POST /login, POST /todos, GET /todos, GET /todos/:i
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>대부분의 개발자들은 시스템 설계를 거꾸로 배웁니다.</strong></summary>
+<summary><h3>대부분의 개발자들은 시스템 설계를 거꾸로 배웁니다.</h3></summary>
 
 
 그들은 다음으로 시작합니다:
 
-Kafka. Redis. Kubernetes. Microservices.
+Kafka. Redis. Kubernetes. Microservices.  
 하지만 실제 순서는 다음과 같습니다:
 
-1. 작동하게 만들기
+1. 작동하게 만들기  
 단일 서버. 단일 데이터베이스. 배포하기.
-2. 올바르게 만들기
+2. 올바르게 만들기  
 캐싱 추가. 느린 쿼리 수정. 오류 처리.
-3. 빠르게 만들기
+3. 빠르게 만들기  
 인덱스. 연결 풀링. CDN.
-4. 확장 가능하게 만들기
+4. 확장 가능하게 만들기  
 로드 밸런서. 읽기 복제본. 샤딩.
-5. 탄력적으로 만들기
+5. 탄력적으로 만들기  
 서킷 브레이커. 재시도. 페일오버.
 
-대부분의 시스템은 4단계나 5단계가 필요 없습니다.
-대부분의 개발자들은 어쨌든 바로 그쪽으로 뛰어듭니다.
-복잡성은 아키텍처가 아닙니다.
+대부분의 시스템은 4단계나 5단계가 필요 없습니다.  
+대부분의 개발자들은 어쨌든 바로 그쪽으로 뛰어듭니다.  
+복잡성은 아키텍처가 아닙니다.  
 그건 그냥 복잡성일 뿐입니다.
 
 ---
@@ -614,9 +644,11 @@ Kafka. Redis. Kubernetes. Microservices.
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>저는 Blue/Green 배포를 씁니다.</strong></summary>
+<summary><h3>저는 Blue/Green 배포를 씁니다.</h3></summary>
 
 
 배포 때문에 서비스가 멈추는 게 정말 싫습니다.
@@ -635,14 +667,14 @@ Blue/Green은 기존 서비스는 그대로 두고, 새 버전을 먼저 띄워 
 
 ![image.png](../assets/system-design/image-056.png)
 
-기본인데 지키지 않는 분들이 많은것 같습니다.
-바이브코딩으로
-자잘한 수정이라고 문제없을거라고 생각하고 배포하면 안됩니다.
-우리가 모르는사이
-느낌표, 따옴표 하나 잘못 들어가서
-정상작동 안되는 경우가 많습니다. 심지어
-AI가 이런실수를 할거라고 생각지도 못했는데
-콤마를 잘못 쓴다거나 하는
+기본인데 지키지 않는 분들이 많은것 같습니다.  
+바이브코딩으로  
+자잘한 수정이라고 문제없을거라고 생각하고 배포하면 안됩니다.  
+우리가 모르는사이  
+느낌표, 따옴표 하나 잘못 들어가서  
+정상작동 안되는 경우가 많습니다. 심지어  
+AI가 이런실수를 할거라고 생각지도 못했는데  
+콤마를 잘못 쓴다거나 하는  
 이상한 실수를 자주 하곤 합니다.
 
 ---
@@ -650,9 +682,11 @@ AI가 이런실수를 할거라고 생각지도 못했는데
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>더 빠른 배포를 위한 깔끔한 SaaS 스택</strong></summary>
+<summary><h3>더 빠른 배포를 위한 깔끔한 SaaS 스택</h3></summary>
 
 
 - 인프라 관리 없이 호스팅 → Sevalla
@@ -673,21 +707,23 @@ AI가 이런실수를 할거라고 생각지도 못했는데
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>🚨더 일찍 이해했으면 좋았을 11가지 소프트웨어 공학 원칙:</strong></summary>
+<summary><h3>🚨더 일찍 이해했으면 좋았을 11가지 소프트웨어 공학 원칙:</h3></summary>
 
 
-𝟏. 𝐒𝐎𝐋𝐈𝐃: 더 나은 객체 지향 설계
-𝟐. 𝐃𝐑𝐘: 반복 피하기
-𝟑. 𝐊𝐈𝐒𝐒: 단순하게 유지하기
-𝟒. 𝐘𝐀𝐆𝐍𝐈: 불필요한 기능 만들지 않기
-𝟓. 𝐒𝐑𝐏: 한 가지 책임
-𝟔. 𝐎𝐩𝐞𝐧/𝐂𝐥𝐨𝐬𝐞𝐝: 깨뜨리지 않고 확장하기
-𝟕. 𝐃𝐞𝐩𝐞𝐧𝐝𝐞𝐧𝐜𝐲 𝐈𝐧𝐯𝐞𝐫𝐬𝐢𝐨𝐧: 느슨한 결합
-𝟖. 𝐂𝐨𝐦𝐩𝐨𝐬𝐢𝐭𝐢𝐨𝐧: 유연한 컴포넌트 구축
-𝟗. 𝐒𝐞𝐩𝐚𝐫𝐚𝐭𝐢𝐨𝐧 𝐨𝐟 𝐂𝐨𝐧𝐜𝐞𝐫𝐧𝐬: 더 깔끔한 설계
-𝟏𝟎. 𝐅𝐚𝐢𝐥 𝐅𝐚𝐬𝐭: 문제를 일찍 감지하기
+𝟏. 𝐒𝐎𝐋𝐈𝐃: 더 나은 객체 지향 설계  
+𝟐. 𝐃𝐑𝐘: 반복 피하기  
+𝟑. 𝐊𝐈𝐒𝐒: 단순하게 유지하기  
+𝟒. 𝐘𝐀𝐆𝐍𝐈: 불필요한 기능 만들지 않기  
+𝟓. 𝐒𝐑𝐏: 한 가지 책임  
+𝟔. 𝐎𝐩𝐞𝐧/𝐂𝐥𝐨𝐬𝐞𝐝: 깨뜨리지 않고 확장하기  
+𝟕. 𝐃𝐞𝐩𝐞𝐧𝐝𝐞𝐧𝐜𝐲 𝐈𝐧𝐯𝐞𝐫𝐬𝐢𝐨𝐧: 느슨한 결합  
+𝟖. 𝐂𝐨𝐦𝐩𝐨𝐬𝐢𝐭𝐢𝐨𝐧: 유연한 컴포넌트 구축  
+𝟗. 𝐒𝐞𝐩𝐚𝐫𝐚𝐭𝐢𝐨𝐧 𝐨𝐟 𝐂𝐨𝐧𝐜𝐞𝐫𝐧𝐬: 더 깔끔한 설계  
+𝟏𝟎. 𝐅𝐚𝐢𝐥 𝐅𝐚𝐬𝐭: 문제를 일찍 감지하기  
 𝟏𝟏. 𝐌𝐞𝐚𝐬𝐮𝐫𝐞 𝐅𝐢𝐫𝐬𝐭: 실제로 중요한 것 최적화하기
 
 [https://x.com/venkateshdotdev/status/2088527936697860559](https://x.com/venkateshdotdev/status/2088527936697860559)
@@ -697,42 +733,44 @@ AI가 이런실수를 할거라고 생각지도 못했는데
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>모든 소프트웨어 엔지니어가 알아야 할 리소스들 📌</strong></summary>
+<summary><h3>모든 소프트웨어 엔지니어가 알아야 할 리소스들 📌</h3></summary>
 
 
-코스가 아닙니다. 인증서도 아닙니다.
+코스가 아닙니다. 인증서도 아닙니다.  
 단지 북마크할 가치가 있는 것들뿐입니다.
 
-1. Uber Engineering
-실제 시스템, 스케일링, 인프라 + AI
+1. Uber Engineering  
+실제 시스템, 스케일링, 인프라 + AI  
 [https://uber.com/blog/engineering/](https://uber.com/blog/engineering/)
-2. Stripe Engineering
-결제, API, 분산 시스템
+2. Stripe Engineering  
+결제, API, 분산 시스템  
 [https://stripe.dev/blog/topic/engineering](https://stripe.dev/blog/topic/engineering)
-3. Meta Engineering
-대규모 프로덕션 ML + 인프라
+3. Meta Engineering  
+대규모 프로덕션 ML + 인프라  
 [https://engineering.fb.com](https://engineering.fb.com/)
-4. Cloudflare Learning
-DNS, CDN, 네트워킹, 보안, HTTP
+4. Cloudflare Learning  
+DNS, CDN, 네트워킹, 보안, HTTP  
 [https://cloudflare.com/learning/](https://cloudflare.com/learning/)
-5. AWS Architecture Center
-실제 아키텍처 패턴 + 다이어그램
+5. AWS Architecture Center  
+실제 아키텍처 패턴 + 다이어그램  
 [https://aws.amazon.com/architecture/](https://aws.amazon.com/architecture/)
-6. GitHub Engineering
-GitHub가 플랫폼을 어떻게 구축하고 스케일링하는지
+6. GitHub Engineering  
+GitHub가 플랫폼을 어떻게 구축하고 스케일링하는지  
 [https://github.blog/engineering/](https://github.blog/engineering/)
-7. Google Engineering Practices
-엔지니어들이 실제로 코드를 어떻게 작성하고 리뷰하는지
+7. Google Engineering Practices  
+엔지니어들이 실제로 코드를 어떻게 작성하고 리뷰하는지  
 [https://google.github.io/eng-practices/](https://google.github.io/eng-practices/)
-8. Netflix TechBlog
-분산 시스템, 데이터 + 인프라
+8. Netflix TechBlog  
+분산 시스템, 데이터 + 인프라  
 [https://netflixtechblog.com](https://netflixtechblog.com/)
 
 이것들을 북마크하세요.
 
-회사들이 실제 엔지니어링 문제를 어떻게 해결하는지 읽는 것은
+회사들이 실제 엔지니어링 문제를 어떻게 해결하는지 읽는 것은  
 완전히 다른 종류의 학습입니다.
 
 ---
@@ -740,9 +778,11 @@ GitHub가 플랫폼을 어떻게 구축하고 스케일링하는지
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>시스템 디자인을 처음 시작한다면, 이 순서로 배워보세요:</strong></summary>
+<summary><h3>시스템 디자인을 처음 시작한다면, 이 순서로 배워보세요:</h3></summary>
 
 
 1. 끝에서 끝까지 요청(request)이 어떻게 작동하는지
@@ -755,7 +795,7 @@ GitHub가 플랫폼을 어떻게 구축하고 스케일링하는지
 8. 재시도와 멱등성(retries와 idempotence)
 9. 관찰 가능성(observability)
 
-각 개념에 대해 3가지를 이해하세요:
+각 개념에 대해 3가지를 이해하세요:  
 어떤 문제를 해결하는지, 언제 필요한지, 그리고 어떤 복잡성을 추가하는지.
 
 예시:
@@ -768,9 +808,9 @@ GitHub가 플랫폼을 어떻게 구축하고 스케일링하는지
 
 하지만 이제 새로운 질문들이 생깁니다:
 
-> 워커가 실패하면 어떻게 되나요?
-언제 재시도하나요?
-같은 작업이 두 번 처리되면 어떻게 되나요?
+> 워커가 실패하면 어떻게 되나요?  
+언제 재시도하나요?  
+같은 작업이 두 번 처리되면 어떻게 되나요?  
 > 
 
 시스템 디자인을 배우는 것은 각 문제에 어떤 도구를 사용할지 아는 것과, 그것이 도입하는 트레이드오프를 이해하는 것입니다.
@@ -780,9 +820,11 @@ GitHub가 플랫폼을 어떻게 구축하고 스케일링하는지
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>시스템 설계 질문: 사용자들이 20GB 파일을 업로드합니다. 어떤 엔드포인트?</strong></summary>
+<summary><h3>시스템 설계 질문: 사용자들이 20GB 파일을 업로드합니다. 어떤 엔드포인트?</h3></summary>
 
 
 ![image.png](../assets/system-design/image-058.png)
@@ -798,9 +840,11 @@ GitHub가 플랫폼을 어떻게 구축하고 스케일링하는지
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>프로그래밍에 이미 익숙해졌을 때, 다음 단계는 시스템 설계 학습입니다.</strong></summary>
+<summary><h3>프로그래밍에 이미 익숙해졌을 때, 다음 단계는 시스템 설계 학습입니다.</h3></summary>
 
 
 이미 기능 하나를 구축하는 법을 아시죠. 이제 수천 명이 동시에 그 기능을 사용할 때 무슨 일이 일어나는지, 데이터가 증가하거나 서비스가 실패할 때 어떻게 되는지 이해하는 단계입니다.
@@ -825,9 +869,11 @@ GitHub가 플랫폼을 어떻게 구축하고 스케일링하는지
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>시스템 설계 — 궁극의 로드맵 (지금 저장하세요)!</strong></summary>
+<summary><h3>시스템 설계 — 궁극의 로드맵 (지금 저장하세요)!</h3></summary>
 
 
 ```markdown
@@ -914,9 +960,11 @@ GitHub가 플랫폼을 어떻게 구축하고 스케일링하는지
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>시스템 디자인을 배우고 싶다면, 이 8가지 개념부터 시작하세요.</strong></summary>
+<summary><h3>시스템 디자인을 배우고 싶다면, 이 8가지 개념부터 시작하세요.</h3></summary>
 
 
 이 개념들은 시스템을 설계할 때 나타나는 대부분의 문제를 이해하는 데 도움이 될 거예요:
@@ -932,4 +980,6 @@ GitHub가 플랫폼을 어떻게 구축하고 스케일링하는지
 
 연습으로, 온라인 상점을 어떻게 디자인할지 생각해보세요. 방문자가 10배 많아지면 어떻게 될까요? 결제 서비스가 응답하지 않으면? 사용자가 구매 버튼을 두 번 누르면?
 </details>
+
+---
 

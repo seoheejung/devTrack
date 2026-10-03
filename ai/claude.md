@@ -4,77 +4,77 @@
 
 
 <details>
-<summary><strong>클로드 코드 시작할 때 알아두면 좋은 커맨드 20가지 모음</strong></summary>
+<summary><h3>클로드 코드 시작할 때 알아두면 좋은 커맨드 20가지 모음</h3></summary>
 
 
 ■ 멈추기, 되돌리기, 브랜치
 
-1. Esc 키
+1. Esc 키  
 현재 작업이 중단됨. 히스토리는 그대로 유지
 2. /rewind 또는 Esc 키 두 번
 - 코드와 대화 모두 복원
 - 대화만 복원
 - 코드만 복원
 - 여기서부터 요약
-1. /btw
-현재 대화를 오염시키지 않고 사이드 질문 가능
+1. /btw  
+현재 대화를 오염시키지 않고 사이드 질문 가능  
 프롬프트 캐시를 재사용하므로 토큰 낭비 거의 없음
-2. /branch
-대화를 분기함
+2. /branch  
+대화를 분기함  
 두 가지 접근법을 동시에 시도하고, 더 나은 결과를 채택하면 됨
 
 ■ 컨텍스트 윈도우
-5. /compact
-긴 히스토리를 간결하게 요약
+5. /compact  
+긴 히스토리를 간결하게 요약  
 흐름은 유지하면서 컨텍스트가 늘어나는 것을 방지
 
-1. /clear
+1. /clear  
 새로운 주제를 위해 컨텍스트를 초기화
-2. /export
-세션을 markdown 형식으로 저장함
+2. /export  
+세션을 markdown 형식으로 저장함  
 내용을 잊어버리는 일을 방지해줌
-3. /resume
+3. /resume  
 키워드로 이전 세션을 검색
-4. claude -c
+4. claude -c  
 어제 작업하던 세션을 이어서 진행
-5. claude -r
-모든 과거 세션 목록을 보여줌
+5. claude -r  
+모든 과거 세션 목록을 보여줌  
 특정 세션으로 다시 돌아가기 가능
 
 ■ 더 스마트한 작업
-11. /remote-control (/rc)
-실행 중인 세션을 스마트폰으로 넘겨줌
+11. /remote-control (/rc)  
+실행 중인 세션을 스마트폰으로 넘겨줌  
 원격 제어로 어디서든 조작 가능
 
-1. /model opusplan
-계획은 Opus, 실행은 Sonnet으로 돌림
+1. /model opusplan  
+계획은 Opus, 실행은 Sonnet으로 돌림  
 설계 단계는 깊게 추론하고, 코드는 빠르게 출력함
-2. /simplify
-세 명의 리뷰어를 동시에 실행함
-아키텍처, 품질, 효율성을 검토한 뒤
+2. /simplify  
+세 명의 리뷰어를 동시에 실행함  
+아키텍처, 품질, 효율성을 검토한 뒤  
 하나의 리포트로 정리해줌
-3. /insights
-사용 패턴, 자주 하는 실수, [CLAUDE.md](http://claude.md/) 개선 제안 등을
+3. /insights  
+사용 패턴, 자주 하는 실수, [CLAUDE.md](http://claude.md/) 개선 제안 등을  
 포함한 HTML 보고서 생성
-4. /loop
-세션 안에서 반복 또는 일회성 작업 예약
+4. /loop  
+세션 안에서 반복 또는 일회성 작업 예약  
 예) /loop 10m 배포 끝났는지 확인하고 알려줘
 
 ■ 키보드 단축키
-16. Ctrl + V
-스크린샷 바로 붙여넣기
+16. Ctrl + V  
+스크린샷 바로 붙여넣기  
 디스크에 저장 필요없음
 
-1. Ctrl + J (Mac은 Option+Enter)
+1. Ctrl + J (Mac은 Option+Enter)  
 메시지를 보내지 않고 줄바꿈만 삽입
-2. Ctrl + R
-프롬프트 기록을 검색함
+2. Ctrl + R  
+프롬프트 기록을 검색함  
 이미 인덱싱된 개인 프롬프트 라이브러리 같은 느낌
-3. Ctrl + U
+3. Ctrl + U  
 입력 중인 내용을 한번에 지움
-4. /skills [이름]
-프로젝트별 스킬 목록 로드
-/skills만 입력하면
+4. /skills [이름]  
+프로젝트별 스킬 목록 로드  
+/skills만 입력하면  
 현재 워크스페이스에서 사용 가능한 스킬 표시
 
 ---
@@ -82,12 +82,14 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>Claude Code 복붙으로 마스터하는 무료 가이드</strong></summary>
+<summary><h3>Claude Code 복붙으로 마스터하는 무료 가이드</h3></summary>
 
 
-슬래시 명령·메모리·스킬·서브에이전트·MCP·훅·플러그인을
+슬래시 명령·메모리·스킬·서브에이전트·MCP·훅·플러그인을  
 복붙 템플릿으로 익히는 커뮤니티 가이드예요 (MIT, 무료)
 
 뭘 얻을 수 있냐면:
@@ -97,8 +99,8 @@
 - 각 기능이 어떻게 돌아가는지 그림으로 한눈에 이해
 - 퀴즈를 풀면 내가 뭘 모르는지 짚어줘서, 그 부분을 보충하면 됨
 
-코드 리뷰·문서 자동화·CI/CD처럼
-여러 기능을 엮는 실전 워크플로우 예시까지 있어요
+코드 리뷰·문서 자동화·CI/CD처럼  
+여러 기능을 엮는 실전 워크플로우 예시까지 있어요  
 저장해두고, Claude Code 제대로 마스터해야겠다 싶을 때 꺼내 보세요!!
 
 https://github.com/luongnv89/claude-howto
@@ -108,59 +110,61 @@ https://github.com/luongnv89/claude-howto
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>Claude Code랑 Cursor로 로컬 개발 굴릴 때 무조건 봐둬야 할 깃허브 리스트</strong></summary>
+<summary><h3>Claude Code랑 Cursor로 로컬 개발 굴릴 때 무조건 봐둬야 할 깃허브 리스트</h3></summary>
 
 
 컨텍스트 맵으로 대규모 코드 탐색하는 Understand-Anything이랑 에이전트 툴 호출 줄여서 토큰 60%씩 아끼는 codegraph 같은 구조들이 핵심
 
-1. Understand-Anything
+1. Understand-Anything  
 코드베이스 전체를 대화형 나ledge 그래프로 변환하는 도구. 모르는 대규모 코드라도 구조·의존 관계·업무 로직을 지도처럼 시각화해서 검색이나 질문이 가능. Claude Code·Cursor·Copilot·Gemini CLI에 대응.
 
 [https://github.com/Lum1104/Understand-Anything](https://t.co/j9hK6tImY1)
 
-2. codegraph
+2. codegraph  
 코드를 미리 인덱싱해서 AI 코딩 에이전트가 매번 파일을 뒤지지 않아도 되게 하는 도구. 토큰 소비를 약 57%, 도구 호출을 약 62% 절감. 완전 로컬 작동으로 외부 전송 없음.
 
 [https://github.com/colbymchenry/codegraph](https://t.co/TChuWEXUXk)
 
-3. MoneyPrinterTurbo
+3. MoneyPrinterTurbo  
 키워드를 넣기만 하면 대본·소재·자막·BGM을 자동 생성해 고화질의 숏폼 비디오를 만드는 도구. 이름은 화려하지만 내용은 AI 비디오의 자동 생성. 세로 9:16도 가로 16:9도 대응.
 
 [https://github.com/harry0703/MoneyPrinterTurbo](https://t.co/oD69Imz5NC)
 
-4. ECC
+4. ECC  
 Claude Code·Cursor·Codex 등 여러 AI 에이전트 환경의 성능을 끌어올리는 시스템. 스킬·기억·보안을 한 세트로 제공하며, 63개의 에이전트와 249개의 스킬을 동봉.
 
 [https://github.com/affaan-m/ECC](https://t.co/MnxisTgzbU)
 
-5. taste-skill
+5. taste-skill  
 AI가 만드는 UI를 "ありがち하고 따분한 디자인"에서 벗어나게 하는 스킬 모음. 레이아웃·타이포그래피·여백 등 프로의 디자인 원칙을 적용. Claude·Cursor·Codex에서 사용 가능.
 
 [https://github.com/Leonxlnx/taste-skill](https://t.co/HE8DfLbm6w)
 
-6. knowledge-work-plugins
+6. knowledge-work-plugins  
 Anthropic 공식의, Claude를 직종별 전문가로 바꾸는 11종의 플러그인 모음. 영업·지원·마케팅·법무·재무 등의 업무向け. Claude Cowork 중심으로, Claude Code에서도 사용 가능.
 
 [https://github.com/anthropics/knowledge-work-plugins](https://t.co/tlnroaTAUp)
 
-7. Anthropic-Cybersecurity-Skills
+7. Anthropic-Cybersecurity-Skills  
 AI 에이전트에 사이버 시큐리티 전문 지식을 부여하는 754개의 스킬 모음. MITRE ATT&CK 등 5개의 프레임워크에 대응. 이름에 Anthropic이 붙지만 공식 제품이 아닌 유저 커뮤니티 제작.
 
 [https://github.com/mukul975/Anthropic-Cybersecurity-Skills](https://t.co/0jkC8aBYrP)
 
-8. academic-research-skills
+8. academic-research-skills  
 Claude Code向け에 연구→논문 작성→심사→수정을 통째로 해내는 스킬 모음. 인용 체크 등 번거로운 작업은 AI가 맡고, 지적 판단은 인간이 쥐는 "AI는 부조종사" 설계.
 
 [https://github.com/Imbad0202/academic-research-skills](https://t.co/lZjSi0h8aO)
 
-9. pi
+9. pi  
 코딩 에이전트 CLI·여러 LLM을 묶는 통합 API·에이전트 실행 기반·터미널 UI까지 갖춘 AI 에이전트 개발 툴킷. Slack 연동도 가능하며, 의존 관계를 고정해 공급망의 안전성도 중시.
 
 [https://github.com/earendil-works/pi](https://t.co/iQpX6RX7iS)
 
-10. skills（Anthropic 공식）
+10. skills（Anthropic 공식）  
 Claude에 전문 태스크를 수행시키는 "Agent Skills"의 공식 샘플 모음. SKILL(.)md에 절차를 쓰기만 하면 Claude Code·Claude(.)ai·API에서 재사용 가능. 스킬 만드는 법의 모범이 되기도 함.
 
 [https://github.com/anthropics/skills](https://t.co/ZoYJKevxF4)
@@ -170,9 +174,11 @@ Claude에 전문 태스크를 수행시키는 "Agent Skills"의 공식 샘플 �
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>속보: 직장에서 Claude를 사용하지 않는다면, 이미 뒤처진 겁니다. 이 7개의 프롬프트를 복사하세요:</strong></summary>
+<summary><h3>속보: 직장에서 Claude를 사용하지 않는다면, 이미 뒤처진 겁니다. 이 7개의 프롬프트를 복사하세요:</h3></summary>
 
 
 1. 병렬 작업 관리자
@@ -209,28 +215,30 @@ Claude에 전문 태스크를 수행시키는 "Agent Skills"의 공식 샘플 �
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>토큰 새는 9가지 구멍</strong></summary>
+<summary><h3>토큰 새는 9가지 구멍</h3></summary>
 
 
-CLAUDE.md 비대해짐 (14%) — 매번 다 읽음
-대화 기록 다시 읽기 (13%) — 30번째 메시지는 1번째의 30배
-훅 주입 낭비 (11%) — 플러그인이 매번 컨텍스트 박음
-세션 재개시 캐시 미스 (10%) — 5분 쉬면 캐시 날아감
-필요없는 스킬 자동 로딩 (7%) — UI 스킬이 백엔드 작업에 켜짐
-"혹시 모르니" MCP 도구 (6%) — 12개 연결돼있는데 실제론 3개만 씀
-간단한 질문에 깊은 사고 (5%) — 변수명 바꾸는데 추론 켜져있음
-잘못 가는 답 끝까지 보기 (4%) — 멈춰야 하는데 안 멈춤
+CLAUDE.md 비대해짐 (14%) — 매번 다 읽음  
+대화 기록 다시 읽기 (13%) — 30번째 메시지는 1번째의 30배  
+훅 주입 낭비 (11%) — 플러그인이 매번 컨텍스트 박음  
+세션 재개시 캐시 미스 (10%) — 5분 쉬면 캐시 날아감  
+필요없는 스킬 자동 로딩 (7%) — UI 스킬이 백엔드 작업에 켜짐  
+"혹시 모르니" MCP 도구 (6%) — 12개 연결돼있는데 실제론 3개만 씀  
+간단한 질문에 깊은 사고 (5%) — 변수명 바꾸는데 추론 켜져있음  
+잘못 가는 답 끝까지 보기 (4%) — 멈춰야 하는데 안 멈춤  
 플러그인 알림 토큰 (3%) — 세션마다 "로딩됨" 메시지 누적
 
 30초만에 고치는 법
 
-CLAUDE.md 1200단어 이하로 다이어트
-대화 20개 넘으면 새 채팅
-안 쓰는 훅 다 끄기
-스킬 진짜 쓰는 3~4개만 남기기
-항상 켜진 MCP 3개로 줄이기
+CLAUDE.md 1200단어 이하로 다이어트  
+대화 20개 넘으면 새 채팅  
+안 쓰는 훅 다 끄기  
+스킬 진짜 쓰는 3~4개만 남기기  
+항상 켜진 MCP 3개로 줄이기  
 깊은 사고 기본 끄기 (필요할때만 Alt+T)
 
 ---
@@ -238,41 +246,43 @@ CLAUDE.md 1200단어 이하로 다이어트
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>7개월간 클로드 매일 사용한 개발자가 토큰 낭비 줄인 팁</strong></summary>
+<summary><h3>7개월간 클로드 매일 사용한 개발자가 토큰 낭비 줄인 팁</h3></summary>
 
 
 **■ 새로운 주제는 무조건 새 채팅으로**
 
-클로드는 대화할 때마다 이전 대화를 전부 다시 읽는다
+클로드는 대화할 때마다 이전 대화를 전부 다시 읽는다  
 새로운 주제는 바로 새 채팅에서 시작하는게 좋다
 
 **■ 자잘한 질문은 한 번에 묶어서 보내라**
 
-후속 질문을 세 번 보내는 대신,
+후속 질문을 세 번 보내는 대신,  
 질문에 번호를 붙여서 한 번에 보낸다
 
 **■ CLAUDE.md는 짧게, '인덱스'처럼 써라**
 
-클로드는 매 턴마다 md 파일을 참조한다
+클로드는 매 턴마다 md 파일을 참조한다  
 내용이 길수록 매 메시지마다 토큰 낭비가 커진다
 
 ■ **15~20개 메시지 후엔 요약하고 새로 시작해라**
 
-현재 상황 요약 요청 → 새 채팅에 붙여넣기
+현재 상황 요약 요청 → 새 채팅에 붙여넣기  
 이렇게 하면 불필요한 컨텍스트로 토큰 낭비를 안한다
 
 **■ "전체 코드베이스 봐줘"는 가장 비싼 말이다**
 
-전체를 던지면 탐색에 토큰을 엄청 낭비한다
+전체를 던지면 탐색에 토큰을 엄청 낭비한다  
 중요한 함수나 모듈·파일을 짚어주는 게 훨씬 효율적
 
 **■ 가벼운 작업엔 가벼운 모델을 써라**
 
-초안 작성, 서식 변경, 간단 설명·요약 같은 건
-굳이 비싼 모델 쓸 필요 없다
-"추론이 필요한 일"에만 상위 모델을 쓰고,
+초안 작성, 서식 변경, 간단 설명·요약 같은 건  
+굳이 비싼 모델 쓸 필요 없다  
+"추론이 필요한 일"에만 상위 모델을 쓰고,  
 나머지는 더 가벼운 모델로 토큰을 아낀다
 
 ---
@@ -280,41 +290,43 @@ CLAUDE.md 1200단어 이하로 다이어트
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>Claude Code에서 규칙 파일(rules) 아직도 안쓰시나요?</strong></summary>
+<summary><h3>Claude Code에서 규칙 파일(rules) 아직도 안쓰시나요?</h3></summary>
 
 
-규치파일은 CLAUDE.md를 여러 파일로
+규치파일은 CLAUDE.md를 여러 파일로  
 나눠 관리하는 기능입니다.
 
-프로젝트의 .claude/rules/ 디렉터리에
+프로젝트의 .claude/rules/ 디렉터리에  
 마크다운 파일을 넣으면
 
-Claude Code가 적절한 상황에 규칙 파일을
+Claude Code가 적절한 상황에 규칙 파일을  
 자동으로 로드합니다(스킬과 비슷).
 
-[CLAUDE.md](http://claude.md/) 하나가 길어지면
-[code-style.md](http://code-style.md/), testing.md처럼
-주제별로 규칙 파일을 만들어 정
+[CLAUDE.md](http://claude.md/) 하나가 길어지면  
+[code-style.md](http://code-style.md/), testing.md처럼  
+주제별로 규칙 파일을 만들어 정  
 리할 수 있습니다.
 
-하위 폴더에 규칙 파일을 넣어도
+하위 폴더에 규칙 파일을 넣어도  
 재귀적으로 인식이 가능합니다.
 
-모던웹연구소가
-앤트로픽 공식 강의
-'Introduction to agent skills' 6개 챕터를
+모던웹연구소가  
+앤트로픽 공식 강의  
+'Introduction to agent skills' 6개 챕터를  
 한국어 튜토리얼로 공개합니다.
 
-개인 생산성 팁에 머무는
+개인 생산성 팁에 머무는  
 일반 스킬 강의와 달리 공식 커리큘럼은
 
-우선순위 체계와
+우선순위 체계와  
 조직 배포·도구 제한까지 다룹니다.
 
-여기에 원본 강의에 없는
-규칙 파일(rules)과 스킬과의 비교를
+여기에 원본 강의에 없는  
+규칙 파일(rules)과 스킬과의 비교를  
 모던웹연구소가 어떻게 보강했는지 정리합니다.
 
 ![image.png](../assets/claude/image-146.png)
@@ -326,13 +338,15 @@ Claude Code가 적절한 상황에 규칙 파일을
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>Claude Code를 사용하는 경우, 토큰을 절약하기 위해 이 기능을 활성화하세요.</strong></summary>
+<summary><h3>Claude Code를 사용하는 경우, 토큰을 절약하기 위해 이 기능을 활성화하세요.</h3></summary>
 
 
-→ /config 명령어를 사용하세요
-→ "Output"을 검색하세요
+→ /config 명령어를 사용하세요  
+→ "Output"을 검색하세요  
 → "Concise" 모드를 선택하세요
 
 이 기능은 세션 동안 응답을 간결하게 유지하며, 설명은 요청할 때만 제공합니다.
@@ -342,9 +356,11 @@ Claude Code가 적절한 상황에 규칙 파일을
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>Claude에서 토큰을 절약하는 팁: 30초도 안 걸리는 코드 설정 변경.</strong></summary>
+<summary><h3>Claude에서 토큰을 절약하는 팁: 30초도 안 걸리는 코드 설정 변경.</h3></summary>
 
 
 단 하나의 설정 옵션만 바꾸면 됩니다:
@@ -362,9 +378,11 @@ Claude Code가 적절한 상황에 규칙 파일을
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>Claude Code가 당신의 컨텍스트 창을 산 채로 먹어치우고 있습니다.</strong></summary>
+<summary><h3>Claude Code가 당신의 컨텍스트 창을 산 채로 먹어치우고 있습니다.</h3></summary>
 
 
 대부분의 사람들은 토큰을 절약하기 위해 더 짧은 프롬프트를 작성하려 합니다.
@@ -525,33 +543,33 @@ Claude Code가 적절한 상황에 규칙 파일을
 
 내가 실제로 사용할 스택:
 
-거대한 모노레포?
+거대한 모노레포?  
 Code Review Graph + Token Savior
 
-터미널 출력이 컨텍스트를 파괴하나요?
+터미널 출력이 컨텍스트를 파괴하나요?  
 RTK
 
-MCP / GitHub / 로그가 수천 토큰을 쏟아붓나요?
+MCP / GitHub / 로그가 수천 토큰을 쏟아붓나요?  
 Context Mode
 
-Claude가 너무 많이 말하나요?
+Claude가 너무 많이 말하나요?  
 Caveman + Claude Token Efficient
 
-코드베이스 검색이 형편없나요?
+코드베이스 검색이 형편없나요?  
 Claude Context
 
 하지만 여기 더 큰 교훈이 있습니다:
 
 AI 코딩의 미래는 단순히 더 나은 모델이 아닙니다.
 
-컨텍스트 엔지니어링입니다.
-최고의 개발자들은 모든 에이전트에 200K 토큰을 쏟아붓고 지능이 고쳐주길 바라지 않을 겁니다.
-그들은 모델이 정확히 필요로 하는 것을 줄 것입니다.
+컨텍스트 엔지니어링입니다.  
+최고의 개발자들은 모든 에이전트에 200K 토큰을 쏟아붓고 지능이 고쳐주길 바라지 않을 겁니다.  
+그들은 모델이 정확히 필요로 하는 것을 줄 것입니다.  
 그 이상은 아닙니다.
 
-더 작은 컨텍스트.
-더 저렴한 모델.
-더 나은 라우팅.
+더 작은 컨텍스트.  
+더 저렴한 모델.  
+더 나은 라우팅.  
 달러당 더 많은 작업 배송.
 
 더 많은 토큰을 사기 전에 /context를 실행하세요.
@@ -563,9 +581,11 @@ AI 코딩의 미래는 단순히 더 나은 모델이 아닙니다.
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>Claude Code 5시간 리밋에 걸려도 자동으로 다시 일하게 하는 방법.</strong></summary>
+<summary><h3>Claude Code 5시간 리밋에 걸려도 자동으로 다시 일하게 하는 방법.</h3></summary>
 
 
 사실 설정할 것도 거의 없습니다 ㅋㅋ
@@ -577,7 +597,7 @@ Claude Code v2.1.234 이상이라면
 3. “Continue automatically at usage limit” 확인
 4. ON이면 끝
 
-기본값이 ON이라
+기본값이 ON이라  
 대부분은 아무것도 안 해도 됩니다.
 
 이제 긴 작업을 돌리다가
@@ -586,14 +606,14 @@ Claude Code v2.1.234 이상이라면
 
 이 떠도 그대로 두면 됩니다.
 
-Claude가 리밋 초기화 시간까지 기다렸다가
+Claude가 리밋 초기화 시간까지 기다렸다가  
 풀리면 알아서 작업을 이어갑니다.
 
 밤에 작업 던져놓고 자는 분들은 업데이트만 확인해보세요.
 
 claude --version
 
-버전이 낮다면 업데이트하고,
+버전이 낮다면 업데이트하고,  
 /config에서 저 옵션만 확인하면 끝.
 
 이제 새벽에 Claude 깨우러 일어날 필요 없습니다 ㅋㅋ
@@ -603,31 +623,33 @@ claude --version
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>Claude Code를 배우는 데 한 달이 필요하지 않습니다.</strong></summary>
+<summary><h3>Claude Code를 배우는 데 한 달이 필요하지 않습니다.</h3></summary>
 
 
 집중해서 1시간만 투자하세요. ⏱️
 
 다음은 로드맵입니다:
 
-🟠 0-10분: 기초
+🟠 0-10분: 기초  
 설치하고, 터미널 워크플로를 배우며, 필수 명령어를 익히세요.
 
-🟠 10-20분: 코딩
+🟠 10-20분: 코딩  
 Claude가 코드베이스를 검사하게 하고, 파일을 생성하며, 명령어를 실행하고, 오류를 디버깅하며, 테스트를 작성하세요.
 
-🟠 20-30분: [CLAUDE.md](http://claude.md/)
+🟠 20-30분: [CLAUDE.md](http://claude.md/)  
 프로젝트에 영구 지침, 코딩 표준, 규칙을 부여하세요.
 
-🟠 30-40분: 스킬 + 서브에이전트
+🟠 30-40분: 스킬 + 서브에이전트  
 재사용 가능한 워크플로를 만들고, 연구, 테스트, 코드 리뷰를 위임하세요.
 
-🟠 40-50분: MCP + 훅
+🟠 40-50분: MCP + 훅  
 외부 도구를 연결하고 반복적인 작업을 자동화하세요.
 
-🟠 50-60분: 실제 에이전트 구축
+🟠 50-60분: 실제 에이전트 구축  
 아이디어 → 계획 → 코드 → 테스트 → 디버깅 → 리뷰 → 배포
 
 목표는 Claude Code 명령어를 외우는 것이 아닙니다.
@@ -641,12 +663,14 @@ Claude가 실제 프로젝트를 이해하고, 수정하고, 테스트하며, �
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>오 이거 좋다.. 클로드랑 아이디어 회의나 해볼까</strong></summary>
+<summary><h3>오 이거 좋다.. 클로드랑 아이디어 회의나 해볼까</h3></summary>
 
 
-Claude (클로드) 활용하여 내 사고력을 천재급으로 확장하는 8가지 방법
+Claude (클로드) 활용하여 내 사고력을 천재급으로 확장하는 8가지 방법  
 ⬇️
 
 1. 입장 바꿔보기 (Contrarian Perspective)
@@ -717,30 +741,32 @@ Claude (클로드) 활용하여 내 사고력을 천재급으로 확장하는 8�
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>🚩 클로드 Claude 아카데미!! 소식</strong></summary>
+<summary><h3>🚩 클로드 Claude 아카데미!! 소식</h3></summary>
 
 
-클로드를 지식인처럼 쓰는 사람🙋‍♀️
-혹은 클로드 궁금한 사람들 모여!!!
-앤트로픽에서 Claude Academy라는
-무료 학습 플랫폼을 열었어!!
+클로드를 지식인처럼 쓰는 사람🙋‍♀️  
+혹은 클로드 궁금한 사람들 모여!!!  
+앤트로픽에서 Claude Academy라는  
+무료 학습 플랫폼을 열었어!!  
 (한국어👌 + 무료)
 
-AI 완전 초보용 기초부터
-Claude Code, API, MCP,
-에이전트 워크플로우 같은 개발자용 과정까지
-레벨별로 다양하게 있음.
+AI 완전 초보용 기초부터  
+Claude Code, API, MCP,  
+에이전트 워크플로우 같은 개발자용 과정까지  
+레벨별로 다양하게 있음.  
 강의 듣고 완료하면 수료증도 발급해줌.
 
-요즘 AI 제대로 써보고 싶은데
-뭘 어디서부터 공부해야 할지 모르겠는 사람은
+요즘 AI 제대로 써보고 싶은데  
+뭘 어디서부터 공부해야 할지 모르겠는 사람은  
 여기부터 시작해도 괜찮을 듯 👀
 
 나도 지금 듣고 있는데 넘나 유용함!!
 
-우리 AI 제대로 배워서
+우리 AI 제대로 배워서  
 야무지게 써먹어보자고!! 🔥
 
 https://academy.claude.com/ko
@@ -750,9 +776,11 @@ https://academy.claude.com/ko
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>Claude.md doctor 소개</strong></summary>
+<summary><h3>Claude.md doctor 소개</h3></summary>
 
 
 당신의 CLAUDE.md / AGENTS.md를 검사하고, 등급을 매기며, 어떻게 고칠지 알려주는 에이전트 스킬입니다.
@@ -772,9 +800,11 @@ npx skills add agent-clinic/claude-md-doctor
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>무적이다, 드디어 Claude Code가 뭘 하고 있는지 실시간으로 볼 수 있게 됐어</strong></summary>
+<summary><h3>무적이다, 드디어 Claude Code가 뭘 하고 있는지 실시간으로 볼 수 있게 됐어</h3></summary>
 
 
 zoetrope, 방금 오픈소스된 며칠 된 시각화 신기, 한 번의 대화를 흐르는 그림으로 그려줌
@@ -804,9 +834,11 @@ zoetrope, 방금 오픈소스된 며칠 된 시각화 신기, 한 번의 대화�
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>CLAUDE DESIGN에 대한 오픈 소스 대안이 만들어졌습니다</strong></summary>
+<summary><h3>CLAUDE DESIGN에 대한 오픈 소스 대안이 만들어졌습니다</h3></summary>
 
 
 open design이라고 불리며, 당신의 AI 에이전트를 완전한 디자인 스튜디오로 변환시켜주며, 당신 자신의 머신에서 실행됩니다
@@ -815,11 +847,11 @@ open design이라고 불리며, 당신의 AI 에이전트를 완전한 디자인
 
 이게 하는 일:
 
-→ 설명으로부터 웹, 데스크톱, 모바일 프로토타입 생성
-→ 프로덕션 준비된 랜딩 페이지와 대시보드 생성
-→ 프레젠테이션, 이미지, 비디오 제작
-→ 실제 브랜드의 디자인 시스템 사용, 일반 템플릿 아님
-→ html, pdf, pptx, mp4로 직접 내보내기
+→ 설명으로부터 웹, 데스크톱, 모바일 프로토타입 생성  
+→ 프로덕션 준비된 랜딩 페이지와 대시보드 생성  
+→ 프레젠테이션, 이미지, 비디오 제작  
+→ 실제 브랜드의 디자인 시스템 사용, 일반 템플릿 아님  
+→ html, pdf, pptx, mp4로 직접 내보내기  
 → claude code, codex, cursor, gemini 등 여러 가지와 연결
 
 결과: 당신의 코딩 에이전트가 단순한 프로그래밍 에이전트에서 벗어나 디자이너가 됩니다
@@ -835,9 +867,11 @@ https://github.com/nexu-io
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>이 폴더를 만든 이후로 자정에 CLAUDE를 열어본 적이 없어</strong></summary>
+<summary><h3>이 폴더를 만든 이후로 자정에 CLAUDE를 열어본 적이 없어</h3></summary>
 
 
 예전에는 깨자마자 밤새 고장 난 걸 확인하고, 손으로 직접 고쳤어
@@ -846,20 +880,20 @@ https://github.com/nexu-io
 
 밤 교대를 넘겨받은 그 폴더 안에 실제로 뭐가 들어 있는지:
 
-- 계약서
-> CONTRACT.md - 교대 규칙, 커밋됨
+- 계약서  
+> CONTRACT.md - 교대 규칙, 커밋됨  
 > contract.local.md - 내 개인 오버라이드, gitignored
-- 하네스 (.claude/loops/)
-> settings.json - 지출 상한과 타임아웃, 한 번 설정
-> schedule.yml - 다음 교대가 발동되는 시점
-> rubrics/ - code.md, writing.md, safety.md - 내가 놓칠 걸 잡아내는 등급 매기기 도구
+- 하네스 (.claude/loops/)  
+> settings.json - 지출 상한과 타임아웃, 한 번 설정  
+> schedule.yml - 다음 교대가 발동되는 시점  
+> rubrics/ - code.md, writing.md, safety.md - 내가 놓칠 걸 잡아내는 등급 매기기 도구  
 > pr-hunter/ - plan.md가 깨우고, act.sh가 일을 함
-- 상태
-> receipts/ - 교대당 하나의 폴더, 지금까지 5,382개 보관됨
-> trace.log - 정확히 무슨 일이 일어났는지, 추측 없음
+- 상태  
+> receipts/ - 교대당 하나의 폴더, 지금까지 5,382개 보관됨  
+> trace.log - 정확히 무슨 일이 일어났는지, 추측 없음  
 > checkpoint.json - 마지막 교대가 멈춘 곳부터 재개
-- 가장자리
-> kill.sh - 내 패닉 파일, 단 한 번도 사용 안 함
+- 가장자리  
+> kill.sh - 내 패닉 파일, 단 한 번도 사용 안 함  
 > .mcp.json - 만질 수 있는 도구들
 
 이 폴더가 이제 밤 교대를 돌려. 난 그냥 아침에 영수증만 읽을 뿐이야
@@ -871,9 +905,11 @@ https://github.com/nexu-io
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>앞으로 사건 사고들 정말 많이 일어날듯 하다.</strong></summary>
+<summary><h3>앞으로 사건 사고들 정말 많이 일어날듯 하다.</h3></summary>
 
 
 1. 로컬 pc에 클로드코드를 설치하여 이용중인 한 유저가 질문과정에서 에이전트가 파일을 다운로드 하라고 링크를 알려줌
@@ -898,9 +934,11 @@ https://github.com/nexu-io
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>이것만으로도, Claude Code의 사용감이 꽤 많이 달라집니다.</strong></summary>
+<summary><h3>이것만으로도, Claude Code의 사용감이 꽤 많이 달라집니다.</h3></summary>
 
 
 Remote Control이 대폭 개선되어,
@@ -909,51 +947,51 @@ Remote Control이 대폭 개선되어,
 
 주요 변경점 ▼
 
-① 스마트폰에서 세션 시작
+① 스마트폰에서 세션 시작  
 PC에서 claude remote-control을 실행
 
-→ 스마트폰에서 기계와
+→ 스마트폰에서 기계와  
 디렉토리를 선택하기만 하면 됩니다.
 
-② PC ⇄ 스마트폰의 동기화 개선
-PC에서 세션을 재개해도,
+② PC ⇄ 스마트폰의 동기화 개선  
+PC에서 세션을 재개해도,  
 스마트폰 쪽은 그대로 라이브 상태를 유지
 
-③ 자동 재연결
-PC를 끄거나,
+③ 자동 재연결  
+PC를 끄거나,  
 Wi-Fi를 전환해도 자동으로 재연결
 
-④ 세션 동기화도 강화
-모델이나 Reasoning 설정을,
+④ 세션 동기화도 강화  
+모델이나 Reasoning 설정을,  
 CLI와 스마트폰 간에 동기화 가능하게
 
-iOS에서는,
-무거운 세션의
+iOS에서는,  
+무거운 세션의  
 로딩도 가속화
 
-⑤ 슬래시 명령어 개선
-/clear
+⑤ 슬래시 명령어 개선  
+/clear  
 → 모바일 표시를 리셋
 
-/compact
+/compact  
 → 압축 마커를 표시
 
-/diff
+/diff  
 → 네이티브 Diff 뷰를 열기
 
-이걸로,
-PC 앞에 붙어 있을 필요가
+이걸로,  
+PC 앞에 붙어 있을 필요가  
 더 줄어듭니다.
 
-외출 중에도
+외출 중에도  
 스마트폰에서 진행 상황을 확인하고,
 
-그대로 Claude Code에
+그대로 Claude Code에  
 지시를 내릴 수 있어요.
 
-Claude Code가,
-「PC에서 사용하는 환경」에서
-「주머니에서 움직일 수 있는 환경」으로
+Claude Code가,  
+「PC에서 사용하는 환경」에서  
+「주머니에서 움직일 수 있는 환경」으로  
 가까워지고 있습니다.
 
 ---
@@ -961,22 +999,24 @@ Claude Code가,
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>Claude Code에 <code>dynamic workflow</code>라는 엄청난 신기능이 탑재됐어</strong></summary>
+<summary><h3>Claude Code에 <code>dynamic workflow</code>라는 엄청난 신기능이 탑재됐어</h3></summary>
 
 
 프롬프트에 ‘workflow’라고만 쓰면
 
 Claude가 스스로 계획→다중 AI 동시 가동→검증→보고까지 한 번에 처리하는 모양이야
 
-이거 진짜 1인 개발자의 작업량이 반으로 줄어드는 거
+이거 진짜 1인 개발자의 작업량이 반으로 줄어드는 거  
 사용법과 뭐가 바뀌는지, 통째로 분해하면
 
-・/effort를「ultracode」로 설정
-・/model을 opus 4.8로 전환
-・프롬프트에「workflow」만 입력
-・Claude가 사령탑 역할을 하는 스크립트를 자동 생성
+・/effort를「ultracode」로 설정  
+・/model을 opus 4.8로 전환  
+・프롬프트에「workflow」만 입력  
+・Claude가 사령탑 역할을 하는 스크립트를 자동 생성  
 ・서브 AI 군단을 병렬 기동→검증→결과 보고까지 자동
 
 ---
@@ -984,9 +1024,11 @@ Claude가 스스로 계획→다중 AI 동시 가동→검증→보고까지 한
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>Claude Code의 새로운 기능: claude 플러그인 평가</strong></summary>
+<summary><h3>Claude Code의 새로운 기능: claude 플러그인 평가</h3></summary>
 
 
 플러그인이 추가하는 가치를 확인하거나, 더 많은 작업이 필요한지 알아보세요.
@@ -1010,9 +1052,11 @@ Claude가 스스로 계획→다중 AI 동시 가동→검증→보고까지 한
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>서브에이전트를 위해 Opus를 사용하면 Fable 사용을 더욱 풍부하게 즐길 수 있습니다. 훌륭한 팁이네요!</strong></summary>
+<summary><h3>서브에이전트를 위해 Opus를 사용하면 Fable 사용을 더욱 풍부하게 즐길 수 있습니다. 훌륭한 팁이네요!</h3></summary>
 
 
 ![image.png](../assets/claude/image-151.png)
@@ -1026,14 +1070,16 @@ Claude가 스스로 계획→다중 AI 동시 가동→검증→보고까지 한
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>클로드에 Docs랑 Slides가 붙었어요, 채팅창에서 바로 PPT가 나와요!!</strong></summary>
+<summary><h3>클로드에 Docs랑 Slides가 붙었어요, 채팅창에서 바로 PPT가 나와요!!</h3></summary>
 
 
 따끈따끈한 클로드 새 업데이트예요.  Cowork랑 Design이 클로드 일반 채팅에 합쳐지면서 문서랑 슬라이드를 대화 안에서 만들고 그 자리에서 고쳐요.  아래 프롬프트 그대로 한번 돌려봤어요.
 
-■ 프롬프트
+■ 프롬프트  
 클로드 덱스/슬라이드 업데이트 5장짜리 슬라이드 만들어줘. 표지 / 뭐가 달라졌는지 / 새로 업데이트한 핵심 내용 뭔지 / 누가 쓸 수 있는지 / 바로 해볼만한 프롬프트. 내용은 발표 글 정리해서 알아서 붙여줘
 
 ■ 클로드가 해 준 일
@@ -1060,9 +1106,11 @@ Claude가 스스로 계획→다중 AI 동시 가동→검증→보고까지 한
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>웹사이트 출시 전 Claude를 위한 20개 작업</strong></summary>
+<summary><h3>웹사이트 출시 전 Claude를 위한 20개 작업</h3></summary>
 
 
 - 개인정보 보호정책
@@ -1093,9 +1141,11 @@ Claude가 스스로 계획→다중 AI 동시 가동→검증→보고까지 한
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>클로드코드 쓰시는 분들!! 제가 예전부터 많이 썼었던 🎨 statusline 디자인 공유드립니다.</strong></summary>
+<summary><h3>클로드코드 쓰시는 분들!! 제가 예전부터 많이 썼었던 🎨 statusline 디자인 공유드립니다.</h3></summary>
 
 
 (댓글에 프롬프트 적어뒀고, 클로드코드에 그냥 복붙하시기만하면 클로드가 바로 만들어서 적용까지 해줍니다!)
@@ -1108,19 +1158,19 @@ statusline은 클로드코드 화면 아래에 붙는 상태 표시줄인데요.
 
 - -> 클코에서 작업할 때 유용한 정보를 화면 아래에 띄워줍니다.
 
-[1번 statusline]
+[1번 statusline]  
 🌿 민트색 진행 막대가 들어간 미니멀 한 줄로 보이는 statusline입니다.
 
-[2번 statusline]
+[2번 statusline]  
 🟪 파스텔 톤인 라벤더, 민트색을 하이라이트 블럭으로 나눠서 깔끔하게 보이는 statusline입니다.
 
-[3번 statusline]
+[3번 statusline]  
 🌌 차분한 남색 구간이 하나의 띠처럼 이어지고 알록달록한 것보다 정돈된 스타일의 statusline입니다.
 
-[4번 statusline]
+[4번 statusline]  
 🔵 5시간, 주간 사용량을 도트바로 나란히 정렬되어있고 얼마나 썼고 언제 초기화되는지 보기 좋은 statusline입니다.
 
-[5번 statusline]
+[5번 statusline]  
 🍋 라임색 모델 배지에 시안, 보라색 게이지 그리고 컨텍스트와 한도 정보를 나눠 보여주는 가장 눈에 띄는 3줄로 구성된 statusline입니다.
 
 - -> 프롬프트는 댓글에 번호별로 달아두겠습니다.
@@ -1246,9 +1296,11 @@ ANSI 색상 코드를 제외한 실제 표시 폭으로 정렬하고 한글 폭�
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>Claude Coders: 이 Opus 5.5 지시 정리 프롬프트를 *지금* 실행하세요. <code>/claude-api prompt-audit</code></strong></summary>
+<summary><h3>Claude Coders: 이 Opus 5.5 지시 정리 프롬프트를 *지금* 실행하세요. <code>/claude-api prompt-audit</code></h3></summary>
 
 
 당신의 기술, [AGENTS.md](http://agents.md/), CLAUDE.md를 최적화하고 Opus 5.5를 제한하는 안티-패턴을 제거합니다.
@@ -1260,9 +1312,11 @@ ANSI 색상 코드를 제외한 실제 표시 폭으로 정렬하고 한글 폭�
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>Claude에게 당신의 vibecoded 웹사이트를 수정해달라고 말할 20가지 사항.</strong></summary>
+<summary><h3>Claude에게 당신의 vibecoded 웹사이트를 수정해달라고 말할 20가지 사항.</h3></summary>
 
 
 - 가로 스크롤 제거
@@ -1293,15 +1347,17 @@ ANSI 색상 코드를 제외한 실제 표시 폭으로 정렬하고 한글 폭�
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>Opus 5.5가 긴 작업을 독립적으로 실행할 때마다, 먼저 이렇게 빠른 𝗛𝗧𝗠𝗟 𝗱𝗮𝘀𝗵𝗯𝗼𝗮𝗿𝗱를 vibe-code 하도록 하세요.</strong></summary>
+<summary><h3>Opus 5.5가 긴 작업을 독립적으로 실행할 때마다, 먼저 이렇게 빠른 𝗛𝗧𝗠𝗟 𝗱𝗮𝘀𝗵𝗯𝗼𝗮𝗿𝗱를 vibe-code 하도록 하세요.</h3></summary>
 
 
-그 다음 𝗱𝗮𝘀𝗵𝗯𝗼𝗮𝗿𝗱만 구축하는 𝗮 𝘀𝘂𝗯𝗮𝗴𝗲𝗻𝘁를 부여하세요:
-→ 이름을 dashboard-builder로 지정하고, 노력 수준을 medium으로 설정하며, 디자인 스킬을 미리 로드하세요
-→ 처음에는 어떤 스타일을 좋아하는지 묻고 메모리에 저장합니다. 그 후로는 모든 대시보드가 당신의 취향과 현재 작업에 맞게 조정됩니다
-→ 긴 작업 전에 항상 호출하세요. 백그라운드에서 약 2분 만에 대시보드를 구축하며, 메인 세션은 멈추지 않고 높은 수준으로 코딩을 계속합니다
+그 다음 𝗱𝗮𝘀𝗵𝗯𝗼𝗮𝗿𝗱만 구축하는 𝗮 𝘀𝘂𝗯𝗮𝗴𝗲𝗻𝘁를 부여하세요:  
+→ 이름을 dashboard-builder로 지정하고, 노력 수준을 medium으로 설정하며, 디자인 스킬을 미리 로드하세요  
+→ 처음에는 어떤 스타일을 좋아하는지 묻고 메모리에 저장합니다. 그 후로는 모든 대시보드가 당신의 취향과 현재 작업에 맞게 조정됩니다  
+→ 긴 작업 전에 항상 호출하세요. 백그라운드에서 약 2분 만에 대시보드를 구축하며, 메인 세션은 멈추지 않고 높은 수준으로 코딩을 계속합니다  
 → 대시보드는 네 가지를 보여줍니다: 작업 진행 상황, 막힌 부분, 당신의 답변을 기다리는 질문들, 그리고 답변이 없을 때 기본으로 할 일
 
 이 프롬프트를 Claude Code에 보내세요 👇
@@ -1320,14 +1376,16 @@ ANSI 색상 코드를 제외한 실제 표시 폭으로 정렬하고 한글 폭�
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>지난주 후배가 저에게 물었어요: &quot;Claude가 코드를 작성하고 다른 에이전트가 그것을 검토한다면, 당신 같은 수석 엔지니어는 하루 종일 대체로 뭘 하는 거예요?</strong></summary>
+<summary><h3>지난주 후배가 저에게 물었어요: &quot;Claude가 코드를 작성하고 다른 에이전트가 그것을 검토한다면, 당신 같은 수석 엔지니어는 하루 종일 대체로 뭘 하는 거예요?</h3></summary>
 
 
 AI가 모든 걸 대신 해주는데, 그냥 AI를 돌보는 보모 역할만 하는 거 아니에요?"
 
-공정한 질문이에요.
+공정한 질문이에요.  
 내가 그에게 말해준 내용은 이래요.
 
 1. 나는 우리가 만들지 않을 것을 결정합니다.
@@ -1357,20 +1415,22 @@ AI가 모든 걸 대신 해주는데, 그냥 AI를 돌보는 보모 역할만 �
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>Claude 코드 팁: Opus 5.5가 주 모델이 되면, Fable 5.1을 유휴 상태로 두지 마세요.</strong></summary>
+<summary><h3>Claude 코드 팁: Opus 5.5가 주 모델이 되면, Fable 5.1을 유휴 상태로 두지 마세요.</h3></summary>
 
 
 이를 /advisor와 함께 호출하세요.
 
 run /advisor fable
 
-Opus 5.5가 코드를 계속 작성합니다.
+Opus 5.5가 코드를 계속 작성합니다.  
 Fable 5.1은 전체 세션을 읽고, 모든 도구 호출을 포함하며, 세 지점에서만 발언합니다:
 
-→ 계획 전에: 이 접근 방식이 맞나요?
-→ 같은 오류가 다시 발생할 때: 잘못된 곳을 파고들고 있나요?
+→ 계획 전에: 이 접근 방식이 맞나요?  
+→ 같은 오류가 다시 발생할 때: 잘못된 곳을 파고들고 있나요?  
 → "완료" 전에: 내가 놓친 게 뭐지?
 
 Fable 5.1이 검토합니다. Opus 5.5가 배포합니다.
@@ -1410,9 +1470,11 @@ Jev 엔지니어링은 한 층 아래로 같은 움직임입니다: 생각할 �
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>클로드코드에 꼭 필요한 명령어 드디어 추가됐습니다!</strong></summary>
+<summary><h3>클로드코드에 꼭 필요한 명령어 드디어 추가됐습니다!</h3></summary>
 
 
 예전에 좋다고 복붙한 [CLAUDE.md](http://claude.md/), 실수할 때마다 하나씩 추가했던 규칙들.. (옛날 모델 기준으로 작성된 것들..)
@@ -1444,9 +1506,11 @@ Claude Code 입력창에 이렇게 넣으시면 됩니다.
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>Claude Coders: 지금 이 Opus 5.5 명령어를 실행하세요</strong></summary>
+<summary><h3>Claude Coders: 지금 이 Opus 5.5 명령어를 실행하세요</h3></summary>
 
 
 ```
@@ -1455,8 +1519,8 @@ Claude Code 입력창에 이렇게 넣으시면 됩니다.
 
 opus 5.5는 당신의 지난 200번 세션을 읽고 보고서를 작성해줍니다:
 
-→ 당신이 실제로 무엇에 몰두하고 있는지
-→ 어디서 계속 막히고 있는지
+→ 당신이 실제로 무엇에 몰두하고 있는지  
+→ 어디서 계속 막히고 있는지  
 → 당신이 한 번도 건드려보지 않은 기능들
 
 또 다른 Claude Code 스레드를 읽기 전에 실행하세요:
@@ -1466,9 +1530,11 @@ opus 5.5는 당신의 지난 200번 세션을 읽고 보고서를 작성해줍�
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>Opus 5.5와 함께한 일주일 후, 이것이 AGENTS.md에서 가장 가치 있는 섹션이 될 수 있겠다는 생각이 들었습니다</strong></summary>
+<summary><h3>Opus 5.5와 함께한 일주일 후, 이것이 AGENTS.md에서 가장 가치 있는 섹션이 될 수 있겠다는 생각이 들었습니다</h3></summary>
 
 
 기능을 변경하기 전에, 그 규칙이 복사된 횟수를 𝗰𝗼𝘂𝗻𝘁 𝗵𝗼𝘄 𝗺𝗮𝗻𝘆 𝘁𝗶𝗺𝗲𝘀 𝘁𝗵𝗲 𝘀𝗮𝗺𝗲 𝗿𝘂𝗹𝗲 𝗵𝗮𝘀 𝗯𝗲𝗲𝗻 𝗰𝗼𝗽𝗶𝗲𝗱.
@@ -1480,9 +1546,11 @@ opus 5.5는 당신의 지난 200번 세션을 읽고 보고서를 작성해줍�
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>기능을 변경하기 전에 점검을 실행하세요</strong></summary>
+<summary><h3>기능을 변경하기 전에 점검을 실행하세요</h3></summary>
 
 
 - 먼저 변경하려는 로직을 매핑하세요: 어떤 파일들에 걸쳐 퍼져 있는지, 각 규칙의 복사본이 몇 개인지, 그리고 동일한 입력에 대해 어떤 복사본들이 다른 결과를 내는지
@@ -1499,9 +1567,11 @@ opus 5.5는 당신의 지난 200번 세션을 읽고 보고서를 작성해줍�
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>Claude Code의 대기 시간, 이거 넣었더니 작업이 100배 재미있어졌어요.</strong></summary>
+<summary><h3>Claude Code의 대기 시간, 이거 넣었더니 작업이 100배 재미있어졌어요.</h3></summary>
 
 
 뒤에서 태스크를 실행 중일 때, 스피너 아래에서 게가 토코토코 걸으면서 "지금 어떤 파일을 읽고 있나요" "어떤 명령어를 실행 중인가요"를 실시간으로 실況해 주는 mod "claude-theater(Claude 극장)"을 만들었어요🎉
@@ -1510,7 +1580,7 @@ opus 5.5는 당신의 지난 200번 세션을 읽고 보고서를 작성해줍�
 
 Claude Code에서 좀 큰 태스크를 던질 때, 스피너가 돌면서 "지금 뭐 하고 있지?" 하며 기다리는 시간이 어쩔 수 없이 생겨요.
 
-이 mod를 넣으면 스피너 바로 아래에 높이 9줄짜리 도트 그림 장면이 나타나요.
+이 mod를 넣으면 스피너 바로 아래에 높이 9줄짜리 도트 그림 장면이 나타나요.  
 Claude의 오렌지 캐릭터가 토코토코 걸으면서, 뒤에서 일어나는 작업 상황을 실시간으로 실況해 줘요.
 
 💡 가장 신경 쓴 건 "애니메이션을 위해 불필요한 토큰(API 비용)을 전혀 소비하지 않는 것"이에요.
@@ -1519,11 +1589,11 @@ Claude의 오렌지 캐릭터가 토코토코 걸으면서, 뒤에서 일어나�
 
 그래서 Claude Code의 내부 훅(AbovePrompt)을 이용해, 뒤에서 호출된 도구 이름(Read, Grep, Bash, Edit 등)으로부터 내 PC 안에서만 순간적으로 장면을 할당하는 완전 로컬 설계로 만들었어요(추가 비용 0원·대기 시간 지연 없음).
 
-・Read 실행 시 ➔ 🌿 초원(읽고 있는 파일 이름이 간판으로 흘러나옴)
-・Grep 검색 시 ➔ 🪨 동굴(검색 문자열이 간판에 표시)
-・Bash 실행 시 ➔ 🚂 성벽과 트롤리(아래로 트롤리가 달림)
-・Write/Edit 시 ➔ 🌋 화산과 대장간(생성 파일 이름 표시)
-・Web/MCP 시 ➔ 🌌 우주
+・Read 실행 시 ➔ 🌿 초원(읽고 있는 파일 이름이 간판으로 흘러나옴)  
+・Grep 검색 시 ➔ 🪨 동굴(검색 문자열이 간판에 표시)  
+・Bash 실행 시 ➔ 🚂 성벽과 트롤리(아래로 트롤리가 달림)  
+・Write/Edit 시 ➔ 🌋 화산과 대장간(생성 파일 이름 표시)  
+・Web/MCP 시 ➔ 🌌 우주  
 ・Agent 시작 시 ➔ ⛵ 바다
 
 전각 일본어 타자기 실況("○○을 읽고 있어요" "실행 끝")도 로컬에서 확정 출력되기 때문에, 문자 로그를 쫓지 않아도 뒤에서 무슨 일이 일어나는지 한눈에 알 수 있어요.
@@ -1532,4 +1602,6 @@ Claude의 오렌지 캐릭터가 토코토코 걸으면서, 뒤에서 일어나�
 
 누구나 1 명령어로 내 컴퓨터에서 시도할 수 있는 실행 방법과, 완전 무료 플러그인 일체(ZIP 배포)를 모은 노트는 리플란에 올려놓을게요👇(영상은 실제 동작 화면이에요)
 </details>
+
+---
 

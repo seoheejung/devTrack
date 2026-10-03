@@ -4,7 +4,7 @@
 
 
 <details>
-<summary><strong>☸️ Kubernetes Concepts - Difficulty Breakdown 🔥</strong></summary>
+<summary><h3>☸️ Kubernetes Concepts - Difficulty Breakdown 🔥</h3></summary>
 
 
 - Pods - 🟢 Easy
@@ -37,9 +37,11 @@
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>Kubernetes Simplified</strong></summary>
+<summary><h3>Kubernetes Simplified</h3></summary>
 
 
 ### 🧠 Control Plane
@@ -99,9 +101,11 @@ kube-proxy
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>쿠버네티스는 아름답습니다.</strong></summary>
+<summary><h3>쿠버네티스는 아름답습니다.</h3></summary>
 
 
 모든 개념에는 이야기가 담겨 있습니다. 다만 당신이 아직 모를 뿐이죠.
@@ -145,9 +149,11 @@ Karpenter를 사용하면 Pod가 대기 상태에 머무르는 동안 새 노드
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>☸️ Don’t Overthink Kubernetes</strong></summary>
+<summary><h3>☸️ Don’t Overthink Kubernetes</h3></summary>
 
 
 - Pods + Deployments → run applications
@@ -168,9 +174,11 @@ Karpenter를 사용하면 Pod가 대기 상태에 머무르는 동안 새 노드
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>Pod vs Container - 잔인한 진실🔥</strong></summary>
+<summary><h3>Pod vs Container - 잔인한 진실🔥</h3></summary>
 
 
 컨테이너는 쿠버네티스가 실행하는 것이 아닙니다.
@@ -179,35 +187,35 @@ Karpenter를 사용하면 Pod가 대기 상태에 머무르는 동안 새 노드
 
 그 혼란이 많은 고통을 초래합니다.
 
-[ Container - Docker World ]
-→ 단지 하나의 프로세스
-→ 독립적으로 살아가고 죽습니다
-→ 쿠버네티스에서 고유한 ID가 없습니다
+[ Container - Docker World ]  
+→ 단지 하나의 프로세스  
+→ 독립적으로 살아가고 죽습니다  
+→ 쿠버네티스에서 고유한 ID가 없습니다  
 → 쿠버네티스는 컨테이너를 직접 관리하지 않습니다
 
 컨테이너는 구현 세부 사항입니다.
 
-[ Pod - Kubernetes World ]
-→ 쿠버네티스에서 가장 작은 배포 단위
-→ 하나 이상의 컨테이너를 감쌉니다
-→ 고유한 IP를 가집니다
-→ 네트워킹과 스토리지를 공유합니다
+[ Pod - Kubernetes World ]  
+→ 쿠버네티스에서 가장 작은 배포 단위  
+→ 하나 이상의 컨테이너를 감쌉니다  
+→ 고유한 IP를 가집니다  
+→ 네트워킹과 스토리지를 공유합니다  
 → 쿠버네티스가 스케줄링하고, 재시작하고, 확장하는 대상입니다
 
 Pod는 실행 단위입니다.
 
-[ How to Think About It ]
-→ Docker는 컨테이너를 실행합니다
-→ Kubernetes는 Pod를 실행합니다
+[ How to Think About It ]  
+→ Docker는 컨테이너를 실행합니다  
+→ Kubernetes는 Pod를 실행합니다  
 → 컨테이너는 Pod 안에 삽니다
 
-컨테이너 중심으로 생각하면 쿠버네티스가 혼란스럽게 느껴집니다.
+컨테이너 중심으로 생각하면 쿠버네티스가 혼란스럽게 느껴집니다.  
 Pod 중심으로 생각하면 모든 것이 맞춰지기 시작합니다.
 
-👉 Kubernetes는 당신의 컨테이너에 신경 쓰지 않습니다.
+👉 Kubernetes는 당신의 컨테이너에 신경 쓰지 않습니다.  
 👉 주변의 Pod에 신경 씁니다.
 
-이것이 이해되면,
+이것이 이해되면,  
 배포(Deployments), 스케일링, 그리고 셀프 힐링이 마침내 이해가 됩니다.
 
 ![image.png](../assets/kubernetes/image-036.png)
@@ -217,9 +225,11 @@ Pod 중심으로 생각하면 모든 것이 맞춰지기 시작합니다.
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>☸️ 2026년의 쿠버네티스 현실 🔥</strong></summary>
+<summary><h3>☸️ 2026년의 쿠버네티스 현실 🔥</h3></summary>
 
 
 가장 “고급”인 것들?
@@ -255,29 +265,31 @@ AI는 초 단위로 YAML을 뱉어낸다.
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>Kubernetes Ingress란 무엇인가?</strong></summary>
+<summary><h3>Kubernetes Ingress란 무엇인가?</h3></summary>
 
 
 Kubernetes 네트워킹이 혼란스럽다면…이게 바로 당신이 놓치고 있는 부분일 가능성이 큽니다.
 
-이렇게 생각해보세요:
-Pod        = 당신의 앱
-Service = 내부 접근
+이렇게 생각해보세요:  
+Pod        = 당신의 앱  
+Service = 내부 접근  
 Ingress = 인터넷으로의 정문.
 
-Ingress 없이:
-앱을 노출하는 방법 -
-NodePort [지저분한 포트들]
+Ingress 없이:  
+앱을 노출하는 방법 -  
+NodePort [지저분한 포트들]  
 LoadBalancer [비싸고 + 서비스당 하나씩]
 
-Ingress와 함께:
-✅ 하나의 진입점
-✅ 스마트 라우팅 (URL/경로 기반)
+Ingress와 함께:  
+✅ 하나의 진입점  
+✅ 스마트 라우팅 (URL/경로 기반)  
 ✅ 더 깔끔한 아키텍처
 
-예시:
+예시:  
 /api → 백엔드 서비스
 
 /web → 프론트엔드 서비스
@@ -293,9 +305,11 @@ Ingress는 마법이 아닙니다. 클러스터를 위한 트래픽 매니저일
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>Kubernetes SecurityContext</strong></summary>
+<summary><h3>Kubernetes SecurityContext</h3></summary>
 
 
 Kubernetes 보안에서 가장 중요하지만 가장 무시되는 부분 중 하나입니다.
@@ -328,17 +342,19 @@ Pod와 Container 수준에서 작동합니다.
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>쿠버네티스 다이어그램을 자동으로 생성해주는 멋진 무료 도구</strong></summary>
+<summary><h3>쿠버네티스 다이어그램을 자동으로 생성해주는 멋진 무료 도구</h3></summary>
 
 
 KubeDiagrams는 매니페스트, Helm 차트, 심지어 라이브 클러스터까지 초 단위로 깔끔한 아키텍처 다이어그램으로 바꿔줘요.
 
-→ YAML, Helm, Helmfile, Kustomize에서 다이어그램 생성
-→ 라이브 클러스터 상태 시각화 가능
-→ 커스텀 리소스 지원
-→ PNG, SVG, PDF, draw.io로 내보내기
+→ YAML, Helm, Helmfile, Kustomize에서 다이어그램 생성  
+→ 라이브 클러스터 상태 시각화 가능  
+→ 커스텀 리소스 지원  
+→ PNG, SVG, PDF, draw.io로 내보내기  
 → 무료 오픈 소스
 
 문서화, 온보딩, 클러스터 아키텍처 빠르게 이해하는 데 정말 유용해요.
@@ -350,9 +366,11 @@ Repo: 쿠버네티스 다이어그램https://github.com/philippemerle/KubeDiagra
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>컨테이너 네트워킹의 작동 원리</strong></summary>
+<summary><h3>컨테이너 네트워킹의 작동 원리</h3></summary>
 
 
 Docker와 Kubernetes 네트워킹은 마법처럼 느껴질 수 있습니다. 하지만 조각들이 맞물리게 하는 입증된 방법이 있습니다: 처음부터 다시 구축하는 것입니다.
@@ -368,9 +386,11 @@ Docker와 Kubernetes 네트워킹은 마법처럼 느껴질 수 있습니다. �
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>2026년 쿠버네티스 인터뷰의 90%는 이 7가지 포인트로 귀결됩니다</strong></summary>
+<summary><h3>2026년 쿠버네티스 인터뷰의 90%는 이 7가지 포인트로 귀결됩니다</h3></summary>
 
 
 1. Pods vs Deployments vs StatefulSets: 안정적인 ID/스토리지가 필요한 경우 vs 교체 가능한 복제본.
@@ -386,9 +406,11 @@ Docker와 Kubernetes 네트워킹은 마법처럼 느껴질 수 있습니다. �
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>Kubernetes를 쉽게 풀어서 설명</strong></summary>
+<summary><h3>Kubernetes를 쉽게 풀어서 설명</h3></summary>
 
 
 - Pod → 가장 작은 실행 앱 단위
@@ -413,15 +435,17 @@ Docker와 Kubernetes 네트워킹은 마법처럼 느껴질 수 있습니다. �
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>Docker vs Kubernetes: 차이점은 무엇일까? 🐳☸️</strong></summary>
+<summary><h3>Docker vs Kubernetes: 차이점은 무엇일까? 🐳☸️</h3></summary>
 
 
 Docker는 애플리케이션을 컨테이너로 패키징합니다. Kubernetes는 그 컨테이너들을 가져와 여러 대의 머신에 걸쳐 배포, 스케일링, 네트워킹, 그리고 높은 가용성을 자동화합니다.
 
-이렇게 생각해 보세요:
-🐳 Docker = 컨테이너 빌드 및 실행.
+이렇게 생각해 보세요:  
+🐳 Docker = 컨테이너 빌드 및 실행.  
 ☸️ Kubernetes = 대규모 컨테이너 관리.
 
 다음 DevOps 인터뷰를 위해 이 손으로 쓴 치트 시트를 저장하세요
@@ -433,11 +457,15 @@ Docker는 애플리케이션을 컨테이너로 패키징합니다. Kubernetes�
 
 </details>
 
+---
+
 
 <details>
-<summary><strong>Docker vs Kubernetes: Which one is better?</strong></summary>
+<summary><h3>Docker vs Kubernetes: Which one is better?</h3></summary>
 
 
 ![image.png](../assets/kubernetes/image-041.png)
 </details>
+
+---
 
