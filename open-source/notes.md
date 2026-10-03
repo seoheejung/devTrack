@@ -4,7 +4,7 @@
 
 
 <details>
-<summary><h3>믿기지 않을 정도로 무료인 오픈소스 AI 도구 10선</h3></summary>
+<summary><strong>믿기지 않을 정도로 무료인 오픈소스 AI 도구 10선</strong></summary>
 
 
 요즘 세상에 정보 없어서 못 한다는 건 진짜 핑계인 것 같음. 유료 서비스 뺨치는 오픈소스 툴들이 이렇게 널려 있는데 아직도 구독료만 꼬박꼬박 내고 있으면 좀 반성해야지. 특히 Cline이나 ComfyUI 같은 건 이미 아는 사람들은 다 쓰는 검증된 툴이라 일단 깔고 보는 게 맞다. 남들 돈으로 해결할 때 우린 기술로 승부해서 마진 남기는 게 진짜 승자지
@@ -68,7 +68,7 @@ SaaS로 다 맞추면 월 300~500달러(약 4.8~8만 엔) 수준이 들 텐데, 
 
 
 <details>
-<summary><h3>『오래된 스마트폰을 StreamDeck화로 재활용』</h3></summary>
+<summary><strong>『오래된 스마트폰을 StreamDeck화로 재활용』</strong></summary>
 
 
 스마트폰에 StreamDeck Mobile(앱)을 설치하면, 편리한 PC 조작이 손끝에서 가능! 왼손 장치 같은 용법도, 스트리머 외에도 추천!
@@ -87,7 +87,7 @@ SaaS로 다 맞추면 월 300~500달러(약 4.8~8만 엔) 수준이 들 텐데, 
 
 
 <details>
-<summary><h3>FFmpeg</h3></summary>
+<summary><strong>FFmpeg</strong></summary>
 
 
 https://x.com/FFmpeg/status/2052162445465039127

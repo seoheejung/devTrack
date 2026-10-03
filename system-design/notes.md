@@ -4,7 +4,7 @@
 
 
 <details>
-<summary><h3>꼭 알아야 할 시스템 디자인 개념</h3></summary>
+<summary><strong>꼭 알아야 할 시스템 디자인 개념</strong></summary>
 
 
 1. 로드 밸런싱(Load Balancing)이란 들어오는 네트워크 트래픽을 여러 서버에 골고루 분산시키는 기술임. 특정 서버 한 대에 요청이 몰리면 과부하가 걸리고 서비스가 느려지거나 다운될 수 있는데, 로드 밸런서가 중간에서 이를 분산해줌으로써 서비스의 안정성과 가용성을 높여줌. 쉽게 말해 음식점 입구에서 손님을 빈 테이블로 안내하는 직원과 같은 역할임.
@@ -29,7 +29,7 @@
 
 
 <details>
-<summary><h3>생산 시스템을 망가뜨리는 25가지</h3></summary>
+<summary><strong>생산 시스템을 망가뜨리는 25가지</strong></summary>
 
 
 1. 누락된 환경 변수.
@@ -67,7 +67,7 @@
 
 
 <details>
-<summary><h3>초보자들은 배운 것을 지나치게 과도하게 적용한 예시</h3></summary>
+<summary><strong>초보자들은 배운 것을 지나치게 과도하게 적용한 예시</strong></summary>
 
 
 인터뷰어: 시스템 디자인 아세요?
@@ -89,7 +89,7 @@
 
 
 <details>
-<summary><h3>API 게이트웨이 vs 로드 밸런서 vs 리버스 프록시</h3></summary>
+<summary><strong>API 게이트웨이 vs 로드 밸런서 vs 리버스 프록시</strong></summary>
 
 
 🟩리버스 프록시 :
@@ -149,7 +149,7 @@ DevOps 관점: 다음이 필요할 때 사용하세요
 
 
 <details>
-<summary><h3>시스템 디자인 로드맵</h3></summary>
+<summary><strong>시스템 디자인 로드맵</strong></summary>
 
 
 1. 시작 → 기초 → 네트워킹 → 운영체제 → 데이터베이스 → 캐싱 → 메시징 → 스케일링 → 안정성 → 보안 → 관찰 가능성 → 실습
@@ -178,7 +178,7 @@ DevOps 관점: 다음이 필요할 때 사용하세요
 
 
 <details>
-<summary><h3>많은 엔지니어들이 시스템 설계를 이렇게 답합니다:</h3></summary>
+<summary><strong>많은 엔지니어들이 시스템 설계를 이렇게 답합니다:</strong></summary>
 
 
 로드 밸런서.  
@@ -216,7 +216,7 @@ CDN.
 
 
 <details>
-<summary><h3>시스템 디자인을 처음부터 공부한다면:</h3></summary>
+<summary><strong>시스템 디자인을 처음부터 공부한다면:</strong></summary>
 
 
 먼저 기초 (쉬움):  
@@ -261,7 +261,7 @@ CDN.
 
 
 <details>
-<summary><h3>폴링 vs 롱 폴링 vs 웹훅 vs SSE</h3></summary>
+<summary><strong>폴링 vs 롱 폴링 vs 웹훅 vs SSE</strong></summary>
 
 
 서버로부터 업데이트를 받는 네 가지 방법. 각각은 단순성, 효율성, 실시간 전달 사이에서 다른 트레이드오프를 제공합니다.
@@ -284,7 +284,7 @@ CDN.
 
 
 <details>
-<summary><h3>올바른 아키텍처 선택</h3></summary>
+<summary><strong>올바른 아키텍처 선택</strong></summary>
 
 
 EDA vs. REST 간단한 치트시트.
@@ -320,7 +320,7 @@ EDA는 비동기 통신을 사용하며, 구성 요소들이 이벤트를 방출
 
 
 <details>
-<summary><h3>시스템 설계 원칙</h3></summary>
+<summary><strong>시스템 설계 원칙</strong></summary>
 
 
 1. 확장성
@@ -456,7 +456,7 @@ EDA는 비동기 통신을 사용하며, 구성 요소들이 이벤트를 방출
 
 
 <details>
-<summary><h3>웹사이트와 웹 애플리케이션의 차이점</h3></summary>
+<summary><strong>웹사이트와 웹 애플리케이션의 차이점</strong></summary>
 
 
 ![image.png](../assets/system-design/image-054.png)
@@ -470,7 +470,7 @@ EDA는 비동기 통신을 사용하며, 구성 요소들이 이벤트를 방출
 
 
 <details>
-<summary><h3>시스템 디자인 로드맵 2026 → 제로에서 프로까지</h3></summary>
+<summary><strong>시스템 디자인 로드맵 2026 → 제로에서 프로까지</strong></summary>
 
 
 Phase 1: 기초
@@ -517,7 +517,7 @@ URL 단축기 → 속도 제한기 → 채팅 앱 → 알림 시스템 → 피�
 
 
 <details>
-<summary><h3>주니어 소프트웨어 엔지니어를 위한 좋은 시스템 설계 인터뷰 질문:</h3></summary>
+<summary><strong>주니어 소프트웨어 엔지니어를 위한 좋은 시스템 설계 인터뷰 질문:</strong></summary>
 
 
 사용자들이 작업을 생성, 업데이트, 삭제하고 볼 수 있는 간단한 Todo 앱 백엔드를 설계하세요.
@@ -559,7 +559,7 @@ API의 경우, POST /signup, POST /login, POST /todos, GET /todos, GET /todos/:i
 
 
 <details>
-<summary><h3>마이크로서비스 9가지 모범 사례</h3></summary>
+<summary><strong>마이크로서비스 9가지 모범 사례</strong></summary>
 
 
 1. 별도의 데이터베이스 사용
@@ -592,7 +592,7 @@ API의 경우, POST /signup, POST /login, POST /todos, GET /todos, GET /todos/:i
 
 
 <details>
-<summary><h3>시스템 디자인 인터뷰에서 계속 보이는 상위 10가지 실수</h3></summary>
+<summary><strong>시스템 디자인 인터뷰에서 계속 보이는 상위 10가지 실수</strong></summary>
 
 
 1. 요구사항과 규모(RPS, p95, 데이터 크기)를 명시하기 전에 마이크로서비스로 바로 뛰어드는 것
@@ -615,7 +615,7 @@ API의 경우, POST /signup, POST /login, POST /todos, GET /todos, GET /todos/:i
 
 
 <details>
-<summary><h3>대부분의 개발자들은 시스템 설계를 거꾸로 배웁니다.</h3></summary>
+<summary><strong>대부분의 개발자들은 시스템 설계를 거꾸로 배웁니다.</strong></summary>
 
 
 그들은 다음으로 시작합니다:
@@ -648,7 +648,7 @@ Kafka. Redis. Kubernetes. Microservices.
 
 
 <details>
-<summary><h3>저는 Blue/Green 배포를 씁니다.</h3></summary>
+<summary><strong>저는 Blue/Green 배포를 씁니다.</strong></summary>
 
 
 배포 때문에 서비스가 멈추는 게 정말 싫습니다.
@@ -686,7 +686,7 @@ AI가 이런실수를 할거라고 생각지도 못했는데
 
 
 <details>
-<summary><h3>더 빠른 배포를 위한 깔끔한 SaaS 스택</h3></summary>
+<summary><strong>더 빠른 배포를 위한 깔끔한 SaaS 스택</strong></summary>
 
 
 - 인프라 관리 없이 호스팅 → Sevalla
@@ -711,7 +711,7 @@ AI가 이런실수를 할거라고 생각지도 못했는데
 
 
 <details>
-<summary><h3>🚨더 일찍 이해했으면 좋았을 11가지 소프트웨어 공학 원칙:</h3></summary>
+<summary><strong>🚨더 일찍 이해했으면 좋았을 11가지 소프트웨어 공학 원칙:</strong></summary>
 
 
 𝟏. 𝐒𝐎𝐋𝐈𝐃: 더 나은 객체 지향 설계  
@@ -737,7 +737,7 @@ AI가 이런실수를 할거라고 생각지도 못했는데
 
 
 <details>
-<summary><h3>모든 소프트웨어 엔지니어가 알아야 할 리소스들 📌</h3></summary>
+<summary><strong>모든 소프트웨어 엔지니어가 알아야 할 리소스들 📌</strong></summary>
 
 
 코스가 아닙니다. 인증서도 아닙니다.  
@@ -782,7 +782,7 @@ GitHub가 플랫폼을 어떻게 구축하고 스케일링하는지
 
 
 <details>
-<summary><h3>시스템 디자인을 처음 시작한다면, 이 순서로 배워보세요:</h3></summary>
+<summary><strong>시스템 디자인을 처음 시작한다면, 이 순서로 배워보세요:</strong></summary>
 
 
 1. 끝에서 끝까지 요청(request)이 어떻게 작동하는지
@@ -824,7 +824,7 @@ GitHub가 플랫폼을 어떻게 구축하고 스케일링하는지
 
 
 <details>
-<summary><h3>시스템 설계 질문: 사용자들이 20GB 파일을 업로드합니다. 어떤 엔드포인트?</h3></summary>
+<summary><strong>시스템 설계 질문: 사용자들이 20GB 파일을 업로드합니다. 어떤 엔드포인트?</strong></summary>
 
 
 ![image.png](../assets/system-design/image-058.png)
@@ -844,7 +844,7 @@ GitHub가 플랫폼을 어떻게 구축하고 스케일링하는지
 
 
 <details>
-<summary><h3>프로그래밍에 이미 익숙해졌을 때, 다음 단계는 시스템 설계 학습입니다.</h3></summary>
+<summary><strong>프로그래밍에 이미 익숙해졌을 때, 다음 단계는 시스템 설계 학습입니다.</strong></summary>
 
 
 이미 기능 하나를 구축하는 법을 아시죠. 이제 수천 명이 동시에 그 기능을 사용할 때 무슨 일이 일어나는지, 데이터가 증가하거나 서비스가 실패할 때 어떻게 되는지 이해하는 단계입니다.
@@ -873,7 +873,7 @@ GitHub가 플랫폼을 어떻게 구축하고 스케일링하는지
 
 
 <details>
-<summary><h3>시스템 설계 — 궁극의 로드맵 (지금 저장하세요)!</h3></summary>
+<summary><strong>시스템 설계 — 궁극의 로드맵 (지금 저장하세요)!</strong></summary>
 
 
 ```markdown
@@ -964,7 +964,7 @@ GitHub가 플랫폼을 어떻게 구축하고 스케일링하는지
 
 
 <details>
-<summary><h3>시스템 디자인을 배우고 싶다면, 이 8가지 개념부터 시작하세요.</h3></summary>
+<summary><strong>시스템 디자인을 배우고 싶다면, 이 8가지 개념부터 시작하세요.</strong></summary>
 
 
 이 개념들은 시스템을 설계할 때 나타나는 대부분의 문제를 이해하는 데 도움이 될 거예요:

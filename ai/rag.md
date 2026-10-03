@@ -4,7 +4,7 @@
 
 
 <details>
-<summary><h3>논문 1000개, 몇 분 만에 다 읽혔다</h3></summary>
+<summary><strong>논문 1000개, 몇 분 만에 다 읽혔다</strong></summary>
 
 
 논문 1,000개를 몇 분 만에 다 훑어버리는 플러그인이 있다길래 눈이 갔다.
@@ -36,7 +36,7 @@ PDF 다운받아놓고 아직 안 열어본 거, 각자 몇 개씩 쌓여있나.
 
 
 <details>
-<summary><h3>PDF 하나 올렸다고 생각했는데, AI 입장에서는 사실 두 개를 받는 거임.</h3></summary>
+<summary><strong>PDF 하나 올렸다고 생각했는데, AI 입장에서는 사실 두 개를 받는 거임.</strong></summary>
 
 
 「텍스트 + 페이지별 스크린샷」
@@ -76,7 +76,7 @@ GitHub 7.6만 Star `MinerU`가 이 작업을 대신해줌.
 
 
 <details>
-<summary><h3>MCP vs RAG vs AI Agents</h3></summary>
+<summary><strong>MCP vs RAG vs AI Agents</strong></summary>
 
 
 현대 AI 시스템을 이해하려면 이 세 가지 요소가 어떻게 조합되는지 이해해야 합니다.
@@ -112,7 +112,7 @@ Agents → 실행 계층
 
 
 <details>
-<summary><h3>RAG란 무엇인가요? ✨</h3></summary>
+<summary><strong>RAG란 무엇인가요? ✨</strong></summary>
 
 
 RAG는 Retrieval-Augmented Generation의 약자입니다.
@@ -167,7 +167,7 @@ AI 애플리케이션이 계속 진화함에 따라, RAG는 회사 지식, 문�
 
 
 <details>
-<summary><h3>RAG는 실제로 어떻게 구현되는 걸까요?</h3></summary>
+<summary><strong>RAG는 실제로 어떻게 구현되는 걸까요?</strong></summary>
 
 
 우리는 RAG가 AI 애플리케이션에서 LLM에게 응답을 생성하기 전에 정보를 검색하는 데 사용되는 기술이라는 것을 배웠습니다.
@@ -243,7 +243,7 @@ RAG에서 문서는 검색하고 검색할 수 있는 모든 정보 조각을 �
 
 
 <details>
-<summary><h3>헷갈리던 LLM · RAG · 에이전트, 개념을 정리해봤습니다</h3></summary>
+<summary><strong>헷갈리던 LLM · RAG · 에이전트, 개념을 정리해봤습니다</strong></summary>
 
 
 이 셋을 구분하면 어떤 일에 무얼 써야 할지 구분할 수 있습니다
@@ -274,7 +274,7 @@ RAG에서 문서는 검색하고 검색할 수 있는 모든 정보 조각을 �
 
 
 <details>
-<summary><h3>속보: IBM이 모든 문서를 데이터로 변환하는 무료 Python 라이브러리를 출시했습니다</h3></summary>
+<summary><strong>속보: IBM이 모든 문서를 데이터로 변환하는 무료 Python 라이브러리를 출시했습니다</strong></summary>
 
 
 **Docling**을 소개합니다. 알아야 할 사항은 다음과 같습니다:
@@ -310,7 +310,7 @@ RAG에서 문서는 검색하고 검색할 수 있는 모든 정보 조각을 �
 
 
 <details>
-<summary><h3>RAG 대 CAG, 명확하게 설명!</h3></summary>
+<summary><strong>RAG 대 CAG, 명확하게 설명!</strong></summary>
 
 
 RAG는 훌륭하지만, 주요 문제가 있습니다:
@@ -348,7 +348,7 @@ RAG + CAG는 지식을 두 층으로 나눕니다:
 
 
 <details>
-<summary><h3>RAG 대 Graph RAG, 시각적으로 설명!</h3></summary>
+<summary><strong>RAG 대 Graph RAG, 시각적으로 설명!</strong></summary>
 
 
 RAG에는 많은 문제가 있습니다.
@@ -393,7 +393,7 @@ Graph RAG 시스템은 또한 LLM이 구조화된 데이터로 추론하는 데 
 
 
 <details>
-<summary><h3>웹 스크래핑은 이제 절대 예전과 같지 않을 것입니다.</h3></summary>
+<summary><strong>웹 스크래핑은 이제 절대 예전과 같지 않을 것입니다.</strong></summary>
 
 
 (대규모 100% 오픈소스 비주얼 검색)
@@ -439,7 +439,7 @@ GitHub 리포지토리:
 
 
 <details>
-<summary><h3>AI 엔지니어를 위한 8가지 RAG 아키텍처</h3></summary>
+<summary><strong>AI 엔지니어를 위한 8가지 RAG 아키텍처</strong></summary>
 
 
 (사용법과 함께 설명)
@@ -493,7 +493,7 @@ GitHub 리포지토리:
 
 
 <details>
-<summary><h3>AI는 수천 개나 수백만 개의 정보 중에서 올바른 정보를 어떻게 찾을까요?</h3></summary>
+<summary><strong>AI는 수천 개나 수백만 개의 정보 중에서 올바른 정보를 어떻게 찾을까요?</strong></summary>
 
 
 AI 애플리케이션은 종종 유용한 작업을 수행하기 전에 정보를 찾아야 합니다.
@@ -576,7 +576,7 @@ LLM이 이를 바탕으로 추론합니다.
 
 
 <details>
-<summary><h3>대부분의 LLM 실패는 모델 실패가 아닙니다. 검색 실패입니다.</h3></summary>
+<summary><strong>대부분의 LLM 실패는 모델 실패가 아닙니다. 검색 실패입니다.</strong></summary>
 
 
 RAG는 올바른 문제를 해결합니다. 전체 아키텍처를 한 번에 설명하면 다음과 같습니다:
@@ -611,7 +611,7 @@ AI 시스템을 구축한다면, 이 포스트를 저장하세요. 재사용할 
 
 
 <details>
-<summary><h3>RAG - 문서에서 답변까지 🤖</h3></summary>
+<summary><strong>RAG - 문서에서 답변까지 🤖</strong></summary>
 
 
 RAG는 단순한 “검색 + LLM” 이상입니다
@@ -647,7 +647,7 @@ RAG는 단순한 “검색 + LLM” 이상입니다
 
 
 <details>
-<summary><h3>마이크로소프트가 모든 사람이 처음부터 구축하려고 애쓰는 RAG 파이프라인을 조용히 출시했습니다</h3></summary>
+<summary><strong>마이크로소프트가 모든 사람이 처음부터 구축하려고 애쓰는 RAG 파이프라인을 조용히 출시했습니다</strong></summary>
 
 
 이것은 Kernel Memory라고 불리며, 파일 더미를 인용과 함께 답변하는 AI 메모리로 변환합니다.
@@ -692,7 +692,7 @@ docker run kernelmemory/service
 
 
 <details>
-<summary><h3>Static RAG는 죽었다, 에이전트가 다음이다.</h3></summary>
+<summary><strong>Static RAG는 죽었다, 에이전트가 다음이다.</strong></summary>
 
 
 대부분의 사람들은 RAG를 고급 AI라고 생각한다.
@@ -743,7 +743,7 @@ AI 시스템을 작업 중이라면 이걸 저장해라.
 
 
 <details>
-<summary><h3>RAG - 문제와 해결책</h3></summary>
+<summary><strong>RAG - 문제와 해결책</strong></summary>
 
 
 문제: 모델이 사용자의 비공개 데이터를 모름  
@@ -782,7 +782,7 @@ AI 시스템을 작업 중이라면 이걸 저장해라.
 
 
 <details>
-<summary><h3>LLM의 가장 많은 use case는 여전히 문서에서 원하는 *정답*을 빠르게 찾는 것입니다.</h3></summary>
+<summary><strong>LLM의 가장 많은 use case는 여전히 문서에서 원하는 *정답*을 빠르게 찾는 것입니다.</strong></summary>
 
 
 Upstage에서 최근 출시한 가볍고 빠른 Embeddings2 그리고 파일만 주시면 RAG를 구현하고 SolarPro4를 호출하여 정답을 찾아 주는 FileSearch API를 공개합니다.
@@ -808,7 +808,7 @@ Upstage에서 최근 출시한 가볍고 빠른 Embeddings2 그리고 파일만 
 
 
 <details>
-<summary><h3>RAG에서 컨텍스트 그래프로: 어떤 아키텍처가 실제로 승리하는지 결정짓는 블라인드 테스트</h3></summary>
+<summary><strong>RAG에서 컨텍스트 그래프로: 어떤 아키텍처가 실제로 승리하는지 결정짓는 블라인드 테스트</strong></summary>
 
 
 동일한 모델, 동일한 12개 질문, 블라인드 채점
@@ -872,7 +872,7 @@ tier C - 코퍼스 전체, 모든 것: long context가 완전히 휩쓸음
 
 
 <details>
-<summary><h3>MCP, RAG와 AI 에이전트는 서로 다른 문제를 해결합니다:</h3></summary>
+<summary><strong>MCP, RAG와 AI 에이전트는 서로 다른 문제를 해결합니다:</strong></summary>
 
 
 MCP → AI 앱이 도구, 리소스 및 외부 시스템에 접근하는 방식을 표준화합니다.
@@ -916,7 +916,7 @@ RAG는 컨텍스트를 제공하고 MCP는 도구와 시스템 접근을 표준�
 
 
 <details>
-<summary><h3>전체 RAG 산업이 뒤집힐 거예요</h3></summary>
+<summary><strong>전체 RAG 산업이 뒤집힐 거예요</strong></summary>
 
 
 연구원들이 완전히 새로운 RAG 방식을 개발했는데, 거의 전통 RAG가 의존하던 모든 것을 우회하네요:

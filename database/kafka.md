@@ -6,7 +6,7 @@ Kafka 아키텍처를 먼저 살펴보고, PostgreSQL + Rust MPSC로 재구현�
 
 
 <details>
-<summary><h3>Kafka 핵심 아키텍처</h3></summary>
+<summary><strong>Kafka 핵심 아키텍처</strong></summary>
 
 
 Kafka는 분산 이벤트 스트리밍 플랫폼으로, 세 가지 핵심 추상화를 중심으로 설계되어 있습니다: **Topic**(메시지의 논리적 채널), **Partition**(병렬성과 순서 보장의 단위), 그리고 **Consumer Group**(수평 확장 소비의 단위). 
@@ -20,7 +20,7 @@ Kafka는 분산 이벤트 스트리밍 플랫폼으로, 세 가지 핵심 추상
 
 
 <details>
-<summary><h3>PostgreSQL + Rust MPSC로 재구현하는 관점</h3></summary>
+<summary><strong>PostgreSQL + Rust MPSC로 재구현하는 관점</strong></summary>
 
 
 이제 Kafka의 각 개념이 PostgreSQL + Rust에서 어떻게 매핑되는지 살펴보겠습니다.

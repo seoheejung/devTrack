@@ -4,7 +4,7 @@
 
 
 <details>
-<summary><h3>DevOps 문제 - 난이도 분류</h3></summary>
+<summary><strong>DevOps 문제 - 난이도 분류</strong></summary>
 
 
 (엔지니어들을 실제로 망가뜨리는 것)
@@ -32,7 +32,7 @@
 
 
 <details>
-<summary><h3>Ansible</h3></summary>
+<summary><strong>Ansible</strong></summary>
 
 
 대부분의 DevOps 엔지니어들은 매주 10시간 이상을 단일 스크립트로 처리할 수 있는 반복적인 작업에 낭비하고 있습니다.
@@ -54,7 +54,7 @@
 
 
 <details>
-<summary><h3>DevOps Tools in 2026</h3></summary>
+<summary><strong>DevOps Tools in 2026</strong></summary>
 
 
 🟢 Git → Source of truth
@@ -80,7 +80,7 @@
 
 
 <details>
-<summary><h3>DevOps 로드맵 (2026)</h3></summary>
+<summary><strong>DevOps 로드맵 (2026)</strong></summary>
 
 
 1. 🧠 기초부터
@@ -147,7 +147,7 @@
 
 
 <details>
-<summary><h3>Terraform</h3></summary>
+<summary><strong>Terraform</strong></summary>
 
 
 ![image.png](../assets/devops/image-048.png)
@@ -159,7 +159,7 @@
 
 
 <details>
-<summary><h3>2026년에 DevOps에 뛰어들 계획이라</h3></summary>
+<summary><strong>2026년에 DevOps에 뛰어들 계획이라</strong></summary>
 
 
 > Kubernetes를 선택하세요. 모든 진지한 구인 공고가 실제 K8s 경험을 요구합니다. 모든 중요한 플랫폼이 이를 기반으로 운영됩니다.  
@@ -199,7 +199,7 @@ P.S. 2026년에 DevOps에서 멈추지 마세요. MLOps, AIOps, AI 인프라를 
 
 
 <details>
-<summary><h3>GitHub Actions와 Jenkins의 장점</h3></summary>
+<summary><strong>GitHub Actions와 Jenkins의 장점</strong></summary>
 
 
 호스팅:  
@@ -218,7 +218,7 @@ Jenkins는 특히 대규모 및 복잡한 자동화 요구사항을 가진 조�
 
 
 <details>
-<summary><h3>젠킨스 인터뷰 질문</h3></summary>
+<summary><strong>젠킨스 인터뷰 질문</strong></summary>
 
 
 - 확장 가능한 Jenkins 아키텍처를 어떻게 설계하나요?
@@ -251,7 +251,7 @@ Jenkins는 특히 대규모 및 복잡한 자동화 요구사항을 가진 조�
 
 
 <details>
-<summary><h3>Dev / QA / Prod는 환경에 관한 것이 아닙니다. 이는 규율에 관한 것입니다.</h3></summary>
+<summary><strong>Dev / QA / Prod는 환경에 관한 것이 아닙니다. 이는 규율에 관한 것입니다.</strong></summary>
 
 
 여러 환경을 사용하는 이유 👇  
@@ -285,7 +285,7 @@ Jenkins는 특히 대규모 및 복잡한 자동화 요구사항을 가진 조�
 
 
 <details>
-<summary><h3>만약 당신이 DevOps / SRE 신입이라면</h3></summary>
+<summary><strong>만약 당신이 DevOps / SRE 신입이라면</strong></summary>
 
 
 이것들을 간단한 말로 설명할 수 있어야 합니다:
@@ -310,7 +310,7 @@ Jenkins는 특히 대규모 및 복잡한 자동화 요구사항을 가진 조�
 
 
 <details>
-<summary><h3>DevOps Tools and their Difficulty to Learn</h3></summary>
+<summary><strong>DevOps Tools and their Difficulty to Learn</strong></summary>
 
 
 - 📋 YAML → 🟢 Easy
@@ -342,7 +342,7 @@ Jenkins는 특히 대규모 및 복잡한 자동화 요구사항을 가진 조�
 
 
 <details>
-<summary><h3>요즘 보안 사고 뉴스를 보면 예전하고 좀 달라졌다.</h3></summary>
+<summary><strong>요즘 보안 사고 뉴스를 보면 예전하고 좀 달라졌다.</strong></summary>
 
 
 서버가 뚫렸다는 이야기보다, 개발자가 매일 쓰는 도구를 타고 들어온 사고가 많아졌다.
@@ -408,7 +408,7 @@ Next.js 서버를 직접 운영하고 모니터링하는 프론트엔드 개발�
 
 
 <details>
-<summary><h3>내가 OS가 되어, 프로세스를 효율적으로 처리해 나가는 게임</h3></summary>
+<summary><strong>내가 OS가 되어, 프로세스를 효율적으로 처리해 나가는 게임</strong></summary>
 
 
 진짜 바빠. 몇몇 프로세스는 죽어버렸지만… CPU와 OS의 기분이 조금 이해됐어.
@@ -422,7 +422,7 @@ Next.js 서버를 직접 운영하고 모니터링하는 프론트엔드 개발�
 
 
 <details>
-<summary><h3>PC가 죽으면, 그 PC가 보내는 장애 알림도 같이 죽습니다. vibePulse 활용하기</h3></summary>
+<summary><strong>PC가 죽으면, 그 PC가 보내는 장애 알림도 같이 죽습니다. vibePulse 활용하기</strong></summary>
 
 
 어제 새벽 5시, 자동화 프로그램 하나가 멈췄습니다.  
@@ -457,7 +457,7 @@ Next.js 서버를 직접 운영하고 모니터링하는 프론트엔드 개발�
 
 
 <details>
-<summary><h3>아무도 DevOps에 고용되는 데 로드 밸런서가 뭔지 아는 걸로 뽑히지 않아요.</h3></summary>
+<summary><strong>아무도 DevOps에 고용되는 데 로드 밸런서가 뭔지 아는 걸로 뽑히지 않아요.</strong></summary>
 
 
 저는 2년 동안 업계에 뛰어들려는 사람들에게 무료 콘텐츠를 공유하며 보냈고, 고군분투하는 사람들은 거의 항상 같은 실수를 저질렀어요:

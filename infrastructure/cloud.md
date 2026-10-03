@@ -4,7 +4,7 @@
 
 
 <details>
-<summary><h3>Cloud Concepts</h3></summary>
+<summary><strong>Cloud Concepts</strong></summary>
 
 
 - Compute (VMs) - 🟢 Easy
@@ -35,7 +35,7 @@
 
 
 <details>
-<summary><h3>클라우드 재해 복구 전략</h3></summary>
+<summary><strong>클라우드 재해 복구 전략</strong></summary>
 
 
 모든 DR 전략은 다음을 확정짓는 것으로 시작합니다:  
@@ -90,7 +90,7 @@ DevOps, Cloud, Kubernetes, IaC, GitOps, MLOps
 
 
 <details>
-<summary><h3>클라우드 제공업체 학습 난이도</h3></summary>
+<summary><strong>클라우드 제공업체 학습 난이도</strong></summary>
 
 
 🟢 쉬움
@@ -119,7 +119,7 @@ DevOps, Cloud, Kubernetes, IaC, GitOps, MLOps
 
 
 <details>
-<summary><h3>2026년에 쓸모없어지는 5가지 클라우드 인증</h3></summary>
+<summary><strong>2026년에 쓸모없어지는 5가지 클라우드 인증</strong></summary>
 
 
 AI가 대신 통과해줄 수 있는 배지를 쫓는 걸 멈춰.
@@ -155,7 +155,7 @@ AI가 대신 통과해줄 수 있는 배지를 쫓는 걸 멈춰.
 
 
 <details>
-<summary><h3>아직 AWS에서 무엇을 구축할지 과도하게 고민하고 계신가요?</h3></summary>
+<summary><strong>아직 AWS에서 무엇을 구축할지 과도하게 고민하고 계신가요?</strong></summary>
 
 
 - 정적 웹사이트 (S3 + CloudFront)
@@ -176,7 +176,7 @@ AI가 대신 통과해줄 수 있는 배지를 쫓는 걸 멈춰.
 
 
 <details>
-<summary><h3>AWS 실제로 사용하게 되는 것들</h3></summary>
+<summary><strong>AWS 실제로 사용하게 되는 것들</strong></summary>
 
 
 1. EC2 → 서버 실행 🖥️
@@ -200,7 +200,7 @@ AI가 대신 통과해줄 수 있는 배지를 쫓는 걸 멈춰.
 
 
 <details>
-<summary><h3>팀들이 저지르는 25가지 인프라 실수</h3></summary>
+<summary><strong>팀들이 저지르는 25가지 인프라 실수</strong></summary>
 
 
 1. 백업 전략 없음.
@@ -236,7 +236,7 @@ AI가 대신 통과해줄 수 있는 배지를 쫓는 걸 멈춰.
 
 
 <details>
-<summary><h3>포트 포워딩</h3></summary>
+<summary><strong>포트 포워딩</strong></summary>
 
 
 포트 포워딩은 내가 거의 매일 의지하게 되는 그런 트릭 중 하나입니다. 예를 들어, 내 마지막 기능 - 로컬 머신에서 원격 쿠버네티스 클러스터에 접근하기 -에서는 끝까지 포트 포워딩이었습니다. 이 기술을 익히는 것을 강력히 추천합니다. 나중에 나에게 감사하게 될 겁니다.
@@ -255,7 +255,7 @@ AI가 대신 통과해줄 수 있는 배지를 쫓는 걸 멈춰.
 
 
 <details>
-<summary><h3>엔지니어가 알고 싶어 하는 AWS 서비스 5선</h3></summary>
+<summary><strong>엔지니어가 알고 싶어 하는 AWS 서비스 5선</strong></summary>
 
 
 EC2 → 가상 서버 
@@ -277,7 +277,7 @@ AWS의 기본은 먼저 이 5가지.
 
 
 <details>
-<summary><h3>엔지니어가 이해하고 싶은 클라우드 용어 5선</h3></summary>
+<summary><strong>엔지니어가 이해하고 싶은 클라우드 용어 5선</strong></summary>
 
 
 IaaS → 서버를 빌리다
@@ -299,7 +299,7 @@ AZ → 장애 대책용 거점
 
 
 <details>
-<summary><h3>제 전체 2026 스택은 클라우드플레어에서 실행되며, 이를 위해 매달 5달러를 지불합니다</h3></summary>
+<summary><strong>제 전체 2026 스택은 클라우드플레어에서 실행되며, 이를 위해 매달 5달러를 지불합니다</strong></summary>
 
 
 - workers (컴퓨트)
@@ -317,7 +317,7 @@ AZ → 장애 대책용 거점
 
 
 <details>
-<summary><h3>사이드 프로젝트 운영비 때문에 접어본 적 있다면 이 조합을 참고하세요</h3></summary>
+<summary><strong>사이드 프로젝트 운영비 때문에 접어본 적 있다면 이 조합을 참고하세요</strong></summary>
 
 
 혼자 만든 해외 송금 비교 서비스인데  

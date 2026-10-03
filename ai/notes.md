@@ -4,7 +4,7 @@
 
 
 <details>
-<summary><h3>이게 최근에 내가 가장 많이 쓰는 프롬프트 중 하나가 됐어:</h3></summary>
+<summary><strong>이게 최근에 내가 가장 많이 쓰는 프롬프트 중 하나가 됐어:</strong></summary>
 
 이게 최근에 내가 가장 많이 쓰는 프롬프트 중 하나가 됐어:
 
@@ -28,7 +28,7 @@ AI한테 다운로드 폴더 정리 맡기기 전에
 
 
 <details>
-<summary><h3>학습 곡선별 AI 도구 순위</h3></summary>
+<summary><strong>학습 곡선별 AI 도구 순위</strong></summary>
 
 
 🟢 ChatGPT — 매우 쉬움  
@@ -64,7 +64,7 @@ AI한테 다운로드 폴더 정리 맡기기 전에
 
 
 <details>
-<summary><h3>요즘 개발자들 사이에서 이런 이야기를 자주 듣는다.</h3></summary>
+<summary><strong>요즘 개발자들 사이에서 이런 이야기를 자주 듣는다.</strong></summary>
 
 
 "AI를 쓰면 생산성은 올라가는 것 같은데, 내가 점점 멍청해지는 것 같다."
@@ -164,7 +164,7 @@ AI도 잘 써야 하지만,
 
 
 <details>
-<summary><h3>소프트웨어 엔지니어링은 변화하고 있다. 천천히가 아니다. 구조적으로.</h3></summary>
+<summary><strong>소프트웨어 엔지니어링은 변화하고 있다. 천천히가 아니다. 구조적으로.</strong></summary>
 
 
 ```
@@ -227,7 +227,7 @@ AI는 단순히 코딩을 돕는 게 아니다.
 
 
 <details>
-<summary><h3>AI 결과가 10배 달라지는 핵심 용어 3가지</h3></summary>
+<summary><strong>AI 결과가 10배 달라지는 핵심 용어 3가지</strong></summary>
 
 
 1. 재발방지
@@ -245,7 +245,7 @@ AI는 단순히 코딩을 돕는 게 아니다.
 
 
 <details>
-<summary><h3>티빙 해킹 건</h3></summary>
+<summary><strong>티빙 해킹 건</strong></summary>
 
 
 AWS 키가 하드코딩 돼있었다고 하는데  
@@ -263,7 +263,7 @@ AWS 키가 하드코딩 돼있었다고 하는데
 
 
 <details>
-<summary><h3>ChatGPT, Claude, Gemini 에서 사용할 수 있는 한마디 &quot;신&quot; 프롬프트 등급 매기기</h3></summary>
+<summary><strong>ChatGPT, Claude, Gemini 에서 사용할 수 있는 한마디 &quot;신&quot; 프롬프트 등급 매기기</strong></summary>
 
 
 Tier D（아쉬운 결과가 되기 쉽다）  
@@ -331,7 +331,7 @@ Tier S(진짜 최강)
 
 
 <details>
-<summary><h3>AI로 코딩할 때 리얼 꿀팁!</h3></summary>
+<summary><strong>AI로 코딩할 때 리얼 꿀팁!</strong></summary>
 
 
 바이브 코딩할 때  
@@ -375,7 +375,7 @@ tmux attach -t vibe
 
 
 <details>
-<summary><h3>vscode 확장 프로그램_ continue.</h3></summary>
+<summary><strong>vscode 확장 프로그램_ continue.</strong></summary>
 
 
 continue 라는 확장프로그램을 사용중입니다.  
@@ -400,7 +400,7 @@ continue 라는 확장프로그램을 사용중입니다.
 
 
 <details>
-<summary><h3>AI로 혼자 앱을 만들며 어디서 막히고 어떻게 고쳤는지 남긴 기록을 무료로 열어뒀습니다.</h3></summary>
+<summary><strong>AI로 혼자 앱을 만들며 어디서 막히고 어떻게 고쳤는지 남긴 기록을 무료로 열어뒀습니다.</strong></summary>
 
 
 프롬프트가 안 먹힐 때 실패 지점 보는 용도입니다.
@@ -416,7 +416,7 @@ continue 라는 확장프로그램을 사용중입니다.
 
 
 <details>
-<summary><h3>AI 시대, 대규모 차세대 SI는 어떻게 바뀔 것인가</h3></summary>
+<summary><strong>AI 시대, 대규모 차세대 SI는 어떻게 바뀔 것인가</strong></summary>
 
 
 지금의 현실부터 냉정하게 짚어야 한다.   
@@ -497,7 +497,7 @@ SI 업체의 수익원이 '저난도 대량 물량'에서 '고난도 지식·플
 
 
 <details>
-<summary><h3>아이에게 AI를 제대로 가르쳐주고 싶다면, 이 무료 사이트부터 보여주세요</h3></summary>
+<summary><strong>아이에게 AI를 제대로 가르쳐주고 싶다면, 이 무료 사이트부터 보여주세요</strong></summary>
 
 
 [http://prompts.chat/kids](https://t.co/apMEu8SjNo)는 8~14세 어린이를 위한 프롬프트 학습 코스임.
@@ -525,7 +525,7 @@ AI와 제대로 대화하는 법일지도.
 
 
 <details>
-<summary><h3>생성형 ai에게 지능이란 뭐게?</h3></summary>
+<summary><strong>생성형 ai에게 지능이란 뭐게?</strong></summary>
 
 
 1. 팩트를 사용자에게 제시하는 능력
@@ -551,7 +551,7 @@ AI와 제대로 대화하는 법일지도.
 
 
 <details>
-<summary><h3>AI를 한 번도 안 써본 사람도 곧 AI를 쓰게 될지도 모르겠습니다.</h3></summary>
+<summary><strong>AI를 한 번도 안 써본 사람도 곧 AI를 쓰게 될지도 모르겠습니다.</strong></summary>
 
 
 정부가 추진하는 ‘모두의 AI’가  
@@ -582,7 +582,7 @@ AI와 제대로 대화하는 법일지도.
 
 
 <details>
-<summary><h3>카파시 형님이 말한 진짜 LLM 활용법인데 이거 진짜 공감됨다</h3></summary>
+<summary><strong>카파시 형님이 말한 진짜 LLM 활용법인데 이거 진짜 공감됨다</strong></summary>
 
 
 LLM한테 일을 잘 시키려면  
@@ -631,7 +631,7 @@ LLM과 함께 일할 때 유용하다고 생각하는 한 가지 패턴은 길�
 
 
 <details>
-<summary><h3>회사 일부터 AX 고민해보고 그걸 토대로 밖에서 사업을 강구하는게 좋은 방향</h3></summary>
+<summary><strong>회사 일부터 AX 고민해보고 그걸 토대로 밖에서 사업을 강구하는게 좋은 방향</strong></summary>
 
 
 코드 몇 줄짜리 터미널에서 실행하는 걸  
@@ -657,7 +657,7 @@ LLM은 글자로 돌아감
 
 
 <details>
-<summary><h3>API와 MCP, 헷갈리시나요?</h3></summary>
+<summary><strong>API와 MCP, 헷갈리시나요?</strong></summary>
 
 
 정상이에요. 둘 다 “무언가를 연결한다”는 점에서는 비슷하거든요.
@@ -684,7 +684,7 @@ MCP = AI가 여러 창구를 이용하게 해주는 공통 규칙
 
 
 <details>
-<summary><h3>&quot;AI가 내 일을 대체하면 어쩌지&quot; 불안한 개발자에게 딱 한 편의 글만 권한다면, 오늘은 이 글입니다.</h3></summary>
+<summary><strong>&quot;AI가 내 일을 대체하면 어쩌지&quot; 불안한 개발자에게 딱 한 편의 글만 권한다면, 오늘은 이 글입니다.</strong></summary>
 
 
 백엔드에서 AI 풀스택으로 방향을 튼,  
@@ -707,7 +707,7 @@ MCP = AI가 여러 창구를 이용하게 해주는 공통 규칙
 
 
 <details>
-<summary><h3>우리 개발자들, 이제 어떻게 해야 해?</h3></summary>
+<summary><strong>우리 개발자들, 이제 어떻게 해야 해?</strong></summary>
 
 
 > **인공지능 시대 앞에 선 주니어 개발자의 기록**  
@@ -806,7 +806,7 @@ MCP = AI가 여러 창구를 이용하게 해주는 공통 규칙
 
 
 <details>
-<summary><h3>AI 프롬프트 넣을때 왼쪽처럼 명령하면 안되고 오른쪽으로 해야 결과물 잘 나온대</h3></summary>
+<summary><strong>AI 프롬프트 넣을때 왼쪽처럼 명령하면 안되고 오른쪽으로 해야 결과물 잘 나온대</strong></summary>
 
 
 ![image.png](../assets/ai/image-063.png)
@@ -820,7 +820,7 @@ MCP = AI가 여러 창구를 이용하게 해주는 공통 규칙
 
 
 <details>
-<summary><h3>AI 출력을 마크다운이 아니라 HTML로 하는 게 더 좋다는 설에 대해,</h3></summary>
+<summary><strong>AI 출력을 마크다운이 아니라 HTML로 하는 게 더 좋다는 설에 대해,</strong></summary>
 
 
 처음에는 나도 "아니야, 구조화된 문서라면 별로 다를 거 없을 텐데"라고 생각했지만, 실제로 해보니 확실히 HTML 쪽이 표현력이 높고, 현재 병목 현상 중 하나인 인간의 인지 부하를 줄일 수 있다면 이라는 이유로, 요즘은 설계를 전부 artifact에 UL 시키고 있다.
@@ -838,7 +838,7 @@ MCP = AI가 여러 창구를 이용하게 해주는 공통 규칙
 
 
 <details>
-<summary><h3>AI한테 &quot;본론부터 말해&quot;를 스킬로 박아두는 법</h3></summary>
+<summary><strong>AI한테 &quot;본론부터 말해&quot;를 스킬로 박아두는 법</strong></summary>
 
 
 코딩 시킬 때 AI가 정작 답은 저 아래 묻어두고 빙빙 돌 때 있죠  
@@ -870,7 +870,7 @@ i-have-adhd 스킬을 깔면 AI가 서론·군더더기 빼고 할 일부터 전
 
 
 <details>
-<summary><h3>파이콘 코리아 2026 “로컬 LLM 으로 AI 에이전트 구현” 자료</h3></summary>
+<summary><strong>파이콘 코리아 2026 “로컬 LLM 으로 AI 에이전트 구현” 자료</strong></summary>
 
 
 간단하면서도 핵심을 잘 짚어주셔서  
@@ -890,7 +890,7 @@ i-have-adhd 스킬을 깔면 AI가 서론·군더더기 빼고 할 일부터 전
 
 
 <details>
-<summary><h3>AI 시대 테스트를 어떻게 설계해야 하는가?</h3></summary>
+<summary><strong>AI 시대 테스트를 어떻게 설계해야 하는가?</strong></summary>
 
 
 - 구현이 아닌 동작을.
@@ -912,7 +912,7 @@ i-have-adhd 스킬을 깔면 AI가 서론·군더더기 빼고 할 일부터 전
 
 
 <details>
-<summary><h3>2026년 프로그래밍에서 중요한 5가지:</h3></summary>
+<summary><strong>2026년 프로그래밍에서 중요한 5가지:</strong></summary>
 
 
 ① 만드는 제품을 잘 알아야 한다  
@@ -930,7 +930,7 @@ i-have-adhd 스킬을 깔면 AI가 서론·군더더기 빼고 할 일부터 전
 
 
 <details>
-<summary><h3>“AI 안 썼다”는 건 좀 과장 같습니다.</h3></summary>
+<summary><strong>“AI 안 썼다”는 건 좀 과장 같습니다.</strong></summary>
 
 
 코드 생성엔 어느 정도 썼고, 다만 통째로 넘긴 뒤 전 줄을 검수하는 구조를 피한 거 아닌가 싶네요. 오히려 AI가 만든 부분은 사람이 적극적으로 리뷰했다는 쪽으로 읽힙니다.
@@ -954,7 +954,7 @@ i-have-adhd 스킬을 깔면 AI가 서론·군더더기 빼고 할 일부터 전
 
 
 <details>
-<summary><h3>AI글을 사람 글처럼 만드는 스킬</h3></summary>
+<summary><strong>AI글을 사람 글처럼 만드는 스킬</strong></summary>
 
 
 [https://github.com/epoko77-ai/im-not-ai](https://github.com/epoko77-ai/im-not-ai)
@@ -970,7 +970,7 @@ i-have-adhd 스킬을 깔면 AI가 서론·군더더기 빼고 할 일부터 전
 
 
 <details>
-<summary><h3>AGENTS.md 대 SKILL.md 차이점이 뭐지?</h3></summary>
+<summary><strong>AGENTS.md 대 SKILL.md 차이점이 뭐지?</strong></summary>
 
 
 ![image.png](../assets/ai/image-066.png)
@@ -998,7 +998,7 @@ SKILL.md = 이 특정 작업을 수행하는 방법.
 
 
 <details>
-<summary><h3>IT 엔지니어가 정말로 힘들어지는 건 이제부터야…</h3></summary>
+<summary><strong>IT 엔지니어가 정말로 힘들어지는 건 이제부터야…</strong></summary>
 
 
 전환기의 지금은 "일이 사라질 거야~~"라고 말하면서도, AI를 제대로 다루면 업무가 쑥쑥 진행되고, 능력도 업그레이드되는 느낌이 들어서 재미있어
@@ -1020,7 +1020,7 @@ AI를 거부하면 그 순간 진짜로 일이 사라지니까, 거부한다는 
 
 
 <details>
-<summary><h3>넥슨이 개발자 채용에서 코딩 테스트를 없앴습니다.</h3></summary>
+<summary><strong>넥슨이 개발자 채용에서 코딩 테스트를 없앴습니다.</strong></summary>
 
 
 대신 생긴 건 ‘AI 활용 역량 평가’.
@@ -1059,7 +1059,7 @@ AI를 다루는 실력일까요?
 
 
 <details>
-<summary><h3>데이터 사이언티스트 vs AI 엔지니어</h3></summary>
+<summary><strong>데이터 사이언티스트 vs AI 엔지니어</strong></summary>
 
 
 다른 포지션, 같은 목표  
@@ -1110,7 +1110,7 @@ AI 엔지니어는
 
 
 <details>
-<summary><h3>AI랑 코딩하다 보면 말투가 점점 이상해집니다.</h3></summary>
+<summary><strong>AI랑 코딩하다 보면 말투가 점점 이상해집니다.</strong></summary>
 
 
 처음엔 “이 기능 만들어줄래?”
@@ -1140,7 +1140,7 @@ AI가 개발자를 대체한 게 아니었음.
 
 
 <details>
-<summary><h3>AI가 해결한 것들: 코드 작성 AI가 해결하지 못한 것들:</h3></summary>
+<summary><strong>AI가 해결한 것들: 코드 작성 AI가 해결하지 못한 것들:</strong></summary>
 
 
 - 어떤 코드를 작성해야 할지 아는 것
@@ -1175,7 +1175,7 @@ AI가 개발자를 대체한 게 아니었음.
 
 
 <details>
-<summary><h3>나는 왜 AI를 써도 야근 중인 걸까? ㄷㄷ</h3></summary>
+<summary><strong>나는 왜 AI를 써도 야근 중인 걸까? ㄷㄷ</strong></summary>
 
 
 1. AI가 내 업무를 알아서 다 해줄 거라 믿었지만, 현실은 AI가 쏟아낸 결과물을 수습하고 다듬느라 야근 중임.
@@ -1201,7 +1201,7 @@ AI가 개발자를 대체한 게 아니었음.
 
 
 <details>
-<summary><h3>📌 트렌드를 따라가려면 낱말의 뜻보다 먼저 알아야 할 것, 자리</h3></summary>
+<summary><strong>📌 트렌드를 따라가려면 낱말의 뜻보다 먼저 알아야 할 것, 자리</strong></summary>
 
 
 인공지능 소식은 매주 쏟아지는데, 왜 따라갈수록 뒤처지는 느낌일까요.
@@ -1224,7 +1224,7 @@ AI가 개발자를 대체한 게 아니었음.
 
 
 <details>
-<summary><h3>Anthropic이 직접 공개한, AI스러운 표현 없는 글쓰기 방법</h3></summary>
+<summary><strong>Anthropic이 직접 공개한, AI스러운 표현 없는 글쓰기 방법</strong></summary>
 
 
 "겉멋 들린 문체는 직설적인 서술 대신 은유와 현란한 수식을 사용합니다. 겉멋 들린 작가는 "변화시킬 가치가 있는 매개변수" 대신 "돌려볼 가치가 있는 다이얼"이라는 표현을 만들어 냅니다. "이 점은 여전히 중요하다" 대신 "이 점은 제 몫을 다하고 있다"라고 씁니다. 이러한 문구들은 생각을 전달하기 위해서가 아니라 작가 자신을 과시하기 위해 존재하며, 독자들도 이를 알아차립니다. 이것이 바로 겉멋 들린 문체가 거슬리는 이유입니다. 작가가 돋보이도록 독자가 더 애를 쓰게 만들기 때문입니다. 또한 이는 불명확합니다. 은유는 작가가 의도하지 않았고 통제할 수도 없는 함축적 의미를 불러옵니다. 해결책은 전달하고자 하는 바를 있는 그대로 말하는 것입니다. 직설적인 표현이 있다면 그것을 사용하세요."
@@ -1243,7 +1243,7 @@ Anthropic은 짧은 프롬프트도 효과적이라고 합니다.
 
 
 <details>
-<summary><h3>AI 잘쓰려면 프롬프트보다 이거부터 봐야됨</h3></summary>
+<summary><strong>AI 잘쓰려면 프롬프트보다 이거부터 봐야됨</strong></summary>
 
 
 “내 질문이 실제로 어디로 가는지”
@@ -1281,7 +1281,7 @@ AI는 이제 잘 쓰는 것도 중요한데
 
 
 <details>
-<summary><h3>AI 에이전트 기초용어</h3></summary>
+<summary><strong>AI 에이전트 기초용어</strong></summary>
 
 
 1. LLM  
@@ -1323,7 +1323,7 @@ LLM은 두뇌, API·MCP는 연결, 스킬은 레시피, RAG·메모리는 기억
 
 
 <details>
-<summary><h3>ChatGPT 채팅방 <strong>그대로 &quot;복제&quot;해서 쓸 수 있는 거 아셨나요?</strong></h3></summary>
+<summary><strong>ChatGPT 채팅방 <strong>그대로 &quot;복제&quot;해서 쓸 수 있는 거 아셨나요?</strong></strong></summary>
 
 
 원본 대화는 남겨두고 원하는 지점에서 새 채팅으로 나눠 이어갈 수 있습니다!!
@@ -1375,7 +1375,7 @@ LLM은 두뇌, API·MCP는 연결, 스킬은 레시피, RAG·메모리는 기억
 
 
 <details>
-<summary><h3>ChatGPT를 더 효과적으로 사용하는 방법</h3></summary>
+<summary><strong>ChatGPT를 더 효과적으로 사용하는 방법</strong></summary>
 
 
 결국 ChatGPT 무료 버전은 Plus보다 정말로 성능이 떨어지는 게 사실이야,,
@@ -1412,7 +1412,7 @@ High = 더 길고 깊은 추론
 
 
 <details>
-<summary><h3>이건 오늘날 다운로드할 수 있는 최고의 소형 로컬 모델임에 틀림없어. 놀라워.</h3></summary>
+<summary><strong>이건 오늘날 다운로드할 수 있는 최고의 소형 로컬 모델임에 틀림없어. 놀라워.</strong></summary>
 
 
 오늘, 우리는 Ternary Bonsai 2 27B를 발표합니다.
@@ -1432,7 +1432,7 @@ Ternary Bonsai 2 27B는 오늘 Apache 2.0 라이선스 하에 제공됩니다.
 
 
 <details>
-<summary><h3>Claude x Codex 스킬 가이드북</h3></summary>
+<summary><strong>Claude x Codex 스킬 가이드북</strong></summary>
 
 
 [https://wikidocs.net/book/21365](https://wikidocs.net/book/21365)
@@ -1460,7 +1460,7 @@ GitHub에서 엄청나게 많은데 이 책은 스킬마다 어울리는 상황�
 
 
 <details>
-<summary><h3>현 시점, AI와 일 잘하는 사람의 차이점은 지시의 수용 정도라고 생각함</h3></summary>
+<summary><strong>현 시점, AI와 일 잘하는 사람의 차이점은 지시의 수용 정도라고 생각함</strong></summary>
 
 
 애매하게 이상한 업무지시를 내릴 때
@@ -1483,7 +1483,7 @@ AI : 제가 틀렸습니다. 당신이 말한대로 구현합니다.
 
 
 <details>
-<summary><h3>개인적으로 오픈소스 프론티어 중에서는</h3></summary>
+<summary><strong>개인적으로 오픈소스 프론티어 중에서는</strong></summary>
 
 `Qwen3.8 flash next`가 제일 적절하게 함
 
@@ -1503,7 +1503,7 @@ GLM flash는 안시키면 안함
 
 
 <details>
-<summary><h3>ChatGPT로 공짜로~ &quot;무한 작업&quot; 돌려보세요.</h3></summary>
+<summary><strong>ChatGPT로 공짜로~ &quot;무한 작업&quot; 돌려보세요.</strong></summary>
 
 
 이게 합법적으로 가능한 방법이 있는데요!
@@ -1559,7 +1559,7 @@ ChatGPT 구독료 뽕 뽑으려면 이 "예약" 기능을 잘 써보시는거 �
 
 
 <details>
-<summary><h3>어제는 신입 개발자의 AI 활용 역량을 이야기하며 LLM 서비스 개발 강의를 소개했다. 그 글에서 팀원들이 개발에 참여할 수 있도록 안전한 시스템을 만드는 일도 중요하다고 남겼다.</h3></summary>
+<summary><strong>어제는 신입 개발자의 AI 활용 역량을 이야기하며 LLM 서비스 개발 강의를 소개했다. 그 글에서 팀원들이 개발에 참여할 수 있도록 안전한 시스템을 만드는 일도 중요하다고 남겼다.</strong></summary>
 
 
 비개발자분들도 AI의 도움을 받아 어느 정도 코드를 작성할 수 있게 됐다.  
@@ -1618,7 +1618,7 @@ SQL 인젝션을 비롯한 공격이 어떻게 작동하는지 확인하고, 풀
 
 
 <details>
-<summary><h3>ai 자주 쓰는 사람들 이런 메타질문 한번씩 해보는 것도 좋을듯</h3></summary>
+<summary><strong>ai 자주 쓰는 사람들 이런 메타질문 한번씩 해보는 것도 좋을듯</strong></summary>
 
 
 내 경우:자료조사랑 팩트체크에 주로 쓰고 있어서 큰 문제는 없다고 한다...
@@ -1634,7 +1634,7 @@ SQL 인젝션을 비롯한 공격이 어떻게 작동하는지 확인하고, 풀
 
 
 <details>
-<summary><h3>SK하이닉스 신입 면접장에 이제 LLM이 켜진 PC가 놓여 있습니다. 이 회사가 보겠다는 건 AI를 켜고 나서 뭘 묻느냐입니다.</h3></summary>
+<summary><strong>SK하이닉스 신입 면접장에 이제 LLM이 켜진 PC가 놓여 있습니다. 이 회사가 보겠다는 건 AI를 켜고 나서 뭘 묻느냐입니다.</strong></summary>
 
 
 올 하반기부터 반나절짜리 심층면접이 생겼는데, 면접장 PC로 LLM을 써서 직무 과제를 풀고 그 자리에서 발표하는 방식입니다. 자소서 문항도 없애고 AI로 프로젝트나 문제를 해결해 본 경험을 쓰게 바꿨고, 6월부터는 4년제 학위 같은 학력 제한도 전부 지웠습니다.
@@ -1655,7 +1655,7 @@ SQL 인젝션을 비롯한 공격이 어떻게 작동하는지 확인하고, 풀
 
 
 <details>
-<summary><h3>요즘 제일 핫한 건 Meta Muse인 듯</h3></summary>
+<summary><strong>요즘 제일 핫한 건 Meta Muse인 듯</strong></summary>
 
 
 근데 ChatGPT·Work·Codex랑 뭐가 다른지 헷갈려서 정리해봄  
@@ -1674,7 +1674,7 @@ Codex = 개발자 / Muse = 개인비서
 
 
 <details>
-<summary><h3>AI 시대에 내가 어떤 경쟁력을 가져야 할까 라는 막막함이 있으시면 이번 주말을 이용해 한 번 시도해보시길 추천드립니다.</h3></summary>
+<summary><strong>AI 시대에 내가 어떤 경쟁력을 가져야 할까 라는 막막함이 있으시면 이번 주말을 이용해 한 번 시도해보시길 추천드립니다.</strong></summary>
 
 
 - 코딩 에이전트로
@@ -1722,7 +1722,7 @@ Codex = 개발자 / Muse = 개인비서
 
 
 <details>
-<summary><h3>신한은행 해킹 도구가 아래 오픈도구를 사용했군요~</h3></summary>
+<summary><strong>신한은행 해킹 도구가 아래 오픈도구를 사용했군요~</strong></summary>
 
 
 GitHub Autumn-27/ARTEX에 공개된 오픈소스입니다. 중국어 UI의 LLM 멀티 에이전트 자율 침투 테스트 시스템으로, Go 백엔드 + Next.js 프론트 + PostgreSQL 구조입니다.  

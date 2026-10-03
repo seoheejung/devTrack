@@ -4,7 +4,7 @@
 
 
 <details>
-<summary><h3>Where the Money Actually Is</h3></summary>
+<summary><strong>Where the Money Actually Is</strong></summary>
 
 
 🌐 JavaScript → most jobs, average pay
@@ -36,7 +36,7 @@
 
 
 <details>
-<summary><h3>Memory Management Style</h3></summary>
+<summary><strong>Memory Management Style</strong></summary>
 
 
 🐍 Python — Garbage collected
@@ -74,7 +74,7 @@
 
 
 <details>
-<summary><h3>JavaScript is indeed a powerful language.</h3></summary>
+<summary><strong>JavaScript is indeed a powerful language.</strong></summary>
 
 
 Front-end: JavaScript (React, Vue, Angular)
@@ -98,7 +98,7 @@ AI: JavaScript(Tensorflow.js,DeepLearn.js)
 
 
 <details>
-<summary><h3>프로그래밍 언어를 선택하는 것은 일에 맞는 도구로 고르기</h3></summary>
+<summary><strong>프로그래밍 언어를 선택하는 것은 일에 맞는 도구로 고르기</strong></summary>
 
 
 1. Python
@@ -129,7 +129,7 @@ AI: JavaScript(Tensorflow.js,DeepLearn.js)
 
 
 <details>
-<summary><h3>the most Famous Product Built with them</h3></summary>
+<summary><strong>the most Famous Product Built with them</strong></summary>
 
 
 - JavaScript – Netflix
@@ -167,7 +167,7 @@ AI: JavaScript(Tensorflow.js,DeepLearn.js)
 
 
 <details>
-<summary><h3>API 고르기</h3></summary>
+<summary><strong>API 고르기</strong></summary>
 
 
 대규모 API라면 → Go
@@ -219,7 +219,7 @@ AI: JavaScript(Tensorflow.js,DeepLearn.js)
 
 
 <details>
-<summary><h3>SaaS Full Stack Architecture</h3></summary>
+<summary><strong>SaaS Full Stack Architecture</strong></summary>
 
 
 ### **1. Frontend (프론트엔드)**
@@ -375,7 +375,7 @@ AI: JavaScript(Tensorflow.js,DeepLearn.js)
 
 
 <details>
-<summary><h3>Java는 절대 구식이 될 수 없다</h3></summary>
+<summary><strong>Java는 절대 구식이 될 수 없다</strong></summary>
 
 
 - Java + Spring Boot → 백엔드 API
@@ -402,7 +402,7 @@ AI: JavaScript(Tensorflow.js,DeepLearn.js)
 
 
 <details>
-<summary><h3>엔지니어가 &quot;결국 사용하는 도구&quot; 5선</h3></summary>
+<summary><strong>엔지니어가 &quot;결국 사용하는 도구&quot; 5선</strong></summary>
 
 
 - "VS Code" → 안정적
@@ -420,7 +420,7 @@ AI: JavaScript(Tensorflow.js,DeepLearn.js)
 
 
 <details>
-<summary><h3>주석</h3></summary>
+<summary><strong>주석</strong></summary>
 
 
 - **짧고 직접적인 명사형 주석**을 기준으로 작성

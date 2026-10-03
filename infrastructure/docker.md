@@ -4,7 +4,7 @@
 
 
 <details>
-<summary><h3>Docker container security best practices</h3></summary>
+<summary><strong>Docker container security best practices</strong></summary>
 
 
 Docker 컨테이너 보안 모범 사례
@@ -44,7 +44,7 @@ Only give your container exactly what it needs to work. Nothing more.
 
 
 <details>
-<summary><h3>도커의 작동 원리</h3></summary>
+<summary><strong>도커의 작동 원리</strong></summary>
 
 
 ![image.png](../assets/docker/image-025.png)
@@ -56,7 +56,7 @@ Only give your container exactly what it needs to work. Nothing more.
 
 
 <details>
-<summary><h3>2분 만에 이해하는 Docker</h3></summary>
+<summary><strong>2분 만에 이해하는 Docker</strong></summary>
 
 
 대부분의 개발자들은 Docker를 매일 사용하지만, 그 내부에서 무슨 일이 일어나는지 이해하지 못합니다. 여기서 알아야 할 모든 것을 알려드리겠습니다.
@@ -90,7 +90,7 @@ Docker는 3개의 주요 구성 요소를 가지고 있습니다:
 
 
 <details>
-<summary><h3>도커 아키텍처의 기초</h3></summary>
+<summary><strong>도커 아키텍처의 기초</strong></summary>
 
 
 Docker Client -->  
@@ -135,7 +135,7 @@ docker stop/start --> Docker 컨테이너를 각각 중지하고 시작하기 �
 
 
 <details>
-<summary><h3>가상화 vs 컨테이너화</h3></summary>
+<summary><strong>가상화 vs 컨테이너화</strong></summary>
 
 
 𝗩𝗶𝗿𝘁𝘂𝗮𝗹𝗶𝘇𝗮𝘁𝗶𝗼𝗻 (VMs)은 각 워크로드에 독립적인 전체 머신을 제공하며, 고유한 게스트 OS와 커널을 갖춥니다. 격리와 OS 유연성에 뛰어나지만, 각 워크로드마다 전체 운영 체제를 부팅하고 관리하는 비용을 지불해야 합니다.
@@ -165,7 +165,7 @@ SSH를 통한 즉시 VM을 제공하며, 다음 기능을 갖추고 있습니다
 
 
 <details>
-<summary><h3>Dockerfile 명령어 순서 및 의미</h3></summary>
+<summary><strong>Dockerfile 명령어 순서 및 의미</strong></summary>
 
 
 1. FROM → 기본 이미지 (첫 번째 줄)
@@ -188,7 +188,7 @@ SSH를 통한 즉시 VM을 제공하며, 다음 기능을 갖추고 있습니다
 
 
 <details>
-<summary><h3>생산 환경에서 당신의 베이컨을 구해줄 Dockerfile 팁들</h3></summary>
+<summary><strong>생산 환경에서 당신의 베이컨을 구해줄 Dockerfile 팁들</strong></summary>
 
 
 1 - 가능한 한 COPY --link 사용하세요.  
@@ -223,7 +223,7 @@ ARG BASE=node:20-slim
 
 
 <details>
-<summary><h3>도커 사실</h3></summary>
+<summary><strong>도커 사실</strong></summary>
 
 
 :latest는 가장 최근에 빌드된 이미지를 의미하지 않습니다.
@@ -250,7 +250,7 @@ myapp:v2.1.0  (semver)
 
 
 <details>
-<summary><h3>도커 실습: 컨테이너 이미지를 에어갭 환경으로 전송하기</h3></summary>
+<summary><strong>도커 실습: 컨테이너 이미지를 에어갭 환경으로 전송하기</strong></summary>
 
 
 팀에서 온프레미스 서버에 새로운 애플리케이션 스택을 배포할 준비를 하고 있지만, 해당 서버는 공용 인터넷과 완전히 격리되어 있습니다 - 외부 네트워크나 컨테이너 레지스트리에 대한 경로가 전혀 없는 강화된 에어갭 환경입니다.
@@ -266,7 +266,7 @@ myapp:v2.1.0  (semver)
 
 
 <details>
-<summary><h3>Docker Android 에뮬레이터</h3></summary>
+<summary><strong>Docker Android 에뮬레이터</strong></summary>
 
 
 docker-android라는 이름입니다. 하나의 Docker 명령어만으로 ADB 포트 포워딩, KVM, GPU 가속을 지원하는 완전한 Android 기기를 실행할 수 있습니다. 완전히 헤드리스이며 CI 준비가 완료되어 있습니다.
@@ -280,7 +280,7 @@ docker-android라는 이름입니다. 하나의 Docker 명령어만으로 ADB �
 
 
 <details>
-<summary><h3>도커 빌드 크기를 ~99.8% 줄이기</h3></summary>
+<summary><strong>도커 빌드 크기를 ~99.8% 줄이기</strong></summary>
 
 
  (1.87 GB → 2.5 MB)
@@ -296,7 +296,7 @@ docker-android라는 이름입니다. 하나의 Docker 명령어만으로 ADB �
 
 
 <details>
-<summary><h3>애플이 공식 네이티브 “Docker” 출시</h3></summary>
+<summary><strong>애플이 공식 네이티브 “Docker” 출시</strong></summary>
 
 
 macOS에서 가벼운 가상 머신을 통해 리눅스 컨테이너를 실행할 수 있게 해줍니다.
@@ -314,7 +314,7 @@ macOS에서 가벼운 가상 머신을 통해 리눅스 컨테이너를 실행�
 
 
 <details>
-<summary><h3>Docker 인터뷰에서 이 말을 하면 즉시 더 경험이 많아 보일 거예요:</h3></summary>
+<summary><strong>Docker 인터뷰에서 이 말을 하면 즉시 더 경험이 많아 보일 거예요:</strong></summary>
 
 
 기억해야 할 것은 모두 이것뿐이에요:
@@ -339,7 +339,7 @@ macOS에서 가벼운 가상 머신을 통해 리눅스 컨테이너를 실행�
 
 
 <details>
-<summary><h3>초보자들의 Dockerfile에서 흔히 보이는 Docker 실수</h3></summary>
+<summary><strong>초보자들의 Dockerfile에서 흔히 보이는 Docker 실수</strong></summary>
 
 
 ```
@@ -373,7 +373,7 @@ COPY . .
 
 
 <details>
-<summary><h3>Docker Compose가 마침내 init 컨테이너에 대한 네이티브 지원을 출시했습니다.</h3></summary>
+<summary><strong>Docker Compose가 마침내 init 컨테이너에 대한 네이티브 지원을 출시했습니다.</strong></summary>
 
 
 예를 들어 DB 마이그레이션이나 유사한 일회성 작업을 실행하는 경우입니다.
@@ -393,7 +393,7 @@ k8s와 다소 유사하게, 이들은 서비스 컨테이너가 시작되기 전
 
 
 <details>
-<summary><h3>7가지 알아야 할 Docker 보안 명령어 🐳</h3></summary>
+<summary><strong>7가지 알아야 할 Docker 보안 명령어 🐳</strong></summary>
 
 
 1️⃣ docker inspect → 컨테이너가 어떻게 구성되었는지 정확히 확인하세요. 권한, 기능, 마운트, 사용자 및 네트워킹을 포함합니다.
@@ -419,7 +419,7 @@ k8s와 다소 유사하게, 이들은 서비스 컨테이너가 시작되기 전
 
 
 <details>
-<summary><h3>Docker의 기본 포트 퍼블리싱 동작은 편리하지만 보안에 취약합니다:</h3></summary>
+<summary><strong>Docker의 기본 포트 퍼블리싱 동작은 편리하지만 보안에 취약합니다:</strong></summary>
 
 
 `docker run -p 5432:5432`는 호스트의 모든 인터페이스에서 포트 5432를 열어 호스트 네트워크의 모든 머신이 접근할 수 있게 만듭니다.
@@ -443,7 +443,7 @@ Docker 포트 공개는 방화벽보다 바인딩 주소부터 점검해야 합�
 
 
 <details>
-<summary><h3>수년 동안 Docker 설정에서 Nginx를 사용했어요.</h3></summary>
+<summary><strong>수년 동안 Docker 설정에서 Nginx를 사용했어요.</strong></summary>
 
 
 잘 작동했지만, 새로운 서비스를 추가할 때마다 설정 파일을 수정하고 Nginx를 다시 로드하며 SSL을 수동으로 처리해야 했죠.  

@@ -2,7 +2,7 @@
 
 
 <details>
-<summary><h3>1. [중복 요청] <code>POST /api/orders</code> 엔드포인트가 있습니다. 네트워크 재시도로 인해 동일한 주문에 대해 여러 번 호출되고 있습니다. 사용자들이 두 번 청구되고 있습니다. 이것을 어떻게 수정하시겠습니까?</h3></summary>
+<summary><strong>1. [중복 요청] <code>POST /api/orders</code> 엔드포인트가 있습니다. 네트워크 재시도로 인해 동일한 주문에 대해 여러 번 호출되고 있습니다. 사용자들이 두 번 청구되고 있습니다. 이것을 어떻게 수정하시겠습니까?</strong></summary>
 
 1. [중복 요청] `POST /api/orders` 엔드포인트가 있습니다. 네트워크 재시도로 인해 동일한 주문에 대해 여러 번 호출되고 있습니다. 사용자들이 두 번 청구되고 있습니다. 이것을 어떻게 수정하시겠습니까?
     
@@ -23,7 +23,7 @@
 
 
 <details>
-<summary><h3>2. [GET vs POST] GET과 POST 요청의 차이점은 무엇인가요?</h3></summary>
+<summary><strong>2. [GET vs POST] GET과 POST 요청의 차이점은 무엇인가요?</strong></summary>
 
 2. [GET vs POST] GET과 POST 요청의 차이점은 무엇인가요?
     
@@ -47,7 +47,7 @@
 
 
 <details>
-<summary><h3>3. [413 vs 500 처리] 사용자가 50MB 파일을 보냄. 제한은 5MB입니다. API가 예외 발생: 500 </h3></summary>
+<summary><strong>3. [413 vs 500 처리] 사용자가 50MB 파일을 보냄. 제한은 5MB입니다. API가 예외 발생: 500 </strong></summary>
 
 3. [413 vs 500 처리] 사용자가 50MB 파일을 보냄. 제한은 5MB입니다. API가 예외 발생: 500   
 백엔드 리드가 말함: "UI가 제한을 초과함. 그들이 고쳐야 함" 당신의 답변은?
@@ -76,7 +76,7 @@
 
 
 <details>
-<summary><h3>4. [PATCH 검증] <code>PATCH /users/{id}</code> 역할은 프론트엔드에서 요청 본문으로 보내져야 해요. 우리는 그냥 업데이트만 하면 돼요.</h3></summary>
+<summary><strong>4. [PATCH 검증] <code>PATCH /users/{id}</code> 역할은 프론트엔드에서 요청 본문으로 보내져야 해요. 우리는 그냥 업데이트만 하면 돼요.</strong></summary>
 
 4. [PATCH 검증] `PATCH /users/{id}` 역할은 프론트엔드에서 요청 본문으로 보내져야 해요. 우리는 그냥 업데이트만 하면 돼요.
     
@@ -97,7 +97,7 @@
 
 
 <details>
-<summary><h3>5. [GET + body] GET 요청에 본문(body)이 포함될 수 있나요? 프로덕션 환경에서 실제로 사용해 본 적이 있나요?</h3></summary>
+<summary><strong>5. [GET + body] GET 요청에 본문(body)이 포함될 수 있나요? 프로덕션 환경에서 실제로 사용해 본 적이 있나요?</strong></summary>
 
 5. [GET + body] GET 요청에 본문(body)이 포함될 수 있나요? 프로덕션 환경에서 실제로 사용해 본 적이 있나요?
     
@@ -121,7 +121,7 @@
 
 
 <details>
-<summary><h3>6. [비동기 작업의 HTTP 상태 코드] 사용자가 리소스를 삭제합니다. API는 200을 반환합니다. 하지만 삭제는 비동기적이며 아직 완료되지 않아 리소스가 잠시 나타날 수 있습니다. 이것은 좋은 설계인가요?</h3></summary>
+<summary><strong>6. [비동기 작업의 HTTP 상태 코드] 사용자가 리소스를 삭제합니다. API는 200을 반환합니다. 하지만 삭제는 비동기적이며 아직 완료되지 않아 리소스가 잠시 나타날 수 있습니다. 이것은 좋은 설계인가요?</strong></summary>
 
 6. [비동기 작업의 HTTP 상태 코드] 사용자가 리소스를 삭제합니다. API는 200을 반환합니다. 하지만 삭제는 비동기적이며 아직 완료되지 않아 리소스가 잠시 나타날 수 있습니다. 이것은 좋은 설계인가요?
     
@@ -148,7 +148,7 @@
 
 
 <details>
-<summary><h3>7. [프로토콜 선택 패러다임] WebSocket이 실시간 양방향 통신을 가능하게 한다면, 왜 모든 클라이언트-서버 통신에 WebSocket을 사용하는 대신 HTTP를 사용할까요?</h3></summary>
+<summary><strong>7. [프로토콜 선택 패러다임] WebSocket이 실시간 양방향 통신을 가능하게 한다면, 왜 모든 클라이언트-서버 통신에 WebSocket을 사용하는 대신 HTTP를 사용할까요?</strong></summary>
 
 7. [프로토콜 선택 패러다임] WebSocket이 실시간 양방향 통신을 가능하게 한다면, 왜 모든 클라이언트-서버 통신에 WebSocket을 사용하는 대신 HTTP를 사용할까요?
     
@@ -178,7 +178,7 @@
 
 
 <details>
-<summary><h3>8. [API 패러다임 트레이드오프] GraphQL이 유연성을 제공한다면, 왜 많은 회사들이 여전히 REST를 사용하는 걸까요?</h3></summary>
+<summary><strong>8. [API 패러다임 트레이드오프] GraphQL이 유연성을 제공한다면, 왜 많은 회사들이 여전히 REST를 사용하는 걸까요?</strong></summary>
 
 8. [API 패러다임 트레이드오프] GraphQL이 유연성을 제공한다면, 왜 많은 회사들이 여전히 REST를 사용하는 걸까요?
     
@@ -212,7 +212,7 @@
 
 
 <details>
-<summary><h3>9. [HTTP 상태 코드 정확성] 클라이언트가 잘못된 HTTP 메서드로 요청을 보냅니다. API가 405 대신 500을 반환합니다. 모든 것이 여전히 작동합니다. 이걸 버그로 간주하시겠습니까, 아니면 그냥 넘기시겠습니까?</h3></summary>
+<summary><strong>9. [HTTP 상태 코드 정확성] 클라이언트가 잘못된 HTTP 메서드로 요청을 보냅니다. API가 405 대신 500을 반환합니다. 모든 것이 여전히 작동합니다. 이걸 버그로 간주하시겠습니까, 아니면 그냥 넘기시겠습니까?</strong></summary>
 
 9. [HTTP 상태 코드 정확성] 클라이언트가 잘못된 HTTP 메서드로 요청을 보냅니다. API가 405 대신 500을 반환합니다. 모든 것이 여전히 작동합니다. 이걸 버그로 간주하시겠습니까, 아니면 그냥 넘기시겠습니까?
     
@@ -242,7 +242,7 @@
 
 
 <details>
-<summary><h3>10. [API 버전 관리 필요성] 테크 리드가 당신에게 말합니다: &quot;우리는 API 버전 관리가 필요 없어요. 그냥 엔드포인트를 업데이트하면 돼요.&quot; 동의하시겠어요?</h3></summary>
+<summary><strong>10. [API 버전 관리 필요성] 테크 리드가 당신에게 말합니다: &quot;우리는 API 버전 관리가 필요 없어요. 그냥 엔드포인트를 업데이트하면 돼요.&quot; 동의하시겠어요?</strong></summary>
 
 10. [API 버전 관리 필요성] 테크 리드가 당신에게 말합니다: "우리는 API 버전 관리가 필요 없어요. 그냥 엔드포인트를 업데이트하면 돼요." 동의하시겠어요?
     
@@ -273,7 +273,7 @@
 
 
 <details>
-<summary><h3>11. [로드 밸런서 필요성] Nginx가 수천 개의 연결을 처리할 수 있다면, 왜 여전히 로드 밸런서를 필요한 걸까요?</h3></summary>
+<summary><strong>11. [로드 밸런서 필요성] Nginx가 수천 개의 연결을 처리할 수 있다면, 왜 여전히 로드 밸런서를 필요한 걸까요?</strong></summary>
 
 11. [로드 밸런서 필요성] Nginx가 수천 개의 연결을 처리할 수 있다면, 왜 여전히 로드 밸런서를 필요한 걸까요?
     
@@ -296,7 +296,7 @@
 
 
 <details>
-<summary><h3>12. [타임스탬프 표준] &quot;타임스탬프는 항상 서버 로컬 시간으로 반환하세요.” 이거 괜찮으신가요?</h3></summary>
+<summary><strong>12. [타임스탬프 표준] &quot;타임스탬프는 항상 서버 로컬 시간으로 반환하세요.” 이거 괜찮으신가요?</strong></summary>
 
 12. [타임스탬프 표준] "타임스탬프는 항상 서버 로컬 시간으로 반환하세요.” 이거 괜찮으신가요?
     
@@ -319,7 +319,7 @@
 
 
 <details>
-<summary><h3>13. [API 설계 Smell] &quot;주어진 것: <code>PUT /updateUserName</code>, <code>PUT /updateUserEmail</code>, <code>PUT /updateUserPhone</code>. 어떤 API 디자인 냄새를 눈치채셨나요? 더 깔끔할 방법은 무엇일까요?&quot;</h3></summary>
+<summary><strong>13. [API 설계 Smell] &quot;주어진 것: <code>PUT /updateUserName</code>, <code>PUT /updateUserEmail</code>, <code>PUT /updateUserPhone</code>. 어떤 API 디자인 냄새를 눈치채셨나요? 더 깔끔할 방법은 무엇일까요?&quot;</strong></summary>
 
 13. [API 설계 Smell] "주어진 것: `PUT /updateUserName`, `PUT /updateUserEmail`, `PUT /updateUserPhone`. 어떤 API 디자인 냄새를 눈치채셨나요? 더 깔끔할 방법은 무엇일까요?"
     
@@ -353,7 +353,7 @@
 
 
 <details>
-<summary><h3>14. [REST vs RESTful] 많은 개발자들이 여전히 이것을 모르는 것 같아요 : REST API vs RESTful API의 차이는 무엇인가요?</h3></summary>
+<summary><strong>14. [REST vs RESTful] 많은 개발자들이 여전히 이것을 모르는 것 같아요 : REST API vs RESTful API의 차이는 무엇인가요?</strong></summary>
 
 14. [REST vs RESTful] 많은 개발자들이 여전히 이것을 모르는 것 같아요 : REST API vs RESTful API의 차이는 무엇인가요?
     
@@ -389,7 +389,7 @@
 
 
 <details>
-<summary><h3>15. [프로토콜 선택 패러다임] 개발자로서, 다음의 차이점을 알고 계신가요: gRPC / REST 그리고 각각 언제 사용해야 하는지 설명하시오.</h3></summary>
+<summary><strong>15. [프로토콜 선택 패러다임] 개발자로서, 다음의 차이점을 알고 계신가요: gRPC / REST 그리고 각각 언제 사용해야 하는지 설명하시오.</strong></summary>
 
 15. [프로토콜 선택 패러다임] 개발자로서, 다음의 차이점을 알고 계신가요: gRPC / REST 그리고 각각 언제 사용해야 하는지 설명하시오.
     
@@ -419,7 +419,7 @@
 
 
 <details>
-<summary><h3>16. [실시간 아키텍처 비교] 두 엔지니어가 실시간 알림을 설계했습니다. 디자인 A : 5초마다 폴링 / 디자인 B : WebSockets. 앱에는 100만 명의 활성 사용자가 있습니다. 어느 것을 배포하시겠어요, 그리고 왜요?</h3></summary>
+<summary><strong>16. [실시간 아키텍처 비교] 두 엔지니어가 실시간 알림을 설계했습니다. 디자인 A : 5초마다 폴링 / 디자인 B : WebSockets. 앱에는 100만 명의 활성 사용자가 있습니다. 어느 것을 배포하시겠어요, 그리고 왜요?</strong></summary>
 
 16. [실시간 아키텍처 비교] 두 엔지니어가 실시간 알림을 설계했습니다. 디자인 A : 5초마다 폴링 / 디자인 B : WebSockets. 앱에는 100만 명의 활성 사용자가 있습니다. 어느 것을 배포하시겠어요, 그리고 왜요?
     
@@ -448,7 +448,7 @@
 
 
 <details>
-<summary><h3>17. [REST 개념 구별] 다음 두 가지의 차이점은 무엇인가요: REST API vs RESTful API</h3></summary>
+<summary><strong>17. [REST 개념 구별] 다음 두 가지의 차이점은 무엇인가요: REST API vs RESTful API</strong></summary>
 
 17. [REST 개념 구별] 다음 두 가지의 차이점은 무엇인가요: REST API vs RESTful API
     
@@ -480,7 +480,7 @@
 
 
 <details>
-<summary><h3>18. [GraphQL N+1 쿼리 최적화] &quot;GraphQL API가 있다고 가정해 보죠. 클라이언트가 100명의 사용자와 그들의 포스트를 쿼리합니다. 서버가 101개의 데이터베이스 쿼리를 실행하네요. 사용자 1개. 각 사용자의 포스트마다 1개씩. REST라면 테이블을 그냥 JOIN하면 되죠. GraphQL에서는 클라이언트가 쿼리하는 걸 통제할 수 없어요. GraphQL에서 N+1 문제를 어떻게 고치나요?&quot;  100명 사용자 가져오기 ✅ 101개 DB 쿼리 실행 ❌ GraphQL — JOIN 강제 불가 ❌ 성능이 API 죽이고 있음 ❌ GraphQL에서 N+1 어떻게 고치나요?</h3></summary>
+<summary><strong>18. [GraphQL N+1 쿼리 최적화] &quot;GraphQL API가 있다고 가정해 보죠. 클라이언트가 100명의 사용자와 그들의 포스트를 쿼리합니다. 서버가 101개의 데이터베이스 쿼리를 실행하네요. 사용자 1개. 각 사용자의 포스트마다 1개씩. REST라면 테이블을 그냥 JOIN하면 되죠. GraphQL에서는 클라이언트가 쿼리하는 걸 통제할 수 없어요. GraphQL에서 N+1 문제를 어떻게 고치나요?&quot;  100명 사용자 가져오기 ✅ 101개 DB 쿼리 실행 ❌ GraphQL — JOIN 강제 불가 ❌ 성능이 API 죽이고 있음 ❌ GraphQL에서 N+1 어떻게 고치나요?</strong></summary>
 
 18. [GraphQL N+1 쿼리 최적화] "GraphQL API가 있다고 가정해 보죠. 클라이언트가 100명의 사용자와 그들의 포스트를 쿼리합니다. 서버가 101개의 데이터베이스 쿼리를 실행하네요. 사용자 1개. 각 사용자의 포스트마다 1개씩. REST라면 테이블을 그냥 JOIN하면 되죠. GraphQL에서는 클라이언트가 쿼리하는 걸 통제할 수 없어요. GraphQL에서 N+1 문제를 어떻게 고치나요?"  100명 사용자 가져오기 ✅ 101개 DB 쿼리 실행 ❌ GraphQL — JOIN 강제 불가 ❌ 성능이 API 죽이고 있음 ❌ GraphQL에서 N+1 어떻게 고치나요?
     
@@ -512,7 +512,7 @@
 
 
 <details>
-<summary><h3>19. [GraphQL의 핵심 해결 과제] GraphQL이 실제로 REST로는 해결하지 못하는 어떤 문제를 해결하나요?</h3></summary>
+<summary><strong>19. [GraphQL의 핵심 해결 과제] GraphQL이 실제로 REST로는 해결하지 못하는 어떤 문제를 해결하나요?</strong></summary>
 
 19. [GraphQL의 핵심 해결 과제] GraphQL이 실제로 REST로는 해결하지 못하는 어떤 문제를 해결하나요?
     
@@ -538,7 +538,7 @@
 
 
 <details>
-<summary><h3>20. [오버페칭의 잠재적 리스크] 과도한 데이터 가져오기(Over-fetching)가 대부분의 팀이 깨닫는 것보다 더 왜 해로운가요?</h3></summary>
+<summary><strong>20. [오버페칭의 잠재적 리스크] 과도한 데이터 가져오기(Over-fetching)가 대부분의 팀이 깨닫는 것보다 더 왜 해로운가요?</strong></summary>
 
 20. [오버페칭의 잠재적 리스크] 과도한 데이터 가져오기(Over-fetching)가 대부분의 팀이 깨닫는 것보다 더 왜 해로운가요?
     
@@ -564,7 +564,7 @@
 
 
 <details>
-<summary><h3>21. [GraphQL의 버전 관리 철학] REST에서는 버전 관리가 더 쉬운 반면, GraphQL에서는 왜 피하기 더 어려운가요?</h3></summary>
+<summary><strong>21. [GraphQL의 버전 관리 철학] REST에서는 버전 관리가 더 쉬운 반면, GraphQL에서는 왜 피하기 더 어려운가요?</strong></summary>
 
 21. [GraphQL의 버전 관리 철학] REST에서는 버전 관리가 더 쉬운 반면, GraphQL에서는 왜 피하기 더 어려운가요?
     
@@ -590,7 +590,7 @@
 
 
 <details>
-<summary><h3>22. [HTTP 메서드 의미론과 뮤테이션] REST의 멱등성과 GraphQL의 뮤테이션 사이의 실제 차이점은 무엇인가요?</h3></summary>
+<summary><strong>22. [HTTP 메서드 의미론과 뮤테이션] REST의 멱등성과 GraphQL의 뮤테이션 사이의 실제 차이점은 무엇인가요?</strong></summary>
 
 22. [HTTP 메서드 의미론과 뮤테이션] REST의 멱등성과 GraphQL의 뮤테이션 사이의 실제 차이점은 무엇인가요?
     

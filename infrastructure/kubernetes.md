@@ -4,7 +4,7 @@
 
 
 <details>
-<summary><h3>☸️ Kubernetes Concepts - Difficulty Breakdown 🔥</h3></summary>
+<summary><strong>☸️ Kubernetes Concepts - Difficulty Breakdown 🔥</strong></summary>
 
 
 - Pods - 🟢 Easy
@@ -41,7 +41,7 @@
 
 
 <details>
-<summary><h3>Kubernetes Simplified</h3></summary>
+<summary><strong>Kubernetes Simplified</strong></summary>
 
 
 ### 🧠 Control Plane
@@ -105,7 +105,7 @@ kube-proxy
 
 
 <details>
-<summary><h3>쿠버네티스는 아름답습니다.</h3></summary>
+<summary><strong>쿠버네티스는 아름답습니다.</strong></summary>
 
 
 모든 개념에는 이야기가 담겨 있습니다. 다만 당신이 아직 모를 뿐이죠.
@@ -153,7 +153,7 @@ Karpenter를 사용하면 Pod가 대기 상태에 머무르는 동안 새 노드
 
 
 <details>
-<summary><h3>☸️ Don’t Overthink Kubernetes</h3></summary>
+<summary><strong>☸️ Don’t Overthink Kubernetes</strong></summary>
 
 
 - Pods + Deployments → run applications
@@ -178,7 +178,7 @@ Karpenter를 사용하면 Pod가 대기 상태에 머무르는 동안 새 노드
 
 
 <details>
-<summary><h3>Pod vs Container - 잔인한 진실🔥</h3></summary>
+<summary><strong>Pod vs Container - 잔인한 진실🔥</strong></summary>
 
 
 컨테이너는 쿠버네티스가 실행하는 것이 아닙니다.
@@ -229,7 +229,7 @@ Pod 중심으로 생각하면 모든 것이 맞춰지기 시작합니다.
 
 
 <details>
-<summary><h3>☸️ 2026년의 쿠버네티스 현실 🔥</h3></summary>
+<summary><strong>☸️ 2026년의 쿠버네티스 현실 🔥</strong></summary>
 
 
 가장 “고급”인 것들?
@@ -269,7 +269,7 @@ AI는 초 단위로 YAML을 뱉어낸다.
 
 
 <details>
-<summary><h3>Kubernetes Ingress란 무엇인가?</h3></summary>
+<summary><strong>Kubernetes Ingress란 무엇인가?</strong></summary>
 
 
 Kubernetes 네트워킹이 혼란스럽다면…이게 바로 당신이 놓치고 있는 부분일 가능성이 큽니다.
@@ -309,7 +309,7 @@ Ingress는 마법이 아닙니다. 클러스터를 위한 트래픽 매니저일
 
 
 <details>
-<summary><h3>Kubernetes SecurityContext</h3></summary>
+<summary><strong>Kubernetes SecurityContext</strong></summary>
 
 
 Kubernetes 보안에서 가장 중요하지만 가장 무시되는 부분 중 하나입니다.
@@ -346,7 +346,7 @@ Pod와 Container 수준에서 작동합니다.
 
 
 <details>
-<summary><h3>쿠버네티스 다이어그램을 자동으로 생성해주는 멋진 무료 도구</h3></summary>
+<summary><strong>쿠버네티스 다이어그램을 자동으로 생성해주는 멋진 무료 도구</strong></summary>
 
 
 KubeDiagrams는 매니페스트, Helm 차트, 심지어 라이브 클러스터까지 초 단위로 깔끔한 아키텍처 다이어그램으로 바꿔줘요.
@@ -370,7 +370,7 @@ Repo: 쿠버네티스 다이어그램https://github.com/philippemerle/KubeDiagra
 
 
 <details>
-<summary><h3>컨테이너 네트워킹의 작동 원리</h3></summary>
+<summary><strong>컨테이너 네트워킹의 작동 원리</strong></summary>
 
 
 Docker와 Kubernetes 네트워킹은 마법처럼 느껴질 수 있습니다. 하지만 조각들이 맞물리게 하는 입증된 방법이 있습니다: 처음부터 다시 구축하는 것입니다.
@@ -390,7 +390,7 @@ Docker와 Kubernetes 네트워킹은 마법처럼 느껴질 수 있습니다. �
 
 
 <details>
-<summary><h3>2026년 쿠버네티스 인터뷰의 90%는 이 7가지 포인트로 귀결됩니다</h3></summary>
+<summary><strong>2026년 쿠버네티스 인터뷰의 90%는 이 7가지 포인트로 귀결됩니다</strong></summary>
 
 
 1. Pods vs Deployments vs StatefulSets: 안정적인 ID/스토리지가 필요한 경우 vs 교체 가능한 복제본.
@@ -410,7 +410,7 @@ Docker와 Kubernetes 네트워킹은 마법처럼 느껴질 수 있습니다. �
 
 
 <details>
-<summary><h3>Kubernetes를 쉽게 풀어서 설명</h3></summary>
+<summary><strong>Kubernetes를 쉽게 풀어서 설명</strong></summary>
 
 
 - Pod → 가장 작은 실행 앱 단위
@@ -439,7 +439,7 @@ Docker와 Kubernetes 네트워킹은 마법처럼 느껴질 수 있습니다. �
 
 
 <details>
-<summary><h3>Docker vs Kubernetes: 차이점은 무엇일까? 🐳☸️</h3></summary>
+<summary><strong>Docker vs Kubernetes: 차이점은 무엇일까? 🐳☸️</strong></summary>
 
 
 Docker는 애플리케이션을 컨테이너로 패키징합니다. Kubernetes는 그 컨테이너들을 가져와 여러 대의 머신에 걸쳐 배포, 스케일링, 네트워킹, 그리고 높은 가용성을 자동화합니다.
@@ -461,7 +461,7 @@ Docker는 애플리케이션을 컨테이너로 패키징합니다. Kubernetes�
 
 
 <details>
-<summary><h3>Docker vs Kubernetes: Which one is better?</h3></summary>
+<summary><strong>Docker vs Kubernetes: Which one is better?</strong></summary>
 
 
 ![image.png](../assets/kubernetes/image-041.png)

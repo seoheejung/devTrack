@@ -4,7 +4,7 @@
 
 
 <details>
-<summary><h3>높은 전환율을 이끄는 랜딩 페이지 구조</h3></summary>
+<summary><strong>높은 전환율을 이끄는 랜딩 페이지 구조</strong></summary>
 
 
 ![image.png](../assets/frontend/image-083.png)
@@ -58,7 +58,7 @@
 
 
 <details>
-<summary><h3>AI 디자인 튜토리얼: 초보자를 위한 가이드</h3></summary>
+<summary><strong>AI 디자인 튜토리얼: 초보자를 위한 가이드</strong></summary>
 
 
 만약 당신이 나처럼 비기술적이고 비디자이너라면, AI로 *실제로* 멋져 보이는 결과물을 만드는 방법을 간단한 영어로 설명해드릴게요:
@@ -99,7 +99,7 @@
 
 
 <details>
-<summary><h3>AI가 원하는 웹사이트를 바로 <strong>Next.js</strong> 코드로 클론해줌</h3></summary>
+<summary><strong>AI가 원하는 웹사이트를 바로 <strong>Next.js</strong> 코드로 클론해줌</strong></summary>
 
 
 입력은 이것만 하면 됨:  
@@ -161,7 +161,7 @@
 
 
 <details>
-<summary><h3>프론트엔드 직업, 진짜로 사라질지도 몰라요</h3></summary>
+<summary><strong>프론트엔드 직업, 진짜로 사라질지도 몰라요</strong></summary>
 
 
 지금 전 세계에서 대혼란이 일어나고 있는 GitHub 리포지토리를 발견했는데, 이게 순식간에 【9.6만 Star】를 돌파한 이례적인 괴물 프로젝트예요.

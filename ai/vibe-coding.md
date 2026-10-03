@@ -4,7 +4,7 @@
 
 
 <details>
-<summary><h3>본인이 AI로 개발한다고 말씀하시는 순간 이미 “최종 소비자”가 아니라는 걸 간과하시는듯…</h3></summary>
+<summary><strong>본인이 AI로 개발한다고 말씀하시는 순간 이미 “최종 소비자”가 아니라는 걸 간과하시는듯…</strong></summary>
 
 
 이미 플레이팅까지 완료돼 내놓는 음식을 먹기만 하려면 뭘 넣고 만들었는지 몰라도 되지만 밀키트 사다가 냄비에 때려넣고 요리한다고 말씀하시려면 그정도는 아셔야한다고 생각함
@@ -34,7 +34,7 @@
 
 
 <details>
-<summary><h3>바이브 코딩 vs 스펙 주도 개발</h3></summary>
+<summary><strong>바이브 코딩 vs 스펙 주도 개발</strong></summary>
 
 
 둘 다 AI를 사용합니다. 둘 다 작동하는 제품으로 이끌 수 있습니다.
@@ -77,7 +77,7 @@ AI는 소프트웨어가 작동하게 만드는 것을 바꾸지 않았습니다
 
 
 <details>
-<summary><h3>바이브 코더들이 싫어하는 것들:</h3></summary>
+<summary><strong>바이브 코더들이 싫어하는 것들:</strong></summary>
 
 
 - Rust
@@ -106,7 +106,7 @@ AI는 소프트웨어가 작동하게 만드는 것을 바꾸지 않았습니다
 
 
 <details>
-<summary><h3>VIBE CODED 앱을 침몰시키는 20가지 요소</h3></summary>
+<summary><strong>VIBE CODED 앱을 침몰시키는 20가지 요소</strong></summary>
 
 
 1/ API 라우트에 대한 속도 제한 없음
@@ -218,7 +218,7 @@ AI는 소프트웨어가 작동하게 만드는 것을 바꾸지 않았습니다
 
 
 <details>
-<summary><h3>로그나 히스토리를 남기는 스킬</h3></summary>
+<summary><strong>로그나 히스토리를 남기는 스킬</strong></summary>
 
 
 인공지능 쓸 때 처음 20%랑 마지막 20%의 일은 인간이 하라는 말을 들은 적이 있는데 정말 맞는 것 같음. 처음부터 인공지능을 막 시키면 그저그런 아이디어밖에 나오질 않고 또 인공지능의 답이 바이어스로 작용해서 사람들의 창의성을 제한한다
@@ -242,7 +242,7 @@ AI는 소프트웨어가 작동하게 만드는 것을 바꾸지 않았습니다
 
 
 <details>
-<summary><h3>만약 당신이 vibecoding을 하고 있다면, 아래 프롬프트를 프롬프트 상자에 붙여넣고 에이전트가 보안 검사를 수행하도록 하세요.</h3></summary>
+<summary><strong>만약 당신이 vibecoding을 하고 있다면, 아래 프롬프트를 프롬프트 상자에 붙여넣고 에이전트가 보안 검사를 수행하도록 하세요.</strong></summary>
 
 
 당신은 선임 보안 엔지니이자 레드팀 전문가로, 다음 코드베이스, 시스템 설계 또는 애플리케이션에 대한 포괄적이고 적대적인 보안 감사를 수행하는 임무를 맡았습니다.
@@ -397,7 +397,7 @@ IMPORTANT INSTRUCTIONS
 
 
 <details>
-<summary><h3>런치 후에 Vibe로 코딩된 SaaS의 90%가 죽는 이유</h3></summary>
+<summary><strong>런치 후에 Vibe로 코딩된 SaaS의 90%가 죽는 이유</strong></summary>
 
 
 - 입력 정제 없음
@@ -430,7 +430,7 @@ IMPORTANT INSTRUCTIONS
 
 
 <details>
-<summary><h3>바이브코딩 할때 알면 좋은 개념 10가지!</h3></summary>
+<summary><strong>바이브코딩 할때 알면 좋은 개념 10가지!</strong></summary>
 
 
 요즈음 LLM의 성능이 높아짐에 따라 바이브코딩만 하면 다 만들어 주지만, 프로그램의 기본적인 블락이라고 할수 있는 알고리즘과 자료구조의 핵심을 알면 더 효율적인 작업이 가능합니다. 딱 10가지를 추려보았습니다.
@@ -450,7 +450,7 @@ IMPORTANT INSTRUCTIONS
 
 
 <details>
-<summary><h3>바이브 코딩하다가 &quot;404&quot;, &quot;500&quot; 뜨면</h3></summary>
+<summary><strong>바이브 코딩하다가 &quot;404&quot;, &quot;500&quot; 뜨면</strong></summary>
 
 일단 AI한테 “고쳐줘”부터 치고 있나요?
 
@@ -501,7 +501,7 @@ https://vibecrew.kr/tips/422
 
 
 <details>
-<summary><h3>바이브코딩에서 토큰을 태우면서 성능을 끌어올리는 마법의 단어가 몇개있다.</h3></summary>
+<summary><strong>바이브코딩에서 토큰을 태우면서 성능을 끌어올리는 마법의 단어가 몇개있다.</strong></summary>
 
 
 1. 동적워크플로우
@@ -524,7 +524,7 @@ https://vibecrew.kr/tips/422
 
 
 <details>
-<summary><h3>바이브코딩으로 불특성 다수에게 배포하기 전에 프롬프트에</h3></summary>
+<summary><strong>바이브코딩으로 불특성 다수에게 배포하기 전에 프롬프트에</strong></summary>
 
 
 "웹접근성을 준수하는지 전체 검수해주세요." 라고 꼭 넣어주길 바라 농담아니다 진짜
@@ -550,7 +550,7 @@ https://vibecrew.kr/tips/422
 
 
 <details>
-<summary><h3>바이브코딩으로 웹사이트나 웹앱을 만들다 보면 묘한 순간이 온다.</h3></summary>
+<summary><strong>바이브코딩으로 웹사이트나 웹앱을 만들다 보면 묘한 순간이 온다.</strong></summary>
 
 
 처음에는 막막했던 기능들이 하나씩 구현되고, 화면도 그럴듯하게 만들어진다. 로그인도 되고, 데이터도 들어가고, 버튼도 잘 작동한다. 이것저것 손보다 보면 어느새 99.9%쯤 완성된다.
@@ -586,7 +586,7 @@ https://vibecrew.kr/tips/422
 
 
 <details>
-<summary><h3>바이브코딩으로 로그인 기능은 몇 분이면 만들 수 있습니다.</h3></summary>
+<summary><strong>바이브코딩으로 로그인 기능은 몇 분이면 만들 수 있습니다.</strong></summary>
 
 
 하지만 아직도 AI가 생성한 예제 중에는 JWT를 LocalStorage에 저장하는 코드가 적지 않습니다.
@@ -616,7 +616,7 @@ https://vibecrew.kr/tips/422
 
 
 <details>
-<summary><h3>자기가 가짜 바이브 코더라면 꼭 완독해야함.</h3></summary>
+<summary><strong>자기가 가짜 바이브 코더라면 꼭 완독해야함.</strong></summary>
 
 
 단 몇 줄로 여러분들의 시간을 아껴드립니다
@@ -644,7 +644,7 @@ https://vibecrew.kr/tips/422
 
 
 <details>
-<summary><h3>클로드 쓰는 사람 꼭 노션 연동해 놔</h3></summary>
+<summary><strong>클로드 쓰는 사람 꼭 노션 연동해 놔</strong></summary>
 
 
 > 설정 -> 커넥터 -> 노션 추가 <<  
@@ -678,7 +678,7 @@ https://vibecrew.kr/tips/422
 
 
 <details>
-<summary><h3>바이브 코딩으로, 당신은 우연히 다음을 배우게 됩니다:</h3></summary>
+<summary><strong>바이브 코딩으로, 당신은 우연히 다음을 배우게 됩니다:</strong></summary>
 
 
 - API가 모든 것을 어떻게 연결하는지.
@@ -700,7 +700,7 @@ https://vibecrew.kr/tips/422
 
 
 <details>
-<summary><h3>바이브코딩을 하면서 느낀 것 중 하나가 있다.</h3></summary>
+<summary><strong>바이브코딩을 하면서 느낀 것 중 하나가 있다.</strong></summary>
 
 
 프로젝트 설계만 잘해두면 나머지는 AI가 꽤 알아서 잘 만든다는 것.
@@ -738,7 +738,7 @@ AI가 만드는 속도가 빨라질수록 사람은 만드는 사람에서 결�
 
 
 <details>
-<summary><h3>Codex나 ClaudeCode에 계획을 수정시킬 때 자주 쓰는 프레이즈</h3></summary>
+<summary><strong>Codex나 ClaudeCode에 계획을 수정시킬 때 자주 쓰는 프레이즈</strong></summary>
 
 
 최종 설계를 처음부터 계획한 것처럼 전면적으로 다시 작성해 주세요.독자는 이 대화의 경위를 전혀 모르는 신규 참여자로 가정합니다. 경위를 모르면 의미가 통하지 않는 문장은 남기지 마세요
@@ -754,7 +754,7 @@ AI가 만드는 속도가 빨라질수록 사람은 만드는 사람에서 결�
 
 
 <details>
-<summary><h3>이 스킬을 써봤는데, 유용하네요. <code>/eli5</code> agent harness</h3></summary>
+<summary><strong>이 스킬을 써봤는데, 유용하네요. <code>/eli5</code> agent harness</strong></summary>
 
 
 Anthropic 사람들이 최근에 많이 사용하고 있는 스킬: ELI5
@@ -805,7 +805,7 @@ npx skills@latest add yizhiyanhua-ai/fireworks-open-eli5 -g -a codex -a claude-c
 
 
 <details>
-<summary><h3>Skills는 에이전트가 할 수 있는 일을 확장하는 가장 좋은 방법 중 하나입니다.</h3></summary>
+<summary><strong>Skills는 에이전트가 할 수 있는 일을 확장하는 가장 좋은 방법 중 하나입니다.</strong></summary>
 
 
 거대한 AGENTS.md에 모든 지침을 넣는 대신, 지식, 워크플로우, 그리고 모범 사례를 재사용 가능한 Skills에 캡슐화할 수 있습니다.
@@ -830,7 +830,7 @@ codex, claude code 또는 다른 에이전트를 사용할 때 참고할 만한 
 
 
 <details>
-<summary><h3>Claude Code 또는 Codex 시작하자마자 키워야 할 스킬 11선</h3></summary>
+<summary><strong>Claude Code 또는 Codex 시작하자마자 키워야 할 스킬 11선</strong></summary>
 
 
 1. 메모 스킬(Obsidian 등)
@@ -856,7 +856,7 @@ codex, claude code 또는 다른 에이전트를 사용할 때 참고할 만한 
 
 
 <details>
-<summary><h3>AI 설명이 너무 길고 장황하다면, 그림으로 설명하게 하는 스킬 (<code>show-me</code>)</h3></summary>
+<summary><strong>AI 설명이 너무 길고 장황하다면, 그림으로 설명하게 하는 스킬 (<code>show-me</code>)</strong></summary>
 
 
 AI한테 코드나 구조를 물으면 walls of text로 답할 때 많죠  
@@ -887,7 +887,7 @@ https://t.co/bo3cRflZiX
 
 
 <details>
-<summary><h3>OOP 언어 바이브 코딩 하시는 분들, 설계 조금만 공부하셔서</h3></summary>
+<summary><strong>OOP 언어 바이브 코딩 하시는 분들, 설계 조금만 공부하셔서</strong></summary>
 
 
 "어떤 기능은 어디를 통해서만 발동돼야 한다"는 식의 시스템 기획간에서 엔티티간의 책임과 역할만 프롬프트에 한 티스푼 넣어주시면, 코딩 결과물에 버그 발생율이 획기적으로 줄어들겁니다.
@@ -910,7 +910,7 @@ https://t.co/bo3cRflZiX
 
 
 <details>
-<summary><h3>요즘 바이브코더들 사이에서 전해 내려오는 속담.</h3></summary>
+<summary><strong>요즘 바이브코더들 사이에서 전해 내려오는 속담.</strong></summary>
 
 
 📜 바이브코딩 속담 TOP 7
@@ -949,7 +949,7 @@ https://t.co/bo3cRflZiX
 
 
 <details>
-<summary><h3>코드를 한 줄도 안 써도 결국 실력이 갈리는 이유</h3></summary>
+<summary><strong>코드를 한 줄도 안 써도 결국 실력이 갈리는 이유</strong></summary>
 
 
 말로 시켜서 만드는 시대인데, 왜 아무나 잘하지는 못하는 걸까요.
@@ -973,7 +973,7 @@ AI가 짜줘도 문제를 쪼개고 오류를 의심하고 결과를 검증하�
 
 
 <details>
-<summary><h3>앱을 바이브코딩한 후 Claude에게 물어볼 해킹 방지 사항:</h3></summary>
+<summary><strong>앱을 바이브코딩한 후 Claude에게 물어볼 해킹 방지 사항:</strong></summary>
 
 
 - API 키 숨기기
@@ -1669,7 +1669,7 @@ Git History에 Secret이 발견되더라도 임의로 History를 수정하지 �
 
 
 <details>
-<summary><h3>내가 주로 사용하는 코드 리뷰 프롬프트:</h3></summary>
+<summary><strong>내가 주로 사용하는 코드 리뷰 프롬프트:</strong></summary>
 
 
 /review 전체 diff와 주변 코드를 검토하세요. 실제 버그, 회귀, 불필요한 복잡성을 찾아내세요. 기존 패턴을 재사용하고, 문제의 심각도에 따라 순위를 매기고, 거짓 양성을 필터링하며, DRY/KISS 리팩토링을 적용하고, 수정하고, 테스트하고, 깨끗해질 때까지 재검토하세요.
@@ -1683,7 +1683,7 @@ Git History에 Secret이 발견되더라도 임의로 History를 수정하지 �
 
 
 <details>
-<summary><h3>주니어들을 위한 조언: 많은 사람들이 AI가 생성한 코드를 더 이상 읽지 않는다고 말하는 걸 봅니다. 이유는 “너무 많다”고요.</h3></summary>
+<summary><strong>주니어들을 위한 조언: 많은 사람들이 AI가 생성한 코드를 더 이상 읽지 않는다고 말하는 걸 봅니다. 이유는 “너무 많다”고요.</strong></summary>
 
 
 토목 엔지니어가 “빌더들이 너무 빨리 지어서 검토할 시간이 없었다”라고 말하는 걸 상상해 보세요. 3개월 후, 집에 균열이 생깁니다.
@@ -1705,7 +1705,7 @@ Git History에 Secret이 발견되더라도 임의로 History를 수정하지 �
 
 
 <details>
-<summary><h3>바이브코딩으로 서버까지 만든다면 AI에게 한마디 더 추가해보세요.</h3></summary>
+<summary><strong>바이브코딩으로 서버까지 만든다면 AI에게 한마디 더 추가해보세요.</strong></summary>
 
 
 “Docker Compose 기반으로 구성해줘.”
@@ -1751,7 +1751,7 @@ AI가 만든 서비스를 나중에 내가 관리하기 쉽게 만드는 것.
 
 
 <details>
-<summary><h3>저장해두면 좋은 ChatGPT 핵심 프롬프트 20</h3></summary>
+<summary><strong>저장해두면 좋은 ChatGPT 핵심 프롬프트 20</strong></summary>
 
 
 일·공부·자기계발·콘텐츠 제작까지  
@@ -1814,7 +1814,7 @@ ChatGPT 활용도가 확 달라짐.
 
 
 <details>
-<summary><h3>익명의 개발자가 이런 말을 했다.</h3></summary>
+<summary><strong>익명의 개발자가 이런 말을 했다.</strong></summary>
 
 
 “요즘 바이브코딩은 조금 맛본 사람들이 오히려 더 강한 말을 한다.”
@@ -1864,7 +1864,7 @@ AI는 계속 코드를 만들어준다.
 
 
 <details>
-<summary><h3>바이브코딩하면서 쓰는 사이트</h3></summary>
+<summary><strong>바이브코딩하면서 쓰는 사이트</strong></summary>
 
 
 ![image.png](../assets/vibe-coding/image-127.png)
@@ -1890,7 +1890,7 @@ AI는 계속 코드를 만들어준다.
 
 
 <details>
-<summary><h3>𝗖𝗹𝗮𝘂𝗱𝗲 𝗢𝗽𝘂𝘀 𝟱.𝟱, 𝗚𝗣𝗧-𝟲 𝗦𝗼𝗹, 그리고 𝗚𝗣𝗧-𝟲 𝗟𝘂𝗻𝗮가 모두 출시됐어. 믿기지 않을 정도로 유능해. 전에 잘 안 풀렸던 프로젝트 작업들을 맡겨봐, 바로 차이를 느낄 거야.</h3></summary>
+<summary><strong>𝗖𝗹𝗮𝘂𝗱𝗲 𝗢𝗽𝘂𝘀 𝟱.𝟱, 𝗚𝗣𝗧-𝟲 𝗦𝗼𝗹, 그리고 𝗚𝗣𝗧-𝟲 𝗟𝘂𝗻𝗮가 모두 출시됐어. 믿기지 않을 정도로 유능해. 전에 잘 안 풀렸던 프로젝트 작업들을 맡겨봐, 바로 차이를 느낄 거야.</strong></summary>
 
 
 다섯 가지 시도해볼 만한 걸 골라봤어:
@@ -1910,7 +1910,7 @@ AI는 계속 코드를 만들어준다.
 
 
 <details>
-<summary><h3>만약 이미 코드가 해결되었다면,</h3></summary>
+<summary><strong>만약 이미 코드가 해결되었다면,</strong></summary>
 
 
 스택을 확장하고, 클라우드를 공부하고, 소프트웨어 아키텍처, 데브옵스, 그리고 보안을 배우는 것을 막는 건 아무것도 없습니다. 이것이 진정한 소프트웨어 엔지니어링을 vibecoding과 구분 짓는 것입니다.
@@ -1924,7 +1924,7 @@ AI는 계속 코드를 만들어준다.
 
 
 <details>
-<summary><h3>코드를 읽지 않는 사람들은 에이전트들이 코드베이스에 얼마나 많은 복잡성을 쏟아붓는지 전혀 모른다.</h3></summary>
+<summary><strong>코드를 읽지 않는 사람들은 에이전트들이 코드베이스에 얼마나 많은 복잡성을 쏟아붓는지 전혀 모른다.</strong></summary>
 
 
 나는 여전히 에이전트들을 짧은 고삐로 묶어두고 있지만, 가끔은 더 넓은 작업과 더 많은 자유를 주는 경우가 있다 - 예를 들어, 개인 개발 도구와 관련해서. 그럴 때 그들은 방어적인 코드로 완전히 미쳐버리고, 복잡성이 얼마나 성층권까지 치솟을 수 있는지 상기시켜 준다. 그들은 감독 없이 말 그대로 헤로인 중독자들이다.
@@ -1942,7 +1942,7 @@ AI는 계속 코드를 만들어준다.
 
 
 <details>
-<summary><h3>바이브 코더들은 다음을 만들 수 있어요</h3></summary>
+<summary><strong>바이브 코더들은 다음을 만들 수 있어요</strong></summary>
 
 
 Chrome 확장 프로그램  
@@ -1973,7 +1973,7 @@ Discord / Telegram 봇
 
 
 <details>
-<summary><h3>이거 웃겨: AI가 코드를 만들고 나서 코드 리뷰를 하고, 고치거나 개선할 점을 찾아내잖아.</h3></summary>
+<summary><strong>이거 웃겨: AI가 코드를 만들고 나서 코드 리뷰를 하고, 고치거나 개선할 점을 찾아내잖아.</strong></summary>
 
 
 왜 처음부터 제대로 안 만들었을까?
@@ -1989,7 +1989,7 @@ Discord / Telegram 봇
 
 
 <details>
-<summary><h3>바이브 코더들은 이런 것들을 알고 있을까:</h3></summary>
+<summary><strong>바이브 코더들은 이런 것들을 알고 있을까:</strong></summary>
 
 
 교착 상태,  
@@ -2020,7 +2020,7 @@ localhost가 초록색으로 변할 때까지 기다리는 걸까?
 
 
 <details>
-<summary><h3>Claude Code, Codex, 또는 Grok으로 바이브 코딩 중이라면, 이 프롬프트를 훔쳐가세요:</h3></summary>
+<summary><strong>Claude Code, Codex, 또는 Grok으로 바이브 코딩 중이라면, 이 프롬프트를 훔쳐가세요:</strong></summary>
 
 
 "이 코드베이스에 대해 당신이 하고 있는 모든 가정을 나열하세요. 각 가정을 검증됨(실제 코드를 읽음) 또는 추측됨(추론한 것이며, 그 이유를 설명)으로 표시하세요. 각 가정에 대해 가장 높은 신뢰도의 수술적 수정안을 제안하세요. 하지만 아직 적용하지 마세요. 제 수동 검토를 위해 멈추고 기다리세요."
@@ -2040,7 +2040,7 @@ localhost가 초록색으로 변할 때까지 기다리는 걸까?
 
 
 <details>
-<summary><h3>바이브코딩 창시자가 추천하는 LLM 결과물 꿀팁</h3></summary>
+<summary><strong>바이브코딩 창시자가 추천하는 LLM 결과물 꿀팁</strong></summary>
 
 
 이건 저도 너무 공감하는 건데  
@@ -2069,7 +2069,7 @@ localhost가 초록색으로 변할 때까지 기다리는 걸까?
 
 
 <details>
-<summary><h3>제 생각엔 코딩 에이전트 시대에 가져야 할 유일한 테스트는 우선순위 순으로 다음과 같아요:</h3></summary>
+<summary><strong>제 생각엔 코딩 에이전트 시대에 가져야 할 유일한 테스트는 우선순위 순으로 다음과 같아요:</strong></summary>
 
 
 1. 완전한 E2E 테스트. 전혀 모킹된 부분 없이. Playwright나 그에 상응하는 도구를 통해 테스트 계정에서 프로덕션 환경에서 실행되는 것조차 될 수 있어요.

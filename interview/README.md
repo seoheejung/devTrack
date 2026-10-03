@@ -4,7 +4,7 @@
 
 
 <details>
-<summary><h3>준수할 인터뷰 분류 체계</h3></summary>
+<summary><strong>준수할 인터뷰 분류 체계</strong></summary>
 
 
 1. **아키텍처**: 분산 구조, 확장성, 설계 선택 판단
@@ -23,7 +23,7 @@
 
 
 <details>
-<summary><h3>답변 고정 프레임워크</h3></summary>
+<summary><strong>답변 고정 프레임워크</strong></summary>
 
 
 - **질문 표기**: `번호. [요약] 질문`

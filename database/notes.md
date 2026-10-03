@@ -4,7 +4,7 @@
 
 
 <details>
-<summary><h3>🗄️ SQL 기술 난이도 순위 🔥</h3></summary>
+<summary><strong>🗄️ SQL 기술 난이도 순위 🔥</strong></summary>
 
 
 🟢 쉬움 (모두 여기서 시작)
@@ -47,7 +47,7 @@
 
 
 <details>
-<summary><h3>최고의 데이터베이스와 실제 프로젝트에서 흔히 사용되는 곳</h3></summary>
+<summary><strong>최고의 데이터베이스와 실제 프로젝트에서 흔히 사용되는 곳</strong></summary>
 
 
 1. PostgreSQL → 구조화된 관계형 데이터 🧱
@@ -66,7 +66,7 @@
 
 
 <details>
-<summary><h3>PostgreSQL 데이터베이스 인터뷰의 90%는 이 7가지 주제</h3></summary>
+<summary><strong>PostgreSQL 데이터베이스 인터뷰의 90%는 이 7가지 주제</strong></summary>
 
 
 1. 인덱스  
@@ -91,7 +91,7 @@ WAL, 스트리밍 복제, 읽기 복제본, 시점 복원, 장애 조치, 그리
 
 
 <details>
-<summary><h3>데이터베이스는 갑자기 실패하지 않습니다</h3></summary>
+<summary><strong>데이터베이스는 갑자기 실패하지 않습니다</strong></summary>
 
 
 - 대학에서 데이터베이스에 대해 가르쳐주는 것:
@@ -120,7 +120,7 @@ WAL, 스트리밍 복제, 읽기 복제본, 시점 복원, 장애 조치, 그리
 
 
 <details>
-<summary><h3>효율적이고 빠른 SQL 쿼리를 작성하기 위한 10가지 팁</h3></summary>
+<summary><strong>효율적이고 빠른 SQL 쿼리를 작성하기 위한 10가지 팁</strong></summary>
 
 
 1. SELECT 문에서 * 대신 컬럼 이름을 사용하세요
@@ -141,7 +141,7 @@ WAL, 스트리밍 복제, 읽기 복제본, 시점 복원, 장애 조치, 그리
 
 
 <details>
-<summary><h3>개발자들이 알아야 할 9가지 데이터베이스 유형</h3></summary>
+<summary><strong>개발자들이 알아야 할 9가지 데이터베이스 유형</strong></summary>
 
 
 1. 𝗥𝗲𝗹𝗮𝘁𝗶𝗼𝗻𝗮𝗹  
@@ -174,7 +174,7 @@ WAL, 스트리밍 복제, 읽기 복제본, 시점 복원, 장애 조치, 그리
 
 
 <details>
-<summary><h3>Shopify, 재고 예약 시스템을 Redis에서 MySQL로 교체</h3></summary>
+<summary><strong>Shopify, 재고 예약 시스템을 Redis에서 MySQL로 교체</strong></summary>
 
 
 [https://news.hada.io/topic?id=30006](https://news.hada.io/topic?id=30006)
@@ -189,7 +189,7 @@ Redis의 대체라면 mysql을 쓰는게 좋을것같긴하다 저 사례처럼 
 
 
 <details>
-<summary><h3>PostgreSQL 19가 그래프 쿼리를 지원하게 됩니다.</h3></summary>
+<summary><strong>PostgreSQL 19가 그래프 쿼리를 지원하게 됩니다.</strong></summary>
 
 
 SQL/PGQ를 사용하면 SQL에서 관계를 직접 쿼리할 수 있습니다:
@@ -211,7 +211,7 @@ Postgres는 더 이상 단순한 관계형 데이터베이스가 아닙니다.
 
 
 <details>
-<summary><h3>모든 엔지니어는 지금 자신의 전문 분야와 관계없이 데이터베이스에 대해 잘 알게 되는 게 좋다.</h3></summary>
+<summary><strong>모든 엔지니어는 지금 자신의 전문 분야와 관계없이 데이터베이스에 대해 잘 알게 되는 게 좋다.</strong></summary>
 
 
 DB에는 최소한 SQL/테이블 설계/데이터 마이그레이션/튜닝의 4개 분야가 있다.
@@ -228,7 +228,7 @@ DB에는 최소한 SQL/테이블 설계/데이터 마이그레이션/튜닝의 4
 
 
 <details>
-<summary><h3>현대 소프트웨어가 데이터를 처리하는 5가지 방법:</h3></summary>
+<summary><strong>현대 소프트웨어가 데이터를 처리하는 5가지 방법:</strong></summary>
 
 
 1. 데이터베이스  
@@ -255,7 +255,7 @@ DB에는 최소한 SQL/테이블 설계/데이터 마이그레이션/튜닝의 4
 
 
 <details>
-<summary><h3>2026년 PostgreSQL 인터뷰의 90%는 이 7가지 포인트로 귀결됩니다:</h3></summary>
+<summary><strong>2026년 PostgreSQL 인터뷰의 90%는 이 7가지 포인트로 귀결됩니다:</strong></summary>
 
 
 1. 인덱스: btree vs GIN/GiST, 복합 순서, 그리고 왜 쿼리가 여전히 순차 스캔을 하는지.
@@ -273,7 +273,7 @@ DB에는 최소한 SQL/테이블 설계/데이터 마이그레이션/튜닝의 4
 
 
 <details>
-<summary><h3>SQL 학습을 지나치게 복잡하게 만들지 마세요.</h3></summary>
+<summary><strong>SQL 학습을 지나치게 복잡하게 만들지 마세요.</strong></summary>
 
 
 대신 이 로드맵을 따르세요.
@@ -301,7 +301,7 @@ DB에는 최소한 SQL/테이블 설계/데이터 마이그레이션/튜닝의 4
 
 
 <details>
-<summary><h3>쿼리 느리면 이제 클로드한테 물어본다</h3></summary>
+<summary><strong>쿼리 느리면 이제 클로드한테 물어본다</strong></summary>
 
 
 주말에 사이드 프로젝트 DB 좀 만지다가 쿼리 하나가 계속 느려서 짜증났다. postgres 써본 사람은 알 텐데, 뭐가 문제인지 알아보려면 EXPLAIN ANALYZE라는 명령어로 실행계획(쿼리가 DB 안에서 어떤 순서로 데이터를 찾아가는지 보여주는 진단서 같은 것)을 뽑아보고, 그 결과를 눈으로 해석해야 한다. 근데 이게 초보한테는 그냥 암호문이거든. 몇 줄 보다가 그냥 덮어버린 적도 있다.
@@ -325,7 +325,7 @@ DB에는 최소한 SQL/테이블 설계/데이터 마이그레이션/튜닝의 4
 
 
 <details>
-<summary><h3>바이브코딩으로 DB 만들 때 AI에게 이것만은 꼭 시키세요.</h3></summary>
+<summary><strong>바이브코딩으로 DB 만들 때 AI에게 이것만은 꼭 시키세요.</strong></summary>
 
 
 `created_at`
@@ -365,7 +365,7 @@ DB에는 최소한 SQL/테이블 설계/데이터 마이그레이션/튜닝의 4
 
 
 <details>
-<summary><h3>Postgres 19는 인프라가 처리해야 할 트래픽 급증을 제대로 다룹니다.</h3></summary>
+<summary><strong>Postgres 19는 인프라가 처리해야 할 트래픽 급증을 제대로 다룹니다.</strong></summary>
 
 
 상상 속 평균적인 하루에 맞춰 고정된 하나의 I/O 풀을 사용하는 방식이 아닙니다.
@@ -395,7 +395,7 @@ PostgreSQL은 당신이 돌봐야 하는 인프라가 아니라 적응하는 인
 
 
 <details>
-<summary><h3>DB 데이터 스키마 다이어그램 생성 오픈소스</h3></summary>
+<summary><strong>DB 데이터 스키마 다이어그램 생성 오픈소스</strong></summary>
 
 
 StackRender
@@ -412,7 +412,7 @@ ERD 만들 때 좀 더 예쁜 UI 로 설계하고
 
 
 <details>
-<summary><h3>엑셀처럼 짜니까 리얼 DB였다</h3></summary>
+<summary><strong>엑셀처럼 짜니까 리얼 DB였다</strong></summary>
 
 
 사이드로 뭐 만들 때마다 제일 귀찮은 게 뭔지 아나. 코드는 어떻게든 짜지는데 데이터 저장할 데가 없어서 매번 새로 세팅하는 거. DB(데이터베이스, 그러니까 정보 쌓아두는 창고) 하나 만들려면 설치하고 스키마(표 구조) 짜고... 퇴근하고 30분 남았는데 그 세팅만 하다 하루 날린 적도 있다.
@@ -436,7 +436,7 @@ teable이라는 거 봤는데 이거 좀 웃긴 물건이더라. 겉보기엔 �
 
 
 <details>
-<summary><h3>저장 프로시저를 모르는 젊은 개발자가 늘어나는 이유</h3></summary>
+<summary><strong>저장 프로시저를 모르는 젊은 개발자가 늘어나는 이유</strong></summary>
 
 
 이 영상에 달린 댓글을 정리해 보았습니다.
@@ -486,7 +486,7 @@ teable이라는 거 봤는데 이거 좀 웃긴 물건이더라. 겉보기엔 �
 
 
 <details>
-<summary><h3>DBeaver가 MCP 지원하면서 AI랑 DB가 직통으로 연결됨.</h3></summary>
+<summary><strong>DBeaver가 MCP 지원하면서 AI랑 DB가 직통으로 연결됨.</strong></summary>
 
 
 이제 자연어로 DB한테 말 걸면 알아서 스키마 파악하고 쿼리까지 뱉어줌. 사실상 AI가 내 전담 DBA가 되는 셈인데, 스키마 노출 범위 정할 수 있는 게 신의 한 수인 듯.
@@ -504,7 +504,7 @@ https://x.com/dbeaver_news/status/2046579527166447732
 
 
 <details>
-<summary><h3>데이터베이스 설계를 하고 계신다면, 이 도구는 저장할 가치가 있습니다.</h3></summary>
+<summary><strong>데이터베이스 설계를 하고 계신다면, 이 도구는 저장할 가치가 있습니다.</strong></summary>
 
 
 DrawDB는 브라우저에서 작동하는 무료 오픈소스 도구로, 데이터베이스를 쉽게 그린 후 버튼 하나로 SQL로 변환할 수 있습니다.
@@ -522,7 +522,7 @@ DrawDB는 브라우저에서 작동하는 무료 오픈소스 도구로, 데이�
 
 
 <details>
-<summary><h3>DB 설계에서 &quot;삭제해버리는 건 무섭기 때문에, 일단 논리 삭제로 해두자&quot;라고 되어,</h3></summary>
+<summary><strong>DB 설계에서 &quot;삭제해버리는 건 무섭기 때문에, 일단 논리 삭제로 해두자&quot;라고 되어,</strong></summary>
 
 
 깨닫기도 전에 여러 테이블에 is_deleted가 늘어나 있는 경우가 있습니다. 처음에는 편리하지만, JOIN이 늘어나면 is_deleted = false도 함께 늘어납니다. 게다가 작성 누락해도 SQL 에러가 나지 않기 때문에, 삭제된 데이터가 화면이나 집계에 섞여서야 알아채게 되는 게 골치 아픕니다.
@@ -544,7 +544,7 @@ DrawDB는 브라우저에서 작동하는 무료 오픈소스 도구로, 데이�
 
 
 <details>
-<summary><h3>생산 환경에서 실제로 작동하는 데이터베이스 인덱싱 전략</h3></summary>
+<summary><strong>생산 환경에서 실제로 작동하는 데이터베이스 인덱싱 전략</strong></summary>
 
 
 인덱스를 추가하는 것은 쉽다.
@@ -595,7 +595,7 @@ DrawDB는 브라우저에서 작동하는 무료 오픈소스 도구로, 데이�
 
 
 <details>
-<summary><h3>2026년 PostgreSQL 인터뷰의 90%는 이 7가지 포인트로 귀결됩니다:</h3></summary>
+<summary><strong>2026년 PostgreSQL 인터뷰의 90%는 이 7가지 포인트로 귀결됩니다:</strong></summary>
 
 
 1. 인덱싱 기본(과 실수)  
@@ -620,7 +620,7 @@ Streaming replication 기본, 지연, failover 트레이드오프, RPO/RTO 용�
 
 
 <details>
-<summary><h3>내부 조인에서는 동일한 조건이라면 ON 절에 작성하든 WHERE 절에 작성하든 조회 결과는 동일해집니다.</h3></summary>
+<summary><strong>내부 조인에서는 동일한 조건이라면 ON 절에 작성하든 WHERE 절에 작성하든 조회 결과는 동일해집니다.</strong></summary>
 
 
 반면 외부 조인에서는 조건을 ON 절에 작성하느냐 WHERE 절에 작성하느냐에 따라 의미가 달라지고 조회 결과도 달라질 수 있습니다.
@@ -638,7 +638,7 @@ LEFT JOIN의 왼쪽 테이블에 대해 ON 절에서 조건을 쓸 수 있는 �
 
 
 <details>
-<summary><h3>Shopify가 재고 예약을 위해 Redis를 MySQL로 교체했습니다</h3></summary>
+<summary><strong>Shopify가 재고 예약을 위해 Redis를 MySQL로 교체했습니다</strong></summary>
 
 
 이전에 고병렬 처리는 MQ + Redis + MySQL이라고 했고, 최종 일관성을 유지하기 위해 다양한 보완 작업을 했죠.
@@ -656,7 +656,7 @@ LEFT JOIN의 왼쪽 테이블에 대해 ON 절에서 조건을 쓸 수 있는 �
 
 
 <details>
-<summary><h3>DB에서 수수하지만 초중요한 것들</h3></summary>
+<summary><strong>DB에서 수수하지만 초중요한 것들</strong></summary>
 
 
 - 인덱스  
@@ -679,7 +679,7 @@ SQL을 작성할 수 있게 된 "다음"에 익히고 싶은 부분들.
 
 
 <details>
-<summary><h3>SQL은 바로 이것입니다:</h3></summary>
+<summary><strong>SQL은 바로 이것입니다:</strong></summary>
 
 
 - 데이터 저장 (테이블, 스키마, 데이터베이스)
@@ -697,7 +697,7 @@ SQL을 작성할 수 있게 된 "다음"에 익히고 싶은 부분들.
 
 
 <details>
-<summary><h3>2026년 PostgreSQL의 90%는 이 10가지 개념(그리고 그들이 숨기는 프로덕션 트레이드오프)을 마스터하는 것입니다:</h3></summary>
+<summary><strong>2026년 PostgreSQL의 90%는 이 10가지 개념(그리고 그들이 숨기는 프로덕션 트레이드오프)을 마스터하는 것입니다:</strong></summary>
 
 
 1. MVCC + 격리 수준 읽기는 쓰기를 차단하지 않지만, 여전히 이상 현상이 발생합니다; READ COMMITTED와 REPEATABLE READ의 차이와 앱이 가정하는 것을 알아야 합니다.

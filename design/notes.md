@@ -4,7 +4,7 @@
 
 
 <details>
-<summary><h3>전세계 브랜드들의 브랜드가이드를 모아둔 사이트 발견</h3></summary>
+<summary><strong>전세계 브랜드들의 브랜드가이드를 모아둔 사이트 발견</strong></summary>
 
 
 대기업의 브랜드가이드 PDF로 다운받아서 참고하는거  
@@ -21,7 +21,7 @@
 
 
 <details>
-<summary><h3>비디자이너를 위한 정말 좋은 디자인 자료입니다.</h3></summary>
+<summary><strong>비디자이너를 위한 정말 좋은 디자인 자료입니다.</strong></summary>
 
 
 [https://namethatui.com/](https://namethatui.com/)
@@ -35,7 +35,7 @@
 
 
 <details>
-<summary><h3>5년차 프로덕트 디자이너가 회사 다니면서 꼭 쌓아두는 것</h3></summary>
+<summary><strong>5년차 프로덕트 디자이너가 회사 다니면서 꼭 쌓아두는 것</strong></summary>
 
 
 1. 프로젝트 전후 화면
@@ -59,7 +59,7 @@
 
 
 <details>
-<summary><h3>기업 브랜드 로고 사이트</h3></summary>
+<summary><strong>기업 브랜드 로고 사이트</strong></summary>
 
 
 https://www.logochakchak.site/
@@ -73,7 +73,7 @@ https://www.logochakchak.site/
 
 
 <details>
-<summary><h3>2026년에도 여전히 Pinterest를 디자인 영감으로 사용하고 있나요? 이게 그걸 대체할 거예요.</h3></summary>
+<summary><strong>2026년에도 여전히 Pinterest를 디자인 영감으로 사용하고 있나요? 이게 그걸 대체할 거예요.</strong></summary>
 
 
 1. [http://getlayers.ai](http://getlayers.ai/) — 50+ 웹사이트 프롬프트. 300+ 3D 장면, 1000+ 인터랙티브 그라데이션, 100+ 배경, 모션 섹션. 모든 게 프롬프트예요.
@@ -94,7 +94,7 @@ https://www.logochakchak.site/
 
 
 <details>
-<summary><h3>UI/UX 디자이너 여러분, AI 코딩을 위한 최고의 DESIGN.md 리소스 중 일부를 북마크해두셔야 할 것들입니다:</h3></summary>
+<summary><strong>UI/UX 디자이너 여러분, AI 코딩을 위한 최고의 DESIGN.md 리소스 중 일부를 북마크해두셔야 할 것들입니다:</strong></summary>
 
 
 스타일 → [http://styles.refero.design](http://styles.refero.design/)  
@@ -113,7 +113,7 @@ UI 컴포넌트 → [http://typeui.sh](http://typeui.sh/)
 
 
 <details>
-<summary><h3>문서의 구획을 《황금비》나 《백은비》를 사용해 나누고 싶을 때 이 사이트 한 번 방문해 보세요</h3></summary>
+<summary><strong>문서의 구획을 《황금비》나 《백은비》를 사용해 나누고 싶을 때 이 사이트 한 번 방문해 보세요</strong></summary>
 
 
 길이를 입력만 해주면 알아서 계산 끝!!  
@@ -128,7 +128,7 @@ UI 컴포넌트 → [http://typeui.sh](http://typeui.sh/)
 
 
 <details>
-<summary><h3>여기저기 ai thread 에 올라오는 웹디자인 레퍼런스들을 봤는데</h3></summary>
+<summary><strong>여기저기 ai thread 에 올라오는 웹디자인 레퍼런스들을 봤는데</strong></summary>
 
 
 첫페이지에 동영상 히어로 백그라운드에  
@@ -161,7 +161,7 @@ CSS 튜닝을 해도 티가나는 디자인들
 
 
 <details>
-<summary><h3>요즘 많이 보이는 모바일 UI 스타일 10가지</h3></summary>
+<summary><strong>요즘 많이 보이는 모바일 UI 스타일 10가지</strong></summary>
 
 
 앱 만들 때마다 지피티로 디자인 고민하다가 힘들어서, 요즘 자주 보이는 모바일 UI 스타일을 10개로 정리해봤음.
@@ -208,7 +208,7 @@ CSS 튜닝을 해도 티가나는 디자인들
 
 
 <details>
-<summary><h3>프로그래머들이 가장 쉽게 막히는 건, 때로는 코드가 아니라 UI 감각이야.</h3></summary>
+<summary><strong>프로그래머들이 가장 쉽게 막히는 건, 때로는 코드가 아니라 UI 감각이야.</strong></summary>
 
 
 내 게으른 플레이 방법: 예쁜 기존 컴포넌트를 찾아서, AI 에이전트한테 바로 던져주고, 그게 알아서 고르고, 수정하고, 프로젝트에 끼워넣게 하는 거.

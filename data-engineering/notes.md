@@ -4,7 +4,7 @@
 
 
 <details>
-<summary><h3>주변에 이걸로 데이터 사이언스에 입문해서 기초를 탄탄히 잡은 분도 있어요.</h3></summary>
+<summary><strong>주변에 이걸로 데이터 사이언스에 입문해서 기초를 탄탄히 잡은 분도 있어요.</strong></summary>
 
 
 📘 마이크로소프트 무료 > 초보자를 위한 데이터 과학 - 커리큘럼  
@@ -37,7 +37,7 @@ Data Science for Beginners..
 
 
 <details>
-<summary><h3>데이터 사이언스 궁금하거나 좀 더 깊게 파보고 싶은 분들은 여기도 좋음.</h3></summary>
+<summary><strong>데이터 사이언스 궁금하거나 좀 더 깊게 파보고 싶은 분들은 여기도 좋음.</strong></summary>
 
 
 모두 무료 고퀄리티 강의..  
@@ -61,7 +61,7 @@ Data Science for Beginners..
 
 
 <details>
-<summary><h3>데이터 엔지니어링을 처음 시작하는 사람부터 실무자까지..</h3></summary>
+<summary><strong>데이터 엔지니어링을 처음 시작하는 사람부터 실무자까지..</strong></summary>
 
 
 📕 데이터 엔지니어링 핸드북  
@@ -92,7 +92,7 @@ data-engineer-handbook/
 
 
 <details>
-<summary><h3>AI를 공부하다 보면 '데이터 엔지니어'라는 직업을</h3></summary>
+<summary><strong>AI를 공부하다 보면 '데이터 엔지니어'라는 직업을</strong></summary>
 
 자주 보게 됩니다.
 
@@ -126,7 +126,7 @@ The Data Engineering Handbook은
 
 
 <details>
-<summary><h3>AI 엔지니어로서 Top-k와 Top-p의 차이를 아시나요?</h3></summary>
+<summary><strong>AI 엔지니어로서 Top-k와 Top-p의 차이를 아시나요?</strong></summary>
 
 
 90%가 "둘 다 후보 잘라내는 거 아닌가요"에서 멈춥니다.  

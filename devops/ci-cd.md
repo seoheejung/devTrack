@@ -4,7 +4,7 @@
 
 
 <details>
-<summary><h3>CI/CD Concepts</h3></summary>
+<summary><strong>CI/CD Concepts</strong></summary>
 
 
 - Build pipelines - 🟢 Easy
@@ -27,7 +27,7 @@
 
 
 <details>
-<summary><h3>훌륭한 데브옵스/SRE 엔지니어가 되고 싶으신가요?</h3></summary>
+<summary><strong>훌륭한 데브옵스/SRE 엔지니어가 되고 싶으신가요?</strong></summary>
 
 
 1. 리눅스 및 시스템 기초  
@@ -62,7 +62,7 @@ Terraform이나 유사 도구를 사용하여 상태, 모듈 등을 관리하고
 
 
 <details>
-<summary><h3>Git Flow</h3></summary>
+<summary><strong>Git Flow</strong></summary>
 
 
 main → 프로덕션  
@@ -83,7 +83,7 @@ hotfix → 프로덕션 빠르게 수정
 
 
 <details>
-<summary><h3>GitHub -&gt; Jenkins -&gt; Docker -&gt; Kubernetes -&gt; 완전한 DevOps 워크플로우</h3></summary>
+<summary><strong>GitHub -&gt; Jenkins -&gt; Docker -&gt; Kubernetes -&gt; 완전한 DevOps 워크플로우</strong></summary>
 
 
 이어그램에 표시된 𝐞𝐧𝐝-𝐭𝐨-𝐞𝐧𝐝 𝐂𝐈/𝐂𝐃 𝐟𝐥𝐨𝐰의 간단한 분해입니다
@@ -125,7 +125,7 @@ hotfix → 프로덕션 빠르게 수정
 
 
 <details>
-<summary><h3>🧠 Git 기술 - 난이도 분해 🔥</h3></summary>
+<summary><strong>🧠 Git 기술 - 난이도 분해 🔥</strong></summary>
 
 
 ➕ git add -> 🟢 쉬움
@@ -181,7 +181,7 @@ hotfix → 프로덕션 빠르게 수정
 
 
 <details>
-<summary><h3>Github 다이어그램 변환</h3></summary>
+<summary><strong>Github 다이어그램 변환</strong></summary>
 
 
 Github의 URL을 단 1글자만 수정하면, 복잡한 리포지토리 구조가 순식간에 트리 다이어그램으로 바뀌는 「**gitdiagram**」이 너무 대단해
@@ -208,7 +208,7 @@ https://x.com/shiba_program/status/2047606145909760385
 
 
 <details>
-<summary><h3>푸시 전에 GitHub Actions 워크플로우를 로컬에서 테스트합니다</h3></summary>
+<summary><strong>푸시 전에 GitHub Actions 워크플로우를 로컬에서 테스트합니다</strong></summary>
 
 
 https://github.com/bahdotsh/wrkflw
@@ -330,7 +330,7 @@ wrkflw run .github/workflows/ci.yml || exit 1
 
 
 <details>
-<summary><h3>터미널 하나로 단일 머신 진단 완료, 더 이상 htop, iostat, nettop 같은 걸 잔뜩 열 필요 없음.</h3></summary>
+<summary><strong>터미널 하나로 단일 머신 진단 완료, 더 이상 htop, iostat, nettop 같은 걸 잔뜩 열 필요 없음.</strong></summary>
 
 
 Rust로 작성된 시스템 진단 TUI, CPU, 메모리, 디스크, GPU, 전원, 서비스, 네트워크 등을 커버하는 12개 탭 페이지, macOS와 Linux 모두 실행 가능. Insights 페이지는 스왑 떨림, 좀비 프로세스, 디스크 꽉 찬 거 같은 이상을 자동으로 감지해서, 아주 쉬운 말로 무슨 문제가 생겼는지 알려줌. Timeline 페이지는 타임라인을 드래그해서 전체 세션의 임의 시점 상태를 되돌아볼 수 있음. 읽기 전용, 프로세스 안 죽이고 설정도 안 바꿈, 새로고침할 때 CPU 점유율 0.5% 이하로 억제.
@@ -516,7 +516,7 @@ syswatch--tab procs# 특정 탭으로 시작
 
 
 <details>
-<summary><h3>Git 팁: 아무도 말해주지 않지만 모두가 필요한 팁</h3></summary>
+<summary><strong>Git 팁: 아무도 말해주지 않지만 모두가 필요한 팁</strong></summary>
 
 
 - git bisect를 사용해 문제 발생 커밋 찾기
@@ -539,7 +539,7 @@ syswatch--tab procs# 특정 탭으로 시작
 
 
 <details>
-<summary><h3>시스템 디자인 시리즈 - CI/CD &amp; 배포</h3></summary>
+<summary><strong>시스템 디자인 시리즈 - CI/CD &amp; 배포</strong></summary>
 
 
 **CI/CD가 실제로 의미하는 것:**
@@ -594,7 +594,7 @@ Dockerfile → 이미지 → 컨테이너.
 
 
 <details>
-<summary><h3>Git 기술 - 난이도 분류</h3></summary>
+<summary><strong>Git 기술 - 난이도 분류</strong></summary>
 
 
 - ➕ git add → 🟢 쉬움
@@ -641,7 +641,7 @@ Dockerfile → 이미지 → 컨테이너.
 
 
 <details>
-<summary><h3>당신의 GitHub 프로필은 두 번째 이력서입니다. 가치를 더하세요.</h3></summary>
+<summary><strong>당신의 GitHub 프로필은 두 번째 이력서입니다. 가치를 더하세요.</strong></summary>
 
 
 - README 만들기
@@ -686,7 +686,7 @@ Dockerfile → 이미지 → 컨테이너.
 
 
 <details>
-<summary><h3>깃허브냐, 깃랩이냐.</h3></summary>
+<summary><strong>깃허브냐, 깃랩이냐.</strong></summary>
 
 
 바이브코더라면 은근히 오래 고민하게 되는 문제입니다.
@@ -738,7 +738,7 @@ AI가 만든 코드를 자동으로 검사하고, 통과한 코드만 배포하�
 
 
 <details>
-<summary><h3>Git 로드맵</h3></summary>
+<summary><strong>Git 로드맵</strong></summary>
 
 
 ```markdown
@@ -756,7 +756,7 @@ AI가 만든 코드를 자동으로 검사하고, 통과한 코드만 배포하�
 
 
 <details>
-<summary><h3>오늘 @github 비동기 병합 API를 출시하게 되어 기쁩니다!</h3></summary>
+<summary><strong>오늘 @github 비동기 병합 API를 출시하게 되어 기쁩니다!</strong></summary>
 
 
 PR을 프로그래밍 방식으로 병합하는 당신(또는 당신의 에이전트)에게 이건 딱 맞아요 🧵

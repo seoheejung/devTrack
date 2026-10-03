@@ -4,7 +4,7 @@
 
 
 <details>
-<summary><h3>지우기 쉬운 코드가 좋은 코드다</h3></summary>
+<summary><strong>지우기 쉬운 코드가 좋은 코드다</strong></summary>
 
 
 갠적인 경험으론 이게 설계의 진리임  
@@ -18,7 +18,7 @@
 
 
 <details>
-<summary><h3>백엔드 뼈 때리는 말 모음</h3></summary>
+<summary><strong>백엔드 뼈 때리는 말 모음</strong></summary>
 
 
 - 결국 백엔드는 API 잘 짜는 걸 넘어서 DB 트랜잭션이나 분산 환경에서의 데이터 정합성 싸움인 듯. 시스템 디자인이랑 비동기 아키텍처까지 훑어야 진짜 서비스 돌아가는 구조가 보임. 리스트 보니까 공부할 건 산더미인데  이거 다 제대로 파면 진짜 몸값은 확실히 뛰겠네.
@@ -31,7 +31,7 @@
 
 
 <details>
-<summary><h3>Backend Tools</h3></summary>
+<summary><strong>Backend Tools</strong></summary>
 
 
 1. Docker – to separate tasks
@@ -65,7 +65,7 @@
 
 
 <details>
-<summary><h3>데이터 정리 치트 시트</h3></summary>
+<summary><strong>데이터 정리 치트 시트</strong></summary>
 
 
 ![image.png](../assets/backend/image-000.png)
@@ -77,7 +77,7 @@
 
 
 <details>
-<summary><h3>이 주제들에 대해 편하지 않다면 스스로를 백엔드 개발자라고 부르지 마세요</h3></summary>
+<summary><strong>이 주제들에 대해 편하지 않다면 스스로를 백엔드 개발자라고 부르지 마세요</strong></summary>
 
 
 - SOLID 설계 원칙
@@ -96,7 +96,7 @@
 
 
 <details>
-<summary><h3>상위 1% 개발자 스택</h3></summary>
+<summary><strong>상위 1% 개발자 스택</strong></summary>
 
 
 - 데이터 구조 & 알고리즘
@@ -119,7 +119,7 @@
 
 
 <details>
-<summary><h3>백엔드 아키텍트</h3></summary>
+<summary><strong>백엔드 아키텍트</strong></summary>
 
 
 1. 마이크로서비스 설계  
@@ -150,7 +150,7 @@ Terraform, Helm, 구성 관리 모범 사례
 
 
 <details>
-<summary><h3>HTTP 상태 코드</h3></summary>
+<summary><strong>HTTP 상태 코드</strong></summary>
 
 
 2xx: 성공  
@@ -176,7 +176,7 @@ Terraform, Helm, 구성 관리 모범 사례
 
 
 <details>
-<summary><h3>백엔드 스킬 난이도 분석</h3></summary>
+<summary><strong>백엔드 스킬 난이도 분석</strong></summary>
 
 
 🟢 쉬움 (시작하기)  
@@ -221,7 +221,7 @@ JSON 처리 → 데이터 교환 📄
 
 
 <details>
-<summary><h3>개발자 설명 필수</h3></summary>
+<summary><strong>개발자 설명 필수</strong></summary>
 
 
 - 로드 밸런서
@@ -257,7 +257,7 @@ JSON 처리 → 데이터 교환 📄
 
 
 <details>
-<summary><h3>배포 전 체크리스트</h3></summary>
+<summary><strong>배포 전 체크리스트</strong></summary>
 
 
 ```
@@ -303,7 +303,7 @@ JSON 처리 → 데이터 교환 📄
 
 
 <details>
-<summary><h3>백엔드 개발자로서 모르면 고통과 눈물을 가져다줄 알고리즘 순위</h3></summary>
+<summary><strong>백엔드 개발자로서 모르면 고통과 눈물을 가져다줄 알고리즘 순위</strong></summary>
 
 
 1. 해싱 – 모든 조회가 악몽이 됨
@@ -324,7 +324,7 @@ JSON 처리 → 데이터 교환 📄
 
 
 <details>
-<summary><h3>백엔드 - UI 뒤의 모든 것 🧩</h3></summary>
+<summary><strong>백엔드 - UI 뒤의 모든 것 🧩</strong></summary>
 
 
 1. API → 요청 처리 🔗
@@ -349,7 +349,7 @@ JSON 처리 → 데이터 교환 📄
 
 
 <details>
-<summary><h3>API 설계 - 핵심 규칙 🔗</h3></summary>
+<summary><strong>API 설계 - 핵심 규칙 🔗</strong></summary>
 
 
 1. 명확한 경로 → /users, /orders 📍
@@ -372,7 +372,7 @@ JSON 처리 → 데이터 교환 📄
 
 
 <details>
-<summary><h3>백엔드 개발은 이러한 기본 사항을 이해하는 한 “간단”합니다:</h3></summary>
+<summary><strong>백엔드 개발은 이러한 기본 사항을 이해하는 한 “간단”합니다:</strong></summary>
 
 
 HTTP 기본
@@ -490,7 +490,7 @@ API 기본
 
 
 <details>
-<summary><h3>백엔드 시스템에 필요한 9가지 관찰 가능성 관행:</h3></summary>
+<summary><strong>백엔드 시스템에 필요한 9가지 관찰 가능성 관행:</strong></summary>
 
 
 1. 구조화된 로깅 (print 문 아님)
@@ -514,7 +514,7 @@ API 기본
 
 
 <details>
-<summary><h3>고급 시나리오 기반 Spring Boot 질문</h3></summary>
+<summary><strong>고급 시나리오 기반 Spring Boot 질문</strong></summary>
 
 
 1) API가 높은 트래픽에서만 느려집니다. CPU는 정상입니다. 병목 현상이 무엇일 수 있나요?
@@ -564,7 +564,7 @@ API 기본
 
 
 <details>
-<summary><h3>Node.js</h3></summary>
+<summary><strong>Node.js</strong></summary>
 
 
 Node.js + TypeScript – Type safety and scalable code
@@ -622,7 +622,7 @@ Node.js + tRPC – End-to-end type safety
 
 
 <details>
-<summary><h3>REST vs GraphQL</h3></summary>
+<summary><strong>REST vs GraphQL</strong></summary>
 
 
 Both REST and GraphQL are used to build APIs but they solve different problems.
@@ -677,7 +677,7 @@ Best For: Complex UIs, mobile apps, microservices aggregation, product teams ite
 
 
 <details>
-<summary><h3>Java 팁: 깊은 if-else 피하기 - 가드 절 사용</h3></summary>
+<summary><strong>Java 팁: 깊은 if-else 피하기 - 가드 절 사용</strong></summary>
 
 
 Java 코드에서 가장 흔한 문제 중 하나는 깊게 중첩된 조건문입니다.  
@@ -720,7 +720,7 @@ Java 코드에서 가장 흔한 문제 중 하나는 깊게 중첩된 조건문�
 
 
 <details>
-<summary><h3>실제로 채용되는 기술들</h3></summary>
+<summary><strong>실제로 채용되는 기술들</strong></summary>
 
 
 - 인증 흐름 (OAuth, JWT, 세션)
@@ -741,7 +741,7 @@ Java 코드에서 가장 흔한 문제 중 하나는 깊게 중첩된 조건문�
 
 
 <details>
-<summary><h3>2026년 백엔드 개발자 생존 키워드</h3></summary>
+<summary><strong>2026년 백엔드 개발자 생존 키워드</strong></summary>
 
 
 **'시스템'**
@@ -771,7 +771,7 @@ Java 코드에서 가장 흔한 문제 중 하나는 깊게 중첩된 조건문�
 
 
 <details>
-<summary><h3>속도 제한 (Rate Limiting)</h3></summary>
+<summary><strong>속도 제한 (Rate Limiting)</strong></summary>
 
 
 - Rate limiting은 “도구” 문제가 아니라 “정책 설계 문제”
@@ -789,7 +789,7 @@ Java 코드에서 가장 흔한 문제 중 하나는 깊게 중첩된 조건문�
 
 
 <details>
-<summary><h3>너무 자주 보게 되는 API 설계 실수</h3></summary>
+<summary><strong>너무 자주 보게 되는 API 설계 실수</strong></summary>
 
 
 엔드포인트를 통해 데이터베이스 스키마를 직접 노출하는 것.
@@ -805,7 +805,7 @@ Java 코드에서 가장 흔한 문제 중 하나는 깊게 중첩된 조건문�
 
 
 <details>
-<summary><h3>API가 실제로 어떻게 작동하는지</h3></summary>
+<summary><strong>API가 실제로 어떻게 작동하는지</strong></summary>
 
 
 대부분의 개발자들은 “API를 사용합니다.”
@@ -911,7 +911,7 @@ https://x.com/i/status/2048000336049160404
 
 
 <details>
-<summary><h3>최소 API와 API 버전 관리는 엉망입니다.</h3></summary>
+<summary><strong>최소 API와 API 버전 관리는 엉망입니다.</strong></summary>
 
 
 올바른 방법으로 하지 않는 한...
@@ -933,7 +933,7 @@ https://x.com/i/status/2048000336049160404
 
 
 <details>
-<summary><h3>HTTP 상태 코드 치트시트</h3></summary>
+<summary><strong>HTTP 상태 코드 치트시트</strong></summary>
 
 
 1xx :   잠깐만요  
@@ -983,7 +983,7 @@ https://x.com/i/status/2048000336049160404
 
 
 <details>
-<summary><h3>엔지니어가 &quot;자주 보는 에러의 정체&quot; 5선</h3></summary>
+<summary><strong>엔지니어가 &quot;자주 보는 에러의 정체&quot; 5선</strong></summary>
 
 
 - 「500 에러」 → 서버 측 문제
@@ -999,7 +999,7 @@ https://x.com/i/status/2048000336049160404
 
 
 <details>
-<summary><h3>아무도 백엔드 로드맵을 주지 않았어, 내가 처음 시작했을 때.</h3></summary>
+<summary><strong>아무도 백엔드 로드맵을 주지 않았어, 내가 처음 시작했을 때.</strong></summary>
 
 
 1. 하나의 언어를 제대로 배워  
@@ -1033,7 +1033,7 @@ Git. 브랜치. PR. 변명 말고 그냥 배워.
 
 
 <details>
-<summary><h3>대부분의 개발자들이 너무 늦을 때까지 건너뛰는 시스템 설계 개념들</h3></summary>
+<summary><strong>대부분의 개발자들이 너무 늦을 때까지 건너뛰는 시스템 설계 개념들</strong></summary>
 
 
 - 로드 밸런싱: 한 서버가 모든 걸 떠맡지 않게 하세요
@@ -1055,7 +1055,7 @@ Git. 브랜치. PR. 변명 말고 그냥 배워.
 
 
 <details>
-<summary><h3>시니어 Java 인터뷰의 95.7%는 이 7가지 주제입니다.</h3></summary>
+<summary><strong>시니어 Java 인터뷰의 95.7%는 이 7가지 주제입니다.</strong></summary>
 
 
 1. JVM 내부 구조
@@ -1082,7 +1082,7 @@ API 설계, 캐싱, 큐, 재시도, 멱등성, 속도 제한, 분산 잠금, 서
 
 
 <details>
-<summary><h3>10가지 중요한 백엔드 도구</h3></summary>
+<summary><strong>10가지 중요한 백엔드 도구</strong></summary>
 
 
 1. Docker – 작업을 분리하기 위해
@@ -1103,7 +1103,7 @@ API 설계, 캐싱, 큐, 재시도, 멱등성, 속도 제한, 분산 잠금, 서
 
 
 <details>
-<summary><h3>IP 필터링, 속도 제한, 침투 탐지를 포함한 FastAPI 미들웨어</h3></summary>
+<summary><strong>IP 필터링, 속도 제한, 침투 탐지를 포함한 FastAPI 미들웨어</strong></summary>
 
 
 https://github.com/rennf93/fastapi-guard
@@ -1115,7 +1115,7 @@ https://github.com/rennf93/fastapi-guard
 
 
 <details>
-<summary><h3>Rate limiting</h3></summary>
+<summary><strong>Rate limiting</strong></summary>
 
 
 다층 방어를 추가하겠습니다:
@@ -1196,7 +1196,7 @@ IP로만 차단하는 것이 아니라, 남용을 비용이 많이 들게 만드
 
 
 <details>
-<summary><h3>모든 백엔드는 결제 처리 방법을 알아야 합니다.</h3></summary>
+<summary><strong>모든 백엔드는 결제 처리 방법을 알아야 합니다.</strong></summary>
 
 
 결제 재시도에 대한 간단한 소개.
@@ -1235,7 +1235,7 @@ IP로만 차단하는 것이 아니라, 남용을 비용이 많이 들게 만드
 
 
 <details>
-<summary><h3>REST API에서 가장 많이 묻는 4가지 개념</h3></summary>
+<summary><strong>REST API에서 가장 많이 묻는 4가지 개념</strong></summary>
 
 
 - HTTP 메서드의 멱등성(GET, PUT, DELETE).
@@ -1250,7 +1250,7 @@ IP로만 차단하는 것이 아니라, 남용을 비용이 많이 들게 만드
 
 
 <details>
-<summary><h3>주말에 백엔드를 배우기 위한 아이디어</h3></summary>
+<summary><strong>주말에 백엔드를 배우기 위한 아이디어</strong></summary>
 
 
 1. 리버스 프록시
@@ -1290,7 +1290,7 @@ IP로만 차단하는 것이 아니라, 남용을 비용이 많이 들게 만드
 
 
 <details>
-<summary><h3>축하합니다, 이제 Java 백엔드 직업에 준비됐어요.</h3></summary>
+<summary><strong>축하합니다, 이제 Java 백엔드 직업에 준비됐어요.</strong></summary>
 
 
 Step-1: Java 배우기
@@ -1318,7 +1318,7 @@ Step-9: 배포하기
 
 
 <details>
-<summary><h3>백엔드 개발을 위해 배워야 할 10가지 API 설계 개념</h3></summary>
+<summary><strong>백엔드 개발을 위해 배워야 할 10가지 API 설계 개념</strong></summary>
 
 
 1. 멱등성
@@ -1341,7 +1341,7 @@ Step-9: 배포하기
 
 
 <details>
-<summary><h3>백엔드 엔지니어처럼 생각하기</h3></summary>
+<summary><strong>백엔드 엔지니어처럼 생각하기</strong></summary>
 
 
 Node.js API가 프로덕션에서 잘 실행되고 있습니다.
@@ -1402,7 +1402,7 @@ Node.js API 레이턴시가 80ms에서 5초로 점프하고 CPU 100% 찍을 때 
 
 
 <details>
-<summary><h3>Go로 간단한 웹 서버 만들기</h3></summary>
+<summary><strong>Go로 간단한 웹 서버 만들기</strong></summary>
 
 
 https://dormoshe.io/trending-news/building-a-simple-web-server-in-go-59hl-91000?utm_source=twitter&utm_campaign=twitter
@@ -1420,7 +1420,7 @@ Go가 백엔드에서 깡패 소리 듣는 건 외부 프레임워크 주렁주�
 
 
 <details>
-<summary><h3>주니어 개발자가 할인 쿠폰 시스템을 만들었어요:</h3></summary>
+<summary><strong>주니어 개발자가 할인 쿠폰 시스템을 만들었어요:</strong></summary>
 
 
 테스트에서는 완벽하게 작동해요.
@@ -1443,7 +1443,7 @@ Go가 백엔드에서 깡패 소리 듣는 건 외부 프레임워크 주렁주�
 
 
 <details>
-<summary><h3>Node.JS로 백엔드를 개발하는 이유</h3></summary>
+<summary><strong>Node.JS로 백엔드를 개발하는 이유</strong></summary>
 
 
 1. 구조적 타이핑
@@ -1472,7 +1472,7 @@ Java, c#은 구조적 타이핑 안되서 노가다 코딩 많이 해야되고
 
 
 <details>
-<summary><h3>대부분의 백엔드 보안 버그는 올바른 도구를 잘못 사용하는 데서 비롯됩니다.</h3></summary>
+<summary><strong>대부분의 백엔드 보안 버그는 올바른 도구를 잘못 사용하는 데서 비롯됩니다.</strong></summary>
 
 
 1. JWT: 액세스 토큰을 단기간(5-15분)으로 유지하세요. iss/aud/exp/nbf를 검증하세요. kid를 사용해 키를 순환시키세요. 클레임에 비밀 정보 또는 PII를 넣지 마세요.
@@ -1492,7 +1492,7 @@ Java, c#은 구조적 타이핑 안되서 노가다 코딩 많이 해야되고
 
 
 <details>
-<summary><h3>2026년 백엔드 인터뷰의 90%는 여전히 7가지 검토로 무너집니다.</h3></summary>
+<summary><strong>2026년 백엔드 인터뷰의 90%는 여전히 7가지 검토로 무너집니다.</strong></summary>
 
 
 화이트보드나 레포에서 이걸 해낼 수 있다면, 합격입니다.
@@ -1512,7 +1512,7 @@ Java, c#은 구조적 타이핑 안되서 노가다 코딩 많이 해야되고
 
 
 <details>
-<summary><h3>URL보다 리소스가 먼저다: AI 시대의 REST API 설계</h3></summary>
+<summary><strong>URL보다 리소스가 먼저다: AI 시대의 REST API 설계</strong></summary>
 
 
 “회원 가입 API 만들어 줘.”
@@ -1640,7 +1640,7 @@ AI가 코드를 가져갈수록 이 계약은 더 중요해집니다.
 
 
 <details>
-<summary><h3>API 보안 모범 사례</h3></summary>
+<summary><strong>API 보안 모범 사례</strong></summary>
 
 
 대부분의 API 침해는 깨진 권한 부여, 유출된 비밀, 또는 누락된 속도 제한 때문에 발생합니다. 몇 가지 기본 사항을 살펴보겠습니다.
@@ -1667,7 +1667,7 @@ AI가 코드를 가져갈수록 이 계약은 더 중요해집니다.
 
 
 <details>
-<summary><h3>API 디자인 실수 Top 10</h3></summary>
+<summary><strong>API 디자인 실수 Top 10</strong></summary>
 
 
 1. 버저닝 계획 없음 (그리고 v1이 조용히 깨짐)
@@ -1688,7 +1688,7 @@ AI가 코드를 가져갈수록 이 계약은 더 중요해집니다.
 
 
 <details>
-<summary><h3>인터뷰에서 다뤄지는 API 개념들, 백엔드 개발자라면 이걸 건너뛰지 마세요</h3></summary>
+<summary><strong>인터뷰에서 다뤄지는 API 개념들, 백엔드 개발자라면 이걸 건너뛰지 마세요</strong></summary>
 
 
 1. 멱등성(Idempotency): PUT/DELETE가 멱등한 이유를 알되, POST는 그렇지 않은 이유를 알아야 합니다. 우발적인 중복 쓰기를 피하는 데 도움이 됩니다.
@@ -1709,7 +1709,7 @@ AI가 코드를 가져갈수록 이 계약은 더 중요해집니다.
 
 
 <details>
-<summary><h3>2026년 자바의 90%는 이 10가지 개념을 마스터하는 데 달려 있습니다.</h3></summary>
+<summary><strong>2026년 자바의 90%는 이 10가지 개념을 마스터하는 데 달려 있습니다.</strong></summary>
 
 
 나머지는 모두 구문 트리비아일 뿐입니다.
@@ -1732,7 +1732,7 @@ AI가 코드를 가져갈수록 이 계약은 더 중요해집니다.
 
 
 <details>
-<summary><h3>가장 중요한 분산 시스템 개념 중 하나:</h3></summary>
+<summary><strong>가장 중요한 분산 시스템 개념 중 하나:</strong></summary>
 
 
 → 멱등성
@@ -1761,7 +1761,7 @@ API에서 멱등성을 처리하고 계신가요?
 
 
 <details>
-<summary><h3>대부분의 엔지니어들은 락킹을 지나치게 복잡하게 생각합니다.</h3></summary>
+<summary><strong>대부분의 엔지니어들은 락킹을 지나치게 복잡하게 생각합니다.</strong></summary>
 
 
 여기 진실이 있습니다:
@@ -1789,7 +1789,7 @@ API에서 멱등성을 처리하고 계신가요?
 
 
 <details>
-<summary><h3>10회 이상의 백엔드 인터뷰를 진행한 후, 정말 마스터해야 할 20가지 주제만 찾았습니다 -</h3></summary>
+<summary><strong>10회 이상의 백엔드 인터뷰를 진행한 후, 정말 마스터해야 할 20가지 주제만 찾았습니다 -</strong></summary>
 
 
 백엔드 기초:
@@ -1833,7 +1833,7 @@ Node.js & 백엔드 런타임:
 
 
 <details>
-<summary><h3>바이브코딩할 때 자주 쓰는 서버 포트, 한 번 정리해 봤습니다.</h3></summary>
+<summary><strong>바이브코딩할 때 자주 쓰는 서버 포트, 한 번 정리해 봤습니다.</strong></summary>
 
 
 그런데 이런 질문을 자주 받습니다.
@@ -1865,7 +1865,7 @@ AI는 코드를 잘 만들어주지만, 문제를 찾는 건 아직 개발자의
 
 
 <details>
-<summary><h3>백엔드 언어 산업 채택 순위 ⚙️</h3></summary>
+<summary><strong>백엔드 언어 산업 채택 순위 ⚙️</strong></summary>
 
 
 🟢 Java — 엔터프라이즈 + 뱅킹  
@@ -1889,7 +1889,7 @@ AI는 코드를 잘 만들어주지만, 문제를 찾는 건 아직 개발자의
 
 
 <details>
-<summary><h3>학습 곡선별 API 기술 순위</h3></summary>
+<summary><strong>학습 곡선별 API 기술 순위</strong></summary>
 
 
 🟢 REST API — 쉬움  
@@ -1919,7 +1919,7 @@ AI는 코드를 잘 만들어주지만, 문제를 찾는 건 아직 개발자의
 
 
 <details>
-<summary><h3>AI 시대에 백엔드를 과도하게 고민하지 마세요.</h3></summary>
+<summary><strong>AI 시대에 백엔드를 과도하게 고민하지 마세요.</strong></summary>
 
 
 기본 사항은 여전히 필요합니다.
@@ -1950,7 +1950,7 @@ AI는 코드를 잘 만들어주지만, 문제를 찾는 건 아직 개발자의
 
 
 <details>
-<summary><h3>모든 개발자가 알아야 할 기본 Localhost 포트</h3></summary>
+<summary><strong>모든 개발자가 알아야 할 기본 Localhost 포트</strong></summary>
 
 
 - ⚛️ React (CRA) → :3000
@@ -1979,7 +1979,7 @@ AI는 코드를 잘 만들어주지만, 문제를 찾는 건 아직 개발자의
 
 
 <details>
-<summary><h3>모든 개발자가 알아야 할 백엔드 개념</h3></summary>
+<summary><strong>모든 개발자가 알아야 할 백엔드 개념</strong></summary>
 
 
 - 🌐 HTTP → 클라이언트와 서버 간 통신
@@ -2010,7 +2010,7 @@ AI는 코드를 잘 만들어주지만, 문제를 찾는 건 아직 개발자의
 
 
 <details>
-<summary><h3>엔지니어가 &quot;어느 정도&quot;로 자주 쓰는 말들</h3></summary>
+<summary><strong>엔지니어가 &quot;어느 정도&quot;로 자주 쓰는 말들</strong></summary>
 
 
 - API → 시스템 간의 창구
@@ -2029,7 +2029,7 @@ AI는 코드를 잘 만들어주지만, 문제를 찾는 건 아직 개발자의
 
 
 <details>
-<summary><h3>웹사이트를 여는 &quot;고작 몇 초&quot; 동안 일어나는 일</h3></summary>
+<summary><strong>웹사이트를 여는 &quot;고작 몇 초&quot; 동안 일어나는 일</strong></summary>
 
 
 웹사이트를 여는 것만으로도,  
@@ -2051,7 +2051,7 @@ AI는 코드를 잘 만들어주지만, 문제를 찾는 건 아직 개발자의
 
 
 <details>
-<summary><h3>주니어 개발자: “인증은 쉽다.”</h3></summary>
+<summary><strong>주니어 개발자: “인증은 쉽다.”</strong></summary>
 
 
 로그인 → JWT → 완료. 😎
@@ -2077,7 +2077,7 @@ CSRF,
 
 
 <details>
-<summary><h3>모든 마이크로서비스 개발자가 알아야 할 패턴들:</h3></summary>
+<summary><strong>모든 마이크로서비스 개발자가 알아야 할 패턴들:</strong></summary>
 
 
 Circuit Breaker (Resilience4j)  
@@ -2117,7 +2117,7 @@ Service Discovery
 
 
 <details>
-<summary><h3>프로덕션에서 나타나는 상위 10개 API 설계 실수:</h3></summary>
+<summary><strong>프로덕션에서 나타나는 상위 10개 API 설계 실수:</strong></summary>
 
 
 1. POST/웹훅에 대한 멱등성 없음. 재시도가 하나의 작업을 2번의 청구로 만듦.
@@ -2138,7 +2138,7 @@ Service Discovery
 
 
 <details>
-<summary><h3>IT 엔지니어가 이해하고 싶은 보안 공격 5선</h3></summary>
+<summary><strong>IT 엔지니어가 이해하고 싶은 보안 공격 5선</strong></summary>
 
 
 - SQL 인젝션

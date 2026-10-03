@@ -4,7 +4,7 @@
 
 
 <details>
-<summary><h3>Postman은 실제로 어떻게 돈을 벌고 있는 걸까?</h3></summary>
+<summary><strong>Postman은 실제로 어떻게 돈을 벌고 있는 걸까?</strong></summary>
 
 ![image.png](../assets/api-testing/image-042.png)
 
@@ -45,7 +45,7 @@ API 테스트만 하고
 
 
 <details>
-<summary><h3>Bruno v3.5.0의 새로운 기능</h3></summary>
+<summary><strong>Bruno v3.5.0의 새로운 기능</strong></summary>
 
 
 - 컬렉션 실행을 위한 공식 GitHub Action
@@ -66,7 +66,7 @@ API 테스트만 하고
 
 
 <details>
-<summary><h3>학습 곡선에 따른 테스트 도구 순위</h3></summary>
+<summary><strong>학습 곡선에 따른 테스트 도구 순위</strong></summary>
 
 
 🟢 Postman — 쉬움  

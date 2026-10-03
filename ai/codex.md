@@ -4,7 +4,7 @@
 
 
 <details>
-<summary><h3>프로젝트 디렉토리 구성</h3></summary>
+<summary><strong>프로젝트 디렉토리 구성</strong></summary>
 
 
 ```markdown
@@ -54,7 +54,7 @@ README.md
 
 
 <details>
-<summary><h3>AGENTS.md</h3></summary>
+<summary><strong>AGENTS.md</strong></summary>
 
 
 ```json
@@ -343,7 +343,7 @@ Phase 완료 보고에는 아래 정보만 사실 기준으로 기록한다.
 
 
 <details>
-<summary><h3>config.toml</h3></summary>
+<summary><strong>config.toml</strong></summary>
 
 
 ```json
@@ -418,7 +418,7 @@ gpt-6-astra = 4
 
 
 <details>
-<summary><h3>SKILL.md</h3></summary>
+<summary><strong>SKILL.md</strong></summary>
 
 
 ```markdown
@@ -459,7 +459,7 @@ description: Sol의 구현 중 병목 해결을 위해 Astra에게 아키텍처 
 
 
 <details>
-<summary><h3>나는 Anthropic의 새로운 취약점 발견 하네스를 포크해서 Codex 우선으로 만들었다</h3></summary>
+<summary><strong>나는 Anthropic의 새로운 취약점 발견 하네스를 포크해서 Codex 우선으로 만들었다</strong></summary>
 
 
 Recon → Find → Verify → Triage → Report → Patch
@@ -485,7 +485,7 @@ Anthropic 하네스를 포크해서 정찰, 중복 제거, 악용 보고서 작�
 
 
 <details>
-<summary><h3>GPT-5.6 시대에 Skill 수집만 하던 사람들은 이제 정리할 때가 됐음.</h3></summary>
+<summary><strong>GPT-5.6 시대에 Skill 수집만 하던 사람들은 이제 정리할 때가 됐음.</strong></summary>
 
 
 Codex나 Claude Code에 기능 겹치는 Skill 수백 개씩 넣지 마세요.
@@ -525,7 +525,7 @@ Codex나 Claude Code에 기능 겹치는 Skill 수백 개씩 넣지 마세요.
 
 
 <details>
-<summary><h3>ChatGPT Desktop App, 어떻게 나눠 써야 할까?</h3></summary>
+<summary><strong>ChatGPT Desktop App, 어떻게 나눠 써야 할까?</strong></summary>
 
 
 최근 ChatGPT 데스크톱 앱은  
@@ -672,7 +672,7 @@ PR을 만드는 작업도 할 수 있습니다.
 
 
 <details>
-<summary><h3>오픈AI가 무료 ChatGPT에 무제한 텍스트 채팅을 풀어요</h3></summary>
+<summary><strong>오픈AI가 무료 ChatGPT에 무제한 텍스트 채팅을 풀어요</strong></summary>
 
 
 다른 곳들이 가격을 올리거나 무료 한도를 줄이는 사이 오픈AI는 반대로 가고 있습니다
@@ -702,7 +702,7 @@ PR을 만드는 작업도 할 수 있습니다.
 
 
 <details>
-<summary><h3>CLAUDE.md 대신 AGENTS.md로, 옮겨도 될까?</h3></summary>
+<summary><strong>CLAUDE.md 대신 AGENTS.md로, 옮겨도 될까?</strong></summary>
 
 
 한국에선 보통 다들 CLAUDE.md를 쓰죠  
@@ -752,7 +752,7 @@ PR을 만드는 작업도 할 수 있습니다.
 
 
 <details>
-<summary><h3>챗GPT 비밀코드, 굳이 외우지 마세요.</h3></summary>
+<summary><strong>챗GPT 비밀코드, 굳이 외우지 마세요.</strong></summary>
 
 
 한국어로 그냥 말해도 됩니다.
@@ -785,7 +785,7 @@ PR을 만드는 작업도 할 수 있습니다.
 
 
 <details>
-<summary><h3>GPT 공부법ㅣ260822</h3></summary>
+<summary><strong>GPT 공부법ㅣ260822</strong></summary>
 
 
 1. 제일 먼저 스터디 모드를 켜는 것부터 시작함
@@ -851,7 +851,7 @@ GPT는 나를 굴리는 도구일 뿐 사고는 끝까지 내가 떠안아야 �
 
 
 <details>
-<summary><h3>Codex 5.6이 터무니없어지고 있어요. 🤯</h3></summary>
+<summary><strong>Codex 5.6이 터무니없어지고 있어요. 🤯</strong></summary>
 
 
 잠시 사용해 본 후, 실제로 설치할 가치가 있는 플러그인들은 다음과 같아요:
@@ -882,7 +882,7 @@ Codex는 더 이상 단순히 코드를 작성하는 게 아니에요.
 
 
 <details>
-<summary><h3>Codex에 넣어서 효과 본 설정 베스트 5</h3></summary>
+<summary><strong>Codex에 넣어서 효과 본 설정 베스트 5</strong></summary>
 
 
 5위: [SKILL.md](http://skill.md/) 파일을 놓기  
@@ -913,7 +913,7 @@ GitHub의 풀 리퀘스트 댓글란에  @codex review 라고 쓰면, 차분을 
 
 
 <details>
-<summary><h3>Codex 한번이라도 꼭 써봐야하는 100가지 이유.</h3></summary>
+<summary><strong>Codex 한번이라도 꼭 써봐야하는 100가지 이유.</strong></summary>
 
 (8월 26일 기준)
 
@@ -1030,7 +1030,7 @@ GitHub의 풀 리퀘스트 댓글란에  @codex review 라고 쓰면, 차분을 
 
 
 <details>
-<summary><h3>왜 내 5.6 Sol은 오버엔지니어링을 안 하는지 Codex한테 물어보니,</h3></summary>
+<summary><strong>왜 내 5.6 Sol은 오버엔지니어링을 안 하는지 Codex한테 물어보니,</strong></summary>
 
 
 평소에 잔소리처럼 말하던 걸 메모리에 기억하고 있었기 때문이었어.
@@ -1057,7 +1057,7 @@ GitHub의 풀 리퀘스트 댓글란에  @codex review 라고 쓰면, 차분을 
 
 
 <details>
-<summary><h3>코드의 구멍을 찾아서 고치는 도구를 OpenAI가 무료 공개</h3></summary>
+<summary><strong>코드의 구멍을 찾아서 고치는 도구를 OpenAI가 무료 공개</strong></summary>
 
 
 openai/codex-security, ★1.0만.
@@ -1081,7 +1081,7 @@ https://github.com/openai/codex-security
 
 
 <details>
-<summary><h3>GPT6 Astra 진짜 좋음 디자이너가 만든 걸 실현하는 게 엄청 힘들었지만, 세계관만 전달하면 쓸 수 있는 파츠가 나와</h3></summary>
+<summary><strong>GPT6 Astra 진짜 좋음 디자이너가 만든 걸 실현하는 게 엄청 힘들었지만, 세계관만 전달하면 쓸 수 있는 파츠가 나와</strong></summary>
 
 
 ![image.png](../assets/codex/image-142.png)
@@ -1097,7 +1097,7 @@ https://x.com/yuuritrade/status/2096200363741421842
 
 
 <details>
-<summary><h3>Astra의 최대변화: Context note 사용법</h3></summary>
+<summary><strong>Astra의 최대변화: Context note 사용법</strong></summary>
 
 
 GPT-6 Astra의 가장 큰 변화는 컨텍스트가 가득 찼을 때 나타납니다. 바로 “Note"를 통한 (과장 좀 보태서) 무한 컨텍스트 확장 기능입니다.
@@ -1159,7 +1159,7 @@ Astra를 Codex에서 쓰는 사람들은, 미리 ON으로 해두는 걸 추천�
 
 
 <details>
-<summary><h3>코덱스 상위 모델 사용량 아끼는 법</h3></summary>
+<summary><strong>코덱스 상위 모델 사용량 아끼는 법</strong></summary>
 
 
 작업 시작할 때
@@ -1189,7 +1189,7 @@ Low / Medium / High
 
 
 <details>
-<summary><h3>GPT6-Astra 토큰 소비가 너무 빠른 이유는 다음 네 가지를 하지 않았기 때문일 수 있습니다:</h3></summary>
+<summary><strong>GPT6-Astra 토큰 소비가 너무 빠른 이유는 다음 네 가지를 하지 않았기 때문일 수 있습니다:</strong></summary>
 
 
 1. 실험적 기능 열기: 동일 작업에서 컨텍스트 창을 넘어 노트, 검색된 과거 메시지 및 도구 결과를 유지.
@@ -1214,7 +1214,7 @@ Low / Medium / High
 
 
 <details>
-<summary><h3>만약 Astra가 ChatGPT Plus에서 거의 사용할 수 없을 정도로 빠르게 할당량을 소모한다면, 이렇게 해보세요:</h3></summary>
+<summary><strong>만약 Astra가 ChatGPT Plus에서 거의 사용할 수 없을 정도로 빠르게 할당량을 소모한다면, 이렇게 해보세요:</strong></summary>
 
 
 Sol에게 작업을 맡기고 어려운 부분에 대해 Astra를 조언자로 불러들이세요.
@@ -1238,7 +1238,7 @@ Skill이 준비되면 Sol로 전환해서 작업에 사용하세요.
 
 
 <details>
-<summary><h3>GPT-6 Astra에게 두 개의 링크를 주고, AGENTS.md와 Skills에 대해 한 번 &quot;대청소&quot;를 하도록 하세요.</h3></summary>
+<summary><strong>GPT-6 Astra에게 두 개의 링크를 주고, AGENTS.md와 Skills에 대해 한 번 &quot;대청소&quot;를 하도록 하세요.</strong></summary>
 
 
 방법은 간단합니다:
@@ -1260,7 +1260,7 @@ OpenAI 공식 Model Guidance + Eric Provencher의 Astra Skills/Prompt 기사를 
 
 
 <details>
-<summary><h3>GPT-6 Astra Plus 사용자 저장 권장 토큰을 낭비하지 않는, 해외 진짜 고수들의 체크리스트 10선.</h3></summary>
+<summary><strong>GPT-6 Astra Plus 사용자 저장 권장 토큰을 낭비하지 않는, 해외 진짜 고수들의 체크리스트 10선.</strong></summary>
 
 
 1. Astra를 기본으로 하지 마라. Chat은 Sol. Work/Codex만 전환
@@ -1283,7 +1283,7 @@ OpenAI 공식 Model Guidance + Eric Provencher의 Astra Skills/Prompt 기사를 
 
 
 <details>
-<summary><h3>극한 AI 가성비충의 Gpt PLUS 구독으로 Gpt 6 아스트라 효율적으로 사용하기.</h3></summary>
+<summary><strong>극한 AI 가성비충의 Gpt PLUS 구독으로 Gpt 6 아스트라 효율적으로 사용하기.</strong></summary>
 
 
 이렇게 해야 5시간 한도내에서 작업이 가능함.
@@ -1332,7 +1332,7 @@ OpenAI 공식 Model Guidance + Eric Provencher의 Astra Skills/Prompt 기사를 
 
 
 <details>
-<summary><h3>GPT-6 Pro는 무섭게 훌륭해요. 코딩을 시작하기 전에, 아직 생각하지 못한 부분을 지적해 보라고 하세요. 이게 정말 잘 작동해요.</h3></summary>
+<summary><strong>GPT-6 Pro는 무섭게 훌륭해요. 코딩을 시작하기 전에, 아직 생각하지 못한 부분을 지적해 보라고 하세요. 이게 정말 잘 작동해요.</strong></summary>
 
 
 Pro에게 “내 프롬프트를 최적화해 줘”라고 요청하지 마세요. 대신 이렇게 물어보세요: “엔지니어에게 직접 넘길 수 있는 작업 브리프를 작성해 줘.”
@@ -1360,7 +1360,7 @@ GPT-6 Pro에게 당신의 아이디어, 스크린샷, 관련 코드, 그리고 �
 
 
 <details>
-<summary><h3>GPT-6 Astra에서 토큰 소비를 억제하면서 서브 에이전트를 효율적으로 사용하고자 할 때의 지시문</h3></summary>
+<summary><strong>GPT-6 Astra에서 토큰 소비를 억제하면서 서브 에이전트를 효율적으로 사용하고자 할 때의 지시문</strong></summary>
 
 
 ■프롬프트  
@@ -1408,7 +1408,7 @@ Codex의 서브 에이전트 기능을 재활성화하고, 불필요한 단기 �
 
 
 <details>
-<summary><h3>Codex에서 &quot;Astra가 곧 프레임을 다 소모한다&quot;면</h3></summary>
+<summary><strong>Codex에서 &quot;Astra가 곧 프레임을 다 소모한다&quot;면</strong></summary>
 
 
 Sol을 주력으로 삼는다(구현·테스트·진행은 이쪽에 전부 맡긴다)  
@@ -1438,7 +1438,7 @@ Skill이 완성되면 Sol로 돌아가 평소에 사용한다
 
 
 <details>
-<summary><h3>GPT-5.6 / Codex 레인 맵 :</h3></summary>
+<summary><strong>GPT-5.6 / Codex 레인 맵 :</strong></summary>
 
 
 - Sol (중간): 오케스트레이터, 초기화, 온보딩, 상태, 동기화
@@ -1458,7 +1458,7 @@ Skill이 완성되면 Sol로 돌아가 평소에 사용한다
 
 
 <details>
-<summary><h3>GPT-6 Astra의 잠재력을 더 끌어내기 위해 기술, AGENTS.md, 그리고 작업 프롬프트를 다시 검토하세요.</h3></summary>
+<summary><strong>GPT-6 Astra의 잠재력을 더 끌어내기 위해 기술, AGENTS.md, 그리고 작업 프롬프트를 다시 검토하세요.</strong></summary>
 
 
 스킬 트리거를 구체적으로 만들고, 관련이 있을 때 지침을 로드하며, 완료가 어떤 모습인지 정의하세요.
@@ -1474,7 +1474,7 @@ Skill이 완성되면 Sol로 돌아가 평소에 사용한다
 
 
 <details>
-<summary><h3>Codex 6 Astra，토큰이 아직도 부족한가요?</h3></summary>
+<summary><strong>Codex 6 Astra，토큰이 아직도 부족한가요?</strong></summary>
 
 
 이 두 가지 설정만 바꾸면, 토큰을 80%나 절약할 수 있습니다.
@@ -1510,7 +1510,7 @@ Superpowers를 설치했다면, 또는 다른 skill이라면, 그것이 암시�
 
 
 <details>
-<summary><h3>코덱스 📋 &quot;Sites&quot; 진짜 꼭 써보세요!!</h3></summary>
+<summary><strong>코덱스 📋 &quot;Sites&quot; 진짜 꼭 써보세요!!</strong></summary>
 
 
 (진짜.. 성능에 비해 너무 안 알려져있고 저평가되어있음...)
@@ -1564,7 +1564,7 @@ Codex에서 'Sites'를 태그해서 원하는 사이트를 설명하면 바로 '
 
 
 <details>
-<summary><h3>GPT-6 Astra 쓰기 시작했다면 Codex 설정부터 한번 청소해보세요. (아래 복붙 프롬프트 붙여드림)</h3></summary>
+<summary><strong>GPT-6 Astra 쓰기 시작했다면 Codex 설정부터 한번 청소해보세요. (아래 복붙 프롬프트 붙여드림)</strong></summary>
 
 
 OpenAI가 Astra 출시와 함께 [AGENTS.md](http://agents.md/), Skills, task prompt에 예전 모델용 지시가 너무 많이 쌓여 있으면 오히려 방해가 될 수 있다고 설명했습니다.
@@ -1603,7 +1603,7 @@ AGENTS.md, Skills, task prompts 및 관련 운영 지침을 실제 파일 기준
 
 
 <details>
-<summary><h3>남은 적은 Codex 토큰을 절약하기 위한 필수 작업</h3></summary>
+<summary><strong>남은 적은 Codex 토큰을 절약하기 위한 필수 작업</strong></summary>
 
 
 ① AGENT.md를 5〜10줄로 줄이기  
@@ -1621,7 +1621,7 @@ OpenAI 공식에서도 가이드가 나와 있으니, 전체를 복사해서 붙
 
 
 <details>
-<summary><h3>만약 여전히 Sol과 Astra가 디자인에 형편없다고 생각한다면, 이걸 시도해 봐:</h3></summary>
+<summary><strong>만약 여전히 Sol과 Astra가 디자인에 형편없다고 생각한다면, 이걸 시도해 봐:</strong></summary>
 
 
 “이미지 생성기를 사용해 이 페이지를 재구상한 다음, 구현해.”
@@ -1641,7 +1641,7 @@ Codex는 이제 오늘날 사용 가능한 가장 강력한 이미지 모델인 
 
 
 <details>
-<summary><h3>코덱스 진짜 🍯 꿀팁 하나 더 공유드립니다.</h3></summary>
+<summary><strong>코덱스 진짜 🍯 꿀팁 하나 더 공유드립니다.</strong></summary>
 
 
 토큰 절약 방법 중에 가장 좋다고 생각하는 방법인데요!
@@ -1689,7 +1689,7 @@ Codex는 이제 오늘날 사용 가능한 가장 강력한 이미지 모델인 
 
 
 <details>
-<summary><h3>방금 ~/.codex 폴더를 감사(audit)해봤어요. 여기서 발견한 내용입니다.</h3></summary>
+<summary><strong>방금 ~/.codex 폴더를 감사(audit)해봤어요. 여기서 발견한 내용입니다.</strong></summary>
 
 
 총 166 GB. 그중 100 GB 이상이 캐시입니다.
@@ -1723,7 +1723,7 @@ du -sh ~/.codex를 실행한 후, du -sh ~/.codex/* | sort -rh | head -20을 실
 
 
 <details>
-<summary><h3>Codex 한도는 부족하고 Webchat한도는 남아돈다.</h3></summary>
+<summary><strong>Codex 한도는 부족하고 Webchat한도는 남아돈다.</strong></summary>
 
 
 그래서 Codex의 요청을 webchat으로 연결 시켜 로컬 작업을 진행할 수 있는 프로젝트를 사용하기 시작했다.
@@ -1764,7 +1764,7 @@ Codex → local bridge → browser → ChatGPT → connector/tunnel → Codex to
 
 
 <details>
-<summary><h3>방금 gpt 6 luna를 한 번 써봤는데, 그리고… 이 모델은 정말 이상해요</h3></summary>
+<summary><strong>방금 gpt 6 luna를 한 번 써봤는데, 그리고… 이 모델은 정말 이상해요</strong></summary>
 
 
 1. 아래 포인트를 고려해도 터무니없이 저렴해요
@@ -1790,7 +1790,7 @@ firstmate로 고급 추론을 시도해봤는데, 솔직히 작동하지 않아�
 
 
 <details>
-<summary><h3>𝗖𝗼𝗱𝗲𝘅 팁: ~/.codex를 정리하기 전에, Codex에게 안전하게 삭제할 수 있는 것과 채팅 기록을 함께 지워버릴 수 있는 것을 분류해 보라고 하세요.</h3></summary>
+<summary><strong>𝗖𝗼𝗱𝗲𝘅 팁: ~/.codex를 정리하기 전에, Codex에게 안전하게 삭제할 수 있는 것과 채팅 기록을 함께 지워버릴 수 있는 것을 분류해 보라고 하세요.</strong></summary>
 
 
 내 디스크가 96% 꽉 차 있어서 확인해 봤더니: ~/.codex 하나만 해도 82 GB였어요.  
@@ -1830,7 +1830,7 @@ firstmate로 고급 추론을 시도해봤는데, 솔직히 작동하지 않아�
 
 
 <details>
-<summary><h3>최근의 codex 개발은</h3></summary>
+<summary><strong>최근의 codex 개발은</strong></summary>
 
 
 1. chatgpt의 chat을 github와 연결해서 코드를 읽히면서 앞으로의 방침을 상담
@@ -1849,7 +1849,7 @@ firstmate로 고급 추론을 시도해봤는데, 솔직히 작동하지 않아�
 
 
 <details>
-<summary><h3>Codex 팁: GPT-6.1 Sol이 주요 모델이 되면, 매 턴마다 Astra를 실행하는 것을 중단하세요.</h3></summary>
+<summary><strong>Codex 팁: GPT-6.1 Sol이 주요 모델이 되면, 매 턴마다 Astra를 실행하는 것을 중단하세요.</strong></summary>
 
 
 Astra를 아키텍트 에이전트로 호출하세요.
@@ -1904,7 +1904,7 @@ gpt-6-astra에서 model_reasoning_effort high인 아키텍트 에이전트를 �
 
 
 <details>
-<summary><h3>지난 한 달 정도, codex로 죽을 정도로 개발하고 있지만, 아래와 같이 AGENT를 작성해두니 체험이 꽤 개선되었습니다.</h3></summary>
+<summary><strong>지난 한 달 정도, codex로 죽을 정도로 개발하고 있지만, 아래와 같이 AGENT를 작성해두니 체험이 꽤 개선되었습니다.</strong></summary>
 
 
 이것은 사내용 서비스이며, 개발 중인 PJ이므로 후방 호환성이나 데이터 마이그레이션은 하지 않고, 항상 이상적이고 KISS한 코드로 다시 작성해주세요. 개발은 아래 사이클로 진행해주세요

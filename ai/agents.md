@@ -4,7 +4,7 @@
 
 
 <details>
-<summary><h3>AI 코딩의 진화 3단계</h3></summary>
+<summary><strong>AI 코딩의 진화 3단계</strong></summary>
 
 
 1️⃣ 프롬프트 엔지니어링  
@@ -46,7 +46,7 @@ Anthropic Claude Code 총괄 Boris Cherny:
 
 
 <details>
-<summary><h3>MCP vs A2A vs ACP</h3></summary>
+<summary><strong>MCP vs A2A vs ACP</strong></summary>
 
 
 𝗠𝗖𝗣는 에이전트를 도구와 데이터에 연결하기 위한 것입니다. 데이터베이스 쿼리, API 호출, 파일 접근, 외부 시스템과의 상호작용과 같은 기능 발견 및 사용 방식을 표준화합니다.
@@ -74,7 +74,7 @@ MCP와 A2A는 경쟁자가 아니라 상호 보완적입니다. 에이전트는 
 
 
 <details>
-<summary><h3>📚 그래프 엔지니어링 따라하기 (AI 협업 조직도를 설계하고 에이전트 경로를 제어하는 실무 가이드)</h3></summary>
+<summary><strong>📚 그래프 엔지니어링 따라하기 (AI 협업 조직도를 설계하고 에이전트 경로를 제어하는 실무 가이드)</strong></summary>
 
 
 거대한 프롬프트 하나에 모든 일을 맡기는 대신, 작업을 노드로 나누고 경로를 코드...
@@ -90,7 +90,7 @@ MCP와 A2A는 경쟁자가 아니라 상호 보완적입니다. 에이전트는 
 
 
 <details>
-<summary><h3>그래프 엔지니어링, 이제 말로만이 아니라 실제 도구로 나왔다</h3></summary>
+<summary><strong>그래프 엔지니어링, 이제 말로만이 아니라 실제 도구로 나왔다</strong></summary>
 
 
 - 그래피파이 : AI 코딩 어시스턴트용 스킬, 코드베이스를 지식그래프로 통째로 매핑
@@ -118,7 +118,7 @@ MCP와 A2A는 경쟁자가 아니라 상호 보완적입니다. 에이전트는 
 
 
 <details>
-<summary><h3>AI 에이전트는 모델보다 설계가 더 중요해지고 있습니다</h3></summary>
+<summary><strong>AI 에이전트는 모델보다 설계가 더 중요해지고 있습니다</strong></summary>
 
 
 AI 에이전트가 기대만큼  
@@ -156,7 +156,7 @@ AI 에이전트가 불안정하다면
 
 
 <details>
-<summary><h3>AI 에이전트가 자꾸 엉뚱하게 움직인다면</h3></summary>
+<summary><strong>AI 에이전트가 자꾸 엉뚱하게 움직인다면</strong></summary>
 
 프롬프트보다 구조를 봐야 합니다.
 
@@ -195,7 +195,7 @@ AI가 원하는 결과를 못 내는 이유는
 
 
 <details>
-<summary><h3>요즘 클로드 코드나 코덱스를 사용해서 시스템을 설계할 때</h3></summary>
+<summary><strong>요즘 클로드 코드나 코덱스를 사용해서 시스템을 설계할 때</strong></summary>
 
 
 하네스 엔지니어링/루프 엔지니어링의 개념에서 더 나아가 그래프 엔지니어링이라는 개념이 많이 언급되고 있습니다
@@ -339,7 +339,7 @@ Loop Engineering이 “한 마리의 개체를 잘 훈련시키는 일”이었�
 
 
 <details>
-<summary><h3><strong>그래프 엔지니어링</strong>이 뭔지 아주 쉽게 알아봅시다</h3></summary>
+<summary><strong><strong>그래프 엔지니어링</strong>이 뭔지 아주 쉽게 알아봅시다</strong></summary>
 
 
 **1/ 루프 엔지니어링**
@@ -507,7 +507,7 @@ src/routes/는 본인 파일 경로로 바꾼다. "최대 20개" 문구는 첫 �
 
 
 <details>
-<summary><h3>[처음 배우는 AI] Prompt vs System Prompt. 요청 문장과 상위 규칙은 다르다.</h3></summary>
+<summary><strong>[처음 배우는 AI] Prompt vs System Prompt. 요청 문장과 상위 규칙은 다르다.</strong></summary>
 
 
 Prompt는 지금 시키는 말이다. "이 문장을 번역해줘", "보고서를 써줘"처럼 이번 작업의 목표, 조건, 형식, 범위를 담는다. 한 번 쓰고 끝난다.
@@ -529,7 +529,7 @@ System Prompt는 항상 지켜야 할 규칙이다. 사용자의 요청보다 �
 
 
 <details>
-<summary><h3>Claude Code는 대부분의 엔지니어가 절대 열어보지 않는 5개의 아키텍처 레이어와 함께 배포됩니다.</h3></summary>
+<summary><strong>Claude Code는 대부분의 엔지니어가 절대 열어보지 않는 5개의 아키텍처 레이어와 함께 배포됩니다.</strong></summary>
 
 
 기능이 아닙니다. 설정이 아닙니다. 레이어들 — 각각 LLM만으로는 해결할 수 없는 고유한 문제를 해결하는 레이어들입니다. 그리고 그중 네 개는 프롬프팅과는 전혀 관련이 없습니다.  
@@ -588,7 +588,7 @@ CLAUDE.md가 규칙을 설정 → Skills가 전문성을 제공 → Hooks가 품
 
 
 <details>
-<summary><h3>당신의 AI 에이전트가 당신을 속이고 있습니다</h3></summary>
+<summary><strong>당신의 AI 에이전트가 당신을 속이고 있습니다</strong></summary>
 
 
 그 이유는 당신 코드의 2%만 보고 나머지를 추측하기 때문입니다
@@ -617,7 +617,7 @@ code-graph-rag는 다르게 작동합니다: 코드를 그냥 넣어주는 대�
 
 
 <details>
-<summary><h3>리뷰어 관점에서 다시 짠 AI 코드 검증법, 61가지 동작 349쪽을 무료로 풉니다.</h3></summary>
+<summary><strong>리뷰어 관점에서 다시 짠 AI 코드 검증법, 61가지 동작 349쪽을 무료로 풉니다.</strong></summary>
 
 
 AI가 방금 200줄을 건넸습니다. 읽어봤습니다. 다 맞는 것 같습니다.
@@ -649,7 +649,7 @@ AI가 방금 200줄을 건넸습니다. 읽어봤습니다. 다 맞는 것 같�
 
 
 <details>
-<summary><h3>MIT Agentic Coding 강의 이후에 연결해서 보시면 좋은..</h3></summary>
+<summary><strong>MIT Agentic Coding 강의 이후에 연결해서 보시면 좋은..</strong></summary>
 
 
 마이크로소프트의 AI 에이전트 강의...📚  
@@ -676,7 +676,7 @@ AI 에이전트 소개, 프레임워크, 설계 패턴, 컨텍스트 엔지니�
 
 
 <details>
-<summary><h3>2026년에 승진을 이끄는 구분: 루프 vs 그래프</h3></summary>
+<summary><strong>2026년에 승진을 이끄는 구분: 루프 vs 그래프</strong></summary>
 
 
 같은 티켓. 해결하는 두 가지 방법. 잘못 선택하면 주말이 불타오른다
@@ -735,7 +735,7 @@ Claude는 여전히 루프를 직접 구축하게 만든다
 
 
 <details>
-<summary><h3>현재 가장 포괄적인 DevOps + 보안 Agent Skill 라이브러리 중 하나입니다.</h3></summary>
+<summary><strong>현재 가장 포괄적인 DevOps + 보안 Agent Skill 라이브러리 중 하나입니다.</strong></summary>
 
 
 바로 사용할 수 있는 Skill 160개 이상. 한 번 설치하면 Claude Code, Codex, Cursor에 인프라 팀의 운영 매뉴얼 한 세트를 추가하는 셈입니다.
@@ -780,7 +780,7 @@ npx skills add bagelhole/DevOps-Security-Agent-Skills \
 
 
 <details>
-<summary><h3>하네스된 LLM 에이전트, 명확히 설명!</h3></summary>
+<summary><strong>하네스된 LLM 에이전트, 명확히 설명!</strong></summary>
 
 
 두 에이전트가 동일한 모델을 동일한 작업에 실행할 수 있고, 예상대로 완료할 수 있습니다. 하지만 그중 하나는 작업을 완료하는 데 거의 3배의 토큰을 소비할 수 있습니다.
@@ -830,7 +830,7 @@ npx skills add bagelhole/DevOps-Security-Agent-Skills \
 
 
 <details>
-<summary><h3>🚨속보: Claude에 Council이라는 새로운 기능이 추가되었습니다.</h3></summary>
+<summary><strong>🚨속보: Claude에 Council이라는 새로운 기능이 추가되었습니다.</strong></summary>
 
 
 Claude를 5명의 AI 고문으로 바꾸어 최종 답변 하나를 내리기 전에 서로 논쟁하게 합니다.
@@ -886,7 +886,7 @@ Claude를 5명의 AI 고문으로 바꾸어 최종 답변 하나를 내리기 �
 
 
 <details>
-<summary><h3>여전히 사람들이 왜 이 에이전트 스킬들을 아직 사용하지 않는지 이해가 안 가 💀</h3></summary>
+<summary><strong>여전히 사람들이 왜 이 에이전트 스킬들을 아직 사용하지 않는지 이해가 안 가 💀</strong></summary>
 
 
 너는 claude code, hermes agent, grok bot을 설치했어. 그럼 이건 AI 에이전트로 원포스 컴퍼니를 만들고 싶다면 반드시 사용해야 할 스킬들이야
@@ -966,7 +966,7 @@ QA 테스터
 
 
 <details>
-<summary><h3>왜 DB 설계가 중요한가. 이유는 간단하다.</h3></summary>
+<summary><strong>왜 DB 설계가 중요한가. 이유는 간단하다.</strong></summary>
 
 
 ①한 번 데이터가 들어가면 설계 변경은 망가뜨리고 다시 만드는 것과 다름없다. 예를 들어 "users 테이블에 전화번호를 하나만 가질 수 있게 했다" → 나중에 여러 개 등록에 대응하려고 하면, 기존 데이터의 이관과 모든 참조 코드의 수정이 발생한다.
@@ -988,7 +988,7 @@ QA 테스터
 
 
 <details>
-<summary><h3>하네스 엔지니어링이란 무엇인가, 시각적으로 설명.</h3></summary>
+<summary><strong>하네스 엔지니어링이란 무엇인가, 시각적으로 설명.</strong></summary>
 
 
 ![image.png](../assets/agents/image-093.png)
@@ -1017,7 +1017,7 @@ LLM은 추론하고 텍스트를 생성할 수 있지만, 그것만으로는 신
 
 
 <details>
-<summary><h3>스택에 추가할 만한 5가지 AI 에이전트 스킬:</h3></summary>
+<summary><strong>스택에 추가할 만한 5가지 AI 에이전트 스킬:</strong></summary>
 
 
 AI 에이전트는 당신이 부여한 스킬만큼만 좋습니다.
@@ -1051,7 +1051,7 @@ AI 에이전트는 당신이 부여한 스킬만큼만 좋습니다.
 
 
 <details>
-<summary><h3>AI 에이전트를 구축하려면 이해해야 할 4가지 유형의 메모리가 있습니다:</h3></summary>
+<summary><strong>AI 에이전트를 구축하려면 이해해야 할 4가지 유형의 메모리가 있습니다:</strong></summary>
 
 
 1. 내부 지식: LLM 가중치에 내장된 지식.
@@ -1074,7 +1074,7 @@ LLM에서 멀어질수록 올바른 정보를 검색하고 컨텍스트로 다�
 
 
 <details>
-<summary><h3>Archify라는 멋진 프로젝트를 발견했어요.</h3></summary>
+<summary><strong>Archify라는 멋진 프로젝트를 발견했어요.</strong></summary>
 
 
 큰 프로젝트의 아키텍처를 구축하기 위해 이 스킬 세트를 사용할 수 있습니다.
@@ -1098,7 +1098,7 @@ Archify 스킬 세트를 바로 이 지점에서 사용하게 되는 거예요.
 
 
 <details>
-<summary><h3>만약 하네스 엔지니어링을 배우고 싶다면, 먼저 이런 걸 이해하는 걸로 시작하라고 할게:</h3></summary>
+<summary><strong>만약 하네스 엔지니어링을 배우고 싶다면, 먼저 이런 걸 이해하는 걸로 시작하라고 할게:</strong></summary>
 
 
 모델은 에이전트의 일부일 뿐이야.
@@ -1173,7 +1173,7 @@ Archify 스킬 세트를 바로 이 지점에서 사용하게 되는 거예요.
 
 
 <details>
-<summary><h3>맥이나 로컬 LLM에 관심 있는 사람일수록, Hermes Agent는 공부할 만해.</h3></summary>
+<summary><strong>맥이나 로컬 LLM에 관심 있는 사람일수록, Hermes Agent는 공부할 만해.</strong></summary>
 
 
 ChatGPT나 Claude는, 모델 단독이 아니야.
@@ -1215,7 +1215,7 @@ Hermes Agent는, 무료로 쓸 수 있는 에이전트 하네스로서 꽤 강�
 
 
 <details>
-<summary><h3>내가 본 것 중 가장 깔끔한 그래프 엔지니어링 셋업</h3></summary>
+<summary><strong>내가 본 것 중 가장 깔끔한 그래프 엔지니어링 셋업</strong></summary>
 
 
 하나의 에이전트가 원시 소스에서 클레임을 추출하고, 하나는 그것들이 어떻게 연결되는지 제안하고, 하나는 이미 있는 것과 모든 클레임을 확인해
@@ -1265,7 +1265,7 @@ make rebuild - 로그에서 전체 인덱스가 8초 만에 복구
 
 
 <details>
-<summary><h3>진짜 Linux를 써본 사람이라면, 지금 많은 AI Agent 튜토리얼을 보면서 마음이 꽤 복잡할 거예요.</h3></summary>
+<summary><strong>진짜 Linux를 써본 사람이라면, 지금 많은 AI Agent 튜토리얼을 보면서 마음이 꽤 복잡할 거예요.</strong></summary>
 
 
 왜냐하면 알게 되니까, AI는 2026년 거라는 거죠.
@@ -1347,7 +1347,7 @@ Linux 유저들은 반나절 쳐다보고.
 
 
 <details>
-<summary><h3>요즘 하네스에 대한 이야기가 사라진 이유</h3></summary>
+<summary><strong>요즘 하네스에 대한 이야기가 사라진 이유</strong></summary>
 
 
 1. 올해 상반기~한여름까지는  
@@ -1374,7 +1374,7 @@ Linux 유저들은 반나절 쳐다보고.
 
 
 <details>
-<summary><h3>GPT-6 Astra를 위한 스킬 및 프롬프트 재고찰</h3></summary>
+<summary><strong>GPT-6 Astra를 위한 스킬 및 프롬프트 재고찰</strong></summary>
 
 
 코딩 에이전트는 많은 발전을 이루었고, 모범 사례도 빠르게 변화하고 있습니다. 예전에는 많은 도움과 지원이 필요했던 작업들이 이제는 더 이상 그렇지 않습니다.
@@ -1441,7 +1441,7 @@ GPT-5.6 Sol이 요청을 받고 오랫동안 작업을 계속하는 것에 익�
 
 
 <details>
-<summary><h3>🚨하나의 파일만 수정하면 GPT-6 Astra 토큰을 35%+ 직접 절감할 수 있어!</h3></summary>
+<summary><strong>🚨하나의 파일만 수정하면 GPT-6 Astra 토큰을 35%+ 직접 절감할 수 있어!</strong></summary>
 
 
 GPT-6 Astra가 비싼 게 아니라, 네 AGENTS.md가 너무 뚱뚱한 거야
@@ -1478,7 +1478,7 @@ GPT-6 Astra는 AGENTS.md에 더 민감해. 파일이 완벽할수록, 오래된 
 
 
 <details>
-<summary><h3>우리가 기대하는 멀티 Agent 협업은 이런 모습입니다</h3></summary>
+<summary><strong>우리가 기대하는 멀티 Agent 협업은 이런 모습입니다</strong></summary>
 
 
 한 Agent는 기능을 만들고,
@@ -1531,7 +1531,7 @@ GitHub 7.1만 Star의 Ruflo는 Claude Code와 Codex에 멀티 Agent 오케스트
 
 
 <details>
-<summary><h3>AI 엔지니어링에서 무엇을 만들어야 할지 계속 묻는 사람들을 위해.</h3></summary>
+<summary><strong>AI 엔지니어링에서 무엇을 만들어야 할지 계속 묻는 사람들을 위해.</strong></summary>
 
 
 ➣  자체 컨텍스트 어셈블러 구축  
@@ -1593,7 +1593,7 @@ GitHub 7.1만 Star의 Ruflo는 Claude Code와 Codex에 멀티 Agent 오케스트
 
 
 <details>
-<summary><h3>AI 엔지니어링 분야에 진입하려 한다면, 제가 우선적으로 학습할 것을 추천하는 주제들은 다음과 같습니다:</h3></summary>
+<summary><strong>AI 엔지니어링 분야에 진입하려 한다면, 제가 우선적으로 학습할 것을 추천하는 주제들은 다음과 같습니다:</strong></summary>
 
 
 - RAG — Retrieval-Augmented Generation  
@@ -1624,7 +1624,7 @@ AI 엔지니어링은 모델 주위에 안정적이고 확장 가능한 시스�
 
 
 <details>
-<summary><h3>만약 에이전트에 대해 배우기 시작하고 싶다면, 대략 이런 순서로 진행하는 게 좋을 것 같아요:</h3></summary>
+<summary><strong>만약 에이전트에 대해 배우기 시작하고 싶다면, 대략 이런 순서로 진행하는 게 좋을 것 같아요:</strong></summary>
 
 
 1. 에이전트가 뭔지 이해하기: 도구를 사용할 수 있고, 작업을 완료할 때까지 단계를 반복할 수 있는 모델이에요.
@@ -1646,7 +1646,7 @@ AI 엔지니어링은 모델 주위에 안정적이고 확장 가능한 시스�
 
 
 <details>
-<summary><h3>에이전트로 HTML 설명 자료를 만들 때, CLAUDE.md / AGENTS.md에 이 지침을 추가하면 한 단계 업그레이드할 수 있습니다.</h3></summary>
+<summary><strong>에이전트로 HTML 설명 자료를 만들 때, CLAUDE.md / AGENTS.md에 이 지침을 추가하면 한 단계 업그레이드할 수 있습니다.</strong></summary>
 
 
 기본적으로 AI 모델은 수많은 랜딩 페이지로 훈련됩니다. 즉, 그들 고유의 놀라운 SVG 다이어그램이나 브라우저 내 JavaScript 기능에 대해 알지 못합니다.
@@ -1668,7 +1668,7 @@ AI 엔지니어링은 모델 주위에 안정적이고 확장 가능한 시스�
 
 
 <details>
-<summary><h3>CloudFlare, AI 에이전트들을 위한 보안 기술을 출시했어. 바로 붙여넣자</h3></summary>
+<summary><strong>CloudFlare, AI 에이전트들을 위한 보안 기술을 출시했어. 바로 붙여넣자</strong></summary>
 
 
 [https://github.com/cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill)
@@ -1682,7 +1682,7 @@ AI 엔지니어링은 모델 주위에 안정적이고 확장 가능한 시스�
 
 
 <details>
-<summary><h3>제 AGENTS.md 상단에:</h3></summary>
+<summary><strong>제 AGENTS.md 상단에:</strong></summary>
 
 
 - 코드를 작성한 후에 절대 단위 테스트를 작성하지 마십시오.
@@ -1702,7 +1702,7 @@ AI 엔지니어링은 모델 주위에 안정적이고 확장 가능한 시스�
 
 
 <details>
-<summary><h3>이제 단위 테스트는 대부분 무의미하다고 생각합니다.</h3></summary>
+<summary><strong>이제 단위 테스트는 대부분 무의미하다고 생각합니다.</strong></summary>
 
 
 AI가 단위 테스트를 미친 듯이 지나치게 복잡하게 만들고, 코드 라인 수(LOC)를 몇 배나 늘려버리며, 바람직하지 않은 방식으로 동작을 고정시킵니다. 100% "커버리지"를 달성한 거대한 쓰레기 PR들이 프로덕션 시스템을 망가뜨리는 일이 실제로 발생하죠.
@@ -1724,7 +1724,7 @@ E2E(End-to-End) 동작이 중요한 거예요. 쓸모없는 단위 테스트를 
 
 
 <details>
-<summary><h3>요즘 클로드에 연결해서 잘 쓰는 것 : playMCP</h3></summary>
+<summary><strong>요즘 클로드에 연결해서 잘 쓰는 것 : playMCP</strong></summary>
 
 
 카카오에서 만든 MCP인데 카카오맵부터 택배 추적, ktx 시간표, 유튜브 분석, 맛집 찾기, 사람인 등등 일상에서 쓰면 편한게 많음 대충 쉽게 말해서 해당 서비스랑 연결해서 정보를 받아올수 있는건데요 예를 들어 그냥 맛집 찾아달라고 하면
@@ -1752,7 +1752,7 @@ E2E(End-to-End) 동작이 중요한 거예요. 쓸모없는 단위 테스트를 
 
 
 <details>
-<summary><h3>개인용 AI에이전트가 퍼지면 퍼질수록</h3></summary>
+<summary><strong>개인용 AI에이전트가 퍼지면 퍼질수록</strong></summary>
 
 
 1. 은행 예적금  
@@ -1781,7 +1781,7 @@ E2E(End-to-End) 동작이 중요한 거예요. 쓸모없는 단위 테스트를 
 
 
 <details>
-<summary><h3>𝗠𝗖𝗣 𝘃𝘴 𝗔𝗣𝗜.</h3></summary>
+<summary><strong>𝗠𝗖𝗣 𝘃𝘴 𝗔𝗣𝗜.</strong></summary>
 
 
 𝗔𝗣𝗜는 소프트웨어 시스템이 특정 엔드포인트, 요청, 응답을 통해 어떻게 통신하는지를 정의합니다. 이는 애플리케이션에 다른 시스템의 데이터에 접근하거나 기능을 트리거하는 구조화된 방법을 제공합니다.

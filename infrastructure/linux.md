@@ -4,7 +4,7 @@
 
 
 <details>
-<summary><h3>orphaned file space</h3></summary>
+<summary><strong>orphaned file space</strong></summary>
 
 
 리눅스 서버에서 df -h를 실행하면 디스크 사용량이 100%로 표시됩니다.  
@@ -30,7 +30,7 @@ du는 파일 시스템 트리에 더 이상 없기 때문에 이를 볼 수 없�
 
 
 <details>
-<summary><h3>디스크가 가득 찼습니다. 실행할 상위 3개 명령어</h3></summary>
+<summary><strong>디스크가 가득 찼습니다. 실행할 상위 3개 명령어</strong></summary>
 
 
 - df -h → 디스크 잔여 공간 확인 (파일시스템 수준)
@@ -44,7 +44,7 @@ du는 파일 시스템 트리에 더 이상 없기 때문에 이를 볼 수 없�
 
 
 <details>
-<summary><h3>리눅스를 10단계로 마스터하기</h3></summary>
+<summary><strong>리눅스를 10단계로 마스터하기</strong></summary>
 
 
 1. 리눅스란 무엇인가 → 커널, 배포판, 쉘
@@ -65,7 +65,7 @@ du는 파일 시스템 트리에 더 이상 없기 때문에 이를 볼 수 없�
 
 
 <details>
-<summary><h3>빠른 리눅스 팁</h3></summary>
+<summary><strong>빠른 리눅스 팁</strong></summary>
 
 
 - 터미널을 실수로 닫았나요? 이전 세션 출력을 복구하세요. 세션이 /home/ravi/session.log에 저장되었습니다
@@ -120,7 +120,7 @@ du는 파일 시스템 트리에 더 이상 없기 때문에 이를 볼 수 없�
 
 
 <details>
-<summary><h3>리눅스 배포판이 당신에 대해 말해주는 것</h3></summary>
+<summary><strong>리눅스 배포판이 당신에 대해 말해주는 것</strong></summary>
 
 
 - 우분투: (당신 아빠가 PC에 다운로드했음)
@@ -138,7 +138,7 @@ du는 파일 시스템 트리에 더 이상 없기 때문에 이를 볼 수 없�
 
 
 <details>
-<summary><h3>명령어 팁</h3></summary>
+<summary><strong>명령어 팁</strong></summary>
 
 
 디스크 사용량 확인 - df -h
@@ -158,7 +158,7 @@ du는 파일 시스템 트리에 더 이상 없기 때문에 이를 볼 수 없�
 
 
 <details>
-<summary><h3>만약 &quot;free -h&quot;를 실행해본 적이 있다면,</h3></summary>
+<summary><strong>만약 &quot;free -h&quot;를 실행해본 적이 있다면,</strong></summary>
 
 
 그 출력 결과가 많은 사람들을 혼란스럽게 한다는 걸 알 거예요
@@ -200,7 +200,7 @@ available을 주시하세요. 그게 진짜 숫자입니다. 🔖
 
 
 <details>
-<summary><h3>DevOps에서 5년 이상 일한 후, 가장 유용하다고 생각하는 명령어들:</h3></summary>
+<summary><strong>DevOps에서 5년 이상 일한 후, 가장 유용하다고 생각하는 명령어들:</strong></summary>
 
 
 grep -r 'text' ./     → 파일에서 무언가를 찾기  
@@ -217,7 +217,7 @@ tail -f <logfile>     → 지금 무슨 일이 일어나고 있는지
 
 
 <details>
-<summary><h3>실제 프로덕션 작업에서 실제로 등장하는 명령어들</h3></summary>
+<summary><strong>실제 프로덕션 작업에서 실제로 등장하는 명령어들</strong></summary>
 
 
 🔎찾아내기:
@@ -305,7 +305,7 @@ tail -f /var/log/app.log | grep --line-buffered ERROR
 
 
 <details>
-<summary><h3>CLI 도구 개발자들이 사랑하는 도구들</h3></summary>
+<summary><strong>CLI 도구 개발자들이 사랑하는 도구들</strong></summary>
 
 
 ⚡ htop – 시스템 모니터링  
@@ -324,7 +324,7 @@ tail -f /var/log/app.log | grep --line-buffered ERROR
 
 
 <details>
-<summary><h3>빠른 Linux 팁 🐧</h3></summary>
+<summary><strong>빠른 Linux 팁 🐧</strong></summary>
 
 
 1. Linux에 처음이고 포트 80을 점유하고 있는 게 뭔지 모르겠나요? 이 한 가지 명령어만으로 모든 걸 알려줍니다. 어떤 프로세스인지, 어떤 PID인지, 전부요: ss는 netstat보다 빠르고 모든 현대적인 배포판에 미리 설치되어 있습니다.  
@@ -368,7 +368,7 @@ tail -f /var/log/app.log | grep --line-buffered ERROR
 
 
 <details>
-<summary><h3>리눅스에서 파일 디스크립터</h3></summary>
+<summary><strong>리눅스에서 파일 디스크립터</strong></summary>
 
 
 1. 모든 것이 파일이다 - 소켓, 파이프, 장치, 실제 파일. 하나의 추상화, 동일한 커널 인터페이스.
@@ -387,7 +387,7 @@ tail -f /var/log/app.log | grep --line-buffered ERROR
 
 
 <details>
-<summary><h3>느린 데이터베이스 디버깅</h3></summary>
+<summary><strong>느린 데이터베이스 디버깅</strong></summary>
 
 
 그가 서버에 로그인했습니다.  
@@ -413,7 +413,7 @@ tail -f /var/log/app.log | grep --line-buffered ERROR
 
 
 <details>
-<summary><h3>명령어 모음</h3></summary>
+<summary><strong>명령어 모음</strong></summary>
 
 
 - unshare
@@ -445,7 +445,7 @@ tail -f /var/log/app.log | grep --line-buffered ERROR
 
 
 <details>
-<summary><h3>Bash 스크립팅 기초</h3></summary>
+<summary><strong>Bash 스크립팅 기초</strong></summary>
 
 
 ![image.png](../assets/linux/image-074.png)
@@ -639,7 +639,7 @@ comment'
 
 
 <details>
-<summary><h3>인프라 엔지니어가 알아야 할 Linux 파일 시스템 계층</h3></summary>
+<summary><strong>인프라 엔지니어가 알아야 할 Linux 파일 시스템 계층</strong></summary>
 
 
 / → 루트 디렉토리. 모든 것이 여기서 시작됩니다  
@@ -670,7 +670,7 @@ comment'
 
 
 <details>
-<summary><h3>리눅스 로그 파싱 명령어</h3></summary>
+<summary><strong>리눅스 로그 파싱 명령어</strong></summary>
 
 
 ### 1. 검색 및 패턴 매칭 (Search & Pattern Matching)
@@ -754,7 +754,7 @@ JSON이나 CSV와 같은 구조화된 데이터를 처리하는 도구들입니�
 
 
 <details>
-<summary><h3>인프라 엔지니어가 매일 실행하는 리눅스 명령어들</h3></summary>
+<summary><strong>인프라 엔지니어가 매일 실행하는 리눅스 명령어들</strong></summary>
 
 
 서버 터졌을 때 원인도 모르고 우왕좌왕하는 초보 엔지니어라면 당장 터미널 켜고 쳐봐야 할 12가지 필수 리눅스 명령어 세트임. uptime부터 dmesg까지 서버 내부의 디스크, 메모리, 포트 상태를 웹 UI 없이 날것 그대로 빠르게 진단할 때 유용함. 복잡한 모니터링 툴이 안 먹히는 최악의 장애 순간을 대비해 무조건 저장해두고 손에 익혀야 할 기본 스펙임
@@ -779,7 +779,7 @@ last → 최근 로그인 기록
 
 
 <details>
-<summary><h3>인프라 개념: systemd</h3></summary>
+<summary><strong>인프라 개념: systemd</strong></summary>
 
 
 리눅스 서버가 부팅될 때, 커널을 시작하고, 파일 시스템을 마운트하고, 네트워킹을 활성화하고, 서비스를 실행하며, 종료를 처리해야 하는 무언가가 필요합니다. 그 무언가가 바로 systemd, PID 1, 거의 모든 현대 리눅스 배포판의 init 시스템입니다.
@@ -810,7 +810,7 @@ systemd를 이해하면 리눅스 서버가 실제로 어떻게 작동하는지 
 
 
 <details>
-<summary><h3>Linux RAM 요구 사항이 정말 터무니없어 🤯</h3></summary>
+<summary><strong>Linux RAM 요구 사항이 정말 터무니없어 🤯</strong></summary>
 
 
 - 🟠 Ubuntu - 6 GB
@@ -840,7 +840,7 @@ Linux는 감자부터 워크스테이션까지 모든 것에서 실행될 수 �
 
 
 <details>
-<summary><h3>🔑 chmod vs chown</h3></summary>
+<summary><strong>🔑 chmod vs chown</strong></summary>
 
 
 1. chmod = 권한 변경 파일을 읽기, 쓰기, 실행할 수 있는 사용자를 제어합니다.
@@ -865,7 +865,7 @@ Linux는 감자부터 워크스테이션까지 모든 것에서 실행될 수 �
 
 
 <details>
-<summary><h3>⚠️ 커리어를 끝장낼 수 있는 7가지 Linux 명령어</h3></summary>
+<summary><strong>⚠️ 커리어를 끝장낼 수 있는 7가지 Linux 명령어</strong></summary>
 
 
 1️⃣ rm -rf / --no-preserve-root  
@@ -898,7 +898,7 @@ Linux는 감자부터 워크스테이션까지 모든 것에서 실행될 수 �
 
 
 <details>
-<summary><h3>리눅스 데스크톱만 1주일 동안 써본 후기:</h3></summary>
+<summary><strong>리눅스 데스크톱만 1주일 동안 써본 후기:</strong></summary>
 
 
 카카오톡 불편하지만 잘 돌아감  
@@ -917,7 +917,7 @@ PowerShell 말고 zsh, bash 쓸 수 있음
 
 
 <details>
-<summary><h3>리눅스 커널 정리 /with MINZKN</h3></summary>
+<summary><strong>리눅스 커널 정리 /with MINZKN</strong></summary>
 
 
 [리눅스 커널 정리 /with MINZKN](https://www.minzkn.com/linuxkernel/index.html)
@@ -929,7 +929,7 @@ PowerShell 말고 zsh, bash 쓸 수 있음
 
 
 <details>
-<summary><h3>두 개의 파일을 가지고 있고, 이를 나란히 비교하고 싶다면.</h3></summary>
+<summary><strong>두 개의 파일을 가지고 있고, 이를 나란히 비교하고 싶다면.</strong></summary>
 
 
 ```
@@ -963,7 +963,7 @@ sdiff list1.txt list2.txt
 
 
 <details>
-<summary><h3>터미널에서 파일 찾느라 cd → ls → cd .. → ls 무한 반복하는 사람?</h3></summary>
+<summary><strong>터미널에서 파일 찾느라 cd → ls → cd .. → ls 무한 반복하는 사람?</strong></summary>
 
 
 GitHub 2.2만 Star `Superfile`은
@@ -997,7 +997,7 @@ macOS·Linux는 한 줄 설치, Windows도 winget·Scoop 지원.
 
 
 <details>
-<summary><h3>리눅스에서 차이가 나는 건 아는 명령어의 수가 아니야.</h3></summary>
+<summary><strong>리눅스에서 차이가 나는 건 아는 명령어의 수가 아니야.</strong></summary>
 
 
 장애 발생 시 df -h→free -m→journalctl→ss -tlnp 순으로 확인할 수 있는지 여부야.
@@ -1015,7 +1015,7 @@ macOS·Linux는 한 줄 설치, Windows도 winget·Scoop 지원.
 
 
 <details>
-<summary><h3>이 Linux 명령어들이 지난 13년간의 IT 경력에서 가장 큰 도움을 주었습니다</h3></summary>
+<summary><strong>이 Linux 명령어들이 지난 13년간의 IT 경력에서 가장 큰 도움을 주었습니다</strong></summary>
 
 
 일상적인 것들:

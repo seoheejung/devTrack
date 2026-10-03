@@ -4,7 +4,7 @@
 
 
 <details>
-<summary><h3>Jev가 제가 가입할 때 API 크레딧으로 5달러를 주셨어요</h3></summary>
+<summary><strong>Jev가 제가 가입할 때 API 크레딧으로 5달러를 주셨어요</strong></summary>
 
 Jev가 제가 가입할 때 API 크레딧으로 5달러를 주셨어요
 
@@ -23,7 +23,7 @@ Jev가 제가 가입할 때 API 크레딧으로 5달러를 주셨어요
 
 
 <details>
-<summary><h3>코드 리뷰를 Jev를 사용해서 하는 건 정말 좋은 유스케이스라고 생각해.</h3></summary>
+<summary><strong>코드 리뷰를 Jev를 사용해서 하는 건 정말 좋은 유스케이스라고 생각해.</strong></summary>
 
 
 Jev에게 내 PR 리뷰를 맡겼다. Claude보다 ~200배 저렴하고, 0.5초 만에 답변을 준다.
@@ -46,7 +46,7 @@ diff를 붙여넣기 →
 
 
 <details>
-<summary><h3>Jev 라는 새로운 AI 모델이 핫하군요. 아이디어는 하늘아래 새로운 것이 없죠.</h3></summary>
+<summary><strong>Jev 라는 새로운 AI 모델이 핫하군요. 아이디어는 하늘아래 새로운 것이 없죠.</strong></summary>
 
 
 누가 제대로 만들어서 실제 제품으로 서비스 할 수 있는지가 관건. (첨부는 연구개발중인 자체 모델과 비교해 본 내용)
@@ -62,7 +62,7 @@ diff를 붙여넣기 →
 
 
 <details>
-<summary><h3>LM 업계를 뜨겁게 달구고 있는 Jev에 대해 엄청나게 쉽게 설명한 게 있었어. AI 네이티브의 if문이라는 거야.</h3></summary>
+<summary><strong>LM 업계를 뜨겁게 달구고 있는 Jev에 대해 엄청나게 쉽게 설명한 게 있었어. AI 네이티브의 if문이라는 거야.</strong></summary>
 
 
 ＞  
@@ -137,7 +137,7 @@ review()\
 
 
 <details>
-<summary><h3>Jev 사용 방법:</h3></summary>
+<summary><strong>Jev 사용 방법:</strong></summary>
 
 
 1. 공식 사이트에서 waitlist 가입 신청, 기본적으로 신청 당일에 승인됨.  
@@ -155,7 +155,7 @@ review()\
 
 
 <details>
-<summary><h3>Jev 사용법, 그리고 실제로 100배 성능을 발휘하는 곳:</h3></summary>
+<summary><strong>Jev 사용법, 그리고 실제로 100배 성능을 발휘하는 곳:</strong></summary>
 
 
 설치에 10분 걸림:
@@ -235,7 +235,7 @@ Choice는 최대 255개 옵션 중에서 선택하고, Score는 2-10 레벨 스�
 
 
 <details>
-<summary><h3>타임라인에 넘쳐나는 Jev 데모들을 보면서 Jev가 대단하기보다는 '저걸 어케 텍스트 입력으로 변환했누'가 더 대단하게 느껴짐</h3></summary>
+<summary><strong>타임라인에 넘쳐나는 Jev 데모들을 보면서 Jev가 대단하기보다는 '저걸 어케 텍스트 입력으로 변환했누'가 더 대단하게 느껴짐</strong></summary>
 
 
 사실 jev로 할 수 있는 대부분의 일은 강화학습 에이전트로 학습 시킬 수 있는 것인데, 이쪽에서 일반인의 도전에 병목이 되는 지점 역시 대상을 어떻게 environment로 구현하느냐였습니다.
@@ -251,7 +251,7 @@ Choice는 최대 255개 옵션 중에서 선택하고, Score는 2-10 레벨 스�
 
 
 <details>
-<summary><h3>요즘 AI쪽에서 화제인 Jev가 뭐냐면</h3></summary>
+<summary><strong>요즘 AI쪽에서 화제인 Jev가 뭐냐면</strong></summary>
 
 
 지피티나 클로드처럼 직접 글 쓰고 코딩하는 AI가 아니라, 앱이나 AI 에이전트 안에서 “다음에 뭘 할지” 빠르게 판단해주는 AI임.
@@ -299,7 +299,7 @@ Jev는 프로그램 안에서 “다음에 뭘 할지 정하는 AI”에 가까�
 
 
 <details>
-<summary><h3>jev란거 꽤 재밌는 장난감일 수 있겠음...</h3></summary>
+<summary><strong>jev란거 꽤 재밌는 장난감일 수 있겠음...</strong></summary>
 
 
 Jev 다발을 엮어서 일종의 조건 반사 신경계 처럼 만들 수 있을것 같다는 생각
@@ -317,7 +317,7 @@ Jev 다발을 엮어서 일종의 조건 반사 신경계 처럼 만들 수 있�
 
 
 <details>
-<summary><h3>Jev 대 현재 LLM이 아닙니다. Jev + LLM이 될 겁니다.</h3></summary>
+<summary><strong>Jev 대 현재 LLM이 아닙니다. Jev + LLM이 될 겁니다.</strong></summary>
 
 
 Jev의 모든 장점과 단점을 여기 있습니다.
@@ -376,7 +376,7 @@ Jev 같은 시스템으로, 그것은 적어도 50% 더 빨라질 것입니다.
 
 
 <details>
-<summary><h3>요즘 개발자들 사이에서 Jev가 왜 핫한지 보면</h3></summary>
+<summary><strong>요즘 개발자들 사이에서 Jev가 왜 핫한지 보면</strong></summary>
 
 AI가 앞으로 어떻게 바뀔지 힌트가 하나 있음
 
@@ -448,7 +448,7 @@ Jev가 먼저 지금 필요한 도구 하나를 고르고
 
 
 <details>
-<summary><h3>Jev으로 아주 소소한거 해보기: 뉴스 분류</h3></summary>
+<summary><strong>Jev으로 아주 소소한거 해보기: 뉴스 분류</strong></summary>
 
 
 너무나 거창하고 멋진 예시가 이미 넘치지만  
@@ -474,7 +474,7 @@ LLM이 굳이 안해도 되는 ‘필터링’을
 
 
 <details>
-<summary><h3>CLAUDE CODE용 JEV 모델 라우터 소개</h3></summary>
+<summary><strong>CLAUDE CODE용 JEV 모델 라우터 소개</strong></summary>
 
 
 이 Claude Code 모드는 Typesafe AI API 또는  
@@ -517,7 +517,7 @@ Claude Code의 각 요청을 Jev가 먼저 분류하는 부분이 흥미롭습�
 
 
 <details>
-<summary><h3>최고의 제부 설명인듯</h3></summary>
+<summary><strong>최고의 제부 설명인듯</strong></summary>
 
 
 JEV 요약 : 자연어로 예/아니오 '논리게이트' 만들 수 있음.
@@ -545,7 +545,7 @@ if ( "핫도그는 음식인가?" ) { print "yes" }
 
 
 <details>
-<summary><h3>Jev 그냥 가벼운 LLM 아냐? 라고 생각하신다면 이 글을 읽어주세요</h3></summary>
+<summary><strong>Jev 그냥 가벼운 LLM 아냐? 라고 생각하신다면 이 글을 읽어주세요</strong></summary>
 
 
 1. 며칠 전, 글쓰기가 아니라 판단을 내리는 역할에 특화된 AI인 Jev가 등장했음  
@@ -569,7 +569,7 @@ if ( "핫도그는 음식인가?" ) { print "yes" }
 
 
 <details>
-<summary><h3>Jev를 어디에 쓸 수 있을까? 결정이 필요한 지점마다 넣어볼 수 있습니다.</h3></summary>
+<summary><strong>Jev를 어디에 쓸 수 있을까? 결정이 필요한 지점마다 넣어볼 수 있습니다.</strong></summary>
 
 
 1. 모델 라우팅  
@@ -604,7 +604,7 @@ Agent가 길게 생각할 필요 없는 “작은 판단”을 Jev가 맡으면,
 
 
 <details>
-<summary><h3>요즘 Jev가 핫한 이유는 AI의 역할이 생각하고 말하는 것에서 빠르게 판단하는 것으로 확장되고 있기 때문인거 같은데</h3></summary>
+<summary><strong>요즘 Jev가 핫한 이유는 AI의 역할이 생각하고 말하는 것에서 빠르게 판단하는 것으로 확장되고 있기 때문인거 같은데</strong></summary>
 
 
 예를 들어 고객이  
@@ -637,7 +637,7 @@ Jev 같은 모델이 수많은 작은 판단을 내리는 시스템으로 바뀌
 
 
 <details>
-<summary><h3>LLM vs. Jev, 명확히 설명!</h3></summary>
+<summary><strong>LLM vs. Jev, 명확히 설명!</strong></summary>
 
 
 LLM은 훌륭하지만, 그 한계는 스크롤하며 지나가는 것을 지켜볼 수 있는 수준입니다:
@@ -706,7 +706,7 @@ LLM은 답변 공간이 열려 있을 때 새로운 언어를 작성합니다. J
 
 
 <details>
-<summary><h3>JEV JEV 엄청 찬양하는데 하나만 알고가자. Jev 계속 보고 있는데 이번에는 약점 하나 얘기해봄</h3></summary>
+<summary><strong>JEV JEV 엄청 찬양하는데 하나만 알고가자. Jev 계속 보고 있는데 이번에는 약점 하나 얘기해봄</strong></summary>
 
 
 Jev가 빠르고 싸고 AI 에이전트 앞에서  
@@ -804,7 +804,7 @@ confidence 95%라고
 
 
 <details>
-<summary><h3>Jev의 올바른 사용법은,</h3></summary>
+<summary><strong>Jev의 올바른 사용법은,</strong></summary>
 
 
 「하루 만에 복잡한 실시간 판단을 하는 프로토타입을 만든다」→「실행 로그를 보고 결정론이나 Bert나 증류 쪽이 더 좋은 부분을 교환한다」
@@ -820,7 +820,7 @@ confidence 95%라고
 
 
 <details>
-<summary><h3>Jev, 이제 오픈 소스: Lev</h3></summary>
+<summary><strong>Jev, 이제 오픈 소스: Lev</strong></summary>
 
 
 Qwen 백본을 기반으로 한 4B 오픈 소스 System One 모델
@@ -837,7 +837,7 @@ Qwen 백본을 기반으로 한 4B 오픈 소스 System One 모델
 
 
 <details>
-<summary><h3>이 날 JEV 에이전트 폴더를 만든 이후로 CLAUDE가 결정을 내리도록 내버려두지 않게 됐어</h3></summary>
+<summary><strong>이 날 JEV 에이전트 폴더를 만든 이후로 CLAUDE가 결정을 내리도록 내버려두지 않게 됐어</strong></summary>
 
 
 과거에는 Claude가 모든 단계를 결정하고 쓰고 실행하게 했어
@@ -894,7 +894,7 @@ LLM이 쓰고, Jev가 결정하고, 코드가 행동해
 
 
 <details>
-<summary><h3>Ollama가 이제 Jev와 유사한 의사결정 모델을 모두 로컬에서 지원합니다.</h3></summary>
+<summary><strong>Ollama가 이제 Jev와 유사한 의사결정 모델을 모두 로컬에서 지원합니다.</strong></summary>
 
 
 Nimble과 같은 의사결정 모델을 티켓 분류, 모델 라우팅, 콘텐츠 조절과 같은 작업에 사용하세요.
@@ -917,7 +917,7 @@ ollama pull nimble
 
 
 <details>
-<summary><h3>Jev를 위한 상위 12개 에이전트적 사용 사례:</h3></summary>
+<summary><strong>Jev를 위한 상위 12개 에이전트적 사용 사례:</strong></summary>
 
 
 Jev는 일반 코드가 확실하게 표현할 수 없는 의미적 결정을 처리합니다. 타이핑된 답변과 확률을 반환하며, 코드는 워크플로우를 계속 담당합니다.
@@ -986,7 +986,7 @@ Beacon은 Claude Code, Codex, Cursor, OpenCode, 그리고 20개 이상의 에이
 
 
 <details>
-<summary><h3>RAG를 위한 Jev, 명확하게 설명!</h3></summary>
+<summary><strong>RAG를 위한 Jev, 명확하게 설명!</strong></summary>
 
 
 하이브리드 검색은 후보 목록을 제공합니다. 어떤 구절이 증거를 포함하는지, 단순히 인접한 것인지, 또는 증거가 답변에 충분히 강력한지 결정하지 않습니다.
