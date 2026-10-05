@@ -81,7 +81,7 @@
 다루는 내용:  
 DevOps, Cloud, Kubernetes, IaC, GitOps, MLOps
 
-![image.png](../assets/cloud/image-017.png)
+![image.png](../../assets/cloud/image-017.png)
 
 
 </details>
@@ -245,7 +245,7 @@ AI가 대신 통과해줄 수 있는 배지를 쫓는 걸 멈춰.
 - netcat을 사용하여 포트 포워딩하기[https://labs.iximiuz.com/challenges/port-forwarding-using-netcat](https://t.co/ANRAQITrvP)
 - 프록시 프로세스를 시작하지 않고 포트 포워딩하기
     
-    ![image.png](../assets/cloud/image-018.png)
+    ![image.png](../../assets/cloud/image-018.png)
     
 
 
@@ -331,7 +331,7 @@ AZ → 장애 대책용 거점
 - 유료로 돌아가는 건 AI 분석뿐이라 회원 전용으로 빼서 비용 새는 걸 막았다고 함
 - 사용자가 폭증하면 무료 한도를 넘어갈 수 있지만, 저장해둘 만한 조합입니다
 
-![image.png](../assets/cloud/image-019.png)
+![image.png](../../assets/cloud/image-019.png)
 </details>
 
 ---

@@ -31,12 +31,12 @@
 | 주제 · 도구 | 노트 |
 | --- | --- |
 | 인공지능 | [AI](ai/notes.md) |
-| 에이전트 | [AI 에이전트](ai/agents.md) |
-| RAG | [RAG](ai/rag.md) |
-| 바이브코딩 | [바이브코딩](ai/vibe-coding.md) |
-| Claude | [Claude](ai/claude.md) |
-| Codex | [Codex](ai/codex.md) |
-| Jev | [Jev](ai/jev.md) |
+| 에이전트 | [AI 에이전트](ai/agents/notes.md) |
+| RAG | [RAG](ai/rag/notes.md) |
+| 바이브코딩 | [바이브코딩](ai/vibe-coding/notes.md) |
+| Claude | [Claude](ai/claude/notes.md) |
+| Codex | [Codex](ai/codex/notes.md) |
+| Jev | [Jev](ai/jev/notes.md) |
 
 ## 프론트엔드 · 디자인
 

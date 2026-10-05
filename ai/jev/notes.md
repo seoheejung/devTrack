@@ -51,7 +51,7 @@ diff를 붙여넣기 →
 
 누가 제대로 만들어서 실제 제품으로 서비스 할 수 있는지가 관건. (첨부는 연구개발중인 자체 모델과 비교해 본 내용)
 
-![image.png](../assets/jev/image-160.png)
+![image.png](../../assets/jev/image-160.png)
 
 ---
 
@@ -306,7 +306,7 @@ Jev 다발을 엮어서 일종의 조건 반사 신경계 처럼 만들 수 있�
 
 굳이 모든 일에 LLM이 동원되는게 아니라 LLM에 반복적으로 혹은 유형적으로 가던 것들에 대해서는 LLM이 적절하게 (가중치를) 설계해 놓은 jev로 돌리는 방법이 있을 수 있을 것 같단 말임...
 
-![image.png](../assets/jev/image-161.png)
+![image.png](../../assets/jev/image-161.png)
 
 ---
 
@@ -695,7 +695,7 @@ LLM은 답변 공간이 열려 있을 때 새로운 언어를 작성합니다. J
 
 아래에 Jev에 대한 전체 분석을 인용했습니다. 세 가지 기본 요소, 병렬 배터리, 임계값, 그리고 적합하지 않은 곳을 다룹니다.
 
-![image.png](../assets/jev/image-162.png)
+![image.png](../../assets/jev/image-162.png)
 
 ---
 
@@ -1031,7 +1031,7 @@ Jev가 모호한 판단을 내립니다. 코드는 실제 결정에 대한 책�
 - Jev가 컨텍스트에 가치 있는 것을 결정합니다.
 - LLM이 근거 있는 답변을 작성합니다.
 
-![image.png](../assets/jev/image-163.png)
+![image.png](../../assets/jev/image-163.png)
 </details>
 
 ---

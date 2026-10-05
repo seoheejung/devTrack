@@ -69,33 +69,33 @@ DevTrack/
 
 | Source | Target (원문 순서) | Notion 속성 | Toggles | Status |
 | --- | --- | --- | ---: | --- |
-| [인터뷰 질문 33cdbfd1e0fb8053bdcbd9fbb2e6e4f0.md](source/notion-export/%EC%9D%B8%ED%84%B0%EB%B7%B0%20%EC%A7%88%EB%AC%B8%2033cdbfd1e0fb8053bdcbd9fbb2e6e4f0.md) | [interview/README.md](interview/README.md)<br>[interview/architecture.md](interview/architecture.md)<br>[interview/performance.md](interview/performance.md)<br>[interview/database.md](interview/database.md)<br>[interview/api-http.md](interview/api-http.md)<br>[interview/security.md](interview/security.md)<br>[interview/infrastructure.md](interview/infrastructure.md)<br>[interview/languages-cs.md](interview/languages-cs.md)<br>[interview/mindset.md](interview/mindset.md) | Interview | 286 | Complete |
+| [인터뷰 질문 33cdbfd1e0fb8053bdcbd9fbb2e6e4f0.md](source/notion-export/%EC%9D%B8%ED%84%B0%EB%B7%B0%20%EC%A7%88%EB%AC%B8%2033cdbfd1e0fb8053bdcbd9fbb2e6e4f0.md) | [interview/notes.md](interview/notes.md)<br>[interview/architecture/notes.md](interview/architecture/notes.md)<br>[interview/performance/notes.md](interview/performance/notes.md)<br>[interview/database/notes.md](interview/database/notes.md)<br>[interview/api-http/notes.md](interview/api-http/notes.md)<br>[interview/security/notes.md](interview/security/notes.md)<br>[interview/infrastructure/notes.md](interview/infrastructure/notes.md)<br>[interview/languages-cs/notes.md](interview/languages-cs/notes.md)<br>[interview/mindset/notes.md](interview/mindset/notes.md) | Interview | 286 | Complete |
 | [Backend 336dbfd1e0fb8071b81ce67e9e2199e6.md](source/notion-export/Backend%20336dbfd1e0fb8071b81ce67e9e2199e6.md) | [backend/notes.md](backend/notes.md) | Backend | 65 | Complete |
 | [Programming Languages 337dbfd1e0fb80cdb38fc7a6a4ec505d.md](source/notion-export/Programming%20Languages%20337dbfd1e0fb80cdb38fc7a6a4ec505d.md) | [programming-languages/notes.md](programming-languages/notes.md) | Backend | 10 | Complete |
 | [보안 336dbfd1e0fb808ba1bfcb86a337f7ba.md](source/notion-export/%EB%B3%B4%EC%95%88%20336dbfd1e0fb808ba1bfcb86a337f7ba.md) | [security/notes.md](security/notes.md) | Security | 5 | Complete |
 | [Networking 336dbfd1e0fb808db8bddae6f1f94a00.md](source/notion-export/Networking%20336dbfd1e0fb808db8bddae6f1f94a00.md) | [networking/notes.md](networking/notes.md) | Infra | 9 | Complete |
-| [Cloud 336dbfd1e0fb80eabe3cd640d347349e.md](source/notion-export/Cloud%20336dbfd1e0fb80eabe3cd640d347349e.md) | [infrastructure/cloud.md](infrastructure/cloud.md) | Infra | 12 | Complete |
+| [Cloud 336dbfd1e0fb80eabe3cd640d347349e.md](source/notion-export/Cloud%20336dbfd1e0fb80eabe3cd640d347349e.md) | [infrastructure/cloud/notes.md](infrastructure/cloud/notes.md) | Infra | 12 | Complete |
 | [DevOps 33cdbfd1e0fb800698f1f8bf31c5dd3d.md](source/notion-export/DevOps%2033cdbfd1e0fb800698f1f8bf31c5dd3d.md) | [devops/notes.md](devops/notes.md) | DevOps | 15 | Complete |
-| [CI CD 337dbfd1e0fb8097b517d53f74c26798.md](source/notion-export/CI%20CD%20337dbfd1e0fb8097b517d53f74c26798.md) | [devops/ci-cd.md](devops/ci-cd.md) | DevOps | 15 | Complete |
-| [Kubernetes 338dbfd1e0fb8066a7ebc86cf8a6769c.md](source/notion-export/Kubernetes%20338dbfd1e0fb8066a7ebc86cf8a6769c.md) | [infrastructure/kubernetes.md](infrastructure/kubernetes.md) | Infra | 14 | Complete |
-| [Docker 🐳 338dbfd1e0fb805abffcdc82c13eaa65.md](source/notion-export/Docker%20%F0%9F%90%B3%20338dbfd1e0fb805abffcdc82c13eaa65.md) | [infrastructure/docker.md](infrastructure/docker.md) | Infra | 18 | Complete |
-| [Redis 35cdbfd1e0fb80ac9bbcf9d1e944ee92.md](source/notion-export/Redis%2035cdbfd1e0fb80ac9bbcf9d1e944ee92.md) | [database/redis.md](database/redis.md) | Backend | 2 | Complete |
-| [Kafka 338dbfd1e0fb8017bbf0f4b789589498.md](source/notion-export/Kafka%20338dbfd1e0fb8017bbf0f4b789589498.md) | [database/kafka.md](database/kafka.md) | Backend | 2 | Complete |
+| [CI CD 337dbfd1e0fb8097b517d53f74c26798.md](source/notion-export/CI%20CD%20337dbfd1e0fb8097b517d53f74c26798.md) | [devops/ci-cd/notes.md](devops/ci-cd/notes.md) | DevOps | 15 | Complete |
+| [Kubernetes 338dbfd1e0fb8066a7ebc86cf8a6769c.md](source/notion-export/Kubernetes%20338dbfd1e0fb8066a7ebc86cf8a6769c.md) | [infrastructure/kubernetes/notes.md](infrastructure/kubernetes/notes.md) | Infra | 14 | Complete |
+| [Docker 🐳 338dbfd1e0fb805abffcdc82c13eaa65.md](source/notion-export/Docker%20%F0%9F%90%B3%20338dbfd1e0fb805abffcdc82c13eaa65.md) | [infrastructure/docker/notes.md](infrastructure/docker/notes.md) | Infra | 18 | Complete |
+| [Redis 35cdbfd1e0fb80ac9bbcf9d1e944ee92.md](source/notion-export/Redis%2035cdbfd1e0fb80ac9bbcf9d1e944ee92.md) | [database/redis/notes.md](database/redis/notes.md) | Backend | 2 | Complete |
+| [Kafka 338dbfd1e0fb8017bbf0f4b789589498.md](source/notion-export/Kafka%20338dbfd1e0fb8017bbf0f4b789589498.md) | [database/kafka/notes.md](database/kafka/notes.md) | Backend | 2 | Complete |
 | [시스템 디자인 33cdbfd1e0fb8089b2f9ed165c8b65a5.md](source/notion-export/%EC%8B%9C%EC%8A%A4%ED%85%9C%20%EB%94%94%EC%9E%90%EC%9D%B8%2033cdbfd1e0fb8089b2f9ed165c8b65a5.md) | [system-design/notes.md](system-design/notes.md) | Architecture | 25 | Complete |
-| [리눅스 33ddbfd1e0fb80a8bf99c9604c19ec43.md](source/notion-export/%EB%A6%AC%EB%88%85%EC%8A%A4%2033ddbfd1e0fb80a8bf99c9604c19ec43.md) | [infrastructure/linux.md](infrastructure/linux.md) | Infra | 28 | Complete |
+| [리눅스 33ddbfd1e0fb80a8bf99c9604c19ec43.md](source/notion-export/%EB%A6%AC%EB%88%85%EC%8A%A4%2033ddbfd1e0fb80a8bf99c9604c19ec43.md) | [infrastructure/linux/notes.md](infrastructure/linux/notes.md) | Infra | 28 | Complete |
 | [데이터베이스 33fdbfd1e0fb80bea6e5c71df89fc9a9.md](source/notion-export/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4%2033fdbfd1e0fb80bea6e5c71df89fc9a9.md) | [database/notes.md](database/notes.md) | Backend | 28 | Complete |
-| [API testing tool 338dbfd1e0fb809ab270d7d599e65d16.md](source/notion-export/API%20testing%20tool%20338dbfd1e0fb809ab270d7d599e65d16.md) | [tools/api-testing.md](tools/api-testing.md) | Backend | 3 | Complete |
+| [API testing tool 338dbfd1e0fb809ab270d7d599e65d16.md](source/notion-export/API%20testing%20tool%20338dbfd1e0fb809ab270d7d599e65d16.md) | [tools/notes.md](tools/notes.md) | Backend | 3 | Complete |
 | [오픈소스 351dbfd1e0fb80c98910f4a1924cb373.md](source/notion-export/%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4%20351dbfd1e0fb80c98910f4a1924cb373.md) | [open-source/notes.md](open-source/notes.md) | Free | 3 | Complete |
 | [프론트엔드 358dbfd1e0fb80f79ba6f07ec19ae743.md](source/notion-export/%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C%20358dbfd1e0fb80f79ba6f07ec19ae743.md) | [frontend/notes.md](frontend/notes.md) | FrontEnd | 4 | Complete |
 | [디자인 3dadbfd1e0fb80988f72c01a6667a35d.md](source/notion-export/%EB%94%94%EC%9E%90%EC%9D%B8%203dadbfd1e0fb80988f72c01a6667a35d.md) | [design/notes.md](design/notes.md) | Design | 10 | Complete |
 | [데이터 엔지니어링 3b5dbfd1e0fb807792cac6fda23eec3d.md](source/notion-export/%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4%EB%A7%81%203b5dbfd1e0fb807792cac6fda23eec3d.md) | [data-engineering/notes.md](data-engineering/notes.md) | Architecture | 5 | Complete |
 | [AI 33ddbfd1e0fb802488caf63be99c4ae4.md](source/notion-export/AI%2033ddbfd1e0fb802488caf63be99c4ae4.md) | [ai/notes.md](ai/notes.md) | AI | 51 | Complete |
-| [바이브코딩 3c3dbfd1e0fb80a38fc2eff8e3be010e.md](source/notion-export/%EB%B0%94%EC%9D%B4%EB%B8%8C%EC%BD%94%EB%94%A9%203c3dbfd1e0fb80a38fc2eff8e3be010e.md) | [ai/vibe-coding.md](ai/vibe-coding.md) | AI | 41 | Complete |
-| [AI 에이전트 3addbfd1e0fb807eb0ebdf3bf05f8ea8.md](source/notion-export/AI%20%EC%97%90%EC%9D%B4%EC%A0%84%ED%8A%B8%203addbfd1e0fb807eb0ebdf3bf05f8ea8.md) | [ai/agents.md](ai/agents.md) | AI | 41 | Complete |
-| [RAG 3afdbfd1e0fb805db6c9f13ae46d983f.md](source/notion-export/RAG%203afdbfd1e0fb805db6c9f13ae46d983f.md) | [ai/rag.md](ai/rag.md) | AI | 21 | Complete |
-| [Claude 3cbdbfd1e0fb80f38fb9d99569eaec68.md](source/notion-export/Claude%203cbdbfd1e0fb80f38fb9d99569eaec68.md) | [ai/claude.md](ai/claude.md) | AI | 36 | Complete |
-| [Codex 3cbdbfd1e0fb80eb8246d3f50d30cc0a.md](source/notion-export/Codex%203cbdbfd1e0fb80eb8246d3f50d30cc0a.md) | [ai/codex.md](ai/codex.md) | AI | 42 | Complete |
-| [Jev 3dfdbfd1e0fb80ab9474f4d5dc8ce95f.md](source/notion-export/Jev%203dfdbfd1e0fb80ab9474f4d5dc8ce95f.md) | [ai/jev.md](ai/jev.md) | AI | 25 | Complete |
+| [바이브코딩 3c3dbfd1e0fb80a38fc2eff8e3be010e.md](source/notion-export/%EB%B0%94%EC%9D%B4%EB%B8%8C%EC%BD%94%EB%94%A9%203c3dbfd1e0fb80a38fc2eff8e3be010e.md) | [ai/vibe-coding/notes.md](ai/vibe-coding/notes.md) | AI | 41 | Complete |
+| [AI 에이전트 3addbfd1e0fb807eb0ebdf3bf05f8ea8.md](source/notion-export/AI%20%EC%97%90%EC%9D%B4%EC%A0%84%ED%8A%B8%203addbfd1e0fb807eb0ebdf3bf05f8ea8.md) | [ai/agents/notes.md](ai/agents/notes.md) | AI | 41 | Complete |
+| [RAG 3afdbfd1e0fb805db6c9f13ae46d983f.md](source/notion-export/RAG%203afdbfd1e0fb805db6c9f13ae46d983f.md) | [ai/rag/notes.md](ai/rag/notes.md) | AI | 21 | Complete |
+| [Claude 3cbdbfd1e0fb80f38fb9d99569eaec68.md](source/notion-export/Claude%203cbdbfd1e0fb80f38fb9d99569eaec68.md) | [ai/claude/notes.md](ai/claude/notes.md) | AI | 36 | Complete |
+| [Codex 3cbdbfd1e0fb80eb8246d3f50d30cc0a.md](source/notion-export/Codex%203cbdbfd1e0fb80eb8246d3f50d30cc0a.md) | [ai/codex/notes.md](ai/codex/notes.md) | AI | 42 | Complete |
+| [Jev 3dfdbfd1e0fb80ab9474f4d5dc8ce95f.md](source/notion-export/Jev%203dfdbfd1e0fb80ab9474f4d5dc8ce95f.md) | [ai/jev/notes.md](ai/jev/notes.md) | AI | 25 | Complete |
 
 ## Assets
 

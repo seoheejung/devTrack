@@ -1039,5 +1039,5 @@
 
 
 <!-- migration-navigation:start -->  
-[인터뷰 질문](README.md)  
+[인터뷰 질문](../README.md)  
 <!-- migration-navigation:end -->

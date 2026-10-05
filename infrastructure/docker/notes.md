@@ -47,7 +47,7 @@ Only give your container exactly what it needs to work. Nothing more.
 <summary><strong>도커의 작동 원리</strong></summary>
 
 
-![image.png](../assets/docker/image-025.png)
+![image.png](../../assets/docker/image-025.png)
 
 
 </details>
@@ -81,7 +81,7 @@ Docker는 3개의 주요 구성 요소를 가지고 있습니다:
 
 이 아키텍처를 이해하면 컨테이너 문제 디버깅이 훨씬 쉬워집니다. 무언가 고장 날 때 정확히 어디를 봐야 할지 알게 될 것입니다.
 
-![image.png](../assets/docker/image-026.png)
+![image.png](../../assets/docker/image-026.png)
 
 
 </details>
@@ -126,7 +126,7 @@ docker stop/start --> Docker 컨테이너를 각각 중지하고 시작하기 �
 4. 데몬이 이미지( docker push 명령어를 실행한 경우)를 레지스트리에 푸시합니다.
 5. 컨테이너가 생성되고 시작됩니다( docker run 명령어를 실행한 경우)
 
-![image.png](../assets/docker/image-027.png)
+![image.png](../../assets/docker/image-027.png)
 
 
 </details>
@@ -156,7 +156,7 @@ SSH를 통한 즉시 VM을 제공하며, 다음 기능을 갖추고 있습니다
 
 인프라를 이렇게 빠르게 시작할 수 있다면, 망설이지 않고 테스트를 시작하게 됩니다.
 
-![image.png](../assets/docker/image-028.png)
+![image.png](../../assets/docker/image-028.png)
 
 
 </details>
@@ -214,7 +214,7 @@ ARG BASE=node:20-slim
 
 디버그/프로덕션 베이스를 두 개의 Dockerfile을 유지하지 않고 교체하는 데 최고예요.
 
-![image.png](../assets/docker/image-029.png)
+![image.png](../../assets/docker/image-029.png)
 
 
 </details>
@@ -257,7 +257,7 @@ myapp:v2.1.0  (semver)
 
 필요한 컨테이너 이미지를 에어갭 서버로 전송할 방법을 찾을 수 있나요?
 
-![image.png](../assets/docker/image-030.png)
+![image.png](../../assets/docker/image-030.png)
 
 
 </details>
@@ -330,7 +330,7 @@ macOS에서 가벼운 가상 머신을 통해 리눅스 컨테이너를 실행�
 
 코드가 아니라 의존성을 캐시하세요.
 
-![image.png](../assets/docker/image-031.png)
+![image.png](../../assets/docker/image-031.png)
 
 
 </details>
@@ -364,7 +364,7 @@ COPY . .
 
 한 줄만 바꿈. 매 리빌드에서 40초 이상 절약. 코드가 아니라 의존성을 캐싱하세요.
 
-![image.png](../assets/docker/image-032.png)
+![image.png](../../assets/docker/image-032.png)
 
 
 </details>
@@ -430,7 +430,7 @@ k8s와 다소 유사하게, 이들은 서비스 컨테이너가 시작되기 전
 
 -p <host-ip>:<host-port>:<container-port>
 
-![image.png](../assets/docker/image-033.png)
+![image.png](../../assets/docker/image-033.png)
 
 Docker 포트 공개는 방화벽보다 바인딩 주소부터 점검해야 합니다.  
 ✓ -p 127.0.0.1:5432로 제한 ✓ 외부 노출 시 방화벽·보안그룹 확인  

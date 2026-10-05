@@ -1,3 +1,3 @@
 # API testing tool
 
-- [API testing tool](api-testing.md)
+- [API testing tool](notes.md)

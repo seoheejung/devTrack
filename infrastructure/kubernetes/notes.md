@@ -32,7 +32,7 @@
 
 ---
 
-![image.png](../assets/kubernetes/image-034.png)
+![image.png](../../assets/kubernetes/image-034.png)
 
 
 </details>
@@ -167,7 +167,7 @@ Karpenter를 사용하면 Pod가 대기 상태에 머무르는 동안 새 노드
 
 ---
 
-![image.png](../assets/kubernetes/image-035.png)
+![image.png](../../assets/kubernetes/image-035.png)
 
 ---
 
@@ -218,7 +218,7 @@ Pod 중심으로 생각하면 모든 것이 맞춰지기 시작합니다.
 이것이 이해되면,  
 배포(Deployments), 스케일링, 그리고 셀프 힐링이 마침내 이해가 됩니다.
 
-![image.png](../assets/kubernetes/image-036.png)
+![image.png](../../assets/kubernetes/image-036.png)
 
 ---
 
@@ -298,7 +298,7 @@ Ingress와 함께:
 
 Ingress는 마법이 아닙니다. 클러스터를 위한 트래픽 매니저일 뿐입니다.
 
-![image.png](../assets/kubernetes/image-037.png)
+![image.png](../../assets/kubernetes/image-037.png)
 
 ---
 
@@ -335,7 +335,7 @@ Pod와 Container 수준에서 작동합니다.
 - Admission controllers?
 - Kyverno나 OPA 같은 도구?
 
-![image.png](../assets/kubernetes/image-038.png)
+![image.png](../../assets/kubernetes/image-038.png)
 
 ---
 
@@ -379,7 +379,7 @@ Docker와 Kubernetes 네트워킹은 마법처럼 느껴질 수 있습니다. �
 
 쉽지 않은 여정이 될 테지만, 이를 통과하면 컨테이너 네트워킹 문제는 더 이상 무섭게 보이지 않을 것입니다 - 튜토리얼에서 얻은 지식을 바탕으로 기존 시스템을 디버깅하고 새로운 시스템을 설계하는 데 대한 정신적 모델을 갖게 될 테니까요
 
-![image.png](../assets/kubernetes/image-039.png)
+![image.png](../../assets/kubernetes/image-039.png)
 
 ---
 
@@ -450,7 +450,7 @@ Docker는 애플리케이션을 컨테이너로 패키징합니다. Kubernetes�
 
 다음 DevOps 인터뷰를 위해 이 손으로 쓴 치트 시트를 저장하세요
 
-![image.png](../assets/kubernetes/image-040.png)
+![image.png](../../assets/kubernetes/image-040.png)
 
 ---
 
@@ -464,7 +464,7 @@ Docker는 애플리케이션을 컨테이너로 패키징합니다. Kubernetes�
 <summary><strong>Docker vs Kubernetes: Which one is better?</strong></summary>
 
 
-![image.png](../assets/kubernetes/image-041.png)
+![image.png](../../assets/kubernetes/image-041.png)
 </details>
 
 ---

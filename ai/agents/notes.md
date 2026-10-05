@@ -29,7 +29,7 @@ Anthropic Claude Code 총괄 Boris Cherny:
 1인 개발자가 루프 설계를 익히면  
 소규모 팀의 속도를 혼자서 낼 수 있게 됌.
 
-![image.png](../assets/agents/image-084.png)
+![image.png](../../assets/agents/image-084.png)
 
 하네스가 별게 없음
 
@@ -61,7 +61,7 @@ MCP와 A2A는 경쟁자가 아니라 상호 보완적입니다. 에이전트는 
 
 하지만 MCP와 A2A가 항상 답은 아닙니다. 프로덕션에서 어떤 접근 방식을 사용할지 결정한다면, 이 가이드가 MCP, A2A 또는 다른 것을 언제 사용할지 분석해줍니다
 
-![image.png](../assets/agents/image-085.png)
+![image.png](../../assets/agents/image-085.png)
 
 [https://blogs.oracle.com/developers/the-agent-communication-matrix-when-mcp-a2a-and-plain-rest-each-win?source=:ad:so:tw:awr:a_nas::RC_DEVT260603P00041:Nikki&SC=:ad:so:tw:awr:a_nas::RC_DEVT260603P00041:Nikki](https://blogs.oracle.com/developers/the-agent-communication-matrix-when-mcp-a2a-and-plain-rest-each-win?source=:ad:so:tw:awr:a_nas::RC_DEVT260603P00041:Nikki&SC=:ad:so:tw:awr:a_nas::RC_DEVT260603P00041:Nikki)
 
@@ -145,7 +145,7 @@ AI 에이전트가 불안정하다면
 모델보다 어디에서 구조가 무너졌는지  
 먼저 진단하는 시대가 되고 있습니다.
 
-![1785241869033.gif](../assets/agents/1785241869033.gif)
+![1785241869033.gif](../../assets/agents/1785241869033.gif)
 
 ---
 
@@ -184,7 +184,7 @@ AI가 원하는 결과를 못 내는 이유는
 모델보다 어느 레이어가 부족한지  
 잘못 진단했기 때문인 경우도 많습니다.
 
-![image.png](../assets/agents/image-086.png)
+![image.png](../../assets/agents/image-086.png)
 
 ---
 
@@ -518,7 +518,7 @@ System Prompt는 항상 지켜야 할 규칙이다. 사용자의 요청보다 �
 
 대부분의 사람은 Prompt만 쓴다. System Prompt를 쓰기 시작하면 AI가 "매번 말해야 하는 것"을 기억하게 된다. Prompt는 요청이고, System Prompt는 경계다. 요청은 바뀌어도 경계는 남아 있어야 한다.
 
-![image.png](../assets/agents/image-087.png)
+![image.png](../../assets/agents/image-087.png)
 
 ---
 
@@ -577,7 +577,7 @@ CLAUDE.md가 규칙을 설정 → Skills가 전문성을 제공 → Hooks가 품
 
 현재 설정에서 어떤 레이어가 누락되어 있나요?
 
-![image.png](../assets/agents/image-088.png)
+![image.png](../../assets/agents/image-088.png)
 
 ---
 
@@ -724,7 +724,7 @@ Claude는 여전히 루프를 직접 구축하게 만든다
 
 당신의 설정은 실제로 어떤 걸 실행 중인가?
 
-![image.png](../assets/agents/image-089.png)
+![image.png](../../assets/agents/image-089.png)
 
 ---
 
@@ -769,7 +769,7 @@ npx skills add bagelhole/DevOps-Security-Agent-Skills \
 
 매번 DevOps나 보안 업무를 위해 프롬프트를 처음부터 작성할 필요가 크게 줄어듭니다.
 
-![image.png](../assets/agents/image-090.png)
+![image.png](../../assets/agents/image-090.png)
 
 ---
 
@@ -819,7 +819,7 @@ npx skills add bagelhole/DevOps-Security-Agent-Skills \
 
 또한 에이전트 토큰이 실행 중에 실제로 어디로 가는지에 대한 전체 분석을 작성했으며, 컨텍스트 회계, 위 전략, 벤치마크를 자세히 다루었고, TrueForge가 이 작업을 함께 진행하는 데 도움을 주었습니다.
 
-![image.png](../assets/agents/image-091.png)
+![image.png](../../assets/agents/image-091.png)
 
 ---
 
@@ -955,7 +955,7 @@ QA 테스터
 
 에이전트 스택용으로 이걸 북마크해둬
 
-![image.png](../assets/agents/image-092.png)
+![image.png](../../assets/agents/image-092.png)
 
 ---
 
@@ -991,7 +991,7 @@ QA 테스터
 <summary><strong>하네스 엔지니어링이란 무엇인가, 시각적으로 설명.</strong></summary>
 
 
-![image.png](../assets/agents/image-093.png)
+![image.png](../../assets/agents/image-093.png)
 
 에이전트 하네스는 어떻게 작동하나요?
 
@@ -1063,7 +1063,7 @@ AI 에이전트는 당신이 부여한 스킬만큼만 좋습니다.
 
 LLM에서 멀어질수록 올바른 정보를 검색하고 컨텍스트로 다시 가져오기 위해 더 많은 인프라가 필요합니다.
 
-![image.png](../assets/agents/image-094.png)
+![image.png](../../assets/agents/image-094.png)
 
 ---
 
@@ -1087,7 +1087,7 @@ Archify 스킬 세트를 바로 이 지점에서 사용하게 되는 거예요.
 
 그 다음에 이 출력을 LLM에 주고 계획을 세우게 할 수 있어요.
 
-![image.png](../assets/agents/image-095.png)
+![image.png](../../assets/agents/image-095.png)
 
 ---
 
@@ -1254,7 +1254,7 @@ make rebuild - 로그에서 전체 인덱스가 8초 만에 복구
 
 그래프가 잘못됐을 때 고치지 않아. 수정 사항을 추가하고 로그가 실수를 투표로 이기게 내버려둬
 
-![image.png](../assets/agents/image-096.png)
+![image.png](../../assets/agents/image-096.png)
 
 ---
 
@@ -1737,11 +1737,11 @@ E2E(End-to-End) 동작이 중요한 거예요. 쓸모없는 단위 테스트를 
 
 <여기 드가서 로그인
 
-![image.png](../assets/agents/image-097.png)
+![image.png](../../assets/agents/image-097.png)
 
-![image.png](../assets/agents/image-098.png)
+![image.png](../../assets/agents/image-098.png)
 
-![image.png](../assets/agents/image-099.png)
+![image.png](../../assets/agents/image-099.png)
 
 ---
 
@@ -1798,7 +1798,7 @@ API는 소프트웨어에 기능을 노출합니다. MCP는 AI 애플리케이�
 
 Oracle의 가이드는 비동기 작업, 워커, 지속 가능한 상태, 예측 가능한 API 계약을 통해 이를 위해 어떻게 설계할지 분해합니다.
 
-![image.png](../assets/agents/image-100.png)
+![image.png](../../assets/agents/image-100.png)
 </details>
 
 ---

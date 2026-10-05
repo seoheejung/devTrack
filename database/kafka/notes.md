@@ -11,7 +11,7 @@ Kafka 아키텍처를 먼저 살펴보고, PostgreSQL + Rust MPSC로 재구현�
 
 Kafka는 분산 이벤트 스트리밍 플랫폼으로, 세 가지 핵심 추상화를 중심으로 설계되어 있습니다: **Topic**(메시지의 논리적 채널), **Partition**(병렬성과 순서 보장의 단위), 그리고 **Consumer Group**(수평 확장 소비의 단위). 
 
-![image.png](../assets/kafka/image-023.png)
+![image.png](../../assets/kafka/image-023.png)
 
 
 </details>
@@ -424,7 +424,7 @@ Kafka는 단순히 메시지를 생성하고 소비하는 데 그치지 않습�
 미래 참조를 위해 이 포스트를 저장하세요.  
 시스템 디자인 인터뷰를 준비하거나 이벤트 기반 시스템을 다루는 사람과 공유하세요.
 
-![image.png](../assets/kafka/image-024.png)
+![image.png](../../assets/kafka/image-024.png)
 </details>
 
 ---

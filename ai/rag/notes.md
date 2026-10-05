@@ -101,7 +101,7 @@ Agents → 실행 계층
 
 모든 시스템이 이 세 가지를 명시적으로 필요로 하는 것은 아니지만, 복잡한 시스템은 종종 이들을 결합합니다.
 
-![image.png](../assets/rag/image-101.png)
+![image.png](../../assets/rag/image-101.png)
 
 ---
 
@@ -158,7 +158,7 @@ AI 애플리케이션이 계속 진화함에 따라, RAG는 회사 지식, 문�
 
 그래서 ChatGPT, Claude Code, Cursor, Bug0를 포함한 많은 현대 AI 제품에서 이를 찾아볼 수 있습니다.
 
-![image.png](../assets/rag/image-102.png)
+![image.png](../../assets/rag/image-102.png)
 
 
 </details>
@@ -232,7 +232,7 @@ RAG에서 문서는 검색하고 검색할 수 있는 모든 정보 조각을 �
 
 그게 바로 RAG의 본질입니다.
 
-![image.png](../assets/rag/image-103.png)
+![image.png](../../assets/rag/image-103.png)
 
 ---
 
@@ -263,7 +263,7 @@ RAG에서 문서는 검색하고 검색할 수 있는 모든 정보 조각을 �
 중요한 일일수록, 그냥 묻지 말고 자료를 같이 붙여주세요  
 개념만 잡아도 AI 쓰는 게 한결 수월해질 수 있습니다
 
-![image.png](../assets/rag/image-104.png)
+![image.png](../../assets/rag/image-104.png)
 
 ---
 
@@ -279,7 +279,7 @@ RAG에서 문서는 검색하고 검색할 수 있는 모든 정보 조각을 �
 
 **Docling**을 소개합니다. 알아야 할 사항은 다음과 같습니다:
 
-![image.png](../assets/rag/image-105.png)
+![image.png](../../assets/rag/image-105.png)
 
 1. Docling이란 무엇인가?
     
@@ -339,7 +339,7 @@ RAG + CAG는 지식을 두 층으로 나눕니다:
 
 오늘 바로 시작할 수 있습니다. OpenAI와 Anthropic은 이미 API에서 프롬프트 캐싱을 지원합니다.
 
-![image.png](../assets/rag/image-106.png)
+![image.png](../../assets/rag/image-106.png)
 
 
 </details>
@@ -382,7 +382,7 @@ Graph RAG 시스템은 또한 LLM이 구조화된 데이터로 추론하는 데 
 
 대부분의 RAG 아키텍처는 벡터 검색에 크게 의존하며, 그 레이어는 바이너리 양자화를 사용하여 메모리 효율성을 32배 더 높일 수 있습니다.
 
-![image.png](../assets/rag/image-107.png)
+![image.png](../../assets/rag/image-107.png)
 
 ---
 
@@ -482,7 +482,7 @@ GitHub 리포지토리:
 
 그리고 이는 검색 알고리즘, 재순위기 또는 임베딩 모델을 변경하지 않습니다.
 
-![image.png](../assets/rag/image-108.png)
+![image.png](../../assets/rag/image-108.png)
 
 ---
 
@@ -565,7 +565,7 @@ LLM이 이를 바탕으로 추론합니다.
 
 이 때문에 벡터 데이터베이스는 ChatGPT와 Claude Code부터 Cursor, GitHub Copilot, Bug0, 그리고 AI 기반 검색 및 추천 시스템에 이르기까지 현대 AI 애플리케이션의 중요한 구성 요소가 되었습니다.
 
-![image.png](../assets/rag/image-109.png)
+![image.png](../../assets/rag/image-109.png)
 
 ---
 
@@ -600,7 +600,7 @@ AI 시스템을 구축한다면, 이 포스트를 저장하세요. 재사용할 
 
 전체 분석 + 데이터 모델은 여기:
 
-![image.png](../assets/rag/image-110.png)
+![image.png](../../assets/rag/image-110.png)
 
 ---
 
@@ -636,7 +636,7 @@ RAG는 단순한 “검색 + LLM” 이상입니다
 핵심 아이디어:  
 답변을 생성하기 전에 올바른 컨텍스트를 검색하세요. 🎯
 
-![image.png](../assets/rag/image-111.png)
+![image.png](../../assets/rag/image-111.png)
 
 ---
 
@@ -677,7 +677,7 @@ RAG는 단순한 “검색 + LLM” 이상입니다
 docker run kernelmemory/service
 ```
 
-![image.png](../assets/rag/image-112.png)
+![image.png](../../assets/rag/image-112.png)
 
 이걸 북마크하세요. 마이크로소프트가 이미 블루프린트를 그렸으니, 당신은 그 위에 구축하기만 하면 됩니다.
 
@@ -732,7 +732,7 @@ AI 제품을 구축하고 있다면, 이 변화는 선택이 아니라 불가피
 
 AI 시스템을 작업 중이라면 이걸 저장해라.
 
-![image.png](../assets/rag/image-113.png)
+![image.png](../../assets/rag/image-113.png)
 
 ---
 
@@ -789,15 +789,15 @@ Upstage에서 최근 출시한 가볍고 빠른 Embeddings2 그리고 파일만 
 
 몇 줄의 코드로 원하는 RAG가 완성됩니다. 또는 바이브코딩시 [https://console.upstage.ai/llms.txt만](https://console.upstage.ai/llms.txt%EB%A7%8C) 주시면 알아서 만들어 줄 것입니다.
 
-[llms.txt](../assets/rag/llms.txt)
+[llms.txt](../../assets/rag/llms.txt)
 
-![image.png](../assets/rag/image-114.png)
+![image.png](../../assets/rag/image-114.png)
 
-![image.png](../assets/rag/image-115.png)
+![image.png](../../assets/rag/image-115.png)
 
-![image.png](../assets/rag/image-116.png)
+![image.png](../../assets/rag/image-116.png)
 
-![image.png](../assets/rag/image-117.png)
+![image.png](../../assets/rag/image-117.png)
 
 ---
 
@@ -861,7 +861,7 @@ tier C - 코퍼스 전체, 모든 것: long context가 완전히 휩쓸음
 
 아키텍처 선택은 쉬운 부분입니다. 실제로 어떤 형태의 문제를 가지고 있는지 파악하는 게 먼저입니다
 
-![image.png](../assets/rag/image-118.png)
+![image.png](../../assets/rag/image-118.png)
 
 ---
 
@@ -905,7 +905,7 @@ RAG는 컨텍스트를 제공하고 MCP는 도구와 시스템 접근을 표준�
 
 에이전트는 둘 다를 사용하여 목표를 달성합니다.
 
-![image.png](../assets/rag/image-119.png)
+![image.png](../../assets/rag/image-119.png)
 
 ---
 
@@ -934,7 +934,7 @@ FinanceBench 정확도 98.7%, 랭킹 보드의 모든 벡터 RAG를 앞질렀어
 
 완전 무료, 오픈소스
 
-![image.png](../assets/rag/image-120.png)
+![image.png](../../assets/rag/image-120.png)
 
 [https://github.com/VectifyAI/PageIndex](https://github.com/VectifyAI/PageIndex)
 </details>

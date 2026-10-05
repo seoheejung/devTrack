@@ -1,5 +1,12 @@
 # DevTrack 작업 지침
 
+## 문서 구조
+
+- 기술 노트는 `category/notes.md`에 모으고, README는 목차로 사용한다.
+- 하위 주제도 `ai/codex/notes.md`처럼 주제 폴더 안에 저장한다.
+- 같은 주제를 `codex.md`와 `codex/notes.md`로 나누지 않는다. 기존 노트 끝에 이어서 추가한다.
+- 문서를 옮기거나 통합할 때 본문과 중복 메모를 보존하고, README·문서 링크와 첨부 상대 경로를 함께 갱신한다.
+
 ## 원본 보존과 문서 표시
 
 - `source/notion-export/`는 원본이다. 파일을 수정하거나 삭제하지 않는다.

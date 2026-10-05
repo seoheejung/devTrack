@@ -330,7 +330,7 @@ tail -f /var/log/app.log | grep --line-buffered ERROR
 1. Linux에 처음이고 포트 80을 점유하고 있는 게 뭔지 모르겠나요? 이 한 가지 명령어만으로 모든 걸 알려줍니다. 어떤 프로세스인지, 어떤 PID인지, 전부요: ss는 netstat보다 빠르고 모든 현대적인 배포판에 미리 설치되어 있습니다.  
 `$ sudo ss -tulnp | grep :80`
     
-    ![image.png](../assets/linux/image-071.png)
+    ![image.png](../../assets/linux/image-071.png)
     
 2. 명령어의 출력을 실시간으로 모니터링하고 싶었지만 루프를 작성하지 않고 싶으신 적 있나요?watch는 2초마다 자동으로 해줍니다:  
 `watch df -h`  
@@ -378,7 +378,7 @@ tail -f /var/log/app.log | grep --line-buffered ERROR
 5. 닫기는 당신의 몫이다 - 커널은 프로세스가 종료되거나 close()를 호출할 때까지 정리하지 않는다.
 6. 한도는 프로세스별로 적용되며 전역이 아니다 - 하나의 폭주 프로세스가 자신의 한도를 소진해도 다른 프로세스에 영향을 주지 않는다.
 
-![image.png](../assets/linux/image-072.png)
+![image.png](../../assets/linux/image-072.png)
 
 
 </details>
@@ -424,7 +424,7 @@ tail -f /var/log/app.log | grep --line-buffered ERROR
     
     그것을 unshare라고 부릅니다. 보이는 프로세스는 몇 개뿐입니다. 시스템의 나머지 부분은 숨겨집니다.
     
-    ![image.png](../assets/linux/image-073.png)
+    ![image.png](../../assets/linux/image-073.png)
     
 - 초보자가 알아야 할 10가지 Linux 명령어
     1. pwd → 현재 디렉토리
@@ -448,7 +448,7 @@ tail -f /var/log/app.log | grep --line-buffered ERROR
 <summary><strong>Bash 스크립팅 기초</strong></summary>
 
 
-![image.png](../assets/linux/image-074.png)
+![image.png](../../assets/linux/image-074.png)
 
 스크립트 실행 기본 명령어: `bash script.sh`
 
@@ -661,7 +661,7 @@ comment'
 /media → 이동식 미디어 (USB, CD)  
 /lib → /bin 및 /sbin용 공유 라이브러리
 
-![image.png](../assets/linux/image-075.png)
+![image.png](../../assets/linux/image-075.png)
 
 
 </details>
@@ -799,7 +799,7 @@ systemd가 관리하는 모든 것은 유닛입니다. 가장 일반적인 유�
 
 systemd를 이해하면 리눅스 서버가 실제로 어떻게 작동하는지 이해하게 됩니다.
 
-![image.png](../assets/linux/image-076.png)
+![image.png](../../assets/linux/image-076.png)
 
 요즘 인공지능이 코드 다 짜주니까 서버 아키텍처나 운영체제 기초는 몰라도 된다는 착각이 팽배해지는 듯.. 인프라 장애는 에이전트가 대신 밤새워 고쳐주지 않고 결국 터미널 켜서 systemctl 뒤지는 노가다로 귀결됨. 도커나 쿠버네티스 뒤에 숨어서 리눅스 기초 건너뛴 백엔드 개발자들이 장애 대응할 때 꺼내봐야 하는 인프라 핵심 요약임.
 
@@ -954,7 +954,7 @@ sdiff list1.txt list2.txt
 
 설정 파일, 목록 또는 문서 변경 사항을 비교하는 데 완벽합니다.
 
-![image.png](../assets/linux/image-077.png)
+![image.png](../../assets/linux/image-077.png)
 
 
 </details>
