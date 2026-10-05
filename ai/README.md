@@ -12,3 +12,4 @@
 
 - [바이브코딩 추가 노트](vibe-coding/notes.md)
 - [Claude 추가 노트](claude/notes.md)
+- [Codex 추가 노트](codex/notes.md)
