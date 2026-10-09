@@ -1974,3 +1974,21 @@ gpt-6-astra에서 model_reasoning_effort high인 아키텍트 에이전트를 �
 </details>
 
 ---
+
+<!-- devtrack-draft-id: 47574468-f149-4b8e-bed2-fbc0bddb8d06 -->
+<details>
+<summary><strong>오늘의 프롬프트:</strong></summary>
+
+ /writing-for-agents 내 AGENTS.md가 완전 엉망진창이야, 다음 사항들을 충족하는 일련의 구조 조정안을 제안해:
+
+- 무의미한 작업들 제거
+- 점진적 공개 방식 사용
+- 지침들을 CODING_STANDARDS.md로 이동
+
+이 작업을 세 개의 하위 에이전트에 적용하되, 각 에이전트는 이전보다 더 급진적으로. 단일 PR로 생성해.
+
+AGENTS.md는 토큰 비효율성의 가장 흔한 원천이다. 이 프롬프트는 그걸 완전히 끝장낸다.
+
+</details>
+
+---

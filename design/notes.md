@@ -268,3 +268,30 @@ https://bencho.dev
 </details>
 
 ---
+
+<!-- devtrack-draft-id: 56994a3c-a143-46c3-b1c2-b0c2f8bf6325 -->
+<details>
+<summary><strong>모션그래픽 프롬프트 모음 사이트</strong></summary>
+
+https://prompt-motion.com/
+
+</details>
+
+---
+
+<!-- devtrack-draft-id: 09134261-3372-47a4-a25d-783712eb3f32 -->
+<details>
+<summary><strong>디자인 레퍼런스부터 AI 제작 도구까지 모아둔 웹사이트</strong></summary>
+
+디자인 영감을 얻을 수 있는 갤러리와  
+UI 컴포넌트, 개발 도구, 비주얼 소스, 유틸리티가  
+카테고리별로 정리돼 있음
+
+흩어진 링크들을 한곳에 모아둬서  
+여기저기 북마크하고 뒤질 일이 줄어듦
+
+https://www.designeer.xyz/
+
+</details>
+
+---

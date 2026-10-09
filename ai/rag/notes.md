@@ -941,3 +941,99 @@ FinanceBench 정확도 98.7%, 랭킹 보드의 모든 벡터 RAG를 앞질렀어
 
 ---
 
+<!-- devtrack-draft-id: ce739fca-5863-44c0-b0b3-cd90b43552e3 -->
+<details>
+<summary><strong>RAG를 배우고 있다면, 또 다른 기본적인 "PDF 챗봇"을 만드는 데 시간을 낭비하지 마세요.</strong></summary>
+
+대신 이 10가지 프로젝트를 만들어 보세요.
+
+이 프로젝트들은 기본적인 검색에서 프로덕션급 AI 시스템까지 당신을 이끌어줄 겁니다:
+
+1. 하이브리드 검색 RAG
+    
+    만들게 될 것:  
+    BM25 키워드 검색과 밀집 벡터 검색을 결합하여 정확한 일치 항목과 의미적으로 관련된 문서를 모두 찾습니다.
+    
+    스택: Python · BM25 · Elasticsearch/FAISS · Sentence Transformers
+    
+2. 메타데이터 필터링 RAG
+    
+    만들게 될 것:  
+    날짜, 카테고리, 작성자, 위치 등의 필터와 의미 검색을 결합하여 관련 컨텍스트를 좁혀줍니다.
+    
+    스택: Python · PostgreSQL · pgvector · Pydantic · OpenAI
+    
+3. 재순위화 RAG
+    
+    만들게 될 것:  
+    많은 후보를 검색한 후 크로스-인코더를 사용해 재순위화하고, 가장 관련성 높은 청크만 LLM에 보냅니다.
+    
+    스택:Python · FAISS/pgvector · CrossEncoder/Cohere Rerank · OpenAI
+    
+4. 컨텍스트 청킹 RAG
+    
+    만들게 될 것:  
+    청크를 생성할 때 문서 수준의 컨텍스트를 유지하여 검색된 구절이 독립적으로 의미 있게 유지되도록 합니다.
+    
+    스택: Python · Docling · OpenAI/Claude · pgvector
+    
+5. SQL + 벡터 RAG
+    
+    만들게 될 것:  
+    구조화된 데이터에 대한 SQL과 비구조화된 지식에 대한 벡터 검색을 결합합니다.
+    
+    스택: Python · PostgreSQL · pgvector · SQLAlchemy · LangGraph
+    
+6. 지식 그래프 + 벡터 RAG
+    
+    만들게 될 것:  
+    사실 간의 연결이 중요한 질문에 답하기 위해 의미 검색과 엔티티 간 명시적 관계를 결합합니다.
+    
+    스택: Python · Neo4j · pgvector · OpenAI · LangGraph
+    
+7. 수정 RAG
+    
+    만들게 될 것:  
+    답변 전에 검색된 컨텍스트를 평가합니다. 검색이 약하다면 쿼리를 다시 작성하거나, 다시 검색하거나, 다른 소스를 사용합니다.
+    
+    스택: Python · LangGraph · OpenAI · pgvector · Tavily
+    
+8. 자가 RAG
+    
+    만들게 될 것:  
+    시스템이 검색이 필요한 시점을 결정하고, 증거를 평가하며, 답변이 충분히 뒷받침되는지 확인하도록 합니다.
+    
+    스택: Python · LangGraph · OpenAI · pgvector
+    
+9. 멀티모달 RAG
+    
+    만들게 될 것:  
+    모든 것을 단순 텍스트로 취급하는 대신 텍스트, 테이블, 이미지, 문서 페이지를 검색하고 추론합니다.
+    
+    스택: Python · Docling · Multimodal LLM · Vector DB · OpenAI
+    
+10. 에이전트 RAG
+    
+    만들게 될 것:  
+    어떤 지식 소스나 도구를 사용할지 결정하는 에이전트를 만들고, 필요 시 여러 검색 단계를 수행하며 결과를 결합합니다.
+    
+    스택: Python · LangGraph · OpenAI · Vector DB · Search APIs
+    
+
+흥미로운 점은?
+
+이것들은 10개의 완전히 별개의 아키텍처가 아닙니다.
+
+당신은 이들을 결합할 수 있습니다.
+
+하이브리드 검색 + 재순위화 + 메타데이터 필터링 + 수정 검색은 결국 하나의 프로덕션 RAG 파이프라인이 될 수 있습니다.
+
+RAG를 진지하게 배우고 있다면, 여기서 멈추지 마세요:
+
+"문서를 검색해서 LLM에 보낼 수 있어요."
+
+검색을 정확하고, 컨텍스트가 있으며, 검증 가능하고, 적응적으로 만드는 방법을 배우세요.
+
+</details>
+
+---

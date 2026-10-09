@@ -458,3 +458,34 @@ Nginx 파일을 서비스 추가할 때마다 수정하느라 지쳤다면, Trae
 
 ---
 
+<!-- devtrack-draft-id: db54f17b-dd63-46b7-91b4-6c378dcec625 -->
+<details>
+<summary><strong>Docker가 AI 코딩 에이전트들에게 고립된 클라우드를 제공했습니다.</strong></summary>
+
+Docker Cloud Sandboxes라고 불리며, Claude Code, Codex, 그리고 다른 AI 에이전트들이 고립된 microVM에서 로컬 또는 클라우드에서 실행되도록 합니다.
+
+에이전트는 로컬에서 작업을 시작할 수 있고, 클라우드로 이동하며, 노트북을 닫은 후에도 몇 시간 동안 계속 실행될 수 있습니다.
+
+각 샌드박스는 Docker, Git, 비밀, 네트워크 정책 및 영속 스토리지를 포함한 고유의 고립된 환경을 받습니다.
+
+microVM 내부에서 실행되기 때문에, 에이전트는 호스트 머신과 분리된 상태를 유지하면서도 패키지를 설치하고, 컨테이너를 실행하며, 환경을 수정할 수 있습니다.
+
+Docker는 기본적으로 AI 코딩 에이전트들에게 클라우드에서 독립적으로 작업할 수 있는 일회용 컴퓨터를 제공하는 셈입니다.
+
+</details>
+
+---
+
+<!-- devtrack-draft-id: 75b16095-b244-4393-9df1-85f632b72738 -->
+<details>
+<summary><strong>Docker의 AI 코딩 에이전트를 위한 첫 번째 몇 가지 공식 스킬이 공개되었습니다:</strong></summary>
+
+https://github.com/docker/skills
+
+이 스킬들은 Docker 작업을 돕도록 설계되었으며, 컬렉션은 계속 성장할 예정입니다. 이것들이 무엇인지 그리고 설치 방법을 확인하세요:
+
+https://docs.docker.com/ai/skills
+
+</details>
+
+---
